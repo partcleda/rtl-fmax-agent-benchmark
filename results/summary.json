@@ -1,0 +1,243 @@
+{
+  "generated": "2026-11-11 12:03 PST",
+  "designs": [
+    "ara.default",
+    "cheshire.default",
+    "cv32e40p.default",
+    "cva6.default",
+    "cvfpu.fp32_fma",
+    "cvfpu.full",
+    "ibex.full",
+    "ibex.minimal",
+    "ita.default",
+    "mempool.minpool",
+    "nvdla.top",
+    "opope.default",
+    "pulp_c910.default",
+    "serial_link.default",
+    "snitch_cluster.minimal",
+    "spi_host.default"
+  ],
+  "models": {
+    "kimi-k3.1-pro": {
+      "harness": "kimi-code",
+      "ranked": true,
+      "designs": 16,
+      "geomean_fmax_gain_pct": 3.721,
+      "designs_improved": 13,
+      "mean_evaluations": 6.44,
+      "outcomes": {
+        "agent_finished": 16
+      }
+    }
+  },
+  "benchmark": [
+    {
+      "design": "cheshire.default",
+      "baseline_period_ns": 1.047,
+      "budget_minutes": 90
+    },
+    {
+      "design": "cv32e40p.default",
+      "baseline_period_ns": 0.657,
+      "budget_minutes": 90
+    },
+    {
+      "design": "cva6.default",
+      "baseline_period_ns": 1.038,
+      "budget_minutes": 90
+    },
+    {
+      "design": "cvfpu.fp32_fma",
+      "baseline_period_ns": 1.401,
+      "budget_minutes": 90
+    },
+    {
+      "design": "cvfpu.full",
+      "baseline_period_ns": 2.114,
+      "budget_minutes": 90
+    },
+    {
+      "design": "ibex.full",
+      "baseline_period_ns": 0.935,
+      "budget_minutes": 90
+    },
+    {
+      "design": "ibex.minimal",
+      "baseline_period_ns": 0.716,
+      "budget_minutes": 90
+    },
+    {
+      "design": "nvdla.top",
+      "baseline_period_ns": 0.789,
+      "budget_minutes": 90
+    },
+    {
+      "design": "opope.default",
+      "baseline_period_ns": 0.857,
+      "budget_minutes": 90
+    },
+    {
+      "design": "serial_link.default",
+      "baseline_period_ns": 0.305,
+      "budget_minutes": 90
+    },
+    {
+      "design": "spi_host.default",
+      "baseline_period_ns": 0.475,
+      "budget_minutes": 90
+    },
+    {
+      "design": "snitch_cluster.minimal",
+      "baseline_period_ns": 1.288,
+      "budget_minutes": 115
+    },
+    {
+      "design": "ita.default",
+      "baseline_period_ns": 0.903,
+      "budget_minutes": 190
+    },
+    {
+      "design": "mempool.minpool",
+      "baseline_period_ns": 2.869,
+      "budget_minutes": 205
+    },
+    {
+      "design": "ara.default",
+      "baseline_period_ns": 1.064,
+      "budget_minutes": 210
+    },
+    {
+      "design": "pulp_c910.default",
+      "baseline_period_ns": 1.005,
+      "budget_minutes": 215
+    },
+    {
+      "design": "spatz.default",
+      "baseline_period_ns": 2.266,
+      "budget_minutes": 450
+    },
+    {
+      "design": "snitch_cluster.default",
+      "baseline_period_ns": 2.128,
+      "budget_minutes": 490
+    },
+    {
+      "design": "redmule.default",
+      "baseline_period_ns": 1.636,
+      "budget_minutes": 530
+    },
+    {
+      "design": "snitch_cluster.default_latch",
+      "baseline_period_ns": 2.169,
+      "budget_minutes": 600
+    }
+  ],
+  "planned_designs": {
+    "claude-fable-5-2": [
+      "ara.default",
+      "cheshire.default",
+      "cv32e40p.default",
+      "cva6.default",
+      "cvfpu.fp32_fma",
+      "cvfpu.full",
+      "ibex.full",
+      "ibex.minimal",
+      "ita.default",
+      "mempool.minpool",
+      "nvdla.top",
+      "opope.default",
+      "pulp_c910.default",
+      "redmule.default",
+      "serial_link.default",
+      "snitch_cluster.default",
+      "snitch_cluster.default_latch",
+      "snitch_cluster.minimal",
+      "spatz.default",
+      "spi_host.default"
+    ],
+    "gpt-6-astra": [
+      "ara.default",
+      "cheshire.default",
+      "cv32e40p.default",
+      "cva6.default",
+      "cvfpu.fp32_fma",
+      "cvfpu.full",
+      "ibex.full",
+      "ibex.minimal",
+      "ita.default",
+      "mempool.minpool",
+      "nvdla.top",
+      "opope.default",
+      "pulp_c910.default",
+      "redmule.default",
+      "serial_link.default",
+      "snitch_cluster.default",
+      "snitch_cluster.default_latch",
+      "snitch_cluster.minimal",
+      "spatz.default",
+      "spi_host.default"
+    ],
+    "ripple-65b-preview": [
+      "cheshire.default",
+      "cv32e40p.default",
+      "cva6.default",
+      "cvfpu.fp32_fma",
+      "cvfpu.full",
+      "ibex.full",
+      "ibex.minimal",
+      "ita.default",
+      "mempool.minpool",
+      "nvdla.top",
+      "opope.default",
+      "pulp_c910.default",
+      "serial_link.default",
+      "snitch_cluster.minimal",
+      "spi_host.default"
+    ],
+    "kimi-k3.1-pro": [
+      "ara.default",
+      "cheshire.default",
+      "cv32e40p.default",
+      "cva6.default",
+      "cvfpu.fp32_fma",
+      "cvfpu.full",
+      "ibex.full",
+      "ibex.minimal",
+      "ita.default",
+      "mempool.minpool",
+      "nvdla.top",
+      "opope.default",
+      "pulp_c910.default",
+      "redmule.default",
+      "serial_link.default",
+      "snitch_cluster.default",
+      "snitch_cluster.default_latch",
+      "snitch_cluster.minimal",
+      "spatz.default",
+      "spi_host.default"
+    ],
+    "qwen3.8-2.4t-a95b": [
+      "ara.default",
+      "cheshire.default",
+      "cv32e40p.default",
+      "cva6.default",
+      "cvfpu.fp32_fma",
+      "cvfpu.full",
+      "ibex.full",
+      "ibex.minimal",
+      "ita.default",
+      "mempool.minpool",
+      "nvdla.top",
+      "opope.default",
+      "pulp_c910.default",
+      "redmule.default",
+      "serial_link.default",
+      "snitch_cluster.default",
+      "snitch_cluster.default_latch",
+      "snitch_cluster.minimal",
+      "spatz.default",
+      "spi_host.default"
+    ]
+  }
+}

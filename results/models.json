@@ -1,0 +1,49 @@
+{
+  "models": [
+    {
+      "id": "claude-fable-5-2",
+      "name": "Claude Fable 5.2",
+      "developer": "Anthropic",
+      "harness": "Claude Code",
+      "harness_version": "2.1.322",
+      "access": "Official CLI signed in to a subscription",
+      "model_identifier": "claude-fable-5-2"
+    },
+    {
+      "id": "gpt-6-astra",
+      "name": "GPT-6 Astra",
+      "developer": "OpenAI",
+      "harness": "Codex",
+      "harness_version": "0.154.0",
+      "access": "Official CLI signed in to a subscription",
+      "model_identifier": "gpt-6-astra"
+    },
+    {
+      "id": "kimi-k3.1-pro",
+      "name": "Kimi K3.1 Pro",
+      "developer": "Moonshot AI",
+      "harness": "Kimi Code",
+      "harness_version": "2.5.2",
+      "access": "OpenRouter, no provider pin",
+      "model_identifier": "moonshotai/kimi-k3.1-pro"
+    },
+    {
+      "id": "qwen3.8-2.4t-a95b",
+      "name": "Qwen3.8 2.4T-A95B",
+      "developer": "Qwen (Alibaba)",
+      "harness": "Qwen Code",
+      "harness_version": "0.27.1",
+      "access": "OpenRouter, one pinned provider (SiliconFlow, FP8)",
+      "model_identifier": "qwen/qwen3.8-2.4t-a95b"
+    },
+    {
+      "id": "ripple-65b-preview",
+      "name": "Ripple-65B Preview",
+      "developer": "Ricursive AI",
+      "harness": "OpenCode",
+      "harness_version": "1.19.5",
+      "access": "Self-hosted (SGLang 0.5.19, BF16)",
+      "model_identifier": "ricursiveai/ripple-65b-preview"
+    }
+  ]
+}
