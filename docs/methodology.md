@@ -134,9 +134,9 @@ Temporary files use private disk-backed storage. Local measurements do not repla
 |---|---|---|---|---|
 | Claude Fable 5.2 | Anthropic | Claude Code 2.1.322 | Official CLI signed in to a subscription | `claude-fable-5-2` |
 | GPT-6 Astra | OpenAI | Codex 0.154.0 | Official CLI signed in to a subscription | `gpt-6-astra` |
-| Kimi K3.1 Pro | Moonshot AI | Kimi Code 2.5.2 | OpenRouter; Kimi Code's requests carry no provider pin | `moonshotai/kimi-k3.1-pro` |
+| Kimi K3.1 Pro | Moonshot AI | Kimi Code 2.5.2 | OpenRouter, pinned to Moonshot AI's own endpoint (MXFP4), fallbacks disabled | `moonshotai/kimi-k3.1-pro` |
 | Qwen3.8 2.4T-A95B | Qwen (Alibaba) | Qwen Code 0.27.1 | OpenRouter, one pinned provider (SiliconFlow, FP8), fallbacks disabled | `qwen/qwen3.8-2.4t-a95b` |
-| Ripple-65B Preview | Ricursive AI | OpenCode 1.19.5 | Self-hosted: SGLang 0.5.19, BF16 weights | `ricursiveai/ripple-65b-preview` |
+| Ripple-65B Preview | Ricursive AI | OpenCode 1.19.5 | Self-hosted SGLang 0.5.19 with the BF16 weights for its first 15 designs; OpenRouter pinned to PrimeIntellect (BF16) for later sessions | `ricursiveai/ripple-65b-preview` |
 
 Headless launch modes: Claude Code `--print --permission-mode bypassPermissions` with no setting sources
 and no MCP configuration; Codex `exec --sandbox danger-full-access` with approvals off and user config
@@ -205,7 +205,9 @@ changes.
   single session's luck can move a model's aggregate.
 - **The harness is part of the result.** An agent that stops early, or whose provider returns malformed
   tool calls, scores what it reached. Access routes differ (subscription CLI, OpenRouter, self-hosted), and
-  Kimi K3.1 Pro's OpenRouter requests are not pinned to one provider.
+  Kimi Code has no setting for OpenRouter's provider-routing field, so its requests go through a local
+  forwarding proxy that adds the pin and changes nothing else. Kimi's first sessions ran unpinned; they were
+  rerun pinned and only the pinned runs are reported.
 - **The evaluation cap limits scored candidates, not feedback.** Agents may run boson locally as often as
   their time allows; local runs share the session's GPU slice and budget with `./evaluate`.
 - **Timing is an estimate.** Unplaced setup timing on ASAP7 TT libraries; no placement, routing, hold or

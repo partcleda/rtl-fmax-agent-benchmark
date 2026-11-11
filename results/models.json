@@ -24,7 +24,7 @@
       "developer": "Moonshot AI",
       "harness": "Kimi Code",
       "harness_version": "2.5.2",
-      "access": "OpenRouter, no provider pin",
+      "access": "OpenRouter, pinned to Moonshot AI's own endpoint (MXFP4), fallbacks disabled",
       "model_identifier": "moonshotai/kimi-k3.1-pro"
     },
     {
@@ -42,7 +42,7 @@
       "developer": "Ricursive AI",
       "harness": "OpenCode",
       "harness_version": "1.19.5",
-      "access": "Self-hosted (SGLang 0.5.19, BF16)",
+      "access": "Self-hosted (SGLang 0.5.19, BF16) for its first 15 designs; OpenRouter pinned to PrimeIntellect (BF16) for later sessions",
       "model_identifier": "ricursiveai/ripple-65b-preview"
     }
   ]
