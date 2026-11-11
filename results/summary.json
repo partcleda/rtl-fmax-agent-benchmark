@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-11 15:27 PST",
+  "generated": "2026-11-11 15:43 PST",
   "designs": [
     "ara.default",
     "cheshire.default",
@@ -45,11 +45,12 @@
     "ripple-65b-preview": {
       "harness": "opencode",
       "ranked": false,
-      "designs": 12,
+      "designs": 13,
       "geomean_fmax_gain_pct": 0.0,
       "designs_improved": 0,
-      "mean_evaluations": 0.0,
+      "mean_evaluations": 0.08,
       "outcomes": {
+        "agent_error": 1,
         "budget_reached": 12
       }
     }
