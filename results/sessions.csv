@@ -11,6 +11,7 @@ ita.default,kimi-k3.1-pro,1,,,kimi-code,next-09,H200 NVL,190,agent_finished,0,14
 mempool.minpool,kimi-k3.1-pro,1,,,kimi-code,next-09,H200 NVL,205,agent_finished,0,175.4,5,0,5,0,2.869,2.869,1.0
 nvdla.top,kimi-k3.1-pro,1,,,kimi-code,next-09,RTX 6000 Ada,90,agent_finished,0,65.1,4,0,4,0,0.789,0.789,1.0
 opope.default,kimi-k3.1-pro,1,,,kimi-code,next-09,RTX 6000 Ada,90,agent_finished,0,75.1,9,0,3,0,0.857,0.857,1.0
+pulp_c910.default,claude-fable-5-2,1,,,claude-code,next-09,H200 NVL,215,agent_finished,0,176.8,8,0,6,0,1.005,1.005,1.0
 pulp_c910.default,kimi-k3.1-pro,1,,,kimi-code,next-09,H200 NVL,215,agent_finished,0,167.9,10,1,8,0,1.005,0.964,1.042531
 serial_link.default,kimi-k3.1-pro,1,,,kimi-code,next-09,RTX 6000 Ada,90,agent_finished,0,14.2,10,3,3,0,0.305,0.269,1.133829
 snitch_cluster.minimal,kimi-k3.1-pro,1,,,kimi-code,next-09,H200 NVL,115,agent_finished,0,105.2,5,1,2,0,1.288,1.201,1.07244

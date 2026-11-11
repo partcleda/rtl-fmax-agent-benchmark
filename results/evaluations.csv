@@ -71,6 +71,14 @@ opope.default,kimi-k3.1-pro,6,no_improvement,0.861,0.995354,proven,
 opope.default,kimi-k3.1-pro,7,no_improvement,0.859,0.997672,proven,
 opope.default,kimi-k3.1-pro,8,no_improvement,0.859,0.997672,proven,
 opope.default,kimi-k3.1-pro,9,no_improvement,1.099,0.7798,proven,
+pulp_c910.default,claude-fable-5-2,1,unverified,0.812,1.237685,unverified,partition_proof_failed
+pulp_c910.default,claude-fable-5-2,2,unverified,0.95,1.057895,unverified,partition_proof_failed
+pulp_c910.default,claude-fable-5-2,3,unverified,0.971,1.035015,unverified,partition_proof_failed
+pulp_c910.default,claude-fable-5-2,4,no_improvement,1.005,1.0,proven,
+pulp_c910.default,claude-fable-5-2,5,no_improvement,1.005,1.0,proven,
+pulp_c910.default,claude-fable-5-2,6,unverified,1.005,1.0,unverified,timeout
+pulp_c910.default,claude-fable-5-2,7,unverified,0.914,1.099562,unverified,partition_proof_failed
+pulp_c910.default,claude-fable-5-2,8,unverified,1.004,1.000996,unverified,partition_proof_failed
 pulp_c910.default,kimi-k3.1-pro,1,unverified,0.987,1.018237,unverified,partition_proof_failed
 pulp_c910.default,kimi-k3.1-pro,2,unverified,0.913,1.100767,unverified,partition_proof_failed
 pulp_c910.default,kimi-k3.1-pro,3,unverified,0.904,1.111726,memory_limit,partition_proof_failed

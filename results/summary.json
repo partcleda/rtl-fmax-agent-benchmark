@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-11 12:03 PST",
+  "generated": "2026-11-11 12:35 PST",
   "designs": [
     "ara.default",
     "cheshire.default",
@@ -19,6 +19,17 @@
     "spi_host.default"
   ],
   "models": {
+    "claude-fable-5-2": {
+      "harness": "claude-code",
+      "ranked": false,
+      "designs": 1,
+      "geomean_fmax_gain_pct": 0.0,
+      "designs_improved": 0,
+      "mean_evaluations": 8.0,
+      "outcomes": {
+        "agent_finished": 1
+      }
+    },
     "kimi-k3.1-pro": {
       "harness": "kimi-code",
       "ranked": true,
