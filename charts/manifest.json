@@ -1,33 +1,33 @@
 {
   "inputs_sha256": {
-    "summary.json": "6408f5a1ef3a14e4170ba03f850b759f4a54530fdcb9011a2679cc1673cd208c",
-    "sessions.csv": "795130b62e6426ea0bdc38ed8ba1dde1cda14bc97af2e70dd6c09eaae735f3f2",
+    "summary.json": "6299d475f9fd0757a86808f87306fdaac091b05210db269b2b896b267923e21c",
+    "sessions.csv": "c4f2debcd0388c5c39217f4ae8cf37255e8a8b930a502fa6f22f80680a9d7004",
     "models.json": "ac53de9e654ce3b099ac0a17ca0d3698e2df964ec87382d365812360dd8c347b"
   },
   "generator_sha256": "ca86dcec87898f6a8165f8656980fef1d76e683b5c13b8c6ad7a627fd2889c30",
   "models": [
     "claude-fable-5-2",
+    "ripple-65b-preview",
     "gpt-6-astra",
     "kimi-k3.1-pro",
-    "qwen3.8-2.4t-a95b",
-    "ripple-65b-preview"
+    "qwen3.8-2.4t-a95b"
   ],
   "outputs": {
     "model-fmax.svg": {
-      "sha256": "317a12b939c633d11153d1f7cd758b1b80862e9297a021954ec28d448702cde5",
-      "bytes": 12266
+      "sha256": "13fec11847d5af42dd2e9c1628f04188e31f6026797d169232e0cac6de55d69f",
+      "bytes": 12275
     },
     "model-fmax.png": {
-      "sha256": "8d52a379e8db31733ea734f40c22ede881849888cee3f48d023ec69bdc2c1ca5",
-      "bytes": 173659
+      "sha256": "1976c861a8d344d00b03457c9a9b2a2392aeeb1890f3db71981f95642ed60767",
+      "bytes": 173779
     },
     "design-fmax.svg": {
-      "sha256": "6d659f42f02721299c83fddbd04edc82a604346b8a7f3ca2ce899ae68a578b8e",
-      "bytes": 54445
+      "sha256": "55a11acb37930ebfa87231b8d42563dcc11151b33595f9133de0663653f7ca57",
+      "bytes": 54465
     },
     "design-fmax.png": {
-      "sha256": "e0f2044fd66a5778b4ce2681a626954ff5431824153dd30bd0a30cda40d962b7",
-      "bytes": 193210
+      "sha256": "51c5eebd050de40f5dafd9b5c333eebd6a9a484f6f642eaa1b45a2ee4d290cc1",
+      "bytes": 202444
     }
   }
 }

@@ -192,29 +192,29 @@ L 829.44 108
     <g id="ytick_2">
      <g id="line2d_20"/>
      <g id="text_12">
-      <text style="fill: #171738; font: 10.5px 'DejaVu Sans'" transform="translate(118.832188 175.2903)">GPT-6 Astra</text>
-      <text style="fill: #171738; font: 10.5px 'DejaVu Sans'" transform="translate(147.165781 187.048003)">Codex</text>
+      <text style="fill: #171738; font: 10.5px 'DejaVu Sans'" transform="translate(78.599141 175.2903)">Ripple-65B Preview</text>
+      <text style="fill: #171738; font: 10.5px 'DejaVu Sans'" transform="translate(125.150234 187.048003)">OpenCode</text>
      </g>
     </g>
     <g id="ytick_3">
      <g id="line2d_21"/>
      <g id="text_13">
-      <text style="fill: #171738; font: 10.5px 'DejaVu Sans'" transform="translate(110.222188 220.308164)">Kimi K3.1 Pro</text>
-      <text style="fill: #171738; font: 10.5px 'DejaVu Sans'" transform="translate(126.912266 232.065867)">Kimi Code</text>
+      <text style="fill: #171738; font: 10.5px 'DejaVu Sans'" transform="translate(118.832188 220.308164)">GPT-6 Astra</text>
+      <text style="fill: #171738; font: 10.5px 'DejaVu Sans'" transform="translate(147.165781 232.065867)">Codex</text>
      </g>
     </g>
     <g id="ytick_4">
      <g id="line2d_22"/>
      <g id="text_14">
-      <text style="fill: #171738; font: 10.5px 'DejaVu Sans'" transform="translate(76.623828 265.326028)">Qwen3.8 2.4T-A95B</text>
-      <text style="fill: #171738; font: 10.5px 'DejaVu Sans'" transform="translate(119.892031 277.083731)">Qwen Code</text>
+      <text style="fill: #171738; font: 10.5px 'DejaVu Sans'" transform="translate(110.222188 265.326028)">Kimi K3.1 Pro</text>
+      <text style="fill: #171738; font: 10.5px 'DejaVu Sans'" transform="translate(126.912266 277.083731)">Kimi Code</text>
      </g>
     </g>
     <g id="ytick_5">
      <g id="line2d_23"/>
      <g id="text_15">
-      <text style="fill: #171738; font: 10.5px 'DejaVu Sans'" transform="translate(78.599141 310.343893)">Ripple-65B Preview</text>
-      <text style="fill: #171738; font: 10.5px 'DejaVu Sans'" transform="translate(125.150234 322.101596)">OpenCode</text>
+      <text style="fill: #171738; font: 10.5px 'DejaVu Sans'" transform="translate(76.623828 310.343893)">Qwen3.8 2.4T-A95B</text>
+      <text style="fill: #171738; font: 10.5px 'DejaVu Sans'" transform="translate(119.892031 322.101596)">Qwen Code</text>
      </g>
     </g>
    </g>
@@ -267,7 +267,7 @@ L 829.44 334.8
     <text style="fill: #171738; font: 10px 'DejaVu Sans'; text-anchor: start" x="196.08" y="134.123647" transform="rotate(-0 196.08 134.123647)">+0.00%   0/1 improved · 1 of 20 designs finished</text>
    </g>
    <g id="text_17">
-    <text style="fill: #74788d; font: 10px 'DejaVu Sans'; text-anchor: start" x="196.08" y="179.141511" transform="rotate(-0 196.08 179.141511)">no finished sessions yet · 0 of 20 designs</text>
+    <text style="fill: #171738; font: 10px 'DejaVu Sans'; text-anchor: start" x="196.08" y="179.141511" transform="rotate(-0 196.08 179.141511)">+0.00%   0/11 improved · 11 of 15 designs finished</text>
    </g>
    <g id="text_18">
     <text style="fill: #74788d; font: 10px 'DejaVu Sans'; text-anchor: start" x="196.08" y="224.159375" transform="rotate(-0 196.08 224.159375)">no finished sessions yet · 0 of 20 designs</text>
@@ -276,7 +276,7 @@ L 829.44 334.8
     <text style="fill: #74788d; font: 10px 'DejaVu Sans'; text-anchor: start" x="196.08" y="269.177239" transform="rotate(-0 196.08 269.177239)">no finished sessions yet · 0 of 20 designs</text>
    </g>
    <g id="text_20">
-    <text style="fill: #74788d; font: 10px 'DejaVu Sans'; text-anchor: start" x="196.08" y="314.195103" transform="rotate(-0 196.08 314.195103)">no finished sessions yet · 0 of 15 designs</text>
+    <text style="fill: #74788d; font: 10px 'DejaVu Sans'; text-anchor: start" x="196.08" y="314.195103" transform="rotate(-0 196.08 314.195103)">no finished sessions yet · 0 of 20 designs</text>
    </g>
   </g>
   <g id="line2d_24">
@@ -291,7 +291,7 @@ L 829.44 82.8
    <text style="fill: #5b607d; font: 11.5px 'DejaVu Sans'; text-anchor: start" x="34.56" y="68.4" transform="rotate(-0 34.56 68.4)">Each model over the designs it has finished so far; provisional until every model covers the same designs</text>
   </g>
   <g id="text_23">
-   <text style="fill: #5b607d; font: 8.5px 'DejaVu Sans'" transform="translate(34.56 425.796781)">Preliminary results as of 2026-11-11 12:56 PST: 1 of 95 sessions finished.</text>
+   <text style="fill: #5b607d; font: 8.5px 'DejaVu Sans'" transform="translate(34.56 425.796781)">Preliminary results as of 2026-11-11 14:11 PST: 12 of 95 sessions finished.</text>
    <text style="fill: #5b607d; font: 8.5px 'DejaVu Sans'" transform="translate(34.56 437.898391)">Stock coding agents, one session per model and design, at most 10 evaluations each. boson synthesis and unplaced setup timing on public ASAP7 TT</text>
    <text style="fill: #5b607d; font: 8.5px 'DejaVu Sans'" transform="translate(34.56 450)">libraries, 1 ps period search; a candidate counts only with an EQY equivalence proof against the original RTL.</text>
   </g>

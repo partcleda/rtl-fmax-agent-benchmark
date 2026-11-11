@@ -1,18 +1,40 @@
 {
-  "generated": "2026-11-11 12:56 PST",
+  "generated": "2026-11-11 14:11 PST",
   "designs": [
-    "pulp_c910.default"
+    "cheshire.default",
+    "cv32e40p.default",
+    "cva6.default",
+    "cvfpu.fp32_fma",
+    "cvfpu.full",
+    "ibex.full",
+    "ibex.minimal",
+    "nvdla.top",
+    "opope.default",
+    "pulp_c910.default",
+    "serial_link.default",
+    "spi_host.default"
   ],
   "models": {
     "claude-fable-5-2": {
       "harness": "claude-code",
-      "ranked": true,
+      "ranked": false,
       "designs": 1,
       "geomean_fmax_gain_pct": 0.0,
       "designs_improved": 0,
       "mean_evaluations": 8.0,
       "outcomes": {
         "agent_finished": 1
+      }
+    },
+    "ripple-65b-preview": {
+      "harness": "opencode",
+      "ranked": false,
+      "designs": 11,
+      "geomean_fmax_gain_pct": 0.0,
+      "designs_improved": 0,
+      "mean_evaluations": 0.0,
+      "outcomes": {
+        "budget_reached": 11
       }
     }
   },

@@ -21,7 +21,7 @@ accepted only when it is proven equivalent and faster than the session's best so
 ## Results
 
 <!-- results:start -->
-**Status:** 1 of 95 sessions finished (5 models, 20 designs), as of 2026-11-11 12:56 PST.
+**Status:** 12 of 95 sessions finished (5 models, 20 designs), as of 2026-11-11 14:11 PST.
 
 ### Coverage
 
@@ -31,13 +31,14 @@ accepted only when it is proven equivalent and faster than the session's best so
 | GPT-6 Astra | OpenAI | Codex 0.154.0 | Official CLI signed in to a subscription | 0 / 20 |
 | Kimi K3.1 Pro | Moonshot AI | Kimi Code 2.5.2 | OpenRouter, pinned to Moonshot AI's own endpoint (MXFP4), fallbacks disabled | 0 / 20 |
 | Qwen3.8 2.4T-A95B | Qwen (Alibaba) | Qwen Code 0.27.1 | OpenRouter, one pinned provider (SiliconFlow, FP8) | 0 / 20 |
-| Ripple-65B Preview | Ricursive AI | OpenCode 1.19.5 | Self-hosted (SGLang 0.5.19, BF16) for its first 15 designs; OpenRouter pinned to PrimeIntellect (BF16) for later sessions | 0 / 15 |
+| Ripple-65B Preview | Ricursive AI | OpenCode 1.19.5 | Self-hosted (SGLang 0.5.19, BF16) for its first 15 designs; OpenRouter pinned to PrimeIntellect (BF16) for later sessions | 11 / 15 |
 
 ### Results by model
 
 | Model | Harness | Designs finished | Fmax gain (geomean) | Designs improved | Mean evaluations | Candidates not proven |
 |---|---|---:|---:|---:|---:|---:|
 | Claude Fable 5.2 | Claude Code | 1 / 20 | +0.00% | 0 / 1 | 8.0 | 75% (6 / 8) |
+| Ripple-65B Preview | OpenCode | 11 / 15 | +0.00% | 0 / 11 | 0.0 | — |
 
 Fmax gain is the geometric mean of each finished session's Fmax ratio (baseline period / best accepted period) over the designs that model has finished. Models have finished different designs, so this order is provisional, not a like-for-like ranking, until every model covers the same designs. "Candidates not proven" is the share of evaluations whose equivalence proof did not pass.
 
@@ -45,17 +46,17 @@ Fmax gain is the geometric mean of each finished session's Fmax ratio (baseline 
 
 | Design | Baseline period (ns) | Sessions finished | Best period (ns) | Fmax gain | Best by |
 |---|---:|---:|---:|---:|---|
-| `cheshire.default` | 1.047 | 0 | — | — | — |
-| `cv32e40p.default` | 0.657 | 0 | — | — | — |
-| `cva6.default` | 1.038 | 0 | — | — | — |
-| `cvfpu.fp32_fma` | 1.401 | 0 | — | — | — |
-| `cvfpu.full` | 2.114 | 0 | — | — | — |
-| `ibex.full` | 0.935 | 0 | — | — | — |
-| `ibex.minimal` | 0.716 | 0 | — | — | — |
-| `nvdla.top` | 0.789 | 0 | — | — | — |
-| `opope.default` | 0.857 | 0 | — | — | — |
-| `serial_link.default` | 0.305 | 0 | — | — | — |
-| `spi_host.default` | 0.475 | 0 | — | — | — |
+| `cheshire.default` | 1.047 | 1 | 1.047 | +0.00% | no improvement yet |
+| `cv32e40p.default` | 0.657 | 1 | 0.657 | +0.00% | no improvement yet |
+| `cva6.default` | 1.038 | 1 | 1.038 | +0.00% | no improvement yet |
+| `cvfpu.fp32_fma` | 1.401 | 1 | 1.401 | +0.00% | no improvement yet |
+| `cvfpu.full` | 2.114 | 1 | 2.114 | +0.00% | no improvement yet |
+| `ibex.full` | 0.935 | 1 | 0.935 | +0.00% | no improvement yet |
+| `ibex.minimal` | 0.716 | 1 | 0.716 | +0.00% | no improvement yet |
+| `nvdla.top` | 0.789 | 1 | 0.789 | +0.00% | no improvement yet |
+| `opope.default` | 0.857 | 1 | 0.857 | +0.00% | no improvement yet |
+| `serial_link.default` | 0.305 | 1 | 0.305 | +0.00% | no improvement yet |
+| `spi_host.default` | 0.475 | 1 | 0.475 | +0.00% | no improvement yet |
 | `snitch_cluster.minimal` | 1.288 | 0 | — | — | — |
 | `ita.default` | 0.903 | 0 | — | — | — |
 | `mempool.minpool` | 2.869 | 0 | — | — | — |
@@ -71,10 +72,10 @@ Fmax gain is the geometric mean of each finished session's Fmax ratio (baseline 
 Counts over every finished session of the models above. They describe what happened; with one session per model and design they do not establish causes or rankings.
 
 - 8 candidates evaluated: 0 accepted, 2 proven equivalent but not faster than the session's best, 6 not proven (5 with a partition EQY could not prove, 1 at the proof deadline), 0 failed to compile or measure.
-- Of 1 finished sessions, 1 ended with the agent finishing on its own.
-- Sessions used 8.0 of the 10 allowed evaluations on average; 0 used all 10.
+- Of 12 finished sessions, 1 ended with the agent finishing on its own and 11 ran to the time budget.
+- Sessions used 0.7 of the 10 allowed evaluations on average; 0 used all 10.
 - No finished session has an accepted improvement yet.
-- No finished session has improved `pulp_c910.default` yet.
+- No finished session has improved `cheshire.default`, `cv32e40p.default`, `cva6.default`, `cvfpu.fp32_fma`, `cvfpu.full`, `ibex.full`, `ibex.minimal`, `nvdla.top`, `opope.default`, `serial_link.default`, `spi_host.default`, `pulp_c910.default` yet.
 <!-- results:end -->
 
 ## Charts
