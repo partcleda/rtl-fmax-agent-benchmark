@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-11 14:41 PST",
+  "generated": "2026-11-11 15:12 PST",
   "designs": [
     "cheshire.default",
     "cv32e40p.default",
@@ -9,6 +9,7 @@
     "ibex.full",
     "ibex.minimal",
     "ita.default",
+    "mempool.minpool",
     "nvdla.top",
     "opope.default",
     "pulp_c910.default",
@@ -20,12 +21,24 @@
     "claude-fable-5-2": {
       "harness": "claude-code",
       "ranked": false,
-      "designs": 2,
-      "geomean_fmax_gain_pct": 0.167,
-      "designs_improved": 1,
-      "mean_evaluations": 4.5,
+      "designs": 3,
+      "geomean_fmax_gain_pct": 6.635,
+      "designs_improved": 2,
+      "mean_evaluations": 5.33,
       "outcomes": {
-        "agent_finished": 2
+        "agent_finished": 2,
+        "budget_reached": 1
+      }
+    },
+    "gpt-6-astra": {
+      "harness": "codex",
+      "ranked": false,
+      "designs": 1,
+      "geomean_fmax_gain_pct": 8.065,
+      "designs_improved": 1,
+      "mean_evaluations": 10.0,
+      "outcomes": {
+        "agent_finished": 1
       }
     },
     "ripple-65b-preview": {
