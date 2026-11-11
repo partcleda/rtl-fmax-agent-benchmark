@@ -1,4 +1,5 @@
 design,model,attempts,earlier_outcomes,rerun_reason,harness,evaluator,gpu,budget_minutes,outcome,agent_exit_code,elapsed_minutes,evaluations,accepted,unverified,compile_or_score_failed,baseline_period_ns,best_period_ns,fmax_ratio
+ara.default,claude-fable-5-2,1,,,claude-code,next-09,H200 NVL,210,budget_reached,124,211.8,6,4,1,0,1.064,0.942,1.129512
 cheshire.default,ripple-65b-preview,1,,,opencode,next-09,H200 NVL,90,budget_reached,124,90.0,0,0,0,0,1.047,1.047,1.0
 cv32e40p.default,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,0,0,0,0,0.657,0.657,1.0
 cva6.default,ripple-65b-preview,1,,,opencode,next-09,H200 NVL,90,budget_reached,124,90.0,0,0,0,0,1.038,1.038,1.0

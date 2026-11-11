@@ -1,4 +1,10 @@
 design,model,evaluation,status,period_ns,fmax_ratio,proof_status,proof_failure
+ara.default,claude-fable-5-2,1,no_improvement,1.075,0.989767,proven,
+ara.default,claude-fable-5-2,2,accepted,0.989,1.075834,proven,
+ara.default,claude-fable-5-2,3,accepted,0.955,1.114136,proven,
+ara.default,claude-fable-5-2,4,accepted,0.945,1.125926,proven,
+ara.default,claude-fable-5-2,5,accepted,0.942,1.129512,proven,
+ara.default,claude-fable-5-2,6,unverified,0.931,1.142857,memory_limit,timeout
 ita.default,claude-fable-5-2,1,accepted,0.9,1.003333,proven,
 mempool.minpool,claude-fable-5-2,1,accepted,2.661,1.078166,proven,
 mempool.minpool,claude-fable-5-2,2,accepted,2.429,1.181145,proven,
