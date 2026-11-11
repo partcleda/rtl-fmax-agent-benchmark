@@ -21,7 +21,7 @@ accepted only when it is proven equivalent and faster than the session's best so
 ## Results
 
 <!-- results:start -->
-**Status:** 17 of 95 sessions finished (5 models, 20 designs), as of 2026-11-11 12:35 PST.
+**Status:** 1 of 95 sessions finished (5 models, 20 designs), as of 2026-11-11 12:56 PST.
 
 ### Coverage
 
@@ -29,15 +29,14 @@ accepted only when it is proven equivalent and faster than the session's best so
 |---|---|---|---|---:|
 | Claude Fable 5.2 | Anthropic | Claude Code 2.1.322 | Official CLI signed in to a subscription | 1 / 20 |
 | GPT-6 Astra | OpenAI | Codex 0.154.0 | Official CLI signed in to a subscription | 0 / 20 |
-| Kimi K3.1 Pro | Moonshot AI | Kimi Code 2.5.2 | OpenRouter, no provider pin | 16 / 20 |
+| Kimi K3.1 Pro | Moonshot AI | Kimi Code 2.5.2 | OpenRouter, pinned to Moonshot AI's own endpoint (MXFP4), fallbacks disabled | 0 / 20 |
 | Qwen3.8 2.4T-A95B | Qwen (Alibaba) | Qwen Code 0.27.1 | OpenRouter, one pinned provider (SiliconFlow, FP8) | 0 / 20 |
-| Ripple-65B Preview | Ricursive AI | OpenCode 1.19.5 | Self-hosted (SGLang 0.5.19, BF16) | 0 / 15 |
+| Ripple-65B Preview | Ricursive AI | OpenCode 1.19.5 | Self-hosted (SGLang 0.5.19, BF16) for its first 15 designs; OpenRouter pinned to PrimeIntellect (BF16) for later sessions | 0 / 15 |
 
 ### Results by model
 
 | Model | Harness | Designs finished | Fmax gain (geomean) | Designs improved | Mean evaluations | Candidates not proven |
 |---|---|---:|---:|---:|---:|---:|
-| Kimi K3.1 Pro | Kimi Code | 16 / 20 | +3.72% | 13 / 16 | 6.4 | 56% (58 / 103) |
 | Claude Fable 5.2 | Claude Code | 1 / 20 | +0.00% | 0 / 1 | 8.0 | 75% (6 / 8) |
 
 Fmax gain is the geometric mean of each finished session's Fmax ratio (baseline period / best accepted period) over the designs that model has finished. Models have finished different designs, so this order is provisional, not a like-for-like ranking, until every model covers the same designs. "Candidates not proven" is the share of evaluations whose equivalence proof did not pass.
@@ -46,22 +45,22 @@ Fmax gain is the geometric mean of each finished session's Fmax ratio (baseline 
 
 | Design | Baseline period (ns) | Sessions finished | Best period (ns) | Fmax gain | Best by |
 |---|---:|---:|---:|---:|---|
-| `cheshire.default` | 1.047 | 1 | 0.973 | +7.61% | Kimi K3.1 Pro |
-| `cv32e40p.default` | 0.657 | 1 | 0.630 | +4.29% | Kimi K3.1 Pro |
-| `cva6.default` | 1.038 | 1 | 1.002 | +3.59% | Kimi K3.1 Pro |
-| `cvfpu.fp32_fma` | 1.401 | 1 | 1.367 | +2.49% | Kimi K3.1 Pro |
-| `cvfpu.full` | 2.114 | 1 | 2.085 | +1.39% | Kimi K3.1 Pro |
-| `ibex.full` | 0.935 | 1 | 0.899 | +4.00% | Kimi K3.1 Pro |
-| `ibex.minimal` | 0.716 | 1 | 0.703 | +1.85% | Kimi K3.1 Pro |
-| `nvdla.top` | 0.789 | 1 | 0.789 | +0.00% | no improvement yet |
-| `opope.default` | 0.857 | 1 | 0.857 | +0.00% | no improvement yet |
-| `serial_link.default` | 0.305 | 1 | 0.269 | +13.38% | Kimi K3.1 Pro |
-| `spi_host.default` | 0.475 | 1 | 0.437 | +8.70% | Kimi K3.1 Pro |
-| `snitch_cluster.minimal` | 1.288 | 1 | 1.201 | +7.24% | Kimi K3.1 Pro |
-| `ita.default` | 0.903 | 1 | 0.900 | +0.33% | Kimi K3.1 Pro |
-| `mempool.minpool` | 2.869 | 1 | 2.869 | +0.00% | no improvement yet |
-| `ara.default` | 1.064 | 1 | 1.049 | +1.43% | Kimi K3.1 Pro |
-| `pulp_c910.default` | 1.005 | 2 | 0.964 | +4.25% | Kimi K3.1 Pro |
+| `cheshire.default` | 1.047 | 0 | — | — | — |
+| `cv32e40p.default` | 0.657 | 0 | — | — | — |
+| `cva6.default` | 1.038 | 0 | — | — | — |
+| `cvfpu.fp32_fma` | 1.401 | 0 | — | — | — |
+| `cvfpu.full` | 2.114 | 0 | — | — | — |
+| `ibex.full` | 0.935 | 0 | — | — | — |
+| `ibex.minimal` | 0.716 | 0 | — | — | — |
+| `nvdla.top` | 0.789 | 0 | — | — | — |
+| `opope.default` | 0.857 | 0 | — | — | — |
+| `serial_link.default` | 0.305 | 0 | — | — | — |
+| `spi_host.default` | 0.475 | 0 | — | — | — |
+| `snitch_cluster.minimal` | 1.288 | 0 | — | — | — |
+| `ita.default` | 0.903 | 0 | — | — | — |
+| `mempool.minpool` | 2.869 | 0 | — | — | — |
+| `ara.default` | 1.064 | 0 | — | — | — |
+| `pulp_c910.default` | 1.005 | 1 | 1.005 | +0.00% | no improvement yet |
 | `spatz.default` | 2.266 | 0 | — | — | — |
 | `snitch_cluster.default` | 2.128 | 0 | — | — | — |
 | `redmule.default` | 1.636 | 0 | — | — | — |
@@ -71,11 +70,11 @@ Fmax gain is the geometric mean of each finished session's Fmax ratio (baseline 
 
 Counts over every finished session of the models above. They describe what happened; with one session per model and design they do not establish causes or rankings.
 
-- 111 candidates evaluated: 20 accepted, 27 proven equivalent but not faster than the session's best, 64 not proven (55 with a partition EQY could not prove, 3 at the proof deadline, 6 over the proof memory budget), 0 failed to compile or measure.
-- Of 17 finished sessions, 17 ended with the agent finishing on its own.
-- Sessions used 6.5 of the 10 allowed evaluations on average; 3 used all 10.
-- Largest single gain so far: `serial_link.default` by Kimi K3.1 Pro, 0.305 ns to 0.269 ns (+13.38% Fmax).
-- No finished session has improved `nvdla.top`, `opope.default`, `mempool.minpool` yet.
+- 8 candidates evaluated: 0 accepted, 2 proven equivalent but not faster than the session's best, 6 not proven (5 with a partition EQY could not prove, 1 at the proof deadline), 0 failed to compile or measure.
+- Of 1 finished sessions, 1 ended with the agent finishing on its own.
+- Sessions used 8.0 of the 10 allowed evaluations on average; 0 used all 10.
+- No finished session has an accepted improvement yet.
+- No finished session has improved `pulp_c910.default` yet.
 <!-- results:end -->
 
 ## Charts

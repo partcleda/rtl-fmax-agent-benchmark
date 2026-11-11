@@ -1,44 +1,18 @@
 {
-  "generated": "2026-11-11 12:35 PST",
+  "generated": "2026-11-11 12:56 PST",
   "designs": [
-    "ara.default",
-    "cheshire.default",
-    "cv32e40p.default",
-    "cva6.default",
-    "cvfpu.fp32_fma",
-    "cvfpu.full",
-    "ibex.full",
-    "ibex.minimal",
-    "ita.default",
-    "mempool.minpool",
-    "nvdla.top",
-    "opope.default",
-    "pulp_c910.default",
-    "serial_link.default",
-    "snitch_cluster.minimal",
-    "spi_host.default"
+    "pulp_c910.default"
   ],
   "models": {
     "claude-fable-5-2": {
       "harness": "claude-code",
-      "ranked": false,
+      "ranked": true,
       "designs": 1,
       "geomean_fmax_gain_pct": 0.0,
       "designs_improved": 0,
       "mean_evaluations": 8.0,
       "outcomes": {
         "agent_finished": 1
-      }
-    },
-    "kimi-k3.1-pro": {
-      "harness": "kimi-code",
-      "ranked": true,
-      "designs": 16,
-      "geomean_fmax_gain_pct": 3.721,
-      "designs_improved": 13,
-      "mean_evaluations": 6.44,
-      "outcomes": {
-        "agent_finished": 16
       }
     }
   },
