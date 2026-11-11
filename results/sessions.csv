@@ -6,8 +6,10 @@ cvfpu.fp32_fma,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_re
 cvfpu.full,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,0,0,0,0,2.114,2.114,1.0
 ibex.full,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,0,0,0,0,0.935,0.935,1.0
 ibex.minimal,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,0,0,0,0,0.716,0.716,1.0
+ita.default,claude-fable-5-2,1,,,claude-code,next-09,RTX 6000 Ada,190,agent_finished,0,151.8,1,1,0,0,0.903,0.9,1.003333
 nvdla.top,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,0,0,0,0,0.789,0.789,1.0
 opope.default,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,0,0,0,0,0.857,0.857,1.0
 pulp_c910.default,claude-fable-5-2,1,,,claude-code,next-09,H200 NVL,215,agent_finished,0,176.8,8,0,6,0,1.005,1.005,1.0
 serial_link.default,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,0,0,0,0,0.305,0.305,1.0
+snitch_cluster.minimal,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,115,budget_reached,124,115.0,0,0,0,0,1.288,1.288,1.0
 spi_host.default,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,0,0,0,0,0.475,0.475,1.0

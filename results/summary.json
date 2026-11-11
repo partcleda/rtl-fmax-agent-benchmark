@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-11 14:11 PST",
+  "generated": "2026-11-11 14:41 PST",
   "designs": [
     "cheshire.default",
     "cv32e40p.default",
@@ -8,33 +8,35 @@
     "cvfpu.full",
     "ibex.full",
     "ibex.minimal",
+    "ita.default",
     "nvdla.top",
     "opope.default",
     "pulp_c910.default",
     "serial_link.default",
+    "snitch_cluster.minimal",
     "spi_host.default"
   ],
   "models": {
     "claude-fable-5-2": {
       "harness": "claude-code",
       "ranked": false,
-      "designs": 1,
-      "geomean_fmax_gain_pct": 0.0,
-      "designs_improved": 0,
-      "mean_evaluations": 8.0,
+      "designs": 2,
+      "geomean_fmax_gain_pct": 0.167,
+      "designs_improved": 1,
+      "mean_evaluations": 4.5,
       "outcomes": {
-        "agent_finished": 1
+        "agent_finished": 2
       }
     },
     "ripple-65b-preview": {
       "harness": "opencode",
       "ranked": false,
-      "designs": 11,
+      "designs": 12,
       "geomean_fmax_gain_pct": 0.0,
       "designs_improved": 0,
       "mean_evaluations": 0.0,
       "outcomes": {
-        "budget_reached": 11
+        "budget_reached": 12
       }
     }
   },

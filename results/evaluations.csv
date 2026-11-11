@@ -1,4 +1,5 @@
 design,model,evaluation,status,period_ns,fmax_ratio,proof_status,proof_failure
+ita.default,claude-fable-5-2,1,accepted,0.9,1.003333,proven,
 pulp_c910.default,claude-fable-5-2,1,unverified,0.812,1.237685,unverified,partition_proof_failed
 pulp_c910.default,claude-fable-5-2,2,unverified,0.95,1.057895,unverified,partition_proof_failed
 pulp_c910.default,claude-fable-5-2,3,unverified,0.971,1.035015,unverified,partition_proof_failed
