@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-11 16:29 PST",
+  "generated": "2026-11-11 16:44 PST",
   "designs": [
     "ara.default",
     "cheshire.default",
@@ -22,12 +22,12 @@
     "claude-fable-5-2": {
       "harness": "claude-code",
       "ranked": false,
-      "designs": 4,
-      "geomean_fmax_gain_pct": 8.18,
-      "designs_improved": 3,
-      "mean_evaluations": 5.5,
+      "designs": 5,
+      "geomean_fmax_gain_pct": 7.992,
+      "designs_improved": 4,
+      "mean_evaluations": 5.0,
       "outcomes": {
-        "agent_finished": 2,
+        "agent_finished": 3,
         "budget_reached": 2
       }
     },

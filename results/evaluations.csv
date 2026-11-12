@@ -34,3 +34,6 @@ pulp_c910.default,gpt-6-astra,8,accepted,0.93,1.080645,proven,
 pulp_c910.default,gpt-6-astra,9,unverified,0.894,1.124161,unverified,partition_proof_failed
 pulp_c910.default,gpt-6-astra,10,unverified,0.94,1.069149,unverified,partition_proof_failed
 pulp_c910.default,ripple-65b-preview,1,unverified,0.968,1.038223,memory_limit,partition_proof_failed
+snitch_cluster.minimal,claude-fable-5-2,1,unverified,1.211,1.063584,memory_limit,timeout
+snitch_cluster.minimal,claude-fable-5-2,2,accepted,1.208,1.066225,proven,
+snitch_cluster.minimal,claude-fable-5-2,3,accepted,1.201,1.07244,proven,
