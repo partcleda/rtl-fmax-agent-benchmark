@@ -147,6 +147,16 @@ ibex.minimal,claude-fable-5-2,3,accepted,0.695,1.030216,proven,
 ibex.minimal,claude-fable-5-2,4,accepted,0.687,1.042213,proven,
 ibex.minimal,claude-fable-5-2,5,accepted,0.678,1.056047,proven,
 ibex.minimal,claude-fable-5-2,6,accepted,0.676,1.059172,proven,
+ibex.minimal,gpt-6-astra,1,no_improvement,0.733,0.976808,proven,
+ibex.minimal,gpt-6-astra,2,no_improvement,0.742,0.96496,proven,
+ibex.minimal,gpt-6-astra,3,unverified,0.699,1.02432,unverified,timeout
+ibex.minimal,gpt-6-astra,4,no_improvement,0.722,0.99169,proven,
+ibex.minimal,gpt-6-astra,5,no_improvement,0.767,0.933507,proven,
+ibex.minimal,gpt-6-astra,6,no_improvement,0.73,0.980822,proven,
+ibex.minimal,gpt-6-astra,7,no_improvement,0.73,0.980822,proven,
+ibex.minimal,gpt-6-astra,8,accepted,0.702,1.019943,proven,
+ibex.minimal,gpt-6-astra,9,no_improvement,0.747,0.958501,proven,
+ibex.minimal,gpt-6-astra,10,no_improvement,0.725,0.987586,proven,
 ibex.minimal,kimi-k3.1-pro,1,accepted,0.702,1.019943,proven,
 ibex.minimal,kimi-k3.1-pro,2,unverified,0.698,1.025788,unverified,partition_proof_failed
 ibex.minimal,kimi-k3.1-pro,3,unverified,0.67,1.068657,unverified,partition_proof_failed

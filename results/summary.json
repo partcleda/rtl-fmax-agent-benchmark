@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-12 10:30 PST",
+  "generated": "2026-11-12 11:16 PST",
   "designs": [
     "ara.default",
     "cheshire.default",
@@ -38,12 +38,12 @@
     "gpt-6-astra": {
       "harness": "codex",
       "ranked": false,
-      "designs": 12,
-      "geomean_fmax_gain_pct": 7.42,
-      "designs_improved": 11,
-      "mean_evaluations": 8.33,
+      "designs": 13,
+      "geomean_fmax_gain_pct": 6.992,
+      "designs_improved": 12,
+      "mean_evaluations": 8.46,
       "outcomes": {
-        "agent_finished": 9,
+        "agent_finished": 10,
         "budget_reached": 3
       }
     },

@@ -35,6 +35,7 @@ ibex.full,kimi-k3.1-pro,1,,rerun pinned to one provider endpoint (the earlier un
 ibex.full,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,1,0,1,0,0.935,0.935,1.0
 ibex.full,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,0,0,0,0,0.935,0.935,1.0
 ibex.minimal,claude-fable-5-2,1,,,claude-code,next-09,RTX 6000 Ada,90,agent_finished,0,71.4,6,4,2,0,0.716,0.676,1.059172
+ibex.minimal,gpt-6-astra,1,,,codex,next-09,RTX 6000 Ada,90,agent_finished,0,31.9,10,1,1,0,0.716,0.702,1.019943
 ibex.minimal,kimi-k3.1-pro,1,,rerun pinned to one provider endpoint (the earlier unpinned run is not reported),kimi-code,next-09,RTX 6000 Ada,90,agent_finished,0,36.7,4,1,3,0,0.716,0.702,1.019943
 ibex.minimal,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,RTX 6000 Ada,90,budget_reached,124,97.8,1,0,1,0,0.716,0.716,1.0
 ibex.minimal,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,0,0,0,0,0.716,0.716,1.0
