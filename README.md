@@ -21,7 +21,7 @@ accepted only when it is proven equivalent and faster than the session's best so
 ## Results
 
 <!-- results:start -->
-**Status:** 41 of 95 sessions finished (5 models, 20 designs), as of 2026-11-11 22:02 PST.
+**Status:** 43 of 95 sessions finished (5 models, 20 designs), as of 2026-11-11 22:33 PST.
 
 ### Coverage
 
@@ -30,7 +30,7 @@ accepted only when it is proven equivalent and faster than the session's best so
 | Claude Fable 5.2 | Anthropic | Claude Code 2.1.322 | Official CLI signed in to a subscription | 10 / 20 |
 | GPT-6 Astra | OpenAI | Codex 0.154.0 | Official CLI signed in to a subscription | 4 / 20 |
 | Kimi K3.1 Pro | Moonshot AI | Kimi Code 2.5.2 | OpenRouter, pinned to Moonshot AI's own endpoint (MXFP4), fallbacks disabled | 3 / 20 |
-| Qwen3.8 2.4T-A95B | Qwen (Alibaba) | Qwen Code 0.27.1 | OpenRouter, one pinned provider (SiliconFlow, FP8) | 9 / 20 |
+| Qwen3.8 2.4T-A95B | Qwen (Alibaba) | Qwen Code 0.27.1 | OpenRouter, one pinned provider (SiliconFlow, FP8) | 11 / 20 |
 | Ripple-65B Preview | Ricursive AI | OpenCode 1.19.5 | Self-hosted (SGLang 0.5.19, BF16) for its first 15 designs; OpenRouter pinned to PrimeIntellect (BF16) for later sessions | 15 / 15 |
 
 ### Results by model
@@ -40,7 +40,7 @@ accepted only when it is proven equivalent and faster than the session's best so
 | Claude Fable 5.2 | Claude Code | 10 / 20 | +10.40% | 9 / 10 | 5.0 | 34% (17 / 50) |
 | GPT-6 Astra | Codex | 4 / 20 | +2.85% | 2 / 4 | 3.2 | 69% (9 / 13) |
 | Kimi K3.1 Pro | Kimi Code | 3 / 20 | +0.87% | 2 / 3 | 6.0 | 56% (10 / 18) |
-| Qwen3.8 2.4T-A95B | Qwen Code | 9 / 20 | +0.50% | 2 / 9 | 0.8 | 71% (5 / 7) |
+| Qwen3.8 2.4T-A95B | Qwen Code | 11 / 20 | +0.41% | 2 / 11 | 1.0 | 82% (9 / 11) |
 | Ripple-65B Preview | OpenCode | 15 / 15 | +0.00% | 0 / 15 | 0.2 | 100% (3 / 3) |
 
 Fmax gain is the geometric mean of each finished session's Fmax ratio (baseline period / best accepted period) over the designs that model has finished. Models have finished different designs, so this order is provisional, not a like-for-like ranking, until every model covers the same designs. "Candidates not proven" is the share of evaluations whose equivalence proof did not pass.
@@ -52,7 +52,7 @@ Fmax gain is the geometric mean of each finished session's Fmax ratio (baseline 
 | `cheshire.default` | 1.047 | 3 | 0.982 | +6.62% | Claude Fable 5.2 |
 | `cv32e40p.default` | 0.657 | 3 | 0.622 | +5.63% | Claude Fable 5.2 |
 | `cva6.default` | 1.038 | 3 | 1.016 | +2.17% | Claude Fable 5.2 |
-| `cvfpu.fp32_fma` | 1.401 | 2 | 1.070 | +30.93% | Claude Fable 5.2 |
+| `cvfpu.fp32_fma` | 1.401 | 3 | 1.070 | +30.93% | Claude Fable 5.2 |
 | `cvfpu.full` | 2.114 | 1 | 2.114 | +0.00% | no improvement yet |
 | `ibex.full` | 0.935 | 1 | 0.935 | +0.00% | no improvement yet |
 | `ibex.minimal` | 0.716 | 1 | 0.716 | +0.00% | no improvement yet |
@@ -60,7 +60,7 @@ Fmax gain is the geometric mean of each finished session's Fmax ratio (baseline 
 | `opope.default` | 0.857 | 1 | 0.857 | +0.00% | no improvement yet |
 | `serial_link.default` | 0.305 | 1 | 0.305 | +0.00% | no improvement yet |
 | `spi_host.default` | 0.475 | 1 | 0.475 | +0.00% | no improvement yet |
-| `snitch_cluster.minimal` | 1.288 | 2 | 1.201 | +7.24% | Claude Fable 5.2 |
+| `snitch_cluster.minimal` | 1.288 | 3 | 1.201 | +7.24% | Claude Fable 5.2 |
 | `ita.default` | 0.903 | 2 | 0.900 | +0.33% | Claude Fable 5.2 |
 | `mempool.minpool` | 2.869 | 3 | 2.374 | +20.85% | Claude Fable 5.2 |
 | `ara.default` | 1.064 | 2 | 0.942 | +12.95% | Claude Fable 5.2 |
@@ -74,8 +74,8 @@ Fmax gain is the geometric mean of each finished session's Fmax ratio (baseline 
 
 Counts over every finished session of the models above. They describe what happened; with one session per model and design they do not establish causes or rankings.
 
-- 91 candidates evaluated: 38 accepted, 8 proven equivalent but not faster than the session's best, 44 not proven (33 with a partition EQY could not prove, 5 at the proof deadline, 6 over the proof memory budget), 1 failed to compile or measure.
-- Of 41 finished sessions, 14 ended with the agent finishing on its own, 16 ran to the time budget and 11 ended with an agent error.
+- 95 candidates evaluated: 38 accepted, 8 proven equivalent but not faster than the session's best, 48 not proven (37 with a partition EQY could not prove, 5 at the proof deadline, 6 over the proof memory budget), 1 failed to compile or measure.
+- Of 43 finished sessions, 16 ended with the agent finishing on its own, 16 ran to the time budget and 11 ended with an agent error.
 - Sessions used 2.2 of the 10 allowed evaluations on average; 1 used all 10.
 - Largest single gain so far: `cvfpu.fp32_fma` by Claude Fable 5.2, 1.401 ns to 1.070 ns (+30.93% Fmax).
 - No finished session has improved `cvfpu.full`, `ibex.full`, `ibex.minimal`, `nvdla.top`, `opope.default`, `serial_link.default`, `spi_host.default` yet.

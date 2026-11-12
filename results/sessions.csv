@@ -11,6 +11,7 @@ cva6.default,claude-fable-5-2,1,,,claude-code,next-09,RTX 6000 Ada,90,agent_fini
 cva6.default,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,H200 NVL,90,agent_finished,0,66.9,0,0,0,0,1.038,1.038,1.0
 cva6.default,ripple-65b-preview,1,,,opencode,next-09,H200 NVL,90,budget_reached,124,90.0,0,0,0,0,1.038,1.038,1.0
 cvfpu.fp32_fma,claude-fable-5-2,1,,,claude-code,next-09,RTX 6000 Ada,90,agent_finished,0,71.6,9,8,1,0,1.401,1.07,1.309346
+cvfpu.fp32_fma,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,RTX 6000 Ada,90,agent_finished,0,81.0,1,0,1,0,1.401,1.401,1.0
 cvfpu.fp32_fma,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,0,0,0,0,1.401,1.401,1.0
 cvfpu.full,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,0,0,0,0,2.114,2.114,1.0
 ibex.full,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,0,0,0,0,0.935,0.935,1.0
@@ -35,6 +36,7 @@ snitch_cluster.default,gpt-6-astra,1,,,codex,next-09,H200 NVL,490,agent_error,1,
 snitch_cluster.default,kimi-k3.1-pro,1,,,kimi-code,next-09,H200 NVL,490,agent_finished,0,346.8,8,3,5,0,2.128,2.088,1.019157
 snitch_cluster.default,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,RTX 6000 Ada,490,agent_error,130,321.5,1,0,1,0,2.128,2.128,1.0
 snitch_cluster.minimal,claude-fable-5-2,1,,,claude-code,next-09,RTX 6000 Ada,115,agent_finished,0,61.2,3,2,1,0,1.288,1.201,1.07244
+snitch_cluster.minimal,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,H200 NVL,115,agent_finished,0,97.3,3,0,3,0,1.288,1.288,1.0
 snitch_cluster.minimal,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,115,budget_reached,124,115.0,0,0,0,0,1.288,1.288,1.0
 spatz.default,gpt-6-astra,1,,,codex,next-09,H200 NVL,450,agent_error,1,60.9,1,0,1,0,2.266,2.266,1.0
 spatz.default,kimi-k3.1-pro,1,,,kimi-code,next-09,RTX 6000 Ada,450,agent_finished,0,423.7,6,1,3,0,2.266,2.25,1.007111
