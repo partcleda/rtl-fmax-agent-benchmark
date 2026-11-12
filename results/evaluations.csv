@@ -57,6 +57,7 @@ cvfpu.full,qwen3.8-2.4t-a95b,1,accepted,2.101,1.006188,proven,
 ibex.full,claude-fable-5-2,1,unverified,0.9,1.038889,unverified,timeout
 ibex.full,claude-fable-5-2,2,unverified,0.899,1.040044,unverified,timeout
 ibex.full,claude-fable-5-2,3,unverified,0.904,1.034292,unverified,timeout
+ibex.full,kimi-k3.1-pro,1,accepted,0.899,1.040044,proven,
 ibex.full,qwen3.8-2.4t-a95b,1,unverified,0.921,1.015201,memory_limit,partition_proof_failed
 ibex.minimal,claude-fable-5-2,1,unverified,0.679,1.054492,unverified,timeout
 ibex.minimal,claude-fable-5-2,2,unverified,0.716,1.0,unverified,partition_proof_failed
