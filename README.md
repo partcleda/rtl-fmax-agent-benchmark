@@ -21,7 +21,7 @@ accepted only when it is proven equivalent and faster than the session's best so
 ## Results
 
 <!-- results:start -->
-**Status:** 65 of 100 sessions finished (5 models, 20 designs), as of 2026-11-12 07:29 PST. 12 interrupted attempts are excluded from these results while awaiting a valid replacement.
+**Status:** 66 of 100 sessions finished (5 models, 20 designs), as of 2026-11-12 07:36 PST. 12 interrupted attempts are excluded from these results while awaiting a valid replacement.
 
 ### Coverage
 
@@ -29,7 +29,7 @@ accepted only when it is proven equivalent and faster than the session's best so
 |---|---|---|---|---:|
 | Claude Fable 5.2 | Anthropic | Claude Code 2.1.322 | Official CLI signed in to a subscription | 15 / 20 |
 | GPT-6 Astra | OpenAI | Codex 0.154.0 | Official CLI signed in to a subscription | 5 / 20 |
-| Kimi K3.1 Pro | Moonshot AI | Kimi Code 2.5.2 | OpenRouter, pinned to Moonshot AI's own endpoint (MXFP4), fallbacks disabled | 17 / 20 |
+| Kimi K3.1 Pro | Moonshot AI | Kimi Code 2.5.2 | OpenRouter, pinned to Moonshot AI's own endpoint (MXFP4), fallbacks disabled | 18 / 20 |
 | Qwen3.8 2.4T-A95B | Qwen (Alibaba) | Qwen Code 0.27.1 | OpenRouter, one pinned provider (SiliconFlow, FP8) | 13 / 20 |
 | Ripple-65B Preview | Ricursive AI | OpenCode 1.19.5 | Self-hosted (SGLang 0.5.19, BF16) for its first 15 designs; OpenRouter pinned to PrimeIntellect (BF16) for later sessions | 15 / 20 |
 
@@ -39,7 +39,7 @@ accepted only when it is proven equivalent and faster than the session's best so
 |---|---|---:|---:|---:|---:|---:|
 | Claude Fable 5.2 | Claude Code | 15 / 20 | +9.52% | 13 / 15 | 4.9 | 37% (27 / 73) |
 | GPT-6 Astra | Codex | 5 / 20 | +8.74% | 4 / 5 | 8.0 | 38% (15 / 40) |
-| Kimi K3.1 Pro | Kimi Code | 17 / 20 | +4.25% | 14 / 17 | 5.7 | 60% (58 / 96) |
+| Kimi K3.1 Pro | Kimi Code | 18 / 20 | +4.20% | 15 / 18 | 5.7 | 59% (61 / 103) |
 | Qwen3.8 2.4T-A95B | Qwen Code | 13 / 20 | +0.81% | 3 / 13 | 1.1 | 80% (12 / 15) |
 | Ripple-65B Preview | OpenCode | 15 / 20 | +0.00% | 0 / 15 | 0.2 | 100% (3 / 3) |
 
@@ -68,14 +68,14 @@ Fmax gain is the geometric mean of each finished session's Fmax ratio (baseline 
 | `spatz.default` | 2.266 | 2 | 1.868 | +21.31% | Claude Fable 5.2 |
 | `snitch_cluster.default` | 2.128 | 2 | 1.751 | +21.53% | Claude Fable 5.2 |
 | `redmule.default` | 1.636 | 1 | 1.542 | +6.10% | Claude Fable 5.2 |
-| `snitch_cluster.default_latch` | 2.169 | 1 | 2.091 | +3.73% | GPT-6 Astra |
+| `snitch_cluster.default_latch` | 2.169 | 2 | 2.091 | +3.73% | GPT-6 Astra |
 
 ### Early observations
 
 Counts over every finished session of the models above. They describe what happened; with one session per model and design they do not establish causes or rankings.
 
-- 227 candidates evaluated: 83 accepted, 28 proven equivalent but not faster than the session's best, 115 not proven (81 with a partition EQY could not prove, 18 at the proof deadline, 16 over the proof memory budget), 1 failed to compile or measure.
-- Of 65 finished sessions, 39 ended with the agent finishing on its own, 25 ran to the time budget and 1 ended with an agent error.
+- 234 candidates evaluated: 85 accepted, 30 proven equivalent but not faster than the session's best, 118 not proven (82 with a partition EQY could not prove, 20 at the proof deadline, 16 over the proof memory budget), 1 failed to compile or measure.
+- Of 66 finished sessions, 39 ended with the agent finishing on its own, 26 ran to the time budget and 1 ended with an agent error.
 - Sessions used 3.5 of the 10 allowed evaluations on average; 5 used all 10.
 - Largest single gain so far: `cvfpu.fp32_fma` by Claude Fable 5.2, 1.401 ns to 1.070 ns (+30.93% Fmax).
 - No finished session has improved `nvdla.top` yet.
