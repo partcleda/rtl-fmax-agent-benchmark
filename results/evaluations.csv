@@ -48,10 +48,6 @@ cvfpu.fp32_fma,claude-fable-5-2,6,accepted,1.114,1.25763,proven,
 cvfpu.fp32_fma,claude-fable-5-2,7,accepted,1.106,1.266727,proven,
 cvfpu.fp32_fma,claude-fable-5-2,8,accepted,1.096,1.278285,proven,
 cvfpu.fp32_fma,claude-fable-5-2,9,accepted,1.07,1.309346,proven,
-cvfpu.fp32_fma,kimi-k3.1-pro,1,no_improvement,1.401,1.0,proven,
-cvfpu.fp32_fma,kimi-k3.1-pro,2,unverified,1.378,1.016691,unverified,partition_proof_failed
-cvfpu.fp32_fma,kimi-k3.1-pro,3,evaluation_failed,,,not_run,
-cvfpu.fp32_fma,kimi-k3.1-pro,4,accepted,1.346,1.040862,proven,
 cvfpu.fp32_fma,qwen3.8-2.4t-a95b,1,unverified,1.389,1.008639,unverified,partition_proof_failed
 cvfpu.full,claude-fable-5-2,1,unverified,2.048,1.032227,unverified,partition_proof_failed
 cvfpu.full,claude-fable-5-2,2,accepted,2.055,1.02871,proven,
