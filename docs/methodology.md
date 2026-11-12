@@ -220,4 +220,6 @@ changes.
   their time allows; local runs share the session's GPU slice and budget with `./evaluate`.
 - **Timing is an estimate.** Unplaced setup timing on ASAP7 TT libraries; no placement, routing, hold or
   sign-off corners.
-- **Unequal coverage by design.** Ripple-65B Preview runs on 15 of the 20 designs.
+- **Ripple serving differs by design.** Its first 15 designs used self-hosted SGLang; its five remaining
+  designs use the pinned PrimeIntellect BF16 endpoint. Both use Ripple-65B Preview, but serving differences
+  may affect behavior. All five models are scheduled on all 20 designs.
