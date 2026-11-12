@@ -111,6 +111,16 @@ mempool.minpool,gpt-6-astra,10,accepted,2.342,1.225021,proven,
 mempool.minpool,ripple-65b-preview,1,unverified,2.873,0.998608,unverified,partition_proof_failed
 nvdla.top,kimi-k3.1-pro,1,unverified,0.942,0.83758,unverified,partition_proof_failed
 nvdla.top,qwen3.8-2.4t-a95b,1,unverified,0.832,0.948317,unverified,partition_proof_failed
+opope.default,kimi-k3.1-pro,1,unverified,0.858,0.998834,unverified,partition_proof_failed
+opope.default,kimi-k3.1-pro,2,unverified,0.856,1.001168,unverified,partition_proof_failed
+opope.default,kimi-k3.1-pro,3,unverified,1.081,0.792784,unverified,partition_proof_failed
+opope.default,kimi-k3.1-pro,4,unverified,0.866,0.989607,unverified,partition_proof_failed
+opope.default,kimi-k3.1-pro,5,no_improvement,0.861,0.995354,proven,
+opope.default,kimi-k3.1-pro,6,unverified,0.874,0.980549,unverified,partition_proof_failed
+opope.default,kimi-k3.1-pro,7,unverified,0.875,0.979429,unverified,partition_proof_failed
+opope.default,kimi-k3.1-pro,8,accepted,0.856,1.001168,proven,
+opope.default,kimi-k3.1-pro,9,accepted,0.841,1.019025,proven,
+opope.default,kimi-k3.1-pro,10,accepted,0.816,1.050245,proven,
 pulp_c910.default,claude-fable-5-2,1,unverified,0.812,1.237685,unverified,partition_proof_failed
 pulp_c910.default,claude-fable-5-2,2,unverified,0.95,1.057895,unverified,partition_proof_failed
 pulp_c910.default,claude-fable-5-2,3,unverified,0.971,1.035015,unverified,partition_proof_failed

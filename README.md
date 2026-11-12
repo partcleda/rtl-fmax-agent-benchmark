@@ -21,7 +21,7 @@ accepted only when it is proven equivalent and faster than the session's best so
 ## Results
 
 <!-- results:start -->
-**Status:** 57 of 100 sessions finished (5 models, 20 designs), as of 2026-11-12 05:26 PST. 12 interrupted attempts are excluded from these results while awaiting a valid replacement.
+**Status:** 58 of 100 sessions finished (5 models, 20 designs), as of 2026-11-12 05:32 PST. 12 interrupted attempts are excluded from these results while awaiting a valid replacement.
 
 ### Coverage
 
@@ -29,7 +29,7 @@ accepted only when it is proven equivalent and faster than the session's best so
 |---|---|---|---|---:|
 | Claude Fable 5.2 | Anthropic | Claude Code 2.1.322 | Official CLI signed in to a subscription | 15 / 20 |
 | GPT-6 Astra | OpenAI | Codex 0.154.0 | Official CLI signed in to a subscription | 3 / 20 |
-| Kimi K3.1 Pro | Moonshot AI | Kimi Code 2.5.2 | OpenRouter, pinned to Moonshot AI's own endpoint (MXFP4), fallbacks disabled | 11 / 20 |
+| Kimi K3.1 Pro | Moonshot AI | Kimi Code 2.5.2 | OpenRouter, pinned to Moonshot AI's own endpoint (MXFP4), fallbacks disabled | 12 / 20 |
 | Qwen3.8 2.4T-A95B | Qwen (Alibaba) | Qwen Code 0.27.1 | OpenRouter, one pinned provider (SiliconFlow, FP8) | 13 / 20 |
 | Ripple-65B Preview | Ricursive AI | OpenCode 1.19.5 | Self-hosted (SGLang 0.5.19, BF16) for its first 15 designs; OpenRouter pinned to PrimeIntellect (BF16) for later sessions | 15 / 20 |
 
@@ -39,7 +39,7 @@ accepted only when it is proven equivalent and faster than the session's best so
 |---|---|---:|---:|---:|---:|---:|
 | GPT-6 Astra | Codex | 3 / 20 | +13.59% | 3 / 3 | 9.0 | 33% (9 / 27) |
 | Claude Fable 5.2 | Claude Code | 15 / 20 | +9.52% | 13 / 15 | 4.9 | 37% (27 / 73) |
-| Kimi K3.1 Pro | Kimi Code | 11 / 20 | +2.55% | 8 / 11 | 5.4 | 58% (34 / 59) |
+| Kimi K3.1 Pro | Kimi Code | 12 / 20 | +2.75% | 9 / 12 | 5.8 | 58% (40 / 69) |
 | Qwen3.8 2.4T-A95B | Qwen Code | 13 / 20 | +0.81% | 3 / 13 | 1.1 | 80% (12 / 15) |
 | Ripple-65B Preview | OpenCode | 15 / 20 | +0.00% | 0 / 15 | 0.2 | 100% (3 / 3) |
 
@@ -57,7 +57,7 @@ Fmax gain is the geometric mean of each finished session's Fmax ratio (baseline 
 | `ibex.full` | 0.935 | 4 | 0.899 | +4.00% | Kimi K3.1 Pro |
 | `ibex.minimal` | 0.716 | 4 | 0.676 | +5.92% | Claude Fable 5.2 |
 | `nvdla.top` | 0.789 | 3 | 0.789 | +0.00% | no improvement yet |
-| `opope.default` | 0.857 | 2 | 0.857 | +0.00% | no improvement yet |
+| `opope.default` | 0.857 | 3 | 0.816 | +5.02% | Kimi K3.1 Pro |
 | `serial_link.default` | 0.305 | 3 | 0.272 | +12.13% | Kimi K3.1 Pro |
 | `spi_host.default` | 0.475 | 2 | 0.475 | +0.00% | no improvement yet |
 | `snitch_cluster.minimal` | 1.288 | 3 | 1.201 | +7.24% | Claude Fable 5.2 |
@@ -74,11 +74,11 @@ Fmax gain is the geometric mean of each finished session's Fmax ratio (baseline 
 
 Counts over every finished session of the models above. They describe what happened; with one session per model and design they do not establish causes or rankings.
 
-- 177 candidates evaluated: 70 accepted, 21 proven equivalent but not faster than the session's best, 85 not proven (58 with a partition EQY could not prove, 13 at the proof deadline, 14 over the proof memory budget), 1 failed to compile or measure.
-- Of 57 finished sessions, 32 ended with the agent finishing on its own, 24 ran to the time budget and 1 ended with an agent error.
-- Sessions used 3.1 of the 10 allowed evaluations on average; 3 used all 10.
+- 187 candidates evaluated: 73 accepted, 22 proven equivalent but not faster than the session's best, 91 not proven (64 with a partition EQY could not prove, 13 at the proof deadline, 14 over the proof memory budget), 1 failed to compile or measure.
+- Of 58 finished sessions, 33 ended with the agent finishing on its own, 24 ran to the time budget and 1 ended with an agent error.
+- Sessions used 3.2 of the 10 allowed evaluations on average; 4 used all 10.
 - Largest single gain so far: `cvfpu.fp32_fma` by Claude Fable 5.2, 1.401 ns to 1.070 ns (+30.93% Fmax).
-- No finished session has improved `nvdla.top`, `opope.default`, `spi_host.default` yet.
+- No finished session has improved `nvdla.top`, `spi_host.default` yet.
 <!-- results:end -->
 
 ## Charts
