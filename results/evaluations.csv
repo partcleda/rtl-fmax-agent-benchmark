@@ -64,3 +64,4 @@ snitch_cluster.default,qwen3.8-2.4t-a95b,1,unverified,2.091,1.017695,unverified,
 snitch_cluster.minimal,claude-fable-5-2,1,unverified,1.211,1.063584,memory_limit,timeout
 snitch_cluster.minimal,claude-fable-5-2,2,accepted,1.208,1.066225,proven,
 snitch_cluster.minimal,claude-fable-5-2,3,accepted,1.201,1.07244,proven,
+spatz.default,gpt-6-astra,1,unverified,2.315,0.978834,unverified,timeout
