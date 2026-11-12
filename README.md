@@ -21,7 +21,7 @@ accepted only when it is proven equivalent and faster than the session's best so
 ## Results
 
 <!-- results:start -->
-**Status:** 50 of 95 sessions finished (5 models, 20 designs), as of 2026-11-12 00:03 PST.
+**Status:** 51 of 95 sessions finished (5 models, 20 designs), as of 2026-11-12 01:04 PST.
 
 ### Coverage
 
@@ -30,7 +30,7 @@ accepted only when it is proven equivalent and faster than the session's best so
 | Claude Fable 5.2 | Anthropic | Claude Code 2.1.322 | Official CLI signed in to a subscription | 13 / 20 |
 | GPT-6 Astra | OpenAI | Codex 0.154.0 | Official CLI signed in to a subscription | 5 / 20 |
 | Kimi K3.1 Pro | Moonshot AI | Kimi Code 2.5.2 | OpenRouter, pinned to Moonshot AI's own endpoint (MXFP4), fallbacks disabled | 3 / 20 |
-| Qwen3.8 2.4T-A95B | Qwen (Alibaba) | Qwen Code 0.27.1 | OpenRouter, one pinned provider (SiliconFlow, FP8) | 14 / 20 |
+| Qwen3.8 2.4T-A95B | Qwen (Alibaba) | Qwen Code 0.27.1 | OpenRouter, one pinned provider (SiliconFlow, FP8) | 15 / 20 |
 | Ripple-65B Preview | Ricursive AI | OpenCode 1.19.5 | Self-hosted (SGLang 0.5.19, BF16) for its first 15 designs; OpenRouter pinned to PrimeIntellect (BF16) for later sessions | 15 / 15 |
 
 ### Results by model
@@ -40,7 +40,7 @@ accepted only when it is proven equivalent and faster than the session's best so
 | Claude Fable 5.2 | Claude Code | 13 / 20 | +10.57% | 12 / 13 | 4.9 | 34% (22 / 64) |
 | GPT-6 Astra | Codex | 5 / 20 | +4.38% | 3 / 5 | 4.0 | 50% (10 / 20) |
 | Kimi K3.1 Pro | Kimi Code | 3 / 20 | +0.87% | 2 / 3 | 6.0 | 56% (10 / 18) |
-| Qwen3.8 2.4T-A95B | Qwen Code | 14 / 20 | +0.37% | 3 / 14 | 1.1 | 80% (12 / 15) |
+| Qwen3.8 2.4T-A95B | Qwen Code | 15 / 20 | +0.34% | 3 / 15 | 1.1 | 81% (13 / 16) |
 | Ripple-65B Preview | OpenCode | 15 / 15 | +0.00% | 0 / 15 | 0.2 | 100% (3 / 3) |
 
 Fmax gain is the geometric mean of each finished session's Fmax ratio (baseline period / best accepted period) over the designs that model has finished. Models have finished different designs, so this order is provisional, not a like-for-like ranking, until every model covers the same designs. "Candidates not proven" is the share of evaluations whose equivalence proof did not pass.
@@ -56,7 +56,7 @@ Fmax gain is the geometric mean of each finished session's Fmax ratio (baseline 
 | `cvfpu.full` | 2.114 | 3 | 1.981 | +6.71% | Claude Fable 5.2 |
 | `ibex.full` | 0.935 | 2 | 0.935 | +0.00% | no improvement yet |
 | `ibex.minimal` | 0.716 | 1 | 0.716 | +0.00% | no improvement yet |
-| `nvdla.top` | 0.789 | 1 | 0.789 | +0.00% | no improvement yet |
+| `nvdla.top` | 0.789 | 2 | 0.789 | +0.00% | no improvement yet |
 | `opope.default` | 0.857 | 1 | 0.857 | +0.00% | no improvement yet |
 | `serial_link.default` | 0.305 | 1 | 0.305 | +0.00% | no improvement yet |
 | `spi_host.default` | 0.475 | 1 | 0.475 | +0.00% | no improvement yet |
@@ -74,8 +74,8 @@ Fmax gain is the geometric mean of each finished session's Fmax ratio (baseline 
 
 Counts over every finished session of the models above. They describe what happened; with one session per model and design they do not establish causes or rankings.
 
-- 120 candidates evaluated: 52 accepted, 10 proven equivalent but not faster than the session's best, 57 not proven (40 with a partition EQY could not prove, 6 at the proof deadline, 11 over the proof memory budget), 1 failed to compile or measure.
-- Of 50 finished sessions, 20 ended with the agent finishing on its own, 19 ran to the time budget and 11 ended with an agent error.
+- 121 candidates evaluated: 52 accepted, 10 proven equivalent but not faster than the session's best, 58 not proven (41 with a partition EQY could not prove, 6 at the proof deadline, 11 over the proof memory budget), 1 failed to compile or measure.
+- Of 51 finished sessions, 21 ended with the agent finishing on its own, 19 ran to the time budget and 11 ended with an agent error.
 - Sessions used 2.4 of the 10 allowed evaluations on average; 1 used all 10.
 - Largest single gain so far: `cvfpu.fp32_fma` by Claude Fable 5.2, 1.401 ns to 1.070 ns (+30.93% Fmax).
 - No finished session has improved `ibex.full`, `ibex.minimal`, `nvdla.top`, `opope.default`, `serial_link.default`, `spi_host.default` yet.

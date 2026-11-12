@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-12 00:03 PST",
+  "generated": "2026-11-12 01:04 PST",
   "designs": [
     "ara.default",
     "cheshire.default",
@@ -62,13 +62,13 @@
     "qwen3.8-2.4t-a95b": {
       "harness": "qwen-code",
       "ranked": false,
-      "designs": 14,
-      "geomean_fmax_gain_pct": 0.368,
+      "designs": 15,
+      "geomean_fmax_gain_pct": 0.343,
       "designs_improved": 3,
       "mean_evaluations": 1.07,
       "outcomes": {
         "agent_error": 6,
-        "agent_finished": 7,
+        "agent_finished": 8,
         "budget_reached": 1
       }
     },

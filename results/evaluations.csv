@@ -53,6 +53,7 @@ mempool.minpool,claude-fable-5-2,5,no_improvement,2.453,1.169588,proven,
 mempool.minpool,claude-fable-5-2,6,accepted,2.374,1.208509,proven,
 mempool.minpool,claude-fable-5-2,7,no_improvement,2.41,1.190456,proven,
 mempool.minpool,ripple-65b-preview,1,unverified,2.873,0.998608,unverified,partition_proof_failed
+nvdla.top,qwen3.8-2.4t-a95b,1,unverified,0.832,0.948317,unverified,partition_proof_failed
 pulp_c910.default,claude-fable-5-2,1,unverified,0.812,1.237685,unverified,partition_proof_failed
 pulp_c910.default,claude-fable-5-2,2,unverified,0.95,1.057895,unverified,partition_proof_failed
 pulp_c910.default,claude-fable-5-2,3,unverified,0.971,1.035015,unverified,partition_proof_failed
