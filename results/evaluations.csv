@@ -32,6 +32,10 @@ cv32e40p.default,claude-fable-5-2,1,unverified,0.654,1.004587,unverified,partiti
 cv32e40p.default,claude-fable-5-2,2,unverified,0.654,1.004587,unverified,partition_proof_failed
 cv32e40p.default,claude-fable-5-2,3,accepted,0.647,1.015456,proven,
 cv32e40p.default,claude-fable-5-2,4,accepted,0.622,1.05627,proven,
+cv32e40p.default,kimi-k3.1-pro,1,unverified,0.633,1.037915,unverified,partition_proof_failed
+cv32e40p.default,kimi-k3.1-pro,2,unverified,0.613,1.071778,unverified,partition_proof_failed
+cv32e40p.default,kimi-k3.1-pro,3,accepted,0.644,1.020186,proven,
+cv32e40p.default,kimi-k3.1-pro,4,accepted,0.634,1.036278,proven,
 cv32e40p.default,qwen3.8-2.4t-a95b,1,accepted,0.653,1.006126,proven,
 cva6.default,claude-fable-5-2,1,unverified,1.035,1.002899,unverified,partition_proof_failed
 cva6.default,claude-fable-5-2,2,accepted,1.016,1.021654,proven,
