@@ -220,6 +220,16 @@ redmule.default,claude-fable-5-2,2,unverified,1.182,1.384095,memory_limit,partit
 redmule.default,claude-fable-5-2,3,unverified,1.549,1.056165,memory_limit,partition_proof_failed
 redmule.default,claude-fable-5-2,4,accepted,1.542,1.06096,proven,
 redmule.default,claude-fable-5-2,5,unverified,1.399,1.169407,memory_limit,partition_proof_failed
+serial_link.default,claude-fable-5-2,1,accepted,0.286,1.066434,proven,
+serial_link.default,claude-fable-5-2,2,unverified,0.269,1.133829,unverified,partition_proof_failed
+serial_link.default,claude-fable-5-2,3,unverified,0.272,1.121324,unverified,partition_proof_failed
+serial_link.default,claude-fable-5-2,4,unverified,0.272,1.121324,unverified,partition_proof_failed
+serial_link.default,claude-fable-5-2,5,unverified,0.278,1.097122,unverified,partition_proof_failed
+serial_link.default,claude-fable-5-2,6,unverified,0.271,1.125461,unverified,partition_proof_failed
+serial_link.default,claude-fable-5-2,7,unverified,0.271,1.125461,unverified,partition_proof_failed
+serial_link.default,claude-fable-5-2,8,unverified,0.271,1.125461,unverified,partition_proof_failed
+serial_link.default,claude-fable-5-2,9,accepted,0.276,1.105072,proven,
+serial_link.default,claude-fable-5-2,10,accepted,0.27,1.12963,proven,
 serial_link.default,kimi-k3.1-pro,1,no_improvement,0.305,1.0,proven,
 serial_link.default,kimi-k3.1-pro,2,accepted,0.302,1.009934,proven,
 serial_link.default,kimi-k3.1-pro,3,accepted,0.283,1.077739,proven,
