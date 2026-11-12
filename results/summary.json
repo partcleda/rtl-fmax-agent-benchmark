@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-11 18:45 PST",
+  "generated": "2026-11-11 19:01 PST",
   "designs": [
     "ara.default",
     "cheshire.default",
@@ -14,6 +14,7 @@
     "nvdla.top",
     "opope.default",
     "pulp_c910.default",
+    "redmule.default",
     "serial_link.default",
     "snitch_cluster.default",
     "snitch_cluster.minimal",
@@ -23,23 +24,24 @@
     "claude-fable-5-2": {
       "harness": "claude-code",
       "ranked": false,
-      "designs": 7,
-      "geomean_fmax_gain_pct": 9.629,
-      "designs_improved": 6,
-      "mean_evaluations": 5.0,
+      "designs": 8,
+      "geomean_fmax_gain_pct": 9.121,
+      "designs_improved": 7,
+      "mean_evaluations": 4.88,
       "outcomes": {
-        "agent_finished": 5,
+        "agent_finished": 6,
         "budget_reached": 2
       }
     },
     "gpt-6-astra": {
       "harness": "codex",
       "ranked": false,
-      "designs": 1,
-      "geomean_fmax_gain_pct": 8.065,
-      "designs_improved": 1,
-      "mean_evaluations": 10.0,
+      "designs": 3,
+      "geomean_fmax_gain_pct": 3.817,
+      "designs_improved": 2,
+      "mean_evaluations": 4.0,
       "outcomes": {
+        "agent_error": 2,
         "agent_finished": 1
       }
     },

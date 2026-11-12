@@ -10,6 +10,10 @@ cheshire.default,claude-fable-5-2,2,accepted,1.012,1.034585,proven,
 cheshire.default,claude-fable-5-2,3,accepted,0.982,1.066191,proven,
 cheshire.default,claude-fable-5-2,4,unverified,0.972,1.07716,unverified,partition_proof_failed
 cheshire.default,claude-fable-5-2,5,unverified,1.008,1.03869,unverified,partition_proof_failed
+cv32e40p.default,claude-fable-5-2,1,unverified,0.654,1.004587,unverified,partition_proof_failed
+cv32e40p.default,claude-fable-5-2,2,unverified,0.654,1.004587,unverified,partition_proof_failed
+cv32e40p.default,claude-fable-5-2,3,accepted,0.647,1.015456,proven,
+cv32e40p.default,claude-fable-5-2,4,accepted,0.622,1.05627,proven,
 ita.default,claude-fable-5-2,1,accepted,0.9,1.003333,proven,
 ita.default,ripple-65b-preview,1,unverified,0.9,1.003333,unverified,partition_proof_failed
 mempool.minpool,claude-fable-5-2,1,accepted,2.661,1.078166,proven,
@@ -39,6 +43,8 @@ pulp_c910.default,gpt-6-astra,8,accepted,0.93,1.080645,proven,
 pulp_c910.default,gpt-6-astra,9,unverified,0.894,1.124161,unverified,partition_proof_failed
 pulp_c910.default,gpt-6-astra,10,unverified,0.94,1.069149,unverified,partition_proof_failed
 pulp_c910.default,ripple-65b-preview,1,unverified,0.968,1.038223,memory_limit,partition_proof_failed
+redmule.default,gpt-6-astra,1,accepted,1.58,1.035443,proven,
+redmule.default,gpt-6-astra,2,unverified,1.545,1.0589,unverified,partition_proof_failed
 snitch_cluster.default,claude-fable-5-2,1,accepted,1.919,1.108911,proven,
 snitch_cluster.default,claude-fable-5-2,2,accepted,1.892,1.124736,proven,
 snitch_cluster.default,claude-fable-5-2,3,accepted,1.829,1.163477,proven,
