@@ -17,6 +17,7 @@ cvfpu.fp32_fma,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_re
 cvfpu.full,claude-fable-5-2,1,,,claude-code,next-09,RTX 6000 Ada,90,agent_finished,0,40.0,4,2,1,0,2.114,1.981,1.067138
 cvfpu.full,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,RTX 6000 Ada,90,agent_finished,0,57.5,1,1,0,0,2.114,2.101,1.006188
 cvfpu.full,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,0,0,0,0,2.114,2.114,1.0
+ibex.full,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,1,0,1,0,0.935,0.935,1.0
 ibex.full,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,0,0,0,0,0.935,0.935,1.0
 ibex.minimal,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,0,0,0,0,0.716,0.716,1.0
 ita.default,claude-fable-5-2,1,,,claude-code,next-09,RTX 6000 Ada,190,agent_finished,0,151.8,1,1,0,0,0.903,0.9,1.003333
@@ -31,6 +32,7 @@ pulp_c910.default,claude-fable-5-2,1,,,claude-code,next-09,H200 NVL,215,agent_fi
 pulp_c910.default,gpt-6-astra,1,,,codex,next-09,RTX 6000 Ada,215,agent_finished,0,185.1,10,3,7,0,1.005,0.93,1.080645
 pulp_c910.default,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,RTX 6000 Ada,215,agent_error,1,84.7,1,0,1,0,1.005,1.005,1.0
 pulp_c910.default,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,215,budget_reached,124,215.0,1,0,1,0,1.005,1.005,1.0
+redmule.default,claude-fable-5-2,1,,,claude-code,next-09,H200 NVL,530,agent_finished,0,442.6,5,1,4,0,1.636,1.542,1.06096
 redmule.default,gpt-6-astra,1,,,codex,next-09,H200 NVL,530,agent_error,1,131.0,2,1,1,0,1.636,1.58,1.035443
 redmule.default,kimi-k3.1-pro,1,,,kimi-code,next-09,H200 NVL,530,agent_error,1,211.1,4,0,2,1,1.636,1.636,1.0
 redmule.default,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,H200 NVL,530,agent_error,1,77.3,0,0,0,0,1.636,1.636,1.0
