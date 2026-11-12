@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-12 11:16 PST",
+  "generated": "2026-11-12 11:32 PST",
   "designs": [
     "ara.default",
     "cheshire.default",
@@ -26,12 +26,12 @@
     "claude-fable-5-2": {
       "harness": "claude-code",
       "ranked": false,
-      "designs": 18,
-      "geomean_fmax_gain_pct": 9.092,
-      "designs_improved": 15,
-      "mean_evaluations": 5.06,
+      "designs": 19,
+      "geomean_fmax_gain_pct": 10.109,
+      "designs_improved": 16,
+      "mean_evaluations": 5.0,
       "outcomes": {
-        "agent_finished": 14,
+        "agent_finished": 15,
         "budget_reached": 4
       }
     },
@@ -62,12 +62,12 @@
     "qwen3.8-2.4t-a95b": {
       "harness": "qwen-code",
       "ranked": false,
-      "designs": 16,
-      "geomean_fmax_gain_pct": 1.475,
-      "designs_improved": 5,
-      "mean_evaluations": 1.62,
+      "designs": 17,
+      "geomean_fmax_gain_pct": 1.8,
+      "designs_improved": 6,
+      "mean_evaluations": 1.94,
       "outcomes": {
-        "agent_finished": 12,
+        "agent_finished": 13,
         "budget_reached": 4
       }
     },
@@ -323,11 +323,6 @@
     {
       "design": "redmule.default",
       "model": "kimi-k3.1-pro",
-      "reason": "rerun pending"
-    },
-    {
-      "design": "pulp_c910.default",
-      "model": "qwen3.8-2.4t-a95b",
       "reason": "rerun pending"
     },
     {

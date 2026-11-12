@@ -253,6 +253,13 @@ pulp_c910.default,kimi-k3.1-pro,7,accepted,0.933,1.07717,proven,
 pulp_c910.default,kimi-k3.1-pro,8,unverified,0.883,1.138165,unverified,partition_proof_failed
 pulp_c910.default,kimi-k3.1-pro,9,unverified,0.936,1.073718,unverified,partition_proof_failed
 pulp_c910.default,kimi-k3.1-pro,10,unverified,0.924,1.087662,unverified,partition_proof_failed
+pulp_c910.default,qwen3.8-2.4t-a95b,1,unverified,0.913,1.100767,memory_limit,partition_proof_failed
+pulp_c910.default,qwen3.8-2.4t-a95b,2,unverified,0.829,1.212304,unverified,partition_proof_failed
+pulp_c910.default,qwen3.8-2.4t-a95b,3,unverified,0.881,1.140749,unverified,partition_proof_failed
+pulp_c910.default,qwen3.8-2.4t-a95b,4,accepted,0.949,1.059009,proven,
+pulp_c910.default,qwen3.8-2.4t-a95b,5,accepted,0.938,1.071429,proven,
+pulp_c910.default,qwen3.8-2.4t-a95b,6,unverified,0.892,1.126682,unverified,partition_proof_failed
+pulp_c910.default,qwen3.8-2.4t-a95b,7,unverified,0.911,1.103183,unverified,partition_proof_failed
 pulp_c910.default,ripple-65b-preview,1,unverified,0.968,1.038223,memory_limit,partition_proof_failed
 redmule.default,claude-fable-5-2,1,unverified,1.093,1.496798,memory_limit,partition_proof_failed
 redmule.default,claude-fable-5-2,2,unverified,1.182,1.384095,memory_limit,partition_proof_failed
@@ -335,6 +342,10 @@ spatz.default,kimi-k3.1-pro,3,unverified,2.304,0.983507,unverified,partition_pro
 spatz.default,kimi-k3.1-pro,4,accepted,2.25,1.007111,proven,
 spatz.default,kimi-k3.1-pro,5,no_improvement,2.255,1.004878,proven,
 spatz.default,kimi-k3.1-pro,6,no_improvement,2.25,1.007111,proven,
+spi_host.default,claude-fable-5-2,1,unverified,0.407,1.167076,unverified,partition_proof_failed
+spi_host.default,claude-fable-5-2,2,accepted,0.401,1.184539,proven,
+spi_host.default,claude-fable-5-2,3,accepted,0.372,1.276882,proven,
+spi_host.default,claude-fable-5-2,4,accepted,0.365,1.30137,proven,
 spi_host.default,kimi-k3.1-pro,1,accepted,0.456,1.041667,proven,
 spi_host.default,kimi-k3.1-pro,2,accepted,0.405,1.17284,proven,
 spi_host.default,kimi-k3.1-pro,3,accepted,0.4,1.1875,proven,
