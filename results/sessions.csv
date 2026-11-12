@@ -21,6 +21,7 @@ cvfpu.full,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_reache
 ibex.full,claude-fable-5-2,1,,,claude-code,next-09,H200 NVL,90,budget_reached,0,87.7,3,0,3,0,0.935,0.935,1.0
 ibex.full,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,1,0,1,0,0.935,0.935,1.0
 ibex.full,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,0,0,0,0,0.935,0.935,1.0
+ibex.minimal,claude-fable-5-2,1,,,claude-code,next-09,RTX 6000 Ada,90,agent_finished,0,71.4,6,4,2,0,0.716,0.676,1.059172
 ibex.minimal,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,RTX 6000 Ada,90,budget_reached,124,97.8,1,0,1,0,0.716,0.716,1.0
 ibex.minimal,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,0,0,0,0,0.716,0.716,1.0
 ita.default,claude-fable-5-2,1,,,claude-code,next-09,RTX 6000 Ada,190,agent_finished,0,151.8,1,1,0,0,0.903,0.9,1.003333
