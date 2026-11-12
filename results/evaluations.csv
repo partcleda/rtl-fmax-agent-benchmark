@@ -171,6 +171,11 @@ mempool.minpool,kimi-k3.1-pro,4,unverified,2.926,0.980519,unverified,partition_p
 mempool.minpool,kimi-k3.1-pro,5,unverified,2.864,1.001746,unverified,partition_proof_failed
 mempool.minpool,kimi-k3.1-pro,6,unverified,2.844,1.00879,unverified,partition_proof_failed
 mempool.minpool,kimi-k3.1-pro,7,accepted,2.693,1.065355,proven,
+mempool.minpool,qwen3.8-2.4t-a95b,1,accepted,2.594,1.106014,proven,
+mempool.minpool,qwen3.8-2.4t-a95b,2,no_improvement,2.617,1.096293,proven,
+mempool.minpool,qwen3.8-2.4t-a95b,3,unverified,2.421,1.185048,unverified,partition_proof_failed
+mempool.minpool,qwen3.8-2.4t-a95b,4,unverified,2.43,1.180658,unverified,partition_proof_failed
+mempool.minpool,qwen3.8-2.4t-a95b,5,unverified,2.396,1.197412,unverified,partition_proof_failed
 mempool.minpool,ripple-65b-preview,1,unverified,2.873,0.998608,unverified,partition_proof_failed
 nvdla.top,claude-fable-5-2,1,unverified,0.764,1.032723,unverified,partition_proof_failed
 nvdla.top,claude-fable-5-2,2,unverified,0.73,1.080822,unverified,partition_proof_failed
