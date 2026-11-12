@@ -117,6 +117,13 @@ mempool.minpool,gpt-6-astra,7,accepted,2.397,1.196913,proven,
 mempool.minpool,gpt-6-astra,8,no_improvement,2.423,1.184069,proven,
 mempool.minpool,gpt-6-astra,9,no_improvement,2.416,1.1875,proven,
 mempool.minpool,gpt-6-astra,10,accepted,2.342,1.225021,proven,
+mempool.minpool,kimi-k3.1-pro,1,unverified,2.838,1.010923,unverified,partition_proof_failed
+mempool.minpool,kimi-k3.1-pro,2,unverified,2.821,1.017015,unverified,partition_proof_failed
+mempool.minpool,kimi-k3.1-pro,3,unverified,2.854,1.005256,unverified,partition_proof_failed
+mempool.minpool,kimi-k3.1-pro,4,unverified,2.926,0.980519,unverified,partition_proof_failed
+mempool.minpool,kimi-k3.1-pro,5,unverified,2.864,1.001746,unverified,partition_proof_failed
+mempool.minpool,kimi-k3.1-pro,6,unverified,2.844,1.00879,unverified,partition_proof_failed
+mempool.minpool,kimi-k3.1-pro,7,accepted,2.693,1.065355,proven,
 mempool.minpool,ripple-65b-preview,1,unverified,2.873,0.998608,unverified,partition_proof_failed
 nvdla.top,kimi-k3.1-pro,1,unverified,0.942,0.83758,unverified,partition_proof_failed
 nvdla.top,qwen3.8-2.4t-a95b,1,unverified,0.832,0.948317,unverified,partition_proof_failed
