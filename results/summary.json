@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-11 19:01 PST",
+  "generated": "2026-11-11 19:46 PST",
   "designs": [
     "ara.default",
     "cheshire.default",
@@ -24,12 +24,12 @@
     "claude-fable-5-2": {
       "harness": "claude-code",
       "ranked": false,
-      "designs": 8,
-      "geomean_fmax_gain_pct": 9.121,
-      "designs_improved": 7,
-      "mean_evaluations": 4.88,
+      "designs": 9,
+      "geomean_fmax_gain_pct": 8.325,
+      "designs_improved": 8,
+      "mean_evaluations": 4.56,
       "outcomes": {
-        "agent_finished": 6,
+        "agent_finished": 7,
         "budget_reached": 2
       }
     },
@@ -54,6 +54,17 @@
       "mean_evaluations": 8.0,
       "outcomes": {
         "agent_finished": 1
+      }
+    },
+    "qwen3.8-2.4t-a95b": {
+      "harness": "qwen-code",
+      "ranked": false,
+      "designs": 1,
+      "geomean_fmax_gain_pct": 0.0,
+      "designs_improved": 0,
+      "mean_evaluations": 1.0,
+      "outcomes": {
+        "agent_error": 1
       }
     },
     "ripple-65b-preview": {

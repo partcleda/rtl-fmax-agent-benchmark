@@ -14,6 +14,8 @@ cv32e40p.default,claude-fable-5-2,1,unverified,0.654,1.004587,unverified,partiti
 cv32e40p.default,claude-fable-5-2,2,unverified,0.654,1.004587,unverified,partition_proof_failed
 cv32e40p.default,claude-fable-5-2,3,accepted,0.647,1.015456,proven,
 cv32e40p.default,claude-fable-5-2,4,accepted,0.622,1.05627,proven,
+cva6.default,claude-fable-5-2,1,unverified,1.035,1.002899,unverified,partition_proof_failed
+cva6.default,claude-fable-5-2,2,accepted,1.016,1.021654,proven,
 ita.default,claude-fable-5-2,1,accepted,0.9,1.003333,proven,
 ita.default,ripple-65b-preview,1,unverified,0.9,1.003333,unverified,partition_proof_failed
 mempool.minpool,claude-fable-5-2,1,accepted,2.661,1.078166,proven,
@@ -58,6 +60,7 @@ snitch_cluster.default,kimi-k3.1-pro,5,accepted,2.105,1.010926,proven,
 snitch_cluster.default,kimi-k3.1-pro,6,unverified,2.129,0.99953,unverified,partition_proof_failed
 snitch_cluster.default,kimi-k3.1-pro,7,accepted,2.088,1.019157,proven,
 snitch_cluster.default,kimi-k3.1-pro,8,unverified,2.11,1.008531,unverified,partition_proof_failed
+snitch_cluster.default,qwen3.8-2.4t-a95b,1,unverified,2.091,1.017695,unverified,partition_proof_failed
 snitch_cluster.minimal,claude-fable-5-2,1,unverified,1.211,1.063584,memory_limit,timeout
 snitch_cluster.minimal,claude-fable-5-2,2,accepted,1.208,1.066225,proven,
 snitch_cluster.minimal,claude-fable-5-2,3,accepted,1.201,1.07244,proven,
