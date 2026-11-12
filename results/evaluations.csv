@@ -88,6 +88,12 @@ ibex.minimal,kimi-k3.1-pro,3,unverified,0.67,1.068657,unverified,partition_proof
 ibex.minimal,kimi-k3.1-pro,4,unverified,0.682,1.049853,unverified,partition_proof_failed
 ibex.minimal,qwen3.8-2.4t-a95b,1,unverified,0.688,1.040698,unverified,timeout
 ita.default,claude-fable-5-2,1,accepted,0.9,1.003333,proven,
+ita.default,gpt-6-astra,1,no_improvement,0.904,0.998894,proven,
+ita.default,gpt-6-astra,2,unverified,0.902,1.001109,unverified,timeout
+ita.default,gpt-6-astra,3,unverified,0.9,1.003333,unverified,timeout
+ita.default,gpt-6-astra,4,unverified,0.899,1.004449,unverified,partition_proof_failed
+ita.default,gpt-6-astra,5,unverified,0.9,1.003333,unverified,timeout
+ita.default,gpt-6-astra,6,unverified,0.905,0.99779,unverified,timeout
 ita.default,kimi-k3.1-pro,1,unverified,0.9,1.003333,unverified,partition_proof_failed
 ita.default,kimi-k3.1-pro,2,accepted,0.902,1.001109,proven,
 ita.default,kimi-k3.1-pro,3,unverified,0.901,1.00222,unverified,partition_proof_failed

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-12 06:27 PST",
+  "generated": "2026-11-12 06:30 PST",
   "designs": [
     "ara.default",
     "cheshire.default",
@@ -37,13 +37,13 @@
     "gpt-6-astra": {
       "harness": "codex",
       "ranked": false,
-      "designs": 3,
-      "geomean_fmax_gain_pct": 13.592,
+      "designs": 4,
+      "geomean_fmax_gain_pct": 10.03,
       "designs_improved": 3,
-      "mean_evaluations": 9.0,
+      "mean_evaluations": 8.25,
       "outcomes": {
         "agent_finished": 2,
-        "budget_reached": 1
+        "budget_reached": 2
       }
     },
     "kimi-k3.1-pro": {
