@@ -21,7 +21,7 @@ accepted only when it is proven equivalent and faster than the session's best so
 ## Results
 
 <!-- results:start -->
-**Status:** 90 of 100 sessions finished (5 models, 20 designs), as of 2026-11-12 15:35 PST. 9 interrupted attempts are excluded from these results while awaiting a valid replacement.
+**Status:** 91 of 100 sessions finished (5 models, 20 designs), as of 2026-11-12 15:39 PST. 8 interrupted attempts are excluded from these results while awaiting a valid replacement.
 
 ### Coverage
 
@@ -30,7 +30,7 @@ accepted only when it is proven equivalent and faster than the session's best so
 | Claude Fable 5.2 | Anthropic | Claude Code 2.1.322 | Official CLI signed in to a subscription | 19 / 20 |
 | GPT-6 Astra | OpenAI | Codex 0.154.0 | Official CLI signed in to a subscription | 14 / 20 |
 | Kimi K3.1 Pro | Moonshot AI | Kimi Code 2.5.2 | OpenRouter, pinned to Moonshot AI's own endpoint (MXFP4), fallbacks disabled | 19 / 20 |
-| Qwen3.8 2.4T-A95B | Qwen (Alibaba) | Qwen Code 0.27.1 | OpenRouter, one pinned provider (SiliconFlow, FP8) | 18 / 20 |
+| Qwen3.8 2.4T-A95B | Qwen (Alibaba) | Qwen Code 0.27.1 | OpenRouter, one pinned provider (SiliconFlow, FP8) | 19 / 20 |
 | Ripple-65B Preview | Ricursive AI | OpenCode 1.19.5 | Self-hosted (SGLang 0.5.19, BF16) for its first 15 designs; OpenRouter pinned to PrimeIntellect (BF16) for later sessions | 20 / 20 |
 
 ### Results by model
@@ -40,7 +40,7 @@ accepted only when it is proven equivalent and faster than the session's best so
 | Claude Fable 5.2 | Claude Code | 19 / 20 | +10.11% | 16 / 19 | 5.0 | 43% (41 / 95) |
 | GPT-6 Astra | Codex | 14 / 20 | +7.72% | 13 / 14 | 8.4 | 26% (30 / 117) |
 | Kimi K3.1 Pro | Kimi Code | 19 / 20 | +4.01% | 16 / 19 | 5.7 | 60% (65 / 109) |
-| Qwen3.8 2.4T-A95B | Qwen Code | 18 / 20 | +2.06% | 7 / 18 | 2.2 | 69% (27 / 39) |
+| Qwen3.8 2.4T-A95B | Qwen Code | 19 / 20 | +2.19% | 8 / 19 | 2.2 | 67% (28 / 42) |
 | Ripple-65B Preview | OpenCode | 20 / 20 | +0.00% | 0 / 20 | 0.1 | 100% (3 / 3) |
 
 Fmax gain is the geometric mean of each finished session's Fmax ratio (baseline period / best accepted period) over the designs that model has finished. Models have finished different designs, so this order is provisional, not a like-for-like ranking, until every model covers the same designs. "Candidates not proven" is the share of evaluations whose equivalence proof did not pass.
@@ -65,7 +65,7 @@ Fmax gain is the geometric mean of each finished session's Fmax ratio (baseline 
 | `mempool.minpool` | 2.869 | 5 | 2.342 | +22.50% | GPT-6 Astra |
 | `ara.default` | 1.064 | 5 | 0.942 | +12.95% | Claude Fable 5.2 |
 | `pulp_c910.default` | 1.005 | 5 | 0.930 | +8.06% | GPT-6 Astra |
-| `spatz.default` | 2.266 | 3 | 1.868 | +21.31% | Claude Fable 5.2 |
+| `spatz.default` | 2.266 | 4 | 1.868 | +21.31% | Claude Fable 5.2 |
 | `snitch_cluster.default` | 2.128 | 4 | 1.751 | +21.53% | Claude Fable 5.2 |
 | `redmule.default` | 1.636 | 2 | 1.542 | +6.10% | Claude Fable 5.2 |
 | `snitch_cluster.default_latch` | 2.169 | 4 | 2.091 | +3.73% | GPT-6 Astra |
@@ -74,8 +74,8 @@ Fmax gain is the geometric mean of each finished session's Fmax ratio (baseline 
 
 Counts over every finished session of the models above. They describe what happened; with one session per model and design they do not establish causes or rankings.
 
-- 363 candidates evaluated: 120 accepted, 76 proven equivalent but not faster than the session's best, 166 not proven (120 with a partition EQY could not prove, 23 at the proof deadline, 23 over the proof memory budget), 1 failed to compile or measure.
-- Of 90 finished sessions, 62 ended with the agent finishing on its own, 27 ran to the time budget and 1 ended with an agent error.
+- 366 candidates evaluated: 122 accepted, 76 proven equivalent but not faster than the session's best, 167 not proven (121 with a partition EQY could not prove, 23 at the proof deadline, 23 over the proof memory budget), 1 failed to compile or measure.
+- Of 91 finished sessions, 63 ended with the agent finishing on its own, 27 ran to the time budget and 1 ended with an agent error.
 - Sessions used 4.0 of the 10 allowed evaluations on average; 10 used all 10.
 - Largest single gain so far: `cvfpu.fp32_fma` by Claude Fable 5.2, 1.401 ns to 1.070 ns (+30.93% Fmax).
 <!-- results:end -->

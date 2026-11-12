@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-12 15:35 PST",
+  "generated": "2026-11-12 15:39 PST",
   "designs": [
     "ara.default",
     "cheshire.default",
@@ -62,12 +62,12 @@
     "qwen3.8-2.4t-a95b": {
       "harness": "qwen-code",
       "ranked": false,
-      "designs": 18,
-      "geomean_fmax_gain_pct": 2.059,
-      "designs_improved": 7,
-      "mean_evaluations": 2.17,
+      "designs": 19,
+      "geomean_fmax_gain_pct": 2.192,
+      "designs_improved": 8,
+      "mean_evaluations": 2.21,
       "outcomes": {
-        "agent_finished": 14,
+        "agent_finished": 15,
         "budget_reached": 4
       }
     },
@@ -337,11 +337,6 @@
     },
     {
       "design": "redmule.default",
-      "model": "qwen3.8-2.4t-a95b",
-      "reason": "rerun pending"
-    },
-    {
-      "design": "spatz.default",
       "model": "qwen3.8-2.4t-a95b",
       "reason": "rerun pending"
     }
