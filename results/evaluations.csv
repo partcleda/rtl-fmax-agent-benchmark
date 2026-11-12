@@ -5,6 +5,13 @@ ara.default,claude-fable-5-2,3,accepted,0.955,1.114136,proven,
 ara.default,claude-fable-5-2,4,accepted,0.945,1.125926,proven,
 ara.default,claude-fable-5-2,5,accepted,0.942,1.129512,proven,
 ara.default,claude-fable-5-2,6,unverified,0.931,1.142857,memory_limit,timeout
+ara.default,gpt-6-astra,1,accepted,1.053,1.010446,proven,
+ara.default,gpt-6-astra,2,accepted,1.035,1.028019,proven,
+ara.default,gpt-6-astra,3,unverified,1.082,0.983364,unverified,partition_proof_failed
+ara.default,gpt-6-astra,4,accepted,0.997,1.067202,proven,
+ara.default,gpt-6-astra,5,accepted,0.966,1.101449,proven,
+ara.default,gpt-6-astra,6,no_improvement,0.983,1.082401,proven,
+ara.default,gpt-6-astra,7,accepted,0.961,1.10718,proven,
 cheshire.default,claude-fable-5-2,1,unverified,1.012,1.034585,unverified,partition_proof_failed
 cheshire.default,claude-fable-5-2,2,accepted,1.012,1.034585,proven,
 cheshire.default,claude-fable-5-2,3,accepted,0.982,1.066191,proven,
