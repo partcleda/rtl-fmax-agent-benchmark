@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-12 09:27 PST",
+  "generated": "2026-11-12 09:43 PST",
   "designs": [
     "ara.default",
     "cheshire.default",
@@ -50,12 +50,12 @@
     "kimi-k3.1-pro": {
       "harness": "kimi-code",
       "ranked": false,
-      "designs": 18,
-      "geomean_fmax_gain_pct": 4.201,
-      "designs_improved": 15,
-      "mean_evaluations": 5.72,
+      "designs": 19,
+      "geomean_fmax_gain_pct": 4.015,
+      "designs_improved": 16,
+      "mean_evaluations": 5.74,
       "outcomes": {
-        "agent_finished": 16,
+        "agent_finished": 17,
         "budget_reached": 2
       }
     },
@@ -318,11 +318,6 @@
     {
       "design": "spatz.default",
       "model": "gpt-6-astra",
-      "reason": "rerun pending"
-    },
-    {
-      "design": "cvfpu.fp32_fma",
-      "model": "kimi-k3.1-pro",
       "reason": "rerun pending"
     },
     {

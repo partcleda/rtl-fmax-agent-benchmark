@@ -100,6 +100,12 @@ cvfpu.fp32_fma,gpt-6-astra,7,accepted,1.269,1.104019,proven,
 cvfpu.fp32_fma,gpt-6-astra,8,no_improvement,1.352,1.036243,proven,
 cvfpu.fp32_fma,gpt-6-astra,9,accepted,1.247,1.123496,proven,
 cvfpu.fp32_fma,gpt-6-astra,10,no_improvement,1.319,1.062168,proven,
+cvfpu.fp32_fma,kimi-k3.1-pro,1,unverified,1.361,1.02939,unverified,partition_proof_failed
+cvfpu.fp32_fma,kimi-k3.1-pro,2,unverified,1.358,1.031664,unverified,partition_proof_failed
+cvfpu.fp32_fma,kimi-k3.1-pro,3,unverified,1.386,1.010823,unverified,partition_proof_failed
+cvfpu.fp32_fma,kimi-k3.1-pro,4,no_improvement,1.401,1.0,proven,
+cvfpu.fp32_fma,kimi-k3.1-pro,5,accepted,1.391,1.007189,proven,
+cvfpu.fp32_fma,kimi-k3.1-pro,6,unverified,1.336,1.048653,unverified,partition_proof_failed
 cvfpu.fp32_fma,qwen3.8-2.4t-a95b,1,unverified,1.389,1.008639,unverified,partition_proof_failed
 cvfpu.full,claude-fable-5-2,1,unverified,2.048,1.032227,unverified,partition_proof_failed
 cvfpu.full,claude-fable-5-2,2,accepted,2.055,1.02871,proven,
