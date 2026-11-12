@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-12 02:39 PST",
+  "generated": "2026-11-12 02:44 PST",
   "designs": [
     "ara.default",
     "cheshire.default",
@@ -49,12 +49,12 @@
     "kimi-k3.1-pro": {
       "harness": "kimi-code",
       "ranked": false,
-      "designs": 4,
-      "geomean_fmax_gain_pct": 2.17,
-      "designs_improved": 4,
-      "mean_evaluations": 7.0,
+      "designs": 5,
+      "geomean_fmax_gain_pct": 2.55,
+      "designs_improved": 5,
+      "mean_evaluations": 6.4,
       "outcomes": {
-        "agent_finished": 4
+        "agent_finished": 5
       }
     },
     "qwen3.8-2.4t-a95b": {
