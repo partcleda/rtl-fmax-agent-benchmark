@@ -228,8 +228,8 @@ z
    </g>
    <g id="patch_4">
     <path d="M 190.08 163.326955 
-L 400.6611 163.326955 
-L 400.6611 189.437316 
+L 422.466123 163.326955 
+L 422.466123 189.437316 
 L 190.08 189.437316 
 z
 " clip-path="url(#p4ebb32de9a)" style="fill: #3f5680; opacity: 0.85"/>
@@ -267,7 +267,7 @@ L 829.44 334.8
     <text style="fill: #171738; font: 10px 'DejaVu Sans'; text-anchor: start" x="500.537143" y="134.123647" transform="rotate(-0 500.537143 134.123647)">+10.11%   16/19 improved · 19 of 20 designs finished</text>
    </g>
    <g id="text_17">
-    <text style="fill: #171738; font: 10px 'DejaVu Sans'; text-anchor: start" x="406.6611" y="179.141511" transform="rotate(-0 406.6611 179.141511)">+6.99%   12/13 improved · 13 of 20 designs finished</text>
+    <text style="fill: #171738; font: 10px 'DejaVu Sans'; text-anchor: start" x="428.466123" y="179.141511" transform="rotate(-0 428.466123 179.141511)">+7.72%   13/14 improved · 14 of 20 designs finished</text>
    </g>
    <g id="text_18">
     <text style="fill: #171738; font: 10px 'DejaVu Sans'; text-anchor: start" x="317.001499" y="224.159375" transform="rotate(-0 317.001499 224.159375)">+4.01%   16/19 improved · 19 of 20 designs finished</text>
@@ -276,7 +276,7 @@ L 829.44 334.8
     <text style="fill: #171738; font: 10px 'DejaVu Sans'; text-anchor: start" x="258.091797" y="269.177239" transform="rotate(-0 258.091797 269.177239)">+2.06%   7/18 improved · 18 of 20 designs finished</text>
    </g>
    <g id="text_20">
-    <text style="fill: #171738; font: 10px 'DejaVu Sans'; text-anchor: start" x="196.08" y="314.195103" transform="rotate(-0 196.08 314.195103)">+0.00%   0/19 improved · 19 of 20 designs finished</text>
+    <text style="fill: #171738; font: 10px 'DejaVu Sans'; text-anchor: start" x="196.08" y="314.195103" transform="rotate(-0 196.08 314.195103)">+0.00%   0/20 improved · 20 of 20 designs finished</text>
    </g>
   </g>
   <g id="line2d_24">
@@ -291,7 +291,7 @@ L 829.44 82.8
    <text style="fill: #5b607d; font: 11.5px 'DejaVu Sans'; text-anchor: start" x="34.56" y="68.4" transform="rotate(-0 34.56 68.4)">Each model over the designs it has finished so far; provisional until every model covers the same designs</text>
   </g>
   <g id="text_23">
-   <text style="fill: #5b607d; font: 8.5px 'DejaVu Sans'" transform="translate(34.56 425.796781)">Preliminary results as of 2026-11-12 12:49 PST: 88 of 100 sessions finished.</text>
+   <text style="fill: #5b607d; font: 8.5px 'DejaVu Sans'" transform="translate(34.56 425.796781)">Preliminary results as of 2026-11-12 15:35 PST: 90 of 100 sessions finished.</text>
    <text style="fill: #5b607d; font: 8.5px 'DejaVu Sans'" transform="translate(34.56 437.898391)">Stock coding agents, one session per model and design, at most 10 evaluations each. boson synthesis and unplaced setup timing on public ASAP7 TT</text>
    <text style="fill: #5b607d; font: 8.5px 'DejaVu Sans'" transform="translate(34.56 450)">libraries, 1 ps period search; a candidate counts only with an EQY equivalence proof against the original RTL.</text>
   </g>

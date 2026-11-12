@@ -352,6 +352,13 @@ spi_host.default,claude-fable-5-2,1,unverified,0.407,1.167076,unverified,partiti
 spi_host.default,claude-fable-5-2,2,accepted,0.401,1.184539,proven,
 spi_host.default,claude-fable-5-2,3,accepted,0.372,1.276882,proven,
 spi_host.default,claude-fable-5-2,4,accepted,0.365,1.30137,proven,
+spi_host.default,gpt-6-astra,1,accepted,0.462,1.028139,proven,
+spi_host.default,gpt-6-astra,2,accepted,0.444,1.06982,proven,
+spi_host.default,gpt-6-astra,3,unverified,0.404,1.175743,memory_limit,timeout
+spi_host.default,gpt-6-astra,4,no_improvement,0.452,1.050885,proven,
+spi_host.default,gpt-6-astra,5,unverified,0.404,1.175743,memory_limit,timeout
+spi_host.default,gpt-6-astra,6,unverified,0.404,1.175743,memory_limit,timeout
+spi_host.default,gpt-6-astra,7,accepted,0.404,1.175743,proven,
 spi_host.default,kimi-k3.1-pro,1,accepted,0.456,1.041667,proven,
 spi_host.default,kimi-k3.1-pro,2,accepted,0.405,1.17284,proven,
 spi_host.default,kimi-k3.1-pro,3,accepted,0.4,1.1875,proven,

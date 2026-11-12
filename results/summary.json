@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-12 12:49 PST",
+  "generated": "2026-11-12 15:35 PST",
   "designs": [
     "ara.default",
     "cheshire.default",
@@ -38,12 +38,12 @@
     "gpt-6-astra": {
       "harness": "codex",
       "ranked": false,
-      "designs": 13,
-      "geomean_fmax_gain_pct": 6.992,
-      "designs_improved": 12,
-      "mean_evaluations": 8.46,
+      "designs": 14,
+      "geomean_fmax_gain_pct": 7.716,
+      "designs_improved": 13,
+      "mean_evaluations": 8.36,
       "outcomes": {
-        "agent_finished": 10,
+        "agent_finished": 11,
         "budget_reached": 3
       }
     },
@@ -73,14 +73,14 @@
     },
     "ripple-65b-preview": {
       "harness": "opencode",
-      "ranked": false,
-      "designs": 19,
+      "ranked": true,
+      "designs": 20,
       "geomean_fmax_gain_pct": 0.0,
       "designs_improved": 0,
-      "mean_evaluations": 0.16,
+      "mean_evaluations": 0.15,
       "outcomes": {
         "agent_error": 1,
-        "agent_finished": 4,
+        "agent_finished": 5,
         "budget_reached": 14
       }
     }
@@ -306,7 +306,17 @@
       "reason": "rerun pending"
     },
     {
+      "design": "opope.default",
+      "model": "gpt-6-astra",
+      "reason": "rerun pending"
+    },
+    {
       "design": "redmule.default",
+      "model": "gpt-6-astra",
+      "reason": "rerun pending"
+    },
+    {
+      "design": "serial_link.default",
       "model": "gpt-6-astra",
       "reason": "rerun pending"
     },
