@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-12 01:34 PST",
+  "generated": "2026-11-12 02:01 PST",
   "designs": [
     "ara.default",
     "cheshire.default",
@@ -37,12 +37,11 @@
     "gpt-6-astra": {
       "harness": "codex",
       "ranked": false,
-      "designs": 5,
-      "geomean_fmax_gain_pct": 4.377,
-      "designs_improved": 3,
-      "mean_evaluations": 4.0,
+      "designs": 2,
+      "geomean_fmax_gain_pct": 9.383,
+      "designs_improved": 2,
+      "mean_evaluations": 8.5,
       "outcomes": {
-        "agent_error": 3,
         "agent_finished": 1,
         "budget_reached": 1
       }
@@ -50,25 +49,23 @@
     "kimi-k3.1-pro": {
       "harness": "kimi-code",
       "ranked": false,
-      "designs": 3,
-      "geomean_fmax_gain_pct": 0.873,
+      "designs": 2,
+      "geomean_fmax_gain_pct": 1.312,
       "designs_improved": 2,
-      "mean_evaluations": 6.0,
+      "mean_evaluations": 7.0,
       "outcomes": {
-        "agent_error": 1,
         "agent_finished": 2
       }
     },
     "qwen3.8-2.4t-a95b": {
       "harness": "qwen-code",
       "ranked": false,
-      "designs": 17,
-      "geomean_fmax_gain_pct": 0.303,
+      "designs": 12,
+      "geomean_fmax_gain_pct": 0.879,
       "designs_improved": 3,
-      "mean_evaluations": 1.0,
+      "mean_evaluations": 1.25,
       "outcomes": {
-        "agent_error": 6,
-        "agent_finished": 8,
+        "agent_finished": 9,
         "budget_reached": 3
       }
     },
@@ -293,5 +290,57 @@
       "spatz.default",
       "spi_host.default"
     ]
-  }
+  },
+  "incomplete_attempts": [
+    {
+      "design": "redmule.default",
+      "model": "gpt-6-astra",
+      "reason": "rerun pending"
+    },
+    {
+      "design": "snitch_cluster.default",
+      "model": "gpt-6-astra",
+      "reason": "rerun pending"
+    },
+    {
+      "design": "spatz.default",
+      "model": "gpt-6-astra",
+      "reason": "rerun pending"
+    },
+    {
+      "design": "redmule.default",
+      "model": "kimi-k3.1-pro",
+      "reason": "rerun pending"
+    },
+    {
+      "design": "ara.default",
+      "model": "qwen3.8-2.4t-a95b",
+      "reason": "rerun pending"
+    },
+    {
+      "design": "mempool.minpool",
+      "model": "qwen3.8-2.4t-a95b",
+      "reason": "rerun pending"
+    },
+    {
+      "design": "pulp_c910.default",
+      "model": "qwen3.8-2.4t-a95b",
+      "reason": "rerun pending"
+    },
+    {
+      "design": "redmule.default",
+      "model": "qwen3.8-2.4t-a95b",
+      "reason": "rerun pending"
+    },
+    {
+      "design": "snitch_cluster.default",
+      "model": "qwen3.8-2.4t-a95b",
+      "reason": "rerun pending"
+    },
+    {
+      "design": "spatz.default",
+      "model": "qwen3.8-2.4t-a95b",
+      "reason": "rerun pending"
+    }
+  ]
 }
