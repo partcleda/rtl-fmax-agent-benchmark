@@ -44,6 +44,7 @@ pulp_c910.default,claude-fable-5-2,1,,,claude-code,next-09,H200 NVL,215,agent_fi
 pulp_c910.default,gpt-6-astra,1,,,codex,next-09,RTX 6000 Ada,215,agent_finished,0,185.1,10,3,7,0,1.005,0.93,1.080645
 pulp_c910.default,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,215,budget_reached,124,215.0,1,0,1,0,1.005,1.005,1.0
 redmule.default,claude-fable-5-2,1,,,claude-code,next-09,H200 NVL,530,agent_finished,0,442.6,5,1,4,0,1.636,1.542,1.06096
+serial_link.default,kimi-k3.1-pro,1,,rerun pinned to one provider endpoint (the earlier unpinned run is not reported),kimi-code,next-09,RTX 6000 Ada,90,agent_finished,0,41.1,8,3,3,0,0.305,0.272,1.121324
 serial_link.default,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,RTX 6000 Ada,90,agent_finished,0,63.0,3,1,2,0,0.305,0.278,1.097122
 serial_link.default,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,0,0,0,0,0.305,0.305,1.0
 snitch_cluster.default,claude-fable-5-2,1,,,claude-code,next-09,H200 NVL,490,agent_finished,0,365.5,5,5,0,0,2.128,1.751,1.215306
