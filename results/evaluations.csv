@@ -12,6 +12,12 @@ ara.default,gpt-6-astra,4,accepted,0.997,1.067202,proven,
 ara.default,gpt-6-astra,5,accepted,0.966,1.101449,proven,
 ara.default,gpt-6-astra,6,no_improvement,0.983,1.082401,proven,
 ara.default,gpt-6-astra,7,accepted,0.961,1.10718,proven,
+ara.default,kimi-k3.1-pro,1,unverified,1.012,1.051383,unverified,partition_proof_failed
+ara.default,kimi-k3.1-pro,2,unverified,1.017,1.046214,unverified,partition_proof_failed
+ara.default,kimi-k3.1-pro,3,unverified,0.971,1.095778,memory_limit,partition_proof_failed
+ara.default,kimi-k3.1-pro,4,unverified,0.977,1.089048,memory_limit,partition_proof_failed
+ara.default,kimi-k3.1-pro,5,unverified,1.068,0.996255,memory_limit,partition_proof_failed
+ara.default,kimi-k3.1-pro,6,unverified,1.042,1.021113,unverified,timeout
 cheshire.default,claude-fable-5-2,1,unverified,1.012,1.034585,unverified,partition_proof_failed
 cheshire.default,claude-fable-5-2,2,accepted,1.012,1.034585,proven,
 cheshire.default,claude-fable-5-2,3,accepted,0.982,1.066191,proven,

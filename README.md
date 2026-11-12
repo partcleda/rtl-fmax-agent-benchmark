@@ -21,7 +21,7 @@ accepted only when it is proven equivalent and faster than the session's best so
 ## Results
 
 <!-- results:start -->
-**Status:** 52 of 100 sessions finished (5 models, 20 designs), as of 2026-11-12 03:33 PST. 12 interrupted attempts are excluded from these results while awaiting a valid replacement.
+**Status:** 53 of 100 sessions finished (5 models, 20 designs), as of 2026-11-12 04:00 PST. 12 interrupted attempts are excluded from these results while awaiting a valid replacement.
 
 ### Coverage
 
@@ -29,7 +29,7 @@ accepted only when it is proven equivalent and faster than the session's best so
 |---|---|---|---|---:|
 | Claude Fable 5.2 | Anthropic | Claude Code 2.1.322 | Official CLI signed in to a subscription | 15 / 20 |
 | GPT-6 Astra | OpenAI | Codex 0.154.0 | Official CLI signed in to a subscription | 3 / 20 |
-| Kimi K3.1 Pro | Moonshot AI | Kimi Code 2.5.2 | OpenRouter, pinned to Moonshot AI's own endpoint (MXFP4), fallbacks disabled | 6 / 20 |
+| Kimi K3.1 Pro | Moonshot AI | Kimi Code 2.5.2 | OpenRouter, pinned to Moonshot AI's own endpoint (MXFP4), fallbacks disabled | 7 / 20 |
 | Qwen3.8 2.4T-A95B | Qwen (Alibaba) | Qwen Code 0.27.1 | OpenRouter, one pinned provider (SiliconFlow, FP8) | 13 / 20 |
 | Ripple-65B Preview | Ricursive AI | OpenCode 1.19.5 | Self-hosted (SGLang 0.5.19, BF16) for its first 15 designs; OpenRouter pinned to PrimeIntellect (BF16) for later sessions | 15 / 20 |
 
@@ -39,7 +39,7 @@ accepted only when it is proven equivalent and faster than the session's best so
 |---|---|---:|---:|---:|---:|---:|
 | GPT-6 Astra | Codex | 3 / 20 | +13.59% | 3 / 3 | 9.0 | 33% (9 / 27) |
 | Claude Fable 5.2 | Claude Code | 15 / 20 | +9.52% | 13 / 15 | 4.9 | 37% (27 / 73) |
-| Kimi K3.1 Pro | Kimi Code | 6 / 20 | +2.40% | 6 / 6 | 5.8 | 51% (18 / 35) |
+| Kimi K3.1 Pro | Kimi Code | 7 / 20 | +2.05% | 6 / 7 | 5.9 | 59% (24 / 41) |
 | Qwen3.8 2.4T-A95B | Qwen Code | 13 / 20 | +0.81% | 3 / 13 | 1.1 | 80% (12 / 15) |
 | Ripple-65B Preview | OpenCode | 15 / 20 | +0.00% | 0 / 15 | 0.2 | 100% (3 / 3) |
 
@@ -63,7 +63,7 @@ Fmax gain is the geometric mean of each finished session's Fmax ratio (baseline 
 | `snitch_cluster.minimal` | 1.288 | 3 | 1.201 | +7.24% | Claude Fable 5.2 |
 | `ita.default` | 0.903 | 3 | 0.900 | +0.33% | Claude Fable 5.2 |
 | `mempool.minpool` | 2.869 | 3 | 2.342 | +22.50% | GPT-6 Astra |
-| `ara.default` | 1.064 | 2 | 0.942 | +12.95% | Claude Fable 5.2 |
+| `ara.default` | 1.064 | 3 | 0.942 | +12.95% | Claude Fable 5.2 |
 | `pulp_c910.default` | 1.005 | 3 | 0.930 | +8.06% | GPT-6 Astra |
 | `spatz.default` | 2.266 | 2 | 1.868 | +21.31% | Claude Fable 5.2 |
 | `snitch_cluster.default` | 2.128 | 2 | 1.751 | +21.53% | Claude Fable 5.2 |
@@ -74,9 +74,9 @@ Fmax gain is the geometric mean of each finished session's Fmax ratio (baseline 
 
 Counts over every finished session of the models above. They describe what happened; with one session per model and design they do not establish causes or rankings.
 
-- 153 candidates evaluated: 66 accepted, 17 proven equivalent but not faster than the session's best, 69 not proven (48 with a partition EQY could not prove, 10 at the proof deadline, 11 over the proof memory budget), 1 failed to compile or measure.
-- Of 52 finished sessions, 28 ended with the agent finishing on its own, 23 ran to the time budget and 1 ended with an agent error.
-- Sessions used 2.9 of the 10 allowed evaluations on average; 3 used all 10.
+- 159 candidates evaluated: 66 accepted, 17 proven equivalent but not faster than the session's best, 75 not proven (50 with a partition EQY could not prove, 11 at the proof deadline, 14 over the proof memory budget), 1 failed to compile or measure.
+- Of 53 finished sessions, 29 ended with the agent finishing on its own, 23 ran to the time budget and 1 ended with an agent error.
+- Sessions used 3.0 of the 10 allowed evaluations on average; 3 used all 10.
 - Largest single gain so far: `cvfpu.fp32_fma` by Claude Fable 5.2, 1.401 ns to 1.070 ns (+30.93% Fmax).
 - No finished session has improved `nvdla.top`, `opope.default`, `spi_host.default` yet.
 <!-- results:end -->
