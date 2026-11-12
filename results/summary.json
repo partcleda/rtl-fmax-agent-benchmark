@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-11 18:00 PST",
+  "generated": "2026-11-11 18:45 PST",
   "designs": [
     "ara.default",
     "cheshire.default",
@@ -15,6 +15,7 @@
     "opope.default",
     "pulp_c910.default",
     "serial_link.default",
+    "snitch_cluster.default",
     "snitch_cluster.minimal",
     "spi_host.default"
   ],
@@ -22,12 +23,12 @@
     "claude-fable-5-2": {
       "harness": "claude-code",
       "ranked": false,
-      "designs": 6,
-      "geomean_fmax_gain_pct": 7.762,
-      "designs_improved": 5,
+      "designs": 7,
+      "geomean_fmax_gain_pct": 9.629,
+      "designs_improved": 6,
       "mean_evaluations": 5.0,
       "outcomes": {
-        "agent_finished": 4,
+        "agent_finished": 5,
         "budget_reached": 2
       }
     },
@@ -38,6 +39,17 @@
       "geomean_fmax_gain_pct": 8.065,
       "designs_improved": 1,
       "mean_evaluations": 10.0,
+      "outcomes": {
+        "agent_finished": 1
+      }
+    },
+    "kimi-k3.1-pro": {
+      "harness": "kimi-code",
+      "ranked": false,
+      "designs": 1,
+      "geomean_fmax_gain_pct": 1.916,
+      "designs_improved": 1,
+      "mean_evaluations": 8.0,
       "outcomes": {
         "agent_finished": 1
       }
