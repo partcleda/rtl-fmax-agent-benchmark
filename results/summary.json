@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-12 08:24 PST",
+  "generated": "2026-11-12 08:40 PST",
   "designs": [
     "ara.default",
     "cheshire.default",
@@ -62,12 +62,12 @@
     "qwen3.8-2.4t-a95b": {
       "harness": "qwen-code",
       "ranked": false,
-      "designs": 14,
-      "geomean_fmax_gain_pct": 0.753,
-      "designs_improved": 3,
-      "mean_evaluations": 1.21,
+      "designs": 15,
+      "geomean_fmax_gain_pct": 0.894,
+      "designs_improved": 4,
+      "mean_evaluations": 1.4,
       "outcomes": {
-        "agent_finished": 10,
+        "agent_finished": 11,
         "budget_reached": 4
       }
     },
@@ -327,11 +327,6 @@
     {
       "design": "redmule.default",
       "model": "kimi-k3.1-pro",
-      "reason": "rerun pending"
-    },
-    {
-      "design": "ara.default",
-      "model": "qwen3.8-2.4t-a95b",
       "reason": "rerun pending"
     },
     {
