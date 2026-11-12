@@ -45,6 +45,11 @@ cv32e40p.default,kimi-k3.1-pro,4,accepted,0.634,1.036278,proven,
 cv32e40p.default,qwen3.8-2.4t-a95b,1,accepted,0.653,1.006126,proven,
 cva6.default,claude-fable-5-2,1,unverified,1.035,1.002899,unverified,partition_proof_failed
 cva6.default,claude-fable-5-2,2,accepted,1.016,1.021654,proven,
+cva6.default,kimi-k3.1-pro,1,no_improvement,1.038,1.0,proven,
+cva6.default,kimi-k3.1-pro,2,no_improvement,1.038,1.0,proven,
+cva6.default,kimi-k3.1-pro,3,unverified,1.006,1.031809,unverified,partition_proof_failed
+cva6.default,kimi-k3.1-pro,4,unverified,1.137,0.912929,unverified,timeout
+cva6.default,kimi-k3.1-pro,5,unverified,1.051,0.987631,unverified,timeout
 cvfpu.fp32_fma,claude-fable-5-2,1,accepted,1.32,1.061364,proven,
 cvfpu.fp32_fma,claude-fable-5-2,2,accepted,1.198,1.169449,proven,
 cvfpu.fp32_fma,claude-fable-5-2,3,accepted,1.149,1.219321,proven,
