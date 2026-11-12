@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-12 08:09 PST",
+  "generated": "2026-11-12 08:24 PST",
   "designs": [
     "ara.default",
     "cheshire.default",
@@ -26,24 +26,24 @@
     "claude-fable-5-2": {
       "harness": "claude-code",
       "ranked": false,
-      "designs": 15,
-      "geomean_fmax_gain_pct": 9.52,
+      "designs": 16,
+      "geomean_fmax_gain_pct": 8.899,
       "designs_improved": 13,
-      "mean_evaluations": 4.87,
+      "mean_evaluations": 4.69,
       "outcomes": {
-        "agent_finished": 11,
+        "agent_finished": 12,
         "budget_reached": 4
       }
     },
     "gpt-6-astra": {
       "harness": "codex",
       "ranked": false,
-      "designs": 6,
-      "geomean_fmax_gain_pct": 8.504,
-      "designs_improved": 5,
-      "mean_evaluations": 7.5,
+      "designs": 7,
+      "geomean_fmax_gain_pct": 8.138,
+      "designs_improved": 6,
+      "mean_evaluations": 7.86,
       "outcomes": {
-        "agent_finished": 4,
+        "agent_finished": 5,
         "budget_reached": 2
       }
     },
@@ -62,12 +62,12 @@
     "qwen3.8-2.4t-a95b": {
       "harness": "qwen-code",
       "ranked": false,
-      "designs": 13,
-      "geomean_fmax_gain_pct": 0.811,
+      "designs": 14,
+      "geomean_fmax_gain_pct": 0.753,
       "designs_improved": 3,
-      "mean_evaluations": 1.15,
+      "mean_evaluations": 1.21,
       "outcomes": {
-        "agent_finished": 9,
+        "agent_finished": 10,
         "budget_reached": 4
       }
     },

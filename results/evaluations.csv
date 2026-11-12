@@ -38,6 +38,16 @@ cv32e40p.default,claude-fable-5-2,1,unverified,0.654,1.004587,unverified,partiti
 cv32e40p.default,claude-fable-5-2,2,unverified,0.654,1.004587,unverified,partition_proof_failed
 cv32e40p.default,claude-fable-5-2,3,accepted,0.647,1.015456,proven,
 cv32e40p.default,claude-fable-5-2,4,accepted,0.622,1.05627,proven,
+cv32e40p.default,gpt-6-astra,1,no_improvement,0.784,0.83801,proven,
+cv32e40p.default,gpt-6-astra,2,no_improvement,0.666,0.986486,proven,
+cv32e40p.default,gpt-6-astra,3,unverified,0.636,1.033019,unverified,partition_proof_failed
+cv32e40p.default,gpt-6-astra,4,no_improvement,0.666,0.986486,proven,
+cv32e40p.default,gpt-6-astra,5,accepted,0.647,1.015456,proven,
+cv32e40p.default,gpt-6-astra,6,unverified,0.632,1.039557,unverified,partition_proof_failed
+cv32e40p.default,gpt-6-astra,7,accepted,0.634,1.036278,proven,
+cv32e40p.default,gpt-6-astra,8,accepted,0.62,1.059677,proven,
+cv32e40p.default,gpt-6-astra,9,no_improvement,0.62,1.059677,proven,
+cv32e40p.default,gpt-6-astra,10,unverified,0.61,1.077049,unverified,partition_proof_failed
 cv32e40p.default,kimi-k3.1-pro,1,unverified,0.633,1.037915,unverified,partition_proof_failed
 cv32e40p.default,kimi-k3.1-pro,2,unverified,0.613,1.071778,unverified,partition_proof_failed
 cv32e40p.default,kimi-k3.1-pro,3,accepted,0.644,1.020186,proven,
@@ -127,6 +137,8 @@ mempool.minpool,kimi-k3.1-pro,7,accepted,2.693,1.065355,proven,
 mempool.minpool,ripple-65b-preview,1,unverified,2.873,0.998608,unverified,partition_proof_failed
 nvdla.top,kimi-k3.1-pro,1,unverified,0.942,0.83758,unverified,partition_proof_failed
 nvdla.top,qwen3.8-2.4t-a95b,1,unverified,0.832,0.948317,unverified,partition_proof_failed
+opope.default,claude-fable-5-2,1,unverified,0.823,1.041312,unverified,partition_proof_failed
+opope.default,claude-fable-5-2,2,unverified,0.836,1.02512,unverified,partition_proof_failed
 opope.default,kimi-k3.1-pro,1,unverified,0.858,0.998834,unverified,partition_proof_failed
 opope.default,kimi-k3.1-pro,2,unverified,0.856,1.001168,unverified,partition_proof_failed
 opope.default,kimi-k3.1-pro,3,unverified,1.081,0.792784,unverified,partition_proof_failed
@@ -209,6 +221,8 @@ snitch_cluster.default_latch,kimi-k3.1-pro,4,unverified,2.112,1.026989,unverifie
 snitch_cluster.default_latch,kimi-k3.1-pro,5,no_improvement,2.171,0.999079,proven,
 snitch_cluster.default_latch,kimi-k3.1-pro,6,no_improvement,2.194,0.988605,proven,
 snitch_cluster.default_latch,kimi-k3.1-pro,7,accepted,2.097,1.034335,proven,
+snitch_cluster.default_latch,qwen3.8-2.4t-a95b,1,unverified,2.086,1.039789,unverified,partition_proof_failed
+snitch_cluster.default_latch,qwen3.8-2.4t-a95b,2,unverified,2.121,1.022631,unverified,partition_proof_failed
 snitch_cluster.minimal,claude-fable-5-2,1,unverified,1.211,1.063584,memory_limit,timeout
 snitch_cluster.minimal,claude-fable-5-2,2,accepted,1.208,1.066225,proven,
 snitch_cluster.minimal,claude-fable-5-2,3,accepted,1.201,1.07244,proven,

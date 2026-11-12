@@ -7,6 +7,7 @@ cheshire.default,kimi-k3.1-pro,1,,rerun pinned to one provider endpoint (the ear
 cheshire.default,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,H200 NVL,90,agent_finished,0,69.3,1,0,1,0,1.047,1.047,1.0
 cheshire.default,ripple-65b-preview,1,,,opencode,next-09,H200 NVL,90,budget_reached,124,90.0,0,0,0,0,1.047,1.047,1.0
 cv32e40p.default,claude-fable-5-2,1,,,claude-code,next-09,RTX 6000 Ada,90,agent_finished,0,57.8,4,2,2,0,0.657,0.622,1.05627
+cv32e40p.default,gpt-6-astra,1,,,codex,next-09,RTX 6000 Ada,90,agent_finished,0,13.6,10,3,3,0,0.657,0.62,1.059677
 cv32e40p.default,kimi-k3.1-pro,1,,rerun pinned to one provider endpoint (the earlier unpinned run is not reported),kimi-code,next-09,RTX 6000 Ada,90,agent_finished,0,50.3,4,2,2,0,0.657,0.634,1.036278
 cv32e40p.default,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,RTX 6000 Ada,90,agent_finished,0,54.5,1,1,0,0,0.657,0.653,1.006126
 cv32e40p.default,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,0,0,0,0,0.657,0.657,1.0
@@ -41,6 +42,7 @@ mempool.minpool,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,205,agent_e
 nvdla.top,kimi-k3.1-pro,1,,rerun pinned to one provider endpoint (the earlier unpinned run is not reported),kimi-code,next-09,H200 NVL,90,agent_finished,0,57.6,1,0,1,0,0.789,0.789,1.0
 nvdla.top,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,H200 NVL,90,agent_finished,0,83.5,1,0,1,0,0.789,0.789,1.0
 nvdla.top,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,0,0,0,0,0.789,0.789,1.0
+opope.default,claude-fable-5-2,1,,,claude-code,next-09,H200 NVL,90,agent_finished,0,19.9,2,0,2,0,0.857,0.857,1.0
 opope.default,kimi-k3.1-pro,1,,rerun pinned to one provider endpoint (the earlier unpinned run is not reported),kimi-code,next-09,H200 NVL,90,agent_finished,0,46.5,10,3,6,0,0.857,0.816,1.050245
 opope.default,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,H200 NVL,90,budget_reached,124,90.0,0,0,0,0,0.857,0.857,1.0
 opope.default,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,0,0,0,0,0.857,0.857,1.0
@@ -56,6 +58,7 @@ snitch_cluster.default,claude-fable-5-2,1,,,claude-code,next-09,H200 NVL,490,age
 snitch_cluster.default,kimi-k3.1-pro,1,,,kimi-code,next-09,H200 NVL,490,agent_finished,0,346.8,8,3,5,0,2.128,2.088,1.019157
 snitch_cluster.default_latch,gpt-6-astra,1,,,codex,next-09,RTX 6000 Ada,600,agent_finished,0,569.4,7,2,1,0,2.169,2.091,1.037303
 snitch_cluster.default_latch,kimi-k3.1-pro,1,,,kimi-code,next-09,RTX 6000 Ada,600,budget_reached,0,576.3,7,2,3,0,2.169,2.097,1.034335
+snitch_cluster.default_latch,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,RTX 6000 Ada,600,agent_finished,0,484.4,2,0,2,0,2.169,2.169,1.0
 snitch_cluster.minimal,claude-fable-5-2,1,,,claude-code,next-09,RTX 6000 Ada,115,agent_finished,0,61.2,3,2,1,0,1.288,1.201,1.07244
 snitch_cluster.minimal,gpt-6-astra,1,,,codex,next-09,H200 NVL,115,agent_finished,0,83.7,5,2,0,0,1.288,1.2,1.073333
 snitch_cluster.minimal,kimi-k3.1-pro,1,,rerun pinned to one provider endpoint (the earlier unpinned run is not reported),kimi-code,next-09,H200 NVL,115,agent_finished,0,75.7,4,1,2,0,1.288,1.2,1.073333
