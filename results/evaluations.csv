@@ -40,7 +40,11 @@ cvfpu.full,claude-fable-5-2,2,accepted,2.055,1.02871,proven,
 cvfpu.full,claude-fable-5-2,3,accepted,1.981,1.067138,proven,
 cvfpu.full,claude-fable-5-2,4,no_improvement,2.024,1.044466,proven,
 cvfpu.full,qwen3.8-2.4t-a95b,1,accepted,2.101,1.006188,proven,
+ibex.full,claude-fable-5-2,1,unverified,0.9,1.038889,unverified,timeout
+ibex.full,claude-fable-5-2,2,unverified,0.899,1.040044,unverified,timeout
+ibex.full,claude-fable-5-2,3,unverified,0.904,1.034292,unverified,timeout
 ibex.full,qwen3.8-2.4t-a95b,1,unverified,0.921,1.015201,memory_limit,partition_proof_failed
+ibex.minimal,qwen3.8-2.4t-a95b,1,unverified,0.688,1.040698,unverified,timeout
 ita.default,claude-fable-5-2,1,accepted,0.9,1.003333,proven,
 ita.default,qwen3.8-2.4t-a95b,1,unverified,0.902,1.001109,unverified,partition_proof_failed
 ita.default,qwen3.8-2.4t-a95b,2,unverified,0.901,1.00222,unverified,timeout

@@ -17,8 +17,10 @@ cvfpu.fp32_fma,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_re
 cvfpu.full,claude-fable-5-2,1,,,claude-code,next-09,RTX 6000 Ada,90,agent_finished,0,40.0,4,2,1,0,2.114,1.981,1.067138
 cvfpu.full,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,RTX 6000 Ada,90,agent_finished,0,57.5,1,1,0,0,2.114,2.101,1.006188
 cvfpu.full,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,0,0,0,0,2.114,2.114,1.0
+ibex.full,claude-fable-5-2,1,,,claude-code,next-09,H200 NVL,90,budget_reached,0,87.7,3,0,3,0,0.935,0.935,1.0
 ibex.full,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,1,0,1,0,0.935,0.935,1.0
 ibex.full,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,0,0,0,0,0.935,0.935,1.0
+ibex.minimal,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,RTX 6000 Ada,90,budget_reached,124,97.8,1,0,1,0,0.716,0.716,1.0
 ibex.minimal,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,0,0,0,0,0.716,0.716,1.0
 ita.default,claude-fable-5-2,1,,,claude-code,next-09,RTX 6000 Ada,190,agent_finished,0,151.8,1,1,0,0,0.903,0.9,1.003333
 ita.default,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,H200 NVL,190,agent_finished,0,164.0,2,0,2,0,0.903,0.903,1.0
