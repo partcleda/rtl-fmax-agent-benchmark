@@ -21,7 +21,7 @@ accepted only when it is proven equivalent and faster than the session's best so
 ## Results
 
 <!-- results:start -->
-**Status:** 62 of 100 sessions finished (5 models, 20 designs), as of 2026-11-12 06:30 PST. 12 interrupted attempts are excluded from these results while awaiting a valid replacement.
+**Status:** 63 of 100 sessions finished (5 models, 20 designs), as of 2026-11-12 06:37 PST. 12 interrupted attempts are excluded from these results while awaiting a valid replacement.
 
 ### Coverage
 
@@ -29,7 +29,7 @@ accepted only when it is proven equivalent and faster than the session's best so
 |---|---|---|---|---:|
 | Claude Fable 5.2 | Anthropic | Claude Code 2.1.322 | Official CLI signed in to a subscription | 15 / 20 |
 | GPT-6 Astra | OpenAI | Codex 0.154.0 | Official CLI signed in to a subscription | 4 / 20 |
-| Kimi K3.1 Pro | Moonshot AI | Kimi Code 2.5.2 | OpenRouter, pinned to Moonshot AI's own endpoint (MXFP4), fallbacks disabled | 15 / 20 |
+| Kimi K3.1 Pro | Moonshot AI | Kimi Code 2.5.2 | OpenRouter, pinned to Moonshot AI's own endpoint (MXFP4), fallbacks disabled | 16 / 20 |
 | Qwen3.8 2.4T-A95B | Qwen (Alibaba) | Qwen Code 0.27.1 | OpenRouter, one pinned provider (SiliconFlow, FP8) | 13 / 20 |
 | Ripple-65B Preview | Ricursive AI | OpenCode 1.19.5 | Self-hosted (SGLang 0.5.19, BF16) for its first 15 designs; OpenRouter pinned to PrimeIntellect (BF16) for later sessions | 15 / 20 |
 
@@ -39,7 +39,7 @@ accepted only when it is proven equivalent and faster than the session's best so
 |---|---|---:|---:|---:|---:|---:|
 | GPT-6 Astra | Codex | 4 / 20 | +10.03% | 3 / 4 | 8.2 | 42% (14 / 33) |
 | Claude Fable 5.2 | Claude Code | 15 / 20 | +9.52% | 13 / 15 | 4.9 | 37% (27 / 73) |
-| Kimi K3.1 Pro | Kimi Code | 15 / 20 | +3.87% | 12 / 15 | 5.3 | 56% (44 / 79) |
+| Kimi K3.1 Pro | Kimi Code | 16 / 20 | +4.11% | 13 / 16 | 5.6 | 58% (52 / 89) |
 | Qwen3.8 2.4T-A95B | Qwen Code | 13 / 20 | +0.81% | 3 / 13 | 1.1 | 80% (12 / 15) |
 | Ripple-65B Preview | OpenCode | 15 / 20 | +0.00% | 0 / 15 | 0.2 | 100% (3 / 3) |
 
@@ -64,7 +64,7 @@ Fmax gain is the geometric mean of each finished session's Fmax ratio (baseline 
 | `ita.default` | 0.903 | 5 | 0.900 | +0.33% | Claude Fable 5.2 |
 | `mempool.minpool` | 2.869 | 3 | 2.342 | +22.50% | GPT-6 Astra |
 | `ara.default` | 1.064 | 3 | 0.942 | +12.95% | Claude Fable 5.2 |
-| `pulp_c910.default` | 1.005 | 3 | 0.930 | +8.06% | GPT-6 Astra |
+| `pulp_c910.default` | 1.005 | 4 | 0.930 | +8.06% | GPT-6 Astra |
 | `spatz.default` | 2.266 | 2 | 1.868 | +21.31% | Claude Fable 5.2 |
 | `snitch_cluster.default` | 2.128 | 2 | 1.751 | +21.53% | Claude Fable 5.2 |
 | `redmule.default` | 1.636 | 1 | 1.542 | +6.10% | Claude Fable 5.2 |
@@ -74,9 +74,9 @@ Fmax gain is the geometric mean of each finished session's Fmax ratio (baseline 
 
 Counts over every finished session of the models above. They describe what happened; with one session per model and design they do not establish causes or rankings.
 
-- 203 candidates evaluated: 78 accepted, 24 proven equivalent but not faster than the session's best, 100 not proven (69 with a partition EQY could not prove, 17 at the proof deadline, 14 over the proof memory budget), 1 failed to compile or measure.
-- Of 62 finished sessions, 36 ended with the agent finishing on its own, 25 ran to the time budget and 1 ended with an agent error.
-- Sessions used 3.3 of the 10 allowed evaluations on average; 4 used all 10.
+- 213 candidates evaluated: 80 accepted, 24 proven equivalent but not faster than the session's best, 108 not proven (75 with a partition EQY could not prove, 17 at the proof deadline, 16 over the proof memory budget), 1 failed to compile or measure.
+- Of 63 finished sessions, 37 ended with the agent finishing on its own, 25 ran to the time budget and 1 ended with an agent error.
+- Sessions used 3.4 of the 10 allowed evaluations on average; 5 used all 10.
 - Largest single gain so far: `cvfpu.fp32_fma` by Claude Fable 5.2, 1.401 ns to 1.070 ns (+30.93% Fmax).
 - No finished session has improved `nvdla.top` yet.
 <!-- results:end -->

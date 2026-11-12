@@ -148,6 +148,16 @@ pulp_c910.default,gpt-6-astra,7,accepted,0.934,1.076017,proven,
 pulp_c910.default,gpt-6-astra,8,accepted,0.93,1.080645,proven,
 pulp_c910.default,gpt-6-astra,9,unverified,0.894,1.124161,unverified,partition_proof_failed
 pulp_c910.default,gpt-6-astra,10,unverified,0.94,1.069149,unverified,partition_proof_failed
+pulp_c910.default,kimi-k3.1-pro,1,unverified,0.987,1.018237,memory_limit,partition_proof_failed
+pulp_c910.default,kimi-k3.1-pro,2,unverified,0.985,1.020305,memory_limit,partition_proof_failed
+pulp_c910.default,kimi-k3.1-pro,3,unverified,0.971,1.035015,unverified,partition_proof_failed
+pulp_c910.default,kimi-k3.1-pro,4,unverified,0.992,1.013105,unverified,partition_proof_failed
+pulp_c910.default,kimi-k3.1-pro,5,accepted,0.988,1.017206,proven,
+pulp_c910.default,kimi-k3.1-pro,6,unverified,0.978,1.027607,unverified,partition_proof_failed
+pulp_c910.default,kimi-k3.1-pro,7,accepted,0.933,1.07717,proven,
+pulp_c910.default,kimi-k3.1-pro,8,unverified,0.883,1.138165,unverified,partition_proof_failed
+pulp_c910.default,kimi-k3.1-pro,9,unverified,0.936,1.073718,unverified,partition_proof_failed
+pulp_c910.default,kimi-k3.1-pro,10,unverified,0.924,1.087662,unverified,partition_proof_failed
 pulp_c910.default,ripple-65b-preview,1,unverified,0.968,1.038223,memory_limit,partition_proof_failed
 redmule.default,claude-fable-5-2,1,unverified,1.093,1.496798,memory_limit,partition_proof_failed
 redmule.default,claude-fable-5-2,2,unverified,1.182,1.384095,memory_limit,partition_proof_failed
