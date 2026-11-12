@@ -77,6 +77,10 @@ ibex.minimal,claude-fable-5-2,3,accepted,0.695,1.030216,proven,
 ibex.minimal,claude-fable-5-2,4,accepted,0.687,1.042213,proven,
 ibex.minimal,claude-fable-5-2,5,accepted,0.678,1.056047,proven,
 ibex.minimal,claude-fable-5-2,6,accepted,0.676,1.059172,proven,
+ibex.minimal,kimi-k3.1-pro,1,accepted,0.702,1.019943,proven,
+ibex.minimal,kimi-k3.1-pro,2,unverified,0.698,1.025788,unverified,partition_proof_failed
+ibex.minimal,kimi-k3.1-pro,3,unverified,0.67,1.068657,unverified,partition_proof_failed
+ibex.minimal,kimi-k3.1-pro,4,unverified,0.682,1.049853,unverified,partition_proof_failed
 ibex.minimal,qwen3.8-2.4t-a95b,1,unverified,0.688,1.040698,unverified,timeout
 ita.default,claude-fable-5-2,1,accepted,0.9,1.003333,proven,
 ita.default,qwen3.8-2.4t-a95b,1,unverified,0.902,1.001109,unverified,partition_proof_failed
