@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-12 01:19 PST",
+  "generated": "2026-11-12 01:34 PST",
   "designs": [
     "ara.default",
     "cheshire.default",
@@ -62,14 +62,14 @@
     "qwen3.8-2.4t-a95b": {
       "harness": "qwen-code",
       "ranked": false,
-      "designs": 16,
-      "geomean_fmax_gain_pct": 0.322,
+      "designs": 17,
+      "geomean_fmax_gain_pct": 0.303,
       "designs_improved": 3,
-      "mean_evaluations": 1.06,
+      "mean_evaluations": 1.0,
       "outcomes": {
         "agent_error": 6,
         "agent_finished": 8,
-        "budget_reached": 2
+        "budget_reached": 3
       }
     },
     "ripple-65b-preview": {

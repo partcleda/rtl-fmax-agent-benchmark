@@ -21,7 +21,7 @@ accepted only when it is proven equivalent and faster than the session's best so
 ## Results
 
 <!-- results:start -->
-**Status:** 53 of 95 sessions finished (5 models, 20 designs), as of 2026-11-12 01:19 PST.
+**Status:** 54 of 95 sessions finished (5 models, 20 designs), as of 2026-11-12 01:34 PST.
 
 ### Coverage
 
@@ -30,7 +30,7 @@ accepted only when it is proven equivalent and faster than the session's best so
 | Claude Fable 5.2 | Anthropic | Claude Code 2.1.322 | Official CLI signed in to a subscription | 14 / 20 |
 | GPT-6 Astra | OpenAI | Codex 0.154.0 | Official CLI signed in to a subscription | 5 / 20 |
 | Kimi K3.1 Pro | Moonshot AI | Kimi Code 2.5.2 | OpenRouter, pinned to Moonshot AI's own endpoint (MXFP4), fallbacks disabled | 3 / 20 |
-| Qwen3.8 2.4T-A95B | Qwen (Alibaba) | Qwen Code 0.27.1 | OpenRouter, one pinned provider (SiliconFlow, FP8) | 16 / 20 |
+| Qwen3.8 2.4T-A95B | Qwen (Alibaba) | Qwen Code 0.27.1 | OpenRouter, one pinned provider (SiliconFlow, FP8) | 17 / 20 |
 | Ripple-65B Preview | Ricursive AI | OpenCode 1.19.5 | Self-hosted (SGLang 0.5.19, BF16) for its first 15 designs; OpenRouter pinned to PrimeIntellect (BF16) for later sessions | 15 / 15 |
 
 ### Results by model
@@ -40,7 +40,7 @@ accepted only when it is proven equivalent and faster than the session's best so
 | Claude Fable 5.2 | Claude Code | 14 / 20 | +9.78% | 12 / 14 | 4.8 | 37% (25 / 67) |
 | GPT-6 Astra | Codex | 5 / 20 | +4.38% | 3 / 5 | 4.0 | 50% (10 / 20) |
 | Kimi K3.1 Pro | Kimi Code | 3 / 20 | +0.87% | 2 / 3 | 6.0 | 56% (10 / 18) |
-| Qwen3.8 2.4T-A95B | Qwen Code | 16 / 20 | +0.32% | 3 / 16 | 1.1 | 82% (14 / 17) |
+| Qwen3.8 2.4T-A95B | Qwen Code | 17 / 20 | +0.30% | 3 / 17 | 1.0 | 82% (14 / 17) |
 | Ripple-65B Preview | OpenCode | 15 / 15 | +0.00% | 0 / 15 | 0.2 | 100% (3 / 3) |
 
 Fmax gain is the geometric mean of each finished session's Fmax ratio (baseline period / best accepted period) over the designs that model has finished. Models have finished different designs, so this order is provisional, not a like-for-like ranking, until every model covers the same designs. "Candidates not proven" is the share of evaluations whose equivalence proof did not pass.
@@ -57,7 +57,7 @@ Fmax gain is the geometric mean of each finished session's Fmax ratio (baseline 
 | `ibex.full` | 0.935 | 3 | 0.935 | +0.00% | no improvement yet |
 | `ibex.minimal` | 0.716 | 2 | 0.716 | +0.00% | no improvement yet |
 | `nvdla.top` | 0.789 | 2 | 0.789 | +0.00% | no improvement yet |
-| `opope.default` | 0.857 | 1 | 0.857 | +0.00% | no improvement yet |
+| `opope.default` | 0.857 | 2 | 0.857 | +0.00% | no improvement yet |
 | `serial_link.default` | 0.305 | 1 | 0.305 | +0.00% | no improvement yet |
 | `spi_host.default` | 0.475 | 1 | 0.475 | +0.00% | no improvement yet |
 | `snitch_cluster.minimal` | 1.288 | 3 | 1.201 | +7.24% | Claude Fable 5.2 |
@@ -75,8 +75,8 @@ Fmax gain is the geometric mean of each finished session's Fmax ratio (baseline 
 Counts over every finished session of the models above. They describe what happened; with one session per model and design they do not establish causes or rankings.
 
 - 125 candidates evaluated: 52 accepted, 10 proven equivalent but not faster than the session's best, 62 not proven (41 with a partition EQY could not prove, 10 at the proof deadline, 11 over the proof memory budget), 1 failed to compile or measure.
-- Of 53 finished sessions, 21 ended with the agent finishing on its own, 21 ran to the time budget and 11 ended with an agent error.
-- Sessions used 2.4 of the 10 allowed evaluations on average; 1 used all 10.
+- Of 54 finished sessions, 21 ended with the agent finishing on its own, 22 ran to the time budget and 11 ended with an agent error.
+- Sessions used 2.3 of the 10 allowed evaluations on average; 1 used all 10.
 - Largest single gain so far: `cvfpu.fp32_fma` by Claude Fable 5.2, 1.401 ns to 1.070 ns (+30.93% Fmax).
 - No finished session has improved `ibex.full`, `ibex.minimal`, `nvdla.top`, `opope.default`, `serial_link.default`, `spi_host.default` yet.
 <!-- results:end -->
