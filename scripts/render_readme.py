@@ -53,7 +53,10 @@ def status_line(results):
     planned = sum(len(designs) for designs in results['summary']['planned_designs'].values())
     return (f"**Status:** {len(results['sessions'])} of {planned} sessions finished "
             f"({len(results['models'])} models, {len(results['summary']['benchmark'])} designs), "
-            f"as of {results['summary']['generated']}.")
+            f"as of {results['summary']['generated']}."
+            + (f" {len(results['summary'].get('incomplete_attempts', []))} interrupted attempts are excluded "
+               "from these results while awaiting a valid replacement."
+               if results['summary'].get('incomplete_attempts') else ""))
 
 
 def coverage_table(results):

@@ -164,7 +164,10 @@ turns as described.
 ## Reruns
 
 A session spoiled by something other than the model is not a model result. It is rerun from scratch, with
-a fresh workspace and home and the fault fixed. The tables report the latest attempt; `sessions.csv`
+a fresh workspace and home and the fault fixed. The tables report the latest valid completed attempt. Provider-refused or infrastructure-interrupted attempts,
+and attempts with a replacement still pending, do not enter the tables or aggregates. Their design, model and
+reason are listed in `summary.json` under `incomplete_attempts`; raw attempts remain in the campaign archive.
+For completed replacements, `sessions.csv`
 records the number of attempts, the earlier attempts' outcomes and the reason. The reasons are:
 
 - an infrastructure fault, such as an under-sized allocation or a compute node lost mid-session;
