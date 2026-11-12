@@ -5,6 +5,11 @@ ara.default,claude-fable-5-2,3,accepted,0.955,1.114136,proven,
 ara.default,claude-fable-5-2,4,accepted,0.945,1.125926,proven,
 ara.default,claude-fable-5-2,5,accepted,0.942,1.129512,proven,
 ara.default,claude-fable-5-2,6,unverified,0.931,1.142857,memory_limit,timeout
+cheshire.default,claude-fable-5-2,1,unverified,1.012,1.034585,unverified,partition_proof_failed
+cheshire.default,claude-fable-5-2,2,accepted,1.012,1.034585,proven,
+cheshire.default,claude-fable-5-2,3,accepted,0.982,1.066191,proven,
+cheshire.default,claude-fable-5-2,4,unverified,0.972,1.07716,unverified,partition_proof_failed
+cheshire.default,claude-fable-5-2,5,unverified,1.008,1.03869,unverified,partition_proof_failed
 ita.default,claude-fable-5-2,1,accepted,0.9,1.003333,proven,
 ita.default,ripple-65b-preview,1,unverified,0.9,1.003333,unverified,partition_proof_failed
 mempool.minpool,claude-fable-5-2,1,accepted,2.661,1.078166,proven,

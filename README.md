@@ -21,13 +21,13 @@ accepted only when it is proven equivalent and faster than the session's best so
 ## Results
 
 <!-- results:start -->
-**Status:** 21 of 95 sessions finished (5 models, 20 designs), as of 2026-11-11 16:44 PST.
+**Status:** 22 of 95 sessions finished (5 models, 20 designs), as of 2026-11-11 18:00 PST.
 
 ### Coverage
 
 | Model | Developer | Harness | Access | Sessions finished |
 |---|---|---|---|---:|
-| Claude Fable 5.2 | Anthropic | Claude Code 2.1.322 | Official CLI signed in to a subscription | 5 / 20 |
+| Claude Fable 5.2 | Anthropic | Claude Code 2.1.322 | Official CLI signed in to a subscription | 6 / 20 |
 | GPT-6 Astra | OpenAI | Codex 0.154.0 | Official CLI signed in to a subscription | 1 / 20 |
 | Kimi K3.1 Pro | Moonshot AI | Kimi Code 2.5.2 | OpenRouter, pinned to Moonshot AI's own endpoint (MXFP4), fallbacks disabled | 0 / 20 |
 | Qwen3.8 2.4T-A95B | Qwen (Alibaba) | Qwen Code 0.27.1 | OpenRouter, one pinned provider (SiliconFlow, FP8) | 0 / 20 |
@@ -38,7 +38,7 @@ accepted only when it is proven equivalent and faster than the session's best so
 | Model | Harness | Designs finished | Fmax gain (geomean) | Designs improved | Mean evaluations | Candidates not proven |
 |---|---|---:|---:|---:|---:|---:|
 | GPT-6 Astra | Codex | 1 / 20 | +8.06% | 1 / 1 | 10.0 | 70% (7 / 10) |
-| Claude Fable 5.2 | Claude Code | 5 / 20 | +7.99% | 4 / 5 | 5.0 | 40% (10 / 25) |
+| Claude Fable 5.2 | Claude Code | 6 / 20 | +7.76% | 5 / 6 | 5.0 | 43% (13 / 30) |
 | Ripple-65B Preview | OpenCode | 15 / 15 | +0.00% | 0 / 15 | 0.2 | 100% (3 / 3) |
 
 Fmax gain is the geometric mean of each finished session's Fmax ratio (baseline period / best accepted period) over the designs that model has finished. Models have finished different designs, so this order is provisional, not a like-for-like ranking, until every model covers the same designs. "Candidates not proven" is the share of evaluations whose equivalence proof did not pass.
@@ -47,7 +47,7 @@ Fmax gain is the geometric mean of each finished session's Fmax ratio (baseline 
 
 | Design | Baseline period (ns) | Sessions finished | Best period (ns) | Fmax gain | Best by |
 |---|---:|---:|---:|---:|---|
-| `cheshire.default` | 1.047 | 1 | 1.047 | +0.00% | no improvement yet |
+| `cheshire.default` | 1.047 | 2 | 0.982 | +6.62% | Claude Fable 5.2 |
 | `cv32e40p.default` | 0.657 | 1 | 0.657 | +0.00% | no improvement yet |
 | `cva6.default` | 1.038 | 1 | 1.038 | +0.00% | no improvement yet |
 | `cvfpu.fp32_fma` | 1.401 | 1 | 1.401 | +0.00% | no improvement yet |
@@ -72,11 +72,11 @@ Fmax gain is the geometric mean of each finished session's Fmax ratio (baseline 
 
 Counts over every finished session of the models above. They describe what happened; with one session per model and design they do not establish causes or rankings.
 
-- 38 candidates evaluated: 13 accepted, 5 proven equivalent but not faster than the session's best, 20 not proven (13 with a partition EQY could not prove, 1 at the proof deadline, 6 over the proof memory budget), 0 failed to compile or measure.
-- Of 21 finished sessions, 4 ended with the agent finishing on its own, 16 ran to the time budget and 1 ended with an agent error.
-- Sessions used 1.8 of the 10 allowed evaluations on average; 1 used all 10.
+- 43 candidates evaluated: 15 accepted, 5 proven equivalent but not faster than the session's best, 23 not proven (16 with a partition EQY could not prove, 1 at the proof deadline, 6 over the proof memory budget), 0 failed to compile or measure.
+- Of 22 finished sessions, 5 ended with the agent finishing on its own, 16 ran to the time budget and 1 ended with an agent error.
+- Sessions used 2.0 of the 10 allowed evaluations on average; 1 used all 10.
 - Largest single gain so far: `mempool.minpool` by Claude Fable 5.2, 2.869 ns to 2.374 ns (+20.85% Fmax).
-- No finished session has improved `cheshire.default`, `cv32e40p.default`, `cva6.default`, `cvfpu.fp32_fma`, `cvfpu.full`, `ibex.full`, `ibex.minimal`, `nvdla.top`, `opope.default`, `serial_link.default`, `spi_host.default` yet.
+- No finished session has improved `cv32e40p.default`, `cva6.default`, `cvfpu.fp32_fma`, `cvfpu.full`, `ibex.full`, `ibex.minimal`, `nvdla.top`, `opope.default`, `serial_link.default`, `spi_host.default` yet.
 <!-- results:end -->
 
 ## Charts
