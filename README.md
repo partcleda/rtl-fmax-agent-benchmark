@@ -21,14 +21,14 @@ accepted only when it is proven equivalent and faster than the session's best so
 ## Results
 
 <!-- results:start -->
-**Status:** 49 of 100 sessions finished (5 models, 20 designs), as of 2026-11-12 02:48 PST. 11 interrupted attempts are excluded from these results while awaiting a valid replacement.
+**Status:** 50 of 100 sessions finished (5 models, 20 designs), as of 2026-11-12 02:54 PST. 11 interrupted attempts are excluded from these results while awaiting a valid replacement.
 
 ### Coverage
 
 | Model | Developer | Harness | Access | Sessions finished |
 |---|---|---|---|---:|
 | Claude Fable 5.2 | Anthropic | Claude Code 2.1.322 | Official CLI signed in to a subscription | 15 / 20 |
-| GPT-6 Astra | OpenAI | Codex 0.154.0 | Official CLI signed in to a subscription | 2 / 20 |
+| GPT-6 Astra | OpenAI | Codex 0.154.0 | Official CLI signed in to a subscription | 3 / 20 |
 | Kimi K3.1 Pro | Moonshot AI | Kimi Code 2.5.2 | OpenRouter, pinned to Moonshot AI's own endpoint (MXFP4), fallbacks disabled | 4 / 20 |
 | Qwen3.8 2.4T-A95B | Qwen (Alibaba) | Qwen Code 0.27.1 | OpenRouter, one pinned provider (SiliconFlow, FP8) | 13 / 20 |
 | Ripple-65B Preview | Ricursive AI | OpenCode 1.19.5 | Self-hosted (SGLang 0.5.19, BF16) for its first 15 designs; OpenRouter pinned to PrimeIntellect (BF16) for later sessions | 15 / 20 |
@@ -37,8 +37,8 @@ accepted only when it is proven equivalent and faster than the session's best so
 
 | Model | Harness | Designs finished | Fmax gain (geomean) | Designs improved | Mean evaluations | Candidates not proven |
 |---|---|---:|---:|---:|---:|---:|
+| GPT-6 Astra | Codex | 3 / 20 | +13.59% | 3 / 3 | 9.0 | 33% (9 / 27) |
 | Claude Fable 5.2 | Claude Code | 15 / 20 | +9.52% | 13 / 15 | 4.9 | 37% (27 / 73) |
-| GPT-6 Astra | Codex | 2 / 20 | +9.38% | 2 / 2 | 8.5 | 47% (8 / 17) |
 | Kimi K3.1 Pro | Kimi Code | 4 / 20 | +2.17% | 4 / 4 | 7.0 | 54% (15 / 28) |
 | Qwen3.8 2.4T-A95B | Qwen Code | 13 / 20 | +0.81% | 3 / 13 | 1.1 | 80% (12 / 15) |
 | Ripple-65B Preview | OpenCode | 15 / 20 | +0.00% | 0 / 15 | 0.2 | 100% (3 / 3) |
@@ -62,7 +62,7 @@ Fmax gain is the geometric mean of each finished session's Fmax ratio (baseline 
 | `spi_host.default` | 0.475 | 2 | 0.475 | +0.00% | no improvement yet |
 | `snitch_cluster.minimal` | 1.288 | 3 | 1.201 | +7.24% | Claude Fable 5.2 |
 | `ita.default` | 0.903 | 3 | 0.900 | +0.33% | Claude Fable 5.2 |
-| `mempool.minpool` | 2.869 | 2 | 2.374 | +20.85% | Claude Fable 5.2 |
+| `mempool.minpool` | 2.869 | 3 | 2.342 | +22.50% | GPT-6 Astra |
 | `ara.default` | 1.064 | 2 | 0.942 | +12.95% | Claude Fable 5.2 |
 | `pulp_c910.default` | 1.005 | 3 | 0.930 | +8.06% | GPT-6 Astra |
 | `spatz.default` | 2.266 | 2 | 1.868 | +21.31% | Claude Fable 5.2 |
@@ -74,9 +74,9 @@ Fmax gain is the geometric mean of each finished session's Fmax ratio (baseline 
 
 Counts over every finished session of the models above. They describe what happened; with one session per model and design they do not establish causes or rankings.
 
-- 136 candidates evaluated: 58 accepted, 13 proven equivalent but not faster than the session's best, 65 not proven (44 with a partition EQY could not prove, 10 at the proof deadline, 11 over the proof memory budget), 0 failed to compile or measure.
-- Of 49 finished sessions, 25 ended with the agent finishing on its own, 23 ran to the time budget and 1 ended with an agent error.
-- Sessions used 2.8 of the 10 allowed evaluations on average; 2 used all 10.
+- 146 candidates evaluated: 63 accepted, 16 proven equivalent but not faster than the session's best, 66 not proven (45 with a partition EQY could not prove, 10 at the proof deadline, 11 over the proof memory budget), 1 failed to compile or measure.
+- Of 50 finished sessions, 26 ended with the agent finishing on its own, 23 ran to the time budget and 1 ended with an agent error.
+- Sessions used 2.9 of the 10 allowed evaluations on average; 3 used all 10.
 - Largest single gain so far: `cvfpu.fp32_fma` by Claude Fable 5.2, 1.401 ns to 1.070 ns (+30.93% Fmax).
 - No finished session has improved `ibex.full`, `nvdla.top`, `opope.default`, `spi_host.default` yet.
 <!-- results:end -->

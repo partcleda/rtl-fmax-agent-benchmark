@@ -76,6 +76,16 @@ mempool.minpool,claude-fable-5-2,4,unverified,2.385,1.202935,memory_limit,timeou
 mempool.minpool,claude-fable-5-2,5,no_improvement,2.453,1.169588,proven,
 mempool.minpool,claude-fable-5-2,6,accepted,2.374,1.208509,proven,
 mempool.minpool,claude-fable-5-2,7,no_improvement,2.41,1.190456,proven,
+mempool.minpool,gpt-6-astra,1,evaluation_failed,,,not_run,
+mempool.minpool,gpt-6-astra,2,unverified,2.834,1.01235,unverified,partition_proof_failed
+mempool.minpool,gpt-6-astra,3,accepted,2.854,1.005256,proven,
+mempool.minpool,gpt-6-astra,4,accepted,2.618,1.095875,proven,
+mempool.minpool,gpt-6-astra,5,no_improvement,2.662,1.077761,proven,
+mempool.minpool,gpt-6-astra,6,accepted,2.423,1.184069,proven,
+mempool.minpool,gpt-6-astra,7,accepted,2.397,1.196913,proven,
+mempool.minpool,gpt-6-astra,8,no_improvement,2.423,1.184069,proven,
+mempool.minpool,gpt-6-astra,9,no_improvement,2.416,1.1875,proven,
+mempool.minpool,gpt-6-astra,10,accepted,2.342,1.225021,proven,
 mempool.minpool,ripple-65b-preview,1,unverified,2.873,0.998608,unverified,partition_proof_failed
 nvdla.top,qwen3.8-2.4t-a95b,1,unverified,0.832,0.948317,unverified,partition_proof_failed
 pulp_c910.default,claude-fable-5-2,1,unverified,0.812,1.237685,unverified,partition_proof_failed

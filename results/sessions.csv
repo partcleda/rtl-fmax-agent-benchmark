@@ -28,6 +28,7 @@ ita.default,claude-fable-5-2,1,,,claude-code,next-09,RTX 6000 Ada,190,agent_fini
 ita.default,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,H200 NVL,190,agent_finished,0,164.0,2,0,2,0,0.903,0.903,1.0
 ita.default,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,190,budget_reached,1,187.6,1,0,1,0,0.903,0.903,1.0
 mempool.minpool,claude-fable-5-2,1,,,claude-code,next-09,H200 NVL,205,budget_reached,0,195.6,7,3,2,0,2.869,2.374,1.208509
+mempool.minpool,gpt-6-astra,1,,,codex,next-09,RTX 6000 Ada,205,agent_finished,0,191.2,10,5,1,1,2.869,2.342,1.225021
 mempool.minpool,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,205,agent_error,1,167.4,1,0,1,0,2.869,2.869,1.0
 nvdla.top,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,H200 NVL,90,agent_finished,0,83.5,1,0,1,0,0.789,0.789,1.0
 nvdla.top,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,0,0,0,0,0.789,0.789,1.0
