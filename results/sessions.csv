@@ -1,5 +1,6 @@
 design,model,attempts,earlier_outcomes,rerun_reason,harness,evaluator,gpu,budget_minutes,outcome,agent_exit_code,elapsed_minutes,evaluations,accepted,unverified,compile_or_score_failed,baseline_period_ns,best_period_ns,fmax_ratio
 ara.default,claude-fable-5-2,1,,,claude-code,next-09,H200 NVL,210,budget_reached,124,211.8,6,4,1,0,1.064,0.942,1.129512
+ara.default,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,H200 NVL,210,agent_error,1,55.4,0,0,0,0,1.064,1.064,1.0
 cheshire.default,claude-fable-5-2,1,,,claude-code,next-09,H200 NVL,90,agent_finished,0,61.9,5,2,3,0,1.047,0.982,1.066191
 cheshire.default,ripple-65b-preview,1,,,opencode,next-09,H200 NVL,90,budget_reached,124,90.0,0,0,0,0,1.047,1.047,1.0
 cv32e40p.default,claude-fable-5-2,1,,,claude-code,next-09,RTX 6000 Ada,90,agent_finished,0,57.8,4,2,2,0,0.657,0.622,1.05627
@@ -13,14 +14,17 @@ ibex.minimal,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_reac
 ita.default,claude-fable-5-2,1,,,claude-code,next-09,RTX 6000 Ada,190,agent_finished,0,151.8,1,1,0,0,0.903,0.9,1.003333
 ita.default,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,190,budget_reached,1,187.6,1,0,1,0,0.903,0.903,1.0
 mempool.minpool,claude-fable-5-2,1,,,claude-code,next-09,H200 NVL,205,budget_reached,0,195.6,7,3,2,0,2.869,2.374,1.208509
+mempool.minpool,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,H200 NVL,205,agent_error,1,4.2,0,0,0,0,2.869,2.869,1.0
 mempool.minpool,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,205,agent_error,1,167.4,1,0,1,0,2.869,2.869,1.0
 nvdla.top,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,0,0,0,0,0.789,0.789,1.0
 opope.default,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,0,0,0,0,0.857,0.857,1.0
 pulp_c910.default,claude-fable-5-2,1,,,claude-code,next-09,H200 NVL,215,agent_finished,0,176.8,8,0,6,0,1.005,1.005,1.0
 pulp_c910.default,gpt-6-astra,1,,,codex,next-09,RTX 6000 Ada,215,agent_finished,0,185.1,10,3,7,0,1.005,0.93,1.080645
+pulp_c910.default,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,RTX 6000 Ada,215,agent_error,1,84.7,1,0,1,0,1.005,1.005,1.0
 pulp_c910.default,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,215,budget_reached,124,215.0,1,0,1,0,1.005,1.005,1.0
 redmule.default,gpt-6-astra,1,,,codex,next-09,H200 NVL,530,agent_error,1,131.0,2,1,1,0,1.636,1.58,1.035443
 redmule.default,kimi-k3.1-pro,1,,,kimi-code,next-09,H200 NVL,530,agent_error,1,211.1,4,0,2,1,1.636,1.636,1.0
+redmule.default,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,H200 NVL,530,agent_error,1,77.3,0,0,0,0,1.636,1.636,1.0
 serial_link.default,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,0,0,0,0,0.305,0.305,1.0
 snitch_cluster.default,claude-fable-5-2,1,,,claude-code,next-09,H200 NVL,490,agent_finished,0,365.5,5,5,0,0,2.128,1.751,1.215306
 snitch_cluster.default,gpt-6-astra,1,,,codex,next-09,H200 NVL,490,agent_error,1,1.0,0,0,0,0,2.128,2.128,1.0

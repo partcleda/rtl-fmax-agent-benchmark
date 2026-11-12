@@ -44,6 +44,7 @@ pulp_c910.default,gpt-6-astra,7,accepted,0.934,1.076017,proven,
 pulp_c910.default,gpt-6-astra,8,accepted,0.93,1.080645,proven,
 pulp_c910.default,gpt-6-astra,9,unverified,0.894,1.124161,unverified,partition_proof_failed
 pulp_c910.default,gpt-6-astra,10,unverified,0.94,1.069149,unverified,partition_proof_failed
+pulp_c910.default,qwen3.8-2.4t-a95b,1,unverified,0.871,1.153846,unverified,partition_proof_failed
 pulp_c910.default,ripple-65b-preview,1,unverified,0.968,1.038223,memory_limit,partition_proof_failed
 redmule.default,gpt-6-astra,1,accepted,1.58,1.035443,proven,
 redmule.default,gpt-6-astra,2,unverified,1.545,1.0589,unverified,partition_proof_failed
