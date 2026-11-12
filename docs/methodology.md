@@ -171,7 +171,10 @@ records the number of attempts, the earlier attempts' outcomes and the reason. T
 - the model provider refusing service (credit or concurrency limits, peak-load refusals, subscription usage
   limits), up to three attempts in all;
 - a sandbox gap: the agent could reach a tool outside the protocol's tool set;
-- an agent sandbox smaller than the protocol's memory size.
+- an agent sandbox smaller than the protocol's memory size;
+- a benchmark artifact: every harness receives the prompt on its command line, and the prompt names
+  `boson -f measure.tcl`, so an agent stopping its own background measurement with `pkill -f` on that
+  text also stops its own harness. The agent could not have expected that, so such a session is rerun.
 
 An agent that crashes, stops early or runs out of budget on its own keeps its result. If a rerun is
 submitted twice by mistake, the first-submitted attempt counts and the duplicate is excluded.
