@@ -2,6 +2,7 @@ design,model,attempts,earlier_outcomes,rerun_reason,harness,evaluator,gpu,budget
 ara.default,claude-fable-5-2,1,,,claude-code,next-09,H200 NVL,210,budget_reached,124,211.8,6,4,1,0,1.064,0.942,1.129512
 ara.default,gpt-6-astra,1,,,codex,next-09,H200 NVL,210,budget_reached,124,211.3,7,5,1,0,1.064,0.961,1.10718
 cheshire.default,claude-fable-5-2,1,,,claude-code,next-09,H200 NVL,90,agent_finished,0,61.9,5,2,3,0,1.047,0.982,1.066191
+cheshire.default,kimi-k3.1-pro,1,,,kimi-code,next-09,H200 NVL,90,agent_finished,0,61.8,10,1,5,0,1.047,1.022,1.024462
 cheshire.default,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,H200 NVL,90,agent_finished,0,69.3,1,0,1,0,1.047,1.047,1.0
 cheshire.default,ripple-65b-preview,1,,,opencode,next-09,H200 NVL,90,budget_reached,124,90.0,0,0,0,0,1.047,1.047,1.0
 cv32e40p.default,claude-fable-5-2,1,,,claude-code,next-09,RTX 6000 Ada,90,agent_finished,0,57.8,4,2,2,0,0.657,0.622,1.05627

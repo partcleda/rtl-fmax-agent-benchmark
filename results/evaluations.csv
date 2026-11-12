@@ -17,6 +17,16 @@ cheshire.default,claude-fable-5-2,2,accepted,1.012,1.034585,proven,
 cheshire.default,claude-fable-5-2,3,accepted,0.982,1.066191,proven,
 cheshire.default,claude-fable-5-2,4,unverified,0.972,1.07716,unverified,partition_proof_failed
 cheshire.default,claude-fable-5-2,5,unverified,1.008,1.03869,unverified,partition_proof_failed
+cheshire.default,kimi-k3.1-pro,1,unverified,0.97,1.079381,unverified,partition_proof_failed
+cheshire.default,kimi-k3.1-pro,2,unverified,1.031,1.015519,unverified,partition_proof_failed
+cheshire.default,kimi-k3.1-pro,3,unverified,1.17,0.894872,unverified,partition_proof_failed
+cheshire.default,kimi-k3.1-pro,4,unverified,1.06,0.987736,unverified,partition_proof_failed
+cheshire.default,kimi-k3.1-pro,5,no_improvement,1.069,0.97942,proven,
+cheshire.default,kimi-k3.1-pro,6,accepted,1.022,1.024462,proven,
+cheshire.default,kimi-k3.1-pro,7,unverified,1.041,1.005764,unverified,partition_proof_failed
+cheshire.default,kimi-k3.1-pro,8,no_improvement,1.024,1.022461,proven,
+cheshire.default,kimi-k3.1-pro,9,no_improvement,1.033,1.013553,proven,
+cheshire.default,kimi-k3.1-pro,10,no_improvement,1.027,1.019474,proven,
 cheshire.default,qwen3.8-2.4t-a95b,1,unverified,1.023,1.02346,unverified,partition_proof_failed
 cv32e40p.default,claude-fable-5-2,1,unverified,0.654,1.004587,unverified,partition_proof_failed
 cv32e40p.default,claude-fable-5-2,2,unverified,0.654,1.004587,unverified,partition_proof_failed

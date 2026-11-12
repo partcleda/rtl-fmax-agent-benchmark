@@ -236,8 +236,8 @@ z
    </g>
    <g id="patch_5">
     <path d="M 190.08 208.344819 
-L 230.91498 208.344819 
-L 230.91498 234.455181 
+L 242.617687 208.344819 
+L 242.617687 234.455181 
 L 190.08 234.455181 
 z
 " clip-path="url(#p4ebb32de9a)" style="fill: #3f5680; opacity: 0.85"/>
@@ -270,7 +270,7 @@ L 829.44 334.8
     <text style="fill: #171738; font: 10px 'DejaVu Sans'; text-anchor: start" x="488.118578" y="179.141511" transform="rotate(-0 488.118578 179.141511)">+9.38%   2/2 improved · 2 of 20 designs finished</text>
    </g>
    <g id="text_18">
-    <text style="fill: #171738; font: 10px 'DejaVu Sans'; text-anchor: start" x="236.91498" y="224.159375" transform="rotate(-0 236.91498 224.159375)">+1.31%   2/2 improved · 2 of 20 designs finished</text>
+    <text style="fill: #171738; font: 10px 'DejaVu Sans'; text-anchor: start" x="248.617687" y="224.159375" transform="rotate(-0 248.617687 224.159375)">+1.69%   3/3 improved · 3 of 20 designs finished</text>
    </g>
    <g id="text_19">
     <text style="fill: #171738; font: 10px 'DejaVu Sans'; text-anchor: start" x="223.438191" y="269.177239" transform="rotate(-0 223.438191 269.177239)">+0.88%   3/12 improved · 12 of 20 designs finished</text>
@@ -291,7 +291,7 @@ L 829.44 82.8
    <text style="fill: #5b607d; font: 11.5px 'DejaVu Sans'; text-anchor: start" x="34.56" y="68.4" transform="rotate(-0 34.56 68.4)">Each model over the designs it has finished so far; provisional until every model covers the same designs</text>
   </g>
   <g id="text_23">
-   <text style="fill: #5b607d; font: 8.5px 'DejaVu Sans'" transform="translate(34.56 425.796781)">Preliminary results as of 2026-11-12 02:01 PST: 45 of 95 sessions finished.</text>
+   <text style="fill: #5b607d; font: 8.5px 'DejaVu Sans'" transform="translate(34.56 425.796781)">Preliminary results as of 2026-11-12 02:16 PST: 46 of 95 sessions finished.</text>
    <text style="fill: #5b607d; font: 8.5px 'DejaVu Sans'" transform="translate(34.56 437.898391)">Stock coding agents, one session per model and design, at most 10 evaluations each. boson synthesis and unplaced setup timing on public ASAP7 TT</text>
    <text style="fill: #5b607d; font: 8.5px 'DejaVu Sans'" transform="translate(34.56 450)">libraries, 1 ps period search; a candidate counts only with an EQY equivalence proof against the original RTL.</text>
   </g>
