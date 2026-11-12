@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-12 06:52 PST",
+  "generated": "2026-11-12 07:29 PST",
   "designs": [
     "ara.default",
     "cheshire.default",
@@ -17,6 +17,7 @@
     "redmule.default",
     "serial_link.default",
     "snitch_cluster.default",
+    "snitch_cluster.default_latch",
     "snitch_cluster.minimal",
     "spatz.default",
     "spi_host.default"
@@ -37,12 +38,12 @@
     "gpt-6-astra": {
       "harness": "codex",
       "ranked": false,
-      "designs": 4,
-      "geomean_fmax_gain_pct": 10.03,
-      "designs_improved": 3,
-      "mean_evaluations": 8.25,
+      "designs": 5,
+      "geomean_fmax_gain_pct": 8.74,
+      "designs_improved": 4,
+      "mean_evaluations": 8.0,
       "outcomes": {
-        "agent_finished": 2,
+        "agent_finished": 3,
         "budget_reached": 2
       }
     },
