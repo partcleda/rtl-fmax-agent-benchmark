@@ -53,6 +53,12 @@ cvfpu.full,claude-fable-5-2,1,unverified,2.048,1.032227,unverified,partition_pro
 cvfpu.full,claude-fable-5-2,2,accepted,2.055,1.02871,proven,
 cvfpu.full,claude-fable-5-2,3,accepted,1.981,1.067138,proven,
 cvfpu.full,claude-fable-5-2,4,no_improvement,2.024,1.044466,proven,
+cvfpu.full,kimi-k3.1-pro,1,unverified,2.226,0.949686,unverified,partition_proof_failed
+cvfpu.full,kimi-k3.1-pro,2,accepted,2.091,1.011,proven,
+cvfpu.full,kimi-k3.1-pro,3,no_improvement,2.091,1.011,proven,
+cvfpu.full,kimi-k3.1-pro,4,unverified,2.158,0.979611,unverified,partition_proof_failed
+cvfpu.full,kimi-k3.1-pro,5,unverified,2.106,1.003799,unverified,partition_proof_failed
+cvfpu.full,kimi-k3.1-pro,6,accepted,2.078,1.017324,proven,
 cvfpu.full,qwen3.8-2.4t-a95b,1,accepted,2.101,1.006188,proven,
 ibex.full,claude-fable-5-2,1,unverified,0.9,1.038889,unverified,timeout
 ibex.full,claude-fable-5-2,2,unverified,0.899,1.040044,unverified,timeout
