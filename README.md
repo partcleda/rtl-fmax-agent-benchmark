@@ -21,7 +21,7 @@ accepted only when it is proven equivalent and faster than the session's best so
 ## Results
 
 <!-- results:start -->
-**Status:** 48 of 95 sessions finished (5 models, 20 designs), as of 2026-11-12 02:26 PST. 10 interrupted attempts are excluded from these results while awaiting a valid replacement.
+**Status:** 48 of 100 sessions finished (5 models, 20 designs), as of 2026-11-12 02:28 PST. 10 interrupted attempts are excluded from these results while awaiting a valid replacement.
 
 ### Coverage
 
@@ -31,7 +31,7 @@ accepted only when it is proven equivalent and faster than the session's best so
 | GPT-6 Astra | OpenAI | Codex 0.154.0 | Official CLI signed in to a subscription | 2 / 20 |
 | Kimi K3.1 Pro | Moonshot AI | Kimi Code 2.5.2 | OpenRouter, pinned to Moonshot AI's own endpoint (MXFP4), fallbacks disabled | 4 / 20 |
 | Qwen3.8 2.4T-A95B | Qwen (Alibaba) | Qwen Code 0.27.1 | OpenRouter, one pinned provider (SiliconFlow, FP8) | 12 / 20 |
-| Ripple-65B Preview | Ricursive AI | OpenCode 1.19.5 | Self-hosted (SGLang 0.5.19, BF16) for its first 15 designs; OpenRouter pinned to PrimeIntellect (BF16) for later sessions | 15 / 15 |
+| Ripple-65B Preview | Ricursive AI | OpenCode 1.19.5 | Self-hosted (SGLang 0.5.19, BF16) for its first 15 designs; OpenRouter pinned to PrimeIntellect (BF16) for later sessions | 15 / 20 |
 
 ### Results by model
 
@@ -41,7 +41,7 @@ accepted only when it is proven equivalent and faster than the session's best so
 | GPT-6 Astra | Codex | 2 / 20 | +9.38% | 2 / 2 | 8.5 | 47% (8 / 17) |
 | Kimi K3.1 Pro | Kimi Code | 4 / 20 | +2.17% | 4 / 4 | 7.0 | 54% (15 / 28) |
 | Qwen3.8 2.4T-A95B | Qwen Code | 12 / 20 | +0.88% | 3 / 12 | 1.2 | 80% (12 / 15) |
-| Ripple-65B Preview | OpenCode | 15 / 15 | +0.00% | 0 / 15 | 0.2 | 100% (3 / 3) |
+| Ripple-65B Preview | OpenCode | 15 / 20 | +0.00% | 0 / 15 | 0.2 | 100% (3 / 3) |
 
 Fmax gain is the geometric mean of each finished session's Fmax ratio (baseline period / best accepted period) over the designs that model has finished. Models have finished different designs, so this order is provisional, not a like-for-like ranking, until every model covers the same designs. "Candidates not proven" is the share of evaluations whose equivalence proof did not pass.
 

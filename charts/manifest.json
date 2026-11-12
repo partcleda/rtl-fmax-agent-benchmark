@@ -1,6 +1,6 @@
 {
   "inputs_sha256": {
-    "summary.json": "ad75fddefd671c2696af219909347d14cbcf166602b017b7ac20cf3e09add009",
+    "summary.json": "1e0a997eafa2a32da6b7b8160ea26fe20363a275eb9ae7c51f21de91e7fded3a",
     "sessions.csv": "50f3190d88a092626f15c75e143d5a1733b360bef7167d9f9715b80cfccdd72d",
     "models.json": "ac53de9e654ce3b099ac0a17ca0d3698e2df964ec87382d365812360dd8c347b"
   },
@@ -14,20 +14,20 @@
   ],
   "outputs": {
     "model-fmax.svg": {
-      "sha256": "b2067bd1f8a1beca51eeca7cd7564d2998361901fc7eb571f1d7a6b0fe54b633",
-      "bytes": 11930
+      "sha256": "aea2ee2214bddedcd624962c8b862d5e9bfe70de9fe94b3ea499e82d48fc81d5",
+      "bytes": 11931
     },
     "model-fmax.png": {
-      "sha256": "15ed53bc42b2876afe2a31b708093ef5b9a481ddc370b0fe2f0da5e998c10b32",
-      "bytes": 179949
+      "sha256": "f9ab5a543a3844e9309f845155d759d3ab7ddeb36e9ce0931a733bb4af00d94d",
+      "bytes": 179597
     },
     "design-fmax.svg": {
-      "sha256": "23ec044f9e3a47594fdd77118056a4ae180e417e348cc47186655d0337f06a74",
-      "bytes": 55304
+      "sha256": "d27b4f9405fd28541fda11bce21404b4c79c9c3526604199502c7d31ae0b05d3",
+      "bytes": 54288
     },
     "design-fmax.png": {
-      "sha256": "234ba29c20e76b3812747478d0b995a72a1dcadedc2075bf2872bb299a82d9a1",
-      "bytes": 227540
+      "sha256": "8264d754705dce11cd20f06262baee484f8490ba253cd3aa9a822433a582e92e",
+      "bytes": 223936
     }
   }
 }

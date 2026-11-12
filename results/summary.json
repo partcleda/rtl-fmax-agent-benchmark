@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-12 02:26 PST",
+  "generated": "2026-11-12 02:28 PST",
   "designs": [
     "ara.default",
     "cheshire.default",
@@ -230,6 +230,7 @@
       "spi_host.default"
     ],
     "ripple-65b-preview": [
+      "ara.default",
       "cheshire.default",
       "cv32e40p.default",
       "cva6.default",
@@ -242,8 +243,12 @@
       "nvdla.top",
       "opope.default",
       "pulp_c910.default",
+      "redmule.default",
       "serial_link.default",
+      "snitch_cluster.default",
+      "snitch_cluster.default_latch",
       "snitch_cluster.minimal",
+      "spatz.default",
       "spi_host.default"
     ],
     "kimi-k3.1-pro": [
