@@ -189,3 +189,6 @@ spatz.default,kimi-k3.1-pro,3,unverified,2.304,0.983507,unverified,partition_pro
 spatz.default,kimi-k3.1-pro,4,accepted,2.25,1.007111,proven,
 spatz.default,kimi-k3.1-pro,5,no_improvement,2.255,1.004878,proven,
 spatz.default,kimi-k3.1-pro,6,no_improvement,2.25,1.007111,proven,
+spi_host.default,kimi-k3.1-pro,1,accepted,0.456,1.041667,proven,
+spi_host.default,kimi-k3.1-pro,2,accepted,0.405,1.17284,proven,
+spi_host.default,kimi-k3.1-pro,3,accepted,0.4,1.1875,proven,
