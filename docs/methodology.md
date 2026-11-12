@@ -184,6 +184,10 @@ disk was nearly full, two runaway equivalence-check logs (27 GB and 41 GB) that 
 were cut to their first 256 KB and last 4 MB; nothing else in a running agent's files is ever modified. If a rerun is
 submitted twice by mistake, the first-submitted attempt counts and the duplicate is excluded.
 
+A cleanup bug removed an evaluator netlist while Kimi’s FMA session was still scoring a candidate. That
+session is withdrawn pending a pristine rerun, even though another candidate had a passing proof. Cleanup
+now requires a completed evaluation and a matching terminal receipt before removing evaluator copies.
+
 ## Evaluator version
 
 All sessions so far ran evaluator version `next-09` (the `evaluator` column of `sessions.csv`). A session
