@@ -52,6 +52,7 @@ serial_link.default,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budg
 snitch_cluster.default,claude-fable-5-2,1,,,claude-code,next-09,H200 NVL,490,agent_finished,0,365.5,5,5,0,0,2.128,1.751,1.215306
 snitch_cluster.default,kimi-k3.1-pro,1,,,kimi-code,next-09,H200 NVL,490,agent_finished,0,346.8,8,3,5,0,2.128,2.088,1.019157
 snitch_cluster.minimal,claude-fable-5-2,1,,,claude-code,next-09,RTX 6000 Ada,115,agent_finished,0,61.2,3,2,1,0,1.288,1.201,1.07244
+snitch_cluster.minimal,kimi-k3.1-pro,1,,rerun pinned to one provider endpoint (the earlier unpinned run is not reported),kimi-code,next-09,H200 NVL,115,agent_finished,0,75.7,4,1,2,0,1.288,1.2,1.073333
 snitch_cluster.minimal,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,H200 NVL,115,agent_finished,0,97.3,3,0,3,0,1.288,1.288,1.0
 snitch_cluster.minimal,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,115,budget_reached,124,115.0,0,0,0,0,1.288,1.288,1.0
 spatz.default,claude-fable-5-2,1,,,claude-code,next-09,RTX 6000 Ada,450,budget_reached,0,448.9,5,5,0,0,2.266,1.868,1.213062

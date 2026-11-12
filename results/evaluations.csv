@@ -175,6 +175,10 @@ snitch_cluster.default,kimi-k3.1-pro,8,unverified,2.11,1.008531,unverified,parti
 snitch_cluster.minimal,claude-fable-5-2,1,unverified,1.211,1.063584,memory_limit,timeout
 snitch_cluster.minimal,claude-fable-5-2,2,accepted,1.208,1.066225,proven,
 snitch_cluster.minimal,claude-fable-5-2,3,accepted,1.201,1.07244,proven,
+snitch_cluster.minimal,kimi-k3.1-pro,1,accepted,1.2,1.073333,proven,
+snitch_cluster.minimal,kimi-k3.1-pro,2,unverified,1.201,1.07244,unverified,partition_proof_failed
+snitch_cluster.minimal,kimi-k3.1-pro,3,unverified,1.222,1.05401,unverified,partition_proof_failed
+snitch_cluster.minimal,kimi-k3.1-pro,4,no_improvement,1.206,1.067993,proven,
 snitch_cluster.minimal,qwen3.8-2.4t-a95b,1,unverified,1.212,1.062706,unverified,partition_proof_failed
 snitch_cluster.minimal,qwen3.8-2.4t-a95b,2,unverified,1.205,1.06888,unverified,partition_proof_failed
 snitch_cluster.minimal,qwen3.8-2.4t-a95b,3,unverified,1.202,1.071547,unverified,partition_proof_failed
