@@ -16,6 +16,15 @@ cv32e40p.default,claude-fable-5-2,3,accepted,0.647,1.015456,proven,
 cv32e40p.default,claude-fable-5-2,4,accepted,0.622,1.05627,proven,
 cva6.default,claude-fable-5-2,1,unverified,1.035,1.002899,unverified,partition_proof_failed
 cva6.default,claude-fable-5-2,2,accepted,1.016,1.021654,proven,
+cvfpu.fp32_fma,claude-fable-5-2,1,accepted,1.32,1.061364,proven,
+cvfpu.fp32_fma,claude-fable-5-2,2,accepted,1.198,1.169449,proven,
+cvfpu.fp32_fma,claude-fable-5-2,3,accepted,1.149,1.219321,proven,
+cvfpu.fp32_fma,claude-fable-5-2,4,unverified,1.123,1.247551,unverified,timeout
+cvfpu.fp32_fma,claude-fable-5-2,5,accepted,1.121,1.249777,proven,
+cvfpu.fp32_fma,claude-fable-5-2,6,accepted,1.114,1.25763,proven,
+cvfpu.fp32_fma,claude-fable-5-2,7,accepted,1.106,1.266727,proven,
+cvfpu.fp32_fma,claude-fable-5-2,8,accepted,1.096,1.278285,proven,
+cvfpu.fp32_fma,claude-fable-5-2,9,accepted,1.07,1.309346,proven,
 ita.default,claude-fable-5-2,1,accepted,0.9,1.003333,proven,
 ita.default,ripple-65b-preview,1,unverified,0.9,1.003333,unverified,partition_proof_failed
 mempool.minpool,claude-fable-5-2,1,accepted,2.661,1.078166,proven,
@@ -76,3 +85,6 @@ spatz.default,kimi-k3.1-pro,3,unverified,2.304,0.983507,unverified,partition_pro
 spatz.default,kimi-k3.1-pro,4,accepted,2.25,1.007111,proven,
 spatz.default,kimi-k3.1-pro,5,no_improvement,2.255,1.004878,proven,
 spatz.default,kimi-k3.1-pro,6,no_improvement,2.25,1.007111,proven,
+spatz.default,qwen3.8-2.4t-a95b,1,unverified,2.185,1.037071,unverified,partition_proof_failed
+spatz.default,qwen3.8-2.4t-a95b,2,accepted,2.179,1.039927,proven,
+spatz.default,qwen3.8-2.4t-a95b,3,unverified,2.185,1.037071,unverified,partition_proof_failed
