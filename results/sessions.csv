@@ -2,11 +2,13 @@ design,model,attempts,earlier_outcomes,rerun_reason,harness,evaluator,gpu,budget
 ara.default,claude-fable-5-2,1,,,claude-code,next-09,H200 NVL,210,budget_reached,124,211.8,6,4,1,0,1.064,0.942,1.129512
 ara.default,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,H200 NVL,210,agent_error,1,55.4,0,0,0,0,1.064,1.064,1.0
 cheshire.default,claude-fable-5-2,1,,,claude-code,next-09,H200 NVL,90,agent_finished,0,61.9,5,2,3,0,1.047,0.982,1.066191
+cheshire.default,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,H200 NVL,90,agent_finished,0,69.3,1,0,1,0,1.047,1.047,1.0
 cheshire.default,ripple-65b-preview,1,,,opencode,next-09,H200 NVL,90,budget_reached,124,90.0,0,0,0,0,1.047,1.047,1.0
 cv32e40p.default,claude-fable-5-2,1,,,claude-code,next-09,RTX 6000 Ada,90,agent_finished,0,57.8,4,2,2,0,0.657,0.622,1.05627
 cv32e40p.default,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,RTX 6000 Ada,90,agent_finished,0,54.5,1,1,0,0,0.657,0.653,1.006126
 cv32e40p.default,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,0,0,0,0,0.657,0.657,1.0
 cva6.default,claude-fable-5-2,1,,,claude-code,next-09,RTX 6000 Ada,90,agent_finished,0,58.0,2,1,1,0,1.038,1.016,1.021654
+cva6.default,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,H200 NVL,90,agent_finished,0,66.9,0,0,0,0,1.038,1.038,1.0
 cva6.default,ripple-65b-preview,1,,,opencode,next-09,H200 NVL,90,budget_reached,124,90.0,0,0,0,0,1.038,1.038,1.0
 cvfpu.fp32_fma,claude-fable-5-2,1,,,claude-code,next-09,RTX 6000 Ada,90,agent_finished,0,71.6,9,8,1,0,1.401,1.07,1.309346
 cvfpu.fp32_fma,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,0,0,0,0,1.401,1.401,1.0

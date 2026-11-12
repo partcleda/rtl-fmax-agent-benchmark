@@ -10,6 +10,7 @@ cheshire.default,claude-fable-5-2,2,accepted,1.012,1.034585,proven,
 cheshire.default,claude-fable-5-2,3,accepted,0.982,1.066191,proven,
 cheshire.default,claude-fable-5-2,4,unverified,0.972,1.07716,unverified,partition_proof_failed
 cheshire.default,claude-fable-5-2,5,unverified,1.008,1.03869,unverified,partition_proof_failed
+cheshire.default,qwen3.8-2.4t-a95b,1,unverified,1.023,1.02346,unverified,partition_proof_failed
 cv32e40p.default,claude-fable-5-2,1,unverified,0.654,1.004587,unverified,partition_proof_failed
 cv32e40p.default,claude-fable-5-2,2,unverified,0.654,1.004587,unverified,partition_proof_failed
 cv32e40p.default,claude-fable-5-2,3,accepted,0.647,1.015456,proven,
