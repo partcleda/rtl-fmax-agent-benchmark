@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-12 03:28 PST",
+  "generated": "2026-11-12 03:33 PST",
   "designs": [
     "ara.default",
     "cheshire.default",
@@ -297,6 +297,11 @@
     ]
   },
   "incomplete_attempts": [
+    {
+      "design": "snitch_cluster.default_latch",
+      "model": "claude-fable-5-2",
+      "reason": "rerun pending"
+    },
     {
       "design": "redmule.default",
       "model": "gpt-6-astra",
