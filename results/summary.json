@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-12 11:32 PST",
+  "generated": "2026-11-12 12:49 PST",
   "designs": [
     "ara.default",
     "cheshire.default",
@@ -62,12 +62,12 @@
     "qwen3.8-2.4t-a95b": {
       "harness": "qwen-code",
       "ranked": false,
-      "designs": 17,
-      "geomean_fmax_gain_pct": 1.8,
-      "designs_improved": 6,
-      "mean_evaluations": 1.94,
+      "designs": 18,
+      "geomean_fmax_gain_pct": 2.059,
+      "designs_improved": 7,
+      "mean_evaluations": 2.17,
       "outcomes": {
-        "agent_finished": 13,
+        "agent_finished": 14,
         "budget_reached": 4
       }
     },
@@ -327,11 +327,6 @@
     },
     {
       "design": "redmule.default",
-      "model": "qwen3.8-2.4t-a95b",
-      "reason": "rerun pending"
-    },
-    {
-      "design": "snitch_cluster.default",
       "model": "qwen3.8-2.4t-a95b",
       "reason": "rerun pending"
     },
