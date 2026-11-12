@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-12 08:55 PST",
+  "generated": "2026-11-12 09:11 PST",
   "designs": [
     "ara.default",
     "cheshire.default",
@@ -26,24 +26,24 @@
     "claude-fable-5-2": {
       "harness": "claude-code",
       "ranked": false,
-      "designs": 16,
-      "geomean_fmax_gain_pct": 8.899,
-      "designs_improved": 13,
-      "mean_evaluations": 4.69,
+      "designs": 17,
+      "geomean_fmax_gain_pct": 8.868,
+      "designs_improved": 14,
+      "mean_evaluations": 4.76,
       "outcomes": {
-        "agent_finished": 12,
+        "agent_finished": 13,
         "budget_reached": 4
       }
     },
     "gpt-6-astra": {
       "harness": "codex",
       "ranked": false,
-      "designs": 8,
-      "geomean_fmax_gain_pct": 8.211,
-      "designs_improved": 7,
-      "mean_evaluations": 7.75,
+      "designs": 10,
+      "geomean_fmax_gain_pct": 7.995,
+      "designs_improved": 9,
+      "mean_evaluations": 8.2,
       "outcomes": {
-        "agent_finished": 6,
+        "agent_finished": 8,
         "budget_reached": 2
       }
     },
@@ -74,12 +74,13 @@
     "ripple-65b-preview": {
       "harness": "opencode",
       "ranked": false,
-      "designs": 15,
+      "designs": 18,
       "geomean_fmax_gain_pct": 0.0,
       "designs_improved": 0,
-      "mean_evaluations": 0.2,
+      "mean_evaluations": 0.17,
       "outcomes": {
         "agent_error": 1,
+        "agent_finished": 3,
         "budget_reached": 14
       }
     }
