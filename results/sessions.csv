@@ -15,6 +15,7 @@ nvdla.top,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_reached
 opope.default,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,0,0,0,0,0.857,0.857,1.0
 pulp_c910.default,claude-fable-5-2,1,,,claude-code,next-09,H200 NVL,215,agent_finished,0,176.8,8,0,6,0,1.005,1.005,1.0
 pulp_c910.default,gpt-6-astra,1,,,codex,next-09,RTX 6000 Ada,215,agent_finished,0,185.1,10,3,7,0,1.005,0.93,1.080645
+pulp_c910.default,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,215,budget_reached,124,215.0,1,0,1,0,1.005,1.005,1.0
 serial_link.default,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,0,0,0,0,0.305,0.305,1.0
 snitch_cluster.minimal,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,115,budget_reached,124,115.0,0,0,0,0,1.288,1.288,1.0
 spi_host.default,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,0,0,0,0,0.475,0.475,1.0

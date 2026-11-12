@@ -33,3 +33,4 @@ pulp_c910.default,gpt-6-astra,7,accepted,0.934,1.076017,proven,
 pulp_c910.default,gpt-6-astra,8,accepted,0.93,1.080645,proven,
 pulp_c910.default,gpt-6-astra,9,unverified,0.894,1.124161,unverified,partition_proof_failed
 pulp_c910.default,gpt-6-astra,10,unverified,0.94,1.069149,unverified,partition_proof_failed
+pulp_c910.default,ripple-65b-preview,1,unverified,0.968,1.038223,memory_limit,partition_proof_failed
