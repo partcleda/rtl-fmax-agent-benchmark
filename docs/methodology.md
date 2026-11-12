@@ -178,6 +178,8 @@ records the number of attempts, the earlier attempts' outcomes and the reason. T
 - a benchmark artifact: every harness receives the prompt on its command line, and the prompt names
   `boson -f measure.tcl`, so an agent stopping its own background measurement with `pkill -f` on that
   text also stops its own harness. The agent could not have expected that, so such a session is rerun.
+  After the second such case (12 November), the sandbox's `pgrep` and `pkill` skip the caller's own
+  ancestor processes, as newer procps does with `--ignore-ancestors`; matching is otherwise unchanged.
 
 An agent that crashes, stops early or runs out of budget on its own keeps its result. Once, when the shared
 disk was nearly full, two runaway equivalence-check logs (27 GB and 41 GB) that one running agent had written
