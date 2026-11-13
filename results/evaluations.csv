@@ -362,6 +362,14 @@ spatz.default,claude-fable-5-2,2,accepted,2.089,1.08473,proven,
 spatz.default,claude-fable-5-2,3,accepted,1.946,1.16444,proven,
 spatz.default,claude-fable-5-2,4,accepted,1.893,1.197042,proven,
 spatz.default,claude-fable-5-2,5,accepted,1.868,1.213062,proven,
+spatz.default,gpt-6-astra,1,unverified,2.315,0.978834,unverified,timeout
+spatz.default,gpt-6-astra,2,unverified,2.237,1.012964,unverified,partition_proof_failed
+spatz.default,gpt-6-astra,3,accepted,2.261,1.002211,proven,
+spatz.default,gpt-6-astra,4,accepted,2.232,1.015233,proven,
+spatz.default,gpt-6-astra,5,accepted,2.225,1.018427,proven,
+spatz.default,gpt-6-astra,6,no_improvement,2.234,1.014324,proven,
+spatz.default,gpt-6-astra,7,accepted,2.202,1.029064,proven,
+spatz.default,gpt-6-astra,8,no_improvement,2.267,0.999559,proven,
 spatz.default,kimi-k3.1-pro,1,unverified,2.276,0.995606,unverified,timeout
 spatz.default,kimi-k3.1-pro,2,unverified,2.309,0.981377,unverified,timeout
 spatz.default,kimi-k3.1-pro,3,unverified,2.304,0.983507,unverified,partition_proof_failed
