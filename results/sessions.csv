@@ -63,6 +63,7 @@ pulp_c910.default,kimi-k3.1-pro,1,,rerun pinned to one provider endpoint (the ea
 pulp_c910.default,qwen3.8-2.4t-a95b,2,agent_error,model provider refused service,qwen-code,next-09,H200 NVL,215,agent_finished,0,177.1,7,2,5,0,1.005,0.938,1.071429
 pulp_c910.default,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,215,budget_reached,124,215.0,1,0,1,0,1.005,1.005,1.0
 redmule.default,claude-fable-5-2,1,,,claude-code,next-09,H200 NVL,530,agent_finished,0,442.6,5,1,4,0,1.636,1.542,1.06096
+redmule.default,kimi-k3.1-pro,2,agent_error,model provider refused service,kimi-code,next-09,H200 NVL,530,budget_reached,124,543.8,9,0,9,0,1.636,1.636,1.0
 redmule.default,ripple-65b-preview,1,,,opencode,next-09,H200 NVL,530,agent_finished,0,0.2,0,0,0,0,1.636,1.636,1.0
 serial_link.default,claude-fable-5-2,1,,,claude-code,next-09,RTX 6000 Ada,90,agent_finished,0,51.7,10,3,7,0,0.305,0.27,1.12963
 serial_link.default,kimi-k3.1-pro,1,,rerun pinned to one provider endpoint (the earlier unpinned run is not reported),kimi-code,next-09,RTX 6000 Ada,90,agent_finished,0,41.1,8,3,3,0,0.305,0.272,1.121324
