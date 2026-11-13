@@ -266,6 +266,15 @@ redmule.default,claude-fable-5-2,2,unverified,1.182,1.384095,memory_limit,partit
 redmule.default,claude-fable-5-2,3,unverified,1.549,1.056165,memory_limit,partition_proof_failed
 redmule.default,claude-fable-5-2,4,accepted,1.542,1.06096,proven,
 redmule.default,claude-fable-5-2,5,unverified,1.399,1.169407,memory_limit,partition_proof_failed
+redmule.default,gpt-6-astra,1,accepted,1.58,1.035443,proven,
+redmule.default,gpt-6-astra,2,unverified,1.534,1.066493,memory_limit,partition_proof_failed
+redmule.default,gpt-6-astra,3,evaluation_failed,,,not_run,
+redmule.default,gpt-6-astra,4,unverified,1.537,1.064411,unverified,partition_proof_failed
+redmule.default,gpt-6-astra,5,unverified,1.653,0.989716,unverified,partition_proof_failed
+redmule.default,gpt-6-astra,6,accepted,1.552,1.054124,proven,
+redmule.default,gpt-6-astra,7,unverified,1.548,1.056848,unverified,partition_proof_failed
+redmule.default,gpt-6-astra,8,no_improvement,1.679,0.97439,proven,
+redmule.default,gpt-6-astra,9,no_improvement,1.74,0.94023,proven,
 redmule.default,kimi-k3.1-pro,1,unverified,1.636,1.0,unverified,partition_proof_failed
 redmule.default,kimi-k3.1-pro,2,unverified,1.541,1.061648,unverified,partition_proof_failed
 redmule.default,kimi-k3.1-pro,3,unverified,1.622,1.008631,unverified,partition_proof_failed
