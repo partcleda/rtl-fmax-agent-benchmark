@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-12 22:52 PST",
+  "generated": "2026-11-12 23:08 PST",
   "designs": [
     "ara.default",
     "cheshire.default",
@@ -38,13 +38,13 @@
     "gpt-6-astra": {
       "harness": "codex",
       "ranked": false,
-      "designs": 14,
-      "geomean_fmax_gain_pct": 7.716,
-      "designs_improved": 13,
-      "mean_evaluations": 8.36,
+      "designs": 15,
+      "geomean_fmax_gain_pct": 7.703,
+      "designs_improved": 14,
+      "mean_evaluations": 8.27,
       "outcomes": {
         "agent_finished": 11,
-        "budget_reached": 3
+        "budget_reached": 4
       }
     },
     "kimi-k3.1-pro": {
@@ -312,11 +312,6 @@
     },
     {
       "design": "serial_link.default",
-      "model": "gpt-6-astra",
-      "reason": "rerun pending"
-    },
-    {
-      "design": "snitch_cluster.default",
       "model": "gpt-6-astra",
       "reason": "rerun pending"
     },

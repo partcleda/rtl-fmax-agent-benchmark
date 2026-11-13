@@ -301,6 +301,13 @@ snitch_cluster.default,claude-fable-5-2,2,accepted,1.892,1.124736,proven,
 snitch_cluster.default,claude-fable-5-2,3,accepted,1.829,1.163477,proven,
 snitch_cluster.default,claude-fable-5-2,4,accepted,1.752,1.214612,proven,
 snitch_cluster.default,claude-fable-5-2,5,accepted,1.751,1.215306,proven,
+snitch_cluster.default,gpt-6-astra,1,no_improvement,2.396,0.888147,proven,
+snitch_cluster.default,gpt-6-astra,2,unverified,2.132,0.998124,unverified,partition_proof_failed
+snitch_cluster.default,gpt-6-astra,3,accepted,2.126,1.000941,proven,
+snitch_cluster.default,gpt-6-astra,4,accepted,2.065,1.030508,proven,
+snitch_cluster.default,gpt-6-astra,5,accepted,2.023,1.051903,proven,
+snitch_cluster.default,gpt-6-astra,6,accepted,2.013,1.057129,proven,
+snitch_cluster.default,gpt-6-astra,7,accepted,1.979,1.075291,proven,
 snitch_cluster.default,kimi-k3.1-pro,1,unverified,2.049,1.038555,unverified,partition_proof_failed
 snitch_cluster.default,kimi-k3.1-pro,2,unverified,2.071,1.027523,unverified,partition_proof_failed
 snitch_cluster.default,kimi-k3.1-pro,3,unverified,2.046,1.040078,unverified,partition_proof_failed
