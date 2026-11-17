@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-17 01:22 PST",
+  "generated": "2026-11-17 01:38 PST",
   "designs": [
     "ara.default",
     "cheshire.default",
@@ -350,7 +350,17 @@
       "reason": "rerun pending"
     },
     {
+      "design": "snitch_cluster.default_latch",
+      "model": "nemotron-3-ultra-550b-a55b",
+      "reason": "rerun pending"
+    },
+    {
       "design": "spatz.default",
+      "model": "nemotron-3-ultra-550b-a55b",
+      "reason": "rerun pending"
+    },
+    {
+      "design": "spi_host.default",
       "model": "nemotron-3-ultra-550b-a55b",
       "reason": "rerun pending"
     }
