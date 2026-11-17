@@ -523,3 +523,13 @@ spi_host.default,gpt-6-astra,7,accepted,0.404,1.175743,proven,
 spi_host.default,kimi-k3.1-pro,1,accepted,0.456,1.041667,proven,
 spi_host.default,kimi-k3.1-pro,2,accepted,0.405,1.17284,proven,
 spi_host.default,kimi-k3.1-pro,3,accepted,0.4,1.1875,proven,
+spi_host.default,nemotron-3-ultra-550b-a55b,1,no_improvement,0.475,1.0,proven,
+spi_host.default,nemotron-3-ultra-550b-a55b,2,unverified,0.457,1.039387,unverified,partition_proof_failed
+spi_host.default,nemotron-3-ultra-550b-a55b,3,unverified,0.457,1.039387,unverified,partition_proof_failed
+spi_host.default,nemotron-3-ultra-550b-a55b,4,evaluation_failed,,,not_run,
+spi_host.default,nemotron-3-ultra-550b-a55b,5,unverified,0.46,1.032609,unverified,partition_proof_failed
+spi_host.default,nemotron-3-ultra-550b-a55b,6,unverified,0.451,1.053215,unverified,partition_proof_failed
+spi_host.default,nemotron-3-ultra-550b-a55b,7,unverified,0.441,1.077098,unverified,partition_proof_failed
+spi_host.default,nemotron-3-ultra-550b-a55b,8,unverified,0.453,1.048565,unverified,partition_proof_failed
+spi_host.default,nemotron-3-ultra-550b-a55b,9,unverified,0.457,1.039387,unverified,partition_proof_failed
+spi_host.default,nemotron-3-ultra-550b-a55b,10,evaluation_failed,,,not_run,
