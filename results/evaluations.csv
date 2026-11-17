@@ -257,6 +257,10 @@ mempool.minpool,kimi-k3.1-pro,4,unverified,2.926,0.980519,unverified,partition_p
 mempool.minpool,kimi-k3.1-pro,5,unverified,2.864,1.001746,unverified,partition_proof_failed
 mempool.minpool,kimi-k3.1-pro,6,unverified,2.844,1.00879,unverified,partition_proof_failed
 mempool.minpool,kimi-k3.1-pro,7,accepted,2.693,1.065355,proven,
+mempool.minpool,nemotron-3-ultra-550b-a55b,1,unverified,2.845,1.008436,unverified,partition_proof_failed
+mempool.minpool,nemotron-3-ultra-550b-a55b,2,unverified,2.844,1.00879,unverified,partition_proof_failed
+mempool.minpool,nemotron-3-ultra-550b-a55b,3,unverified,2.844,1.00879,unverified,partition_proof_failed
+mempool.minpool,nemotron-3-ultra-550b-a55b,4,unverified,2.844,1.00879,unverified,partition_proof_failed
 mempool.minpool,qwen3.8-2.4t-a95b,1,accepted,2.594,1.106014,proven,
 mempool.minpool,qwen3.8-2.4t-a95b,2,no_improvement,2.617,1.096293,proven,
 mempool.minpool,qwen3.8-2.4t-a95b,3,unverified,2.421,1.185048,unverified,partition_proof_failed
