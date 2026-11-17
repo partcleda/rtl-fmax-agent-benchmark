@@ -44,6 +44,15 @@
       "harness_version": "1.19.5",
       "access": "Self-hosted (SGLang 0.5.19, BF16) for its first 15 designs; OpenRouter pinned to PrimeIntellect (BF16) for later sessions",
       "model_identifier": "ricursiveai/ripple-65b-preview"
+    },
+    {
+      "id": "nemotron-3-ultra-550b-a55b",
+      "name": "Nemotron 3 Ultra 550B-A55B",
+      "developer": "NVIDIA",
+      "harness": "OpenCode",
+      "harness_version": "1.19.5",
+      "access": "OpenRouter, pinned to DeepInfra (FP4), fallbacks disabled",
+      "model_identifier": "nvidia/nemotron-3-ultra-550b-a55b"
     }
   ]
 }

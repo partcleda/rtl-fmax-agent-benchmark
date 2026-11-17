@@ -137,6 +137,7 @@ Temporary files use private disk-backed storage. Local measurements do not repla
 | Kimi K3.1 Pro | Moonshot AI | Kimi Code 2.5.2 | OpenRouter, pinned to Moonshot AI's own endpoint (MXFP4), fallbacks disabled | `moonshotai/kimi-k3.1-pro` |
 | Qwen3.8 2.4T-A95B | Qwen (Alibaba) | Qwen Code 0.27.1 | OpenRouter, one pinned provider (SiliconFlow, FP8), fallbacks disabled | `qwen/qwen3.8-2.4t-a95b` |
 | Ripple-65B Preview | Ricursive AI | OpenCode 1.19.5 | Self-hosted SGLang 0.5.19 with the BF16 weights for its first 15 designs; OpenRouter pinned to PrimeIntellect (BF16) for later sessions | `ricursiveai/ripple-65b-preview` |
+| Nemotron 3 Ultra 550B-A55B | NVIDIA | OpenCode 1.19.5 | OpenRouter, pinned to DeepInfra (FP4), fallbacks disabled | `nvidia/nemotron-3-ultra-550b-a55b` |
 
 Headless launch modes: Claude Code `--print --permission-mode bypassPermissions` with no setting sources
 and no MCP configuration; Codex `exec --sandbox danger-full-access` with approvals off and user config
