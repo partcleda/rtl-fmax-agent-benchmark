@@ -50,13 +50,16 @@ def replace_section(section):
 
 
 def status_line(results):
-    planned = sum(len(designs) for designs in results['summary']['planned_designs'].values())
-    return (f"**Status:** {len(results['sessions'])} of {planned} sessions finished "
+    return (f"**Status:** {len(results['sessions'])} of {planned_sessions(results)} sessions finished "
             f"({len(results['models'])} models, {len(results['summary']['benchmark'])} designs), "
             f"as of {results['summary']['generated']}."
             + (f" {len(results['summary'].get('incomplete_attempts', []))} interrupted attempts are excluded "
                "from these results while awaiting a valid replacement."
                if results['summary'].get('incomplete_attempts') else ""))
+
+
+def planned_sessions(results):
+    return sum(len(designs) for designs in results['summary']['planned_designs'].values())
 
 
 def coverage_table(results):
@@ -95,10 +98,17 @@ def model_table(results):
                     f"{info['designs']} / {len(planned.get(model, []))} | {gain(info['geomean_fmax_gain_pct'])} | "
                     f"{info['designs_improved']} / {info['designs']} | {info['mean_evaluations']:.1f} | {share} |")
     rows += ['', "Fmax gain is the geometric mean of each finished session's Fmax ratio (baseline period / best "
-                 'accepted period) over the designs that model has finished. Models have finished different designs, '
-                 'so this order is provisional, not a like-for-like ranking, until every model covers the same '
-                 'designs. "Candidates not proven" is the share of evaluations whose equivalence proof did not pass.']
+                 f'accepted period) over the designs that model has finished. {ranking_caveat(results)} '
+                 '"Candidates not proven" is the share of evaluations whose equivalence proof did not pass.']
     return '\n'.join(rows)
+
+
+def ranking_caveat(results):
+    if all(info['ranked'] for info in results['summary']['models'].values()):
+        return ('Every model has finished the same designs, so this order is a like-for-like ranking over them; '
+                'with one session per model and design it has no confidence intervals.')
+    return ('Models have finished different designs, so this order is provisional, not a like-for-like ranking, '
+            'until every model covers the same designs.')
 
 
 def gain(percent):
@@ -183,7 +193,8 @@ def largest_gain(results):
     ratio = float(best['fmax_ratio'])
     if ratio <= 1:
         return 'No finished session has an accepted improvement yet.'
-    return (f"Largest single gain so far: `{best['design']}` by {results['names'].get(best['model'], best['model'])}, "
+    so_far = '' if len(results['sessions']) == planned_sessions(results) else ' so far'
+    return (f"Largest single gain{so_far}: `{best['design']}` by {results['names'].get(best['model'], best['model'])}, "
             f"{float(best['baseline_period_ns']):.3f} ns to {float(best['best_period_ns']):.3f} ns "
             f"({gain((ratio-1)*100)} Fmax).")
 

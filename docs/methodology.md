@@ -213,8 +213,9 @@ changes.
 
 ## Limitations
 
-- **Preliminary.** Results are added as sessions finish. Until every model has finished the same designs,
-  the models are measured on different design sets and their order is provisional.
+- **Preliminary.** Results are added as sessions finish and models are added. While one model has finished
+  a design another has not, the models are measured on different design sets and their order is
+  provisional; the README's note under the results table says which holds.
 - **One session per model and design.** There are no repeats, so there are no confidence intervals, and a
   single session's luck can move a model's aggregate.
 - **The harness is part of the result.** An agent that stops early, or whose provider returns malformed

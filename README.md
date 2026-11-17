@@ -1,6 +1,6 @@
 # RTL Fmax agent benchmark
 
-**Preliminary results, updated as sessions finish.**
+**Preliminary results, updated as sessions finish and models are added.**
 
 How far can a stock coding agent raise the maximum clock frequency (Fmax) of real RTL while keeping it
 formally equivalent to the original? Each model runs in its own family's official coding CLI (or OpenCode),
@@ -13,10 +13,9 @@ unplaced setup timing on the public ASAP7 TT libraries with a 1 ps period search
 proof against the original RTL. A session's score is baseline period / best accepted period; a candidate is
 accepted only when it is proven equivalent and faster than the session's best so far.
 
-> **The ranking is provisional.** Sessions finish at different times, so models have so far finished
-> different designs. A model's aggregate covers only its own finished designs, and the order below becomes
-> a like-for-like ranking only once every model covers the same designs. There is one session per model
-> and design, so there are no confidence intervals.
+> **One session per model and design.** There are no repeats, so there are no confidence intervals, and a
+> single session's luck can move a model's aggregate. A model's aggregate covers only the designs it has
+> finished; the note under the results table says whether every model has finished the same designs.
 
 ## Results
 
@@ -43,7 +42,7 @@ accepted only when it is proven equivalent and faster than the session's best so
 | Qwen3.8 2.4T-A95B | Qwen Code | 20 / 20 | +2.08% | 8 / 20 | 2.1 | 67% (28 / 42) |
 | Ripple-65B Preview | OpenCode | 20 / 20 | +0.00% | 0 / 20 | 0.1 | 100% (3 / 3) |
 
-Fmax gain is the geometric mean of each finished session's Fmax ratio (baseline period / best accepted period) over the designs that model has finished. Models have finished different designs, so this order is provisional, not a like-for-like ranking, until every model covers the same designs. "Candidates not proven" is the share of evaluations whose equivalence proof did not pass.
+Fmax gain is the geometric mean of each finished session's Fmax ratio (baseline period / best accepted period) over the designs that model has finished. Every model has finished the same designs, so this order is a like-for-like ranking over them; with one session per model and design it has no confidence intervals. "Candidates not proven" is the share of evaluations whose equivalence proof did not pass.
 
 ### Best result by design
 
@@ -77,7 +76,7 @@ Counts over every finished session of the models above. They describe what happe
 - 431 candidates evaluated: 142 accepted, 95 proven equivalent but not faster than the session's best, 192 not proven (142 with a partition EQY could not prove, 26 at the proof deadline, 24 over the proof memory budget), 2 failed to compile or measure.
 - Of 100 finished sessions, 68 ended with the agent finishing on its own, 31 ran to the time budget and 1 ended with an agent error.
 - Sessions used 4.3 of the 10 allowed evaluations on average; 12 used all 10.
-- Largest single gain so far: `cvfpu.fp32_fma` by Claude Fable 5.2, 1.401 ns to 1.070 ns (+30.93% Fmax).
+- Largest single gain: `cvfpu.fp32_fma` by Claude Fable 5.2, 1.401 ns to 1.070 ns (+30.93% Fmax).
 <!-- results:end -->
 
 ## Charts
