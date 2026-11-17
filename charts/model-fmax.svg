@@ -41,7 +41,7 @@ z
      <g id="line2d_1">
       <path d="M 190.08 379.44 
 L 190.08 108 
-" clip-path="url(#pbbf078af64)" style="fill: none; stroke: #ebedf0; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#p6627dd2dad)" style="fill: none; stroke: #ebedf0; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_2">
       <defs>
@@ -61,7 +61,7 @@ L 0 3.5
      <g id="line2d_3">
       <path d="M 263.316107 379.44 
 L 263.316107 108 
-" clip-path="url(#pbbf078af64)" style="fill: none; stroke: #ebedf0; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#p6627dd2dad)" style="fill: none; stroke: #ebedf0; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_4">
       <g>
@@ -76,7 +76,7 @@ L 263.316107 108
      <g id="line2d_5">
       <path d="M 336.552213 379.44 
 L 336.552213 108 
-" clip-path="url(#pbbf078af64)" style="fill: none; stroke: #ebedf0; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#p6627dd2dad)" style="fill: none; stroke: #ebedf0; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_6">
       <g>
@@ -91,7 +91,7 @@ L 336.552213 108
      <g id="line2d_7">
       <path d="M 409.78832 379.44 
 L 409.78832 108 
-" clip-path="url(#pbbf078af64)" style="fill: none; stroke: #ebedf0; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#p6627dd2dad)" style="fill: none; stroke: #ebedf0; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_8">
       <g>
@@ -106,7 +106,7 @@ L 409.78832 108
      <g id="line2d_9">
       <path d="M 483.024427 379.44 
 L 483.024427 108 
-" clip-path="url(#pbbf078af64)" style="fill: none; stroke: #ebedf0; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#p6627dd2dad)" style="fill: none; stroke: #ebedf0; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_10">
       <g>
@@ -121,7 +121,7 @@ L 483.024427 108
      <g id="line2d_11">
       <path d="M 556.260534 379.44 
 L 556.260534 108 
-" clip-path="url(#pbbf078af64)" style="fill: none; stroke: #ebedf0; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#p6627dd2dad)" style="fill: none; stroke: #ebedf0; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_12">
       <g>
@@ -136,7 +136,7 @@ L 556.260534 108
      <g id="line2d_13">
       <path d="M 629.49664 379.44 
 L 629.49664 108 
-" clip-path="url(#pbbf078af64)" style="fill: none; stroke: #ebedf0; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#p6627dd2dad)" style="fill: none; stroke: #ebedf0; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_14">
       <g>
@@ -151,7 +151,7 @@ L 629.49664 108
      <g id="line2d_15">
       <path d="M 702.732747 379.44 
 L 702.732747 108 
-" clip-path="url(#pbbf078af64)" style="fill: none; stroke: #ebedf0; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#p6627dd2dad)" style="fill: none; stroke: #ebedf0; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_16">
       <g>
@@ -166,7 +166,7 @@ L 702.732747 108
      <g id="line2d_17">
       <path d="M 775.968854 379.44 
 L 775.968854 108 
-" clip-path="url(#pbbf078af64)" style="fill: none; stroke: #ebedf0; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#p6627dd2dad)" style="fill: none; stroke: #ebedf0; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_18">
       <g>
@@ -231,7 +231,7 @@ L 494.537143 120.338182
 L 494.537143 145.987449 
 L 190.08 145.987449 
 z
-" clip-path="url(#pbbf078af64)" style="fill: #3f5680; opacity: 0.85"/>
+" clip-path="url(#p6627dd2dad)" style="fill: #3f5680; opacity: 0.85"/>
    </g>
    <g id="patch_4">
     <path d="M 190.08 164.561056 
@@ -239,7 +239,7 @@ L 396.224993 164.561056
 L 396.224993 190.210323 
 L 190.08 190.210323 
 z
-" clip-path="url(#pbbf078af64)" style="fill: #3f5680; opacity: 0.85"/>
+" clip-path="url(#p6627dd2dad)" style="fill: #3f5680; opacity: 0.85"/>
    </g>
    <g id="patch_5">
     <path d="M 190.08 208.78393 
@@ -247,7 +247,7 @@ L 301.691827 208.78393
 L 301.691827 234.433196 
 L 190.08 234.433196 
 z
-" clip-path="url(#pbbf078af64)" style="fill: #3f5680; opacity: 0.85"/>
+" clip-path="url(#p6627dd2dad)" style="fill: #3f5680; opacity: 0.85"/>
    </g>
    <g id="patch_6">
     <path d="M 190.08 253.006804 
@@ -255,15 +255,15 @@ L 251.041735 253.006804
 L 251.041735 278.65607 
 L 190.08 278.65607 
 z
-" clip-path="url(#pbbf078af64)" style="fill: #3f5680; opacity: 0.85"/>
+" clip-path="url(#p6627dd2dad)" style="fill: #3f5680; opacity: 0.85"/>
    </g>
    <g id="patch_7">
     <path d="M 190.08 297.229677 
-L 217.206654 297.229677 
-L 217.206654 322.878944 
+L 215.712637 297.229677 
+L 215.712637 322.878944 
 L 190.08 322.878944 
 z
-" clip-path="url(#pbbf078af64)" style="fill: #3f5680; opacity: 0.85"/>
+" clip-path="url(#p6627dd2dad)" style="fill: #3f5680; opacity: 0.85"/>
    </g>
    <g id="patch_8">
     <path d="M 190.08 341.452551 
@@ -271,7 +271,7 @@ L 190.08 341.452551
 L 190.08 367.101818 
 L 190.08 367.101818 
 z
-" clip-path="url(#pbbf078af64)" style="fill: #3f5680; opacity: 0.85"/>
+" clip-path="url(#p6627dd2dad)" style="fill: #3f5680; opacity: 0.85"/>
    </g>
    <g id="patch_9">
     <path d="M 190.08 379.44 
@@ -291,7 +291,7 @@ L 829.44 379.44
     <text style="fill: #171738; font: 10px 'DejaVu Sans'; text-anchor: start" x="257.041735" y="268.590812" transform="rotate(-0 257.041735 268.590812)">+2.08%   8/20 improved · 20 of 20 designs finished</text>
    </g>
    <g id="text_21">
-    <text style="fill: #171738; font: 10px 'DejaVu Sans'; text-anchor: start" x="223.206654" y="312.813686" transform="rotate(-0 223.206654 312.813686)">+0.93%   4/17 improved · 17 of 20 designs finished</text>
+    <text style="fill: #171738; font: 10px 'DejaVu Sans'; text-anchor: start" x="221.712637" y="312.813686" transform="rotate(-0 221.712637 312.813686)">+0.88%   4/18 improved · 18 of 20 designs finished</text>
    </g>
    <g id="text_22">
     <text style="fill: #171738; font: 10px 'DejaVu Sans'; text-anchor: start" x="196.08" y="357.03656" transform="rotate(-0 196.08 357.03656)">+0.00%   0/20 improved · 20 of 20 designs finished</text>
@@ -309,13 +309,13 @@ L 829.44 82.8
    <text style="fill: #5b607d; font: 11.5px 'DejaVu Sans'; text-anchor: start" x="34.56" y="68.4" transform="rotate(-0 34.56 68.4)">Each model over the designs it has finished so far; provisional until every model covers the same designs</text>
   </g>
   <g id="text_25">
-   <text style="fill: #5b607d; font: 8.5px 'DejaVu Sans'" transform="translate(34.56 470.436781)">Preliminary results as of 2026-11-17 05:17 PST: 117 of 120 sessions finished.</text>
+   <text style="fill: #5b607d; font: 8.5px 'DejaVu Sans'" transform="translate(34.56 470.436781)">Preliminary results as of 2026-11-17 11:54 PST: 118 of 120 sessions finished.</text>
    <text style="fill: #5b607d; font: 8.5px 'DejaVu Sans'" transform="translate(34.56 482.538391)">Stock coding agents, one session per model and design, at most 10 evaluations each. boson synthesis and unplaced setup timing on public ASAP7 TT</text>
    <text style="fill: #5b607d; font: 8.5px 'DejaVu Sans'" transform="translate(34.56 494.64)">libraries, 1 ps period search; a candidate counts only with an EQY equivalence proof against the original RTL.</text>
   </g>
  </g>
  <defs>
-  <clipPath id="pbbf078af64">
+  <clipPath id="p6627dd2dad">
    <rect x="190.08" y="108" width="639.36" height="271.44"/>
   </clipPath>
  </defs>

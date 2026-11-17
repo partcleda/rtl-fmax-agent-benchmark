@@ -468,6 +468,13 @@ snitch_cluster.default_latch,kimi-k3.1-pro,4,unverified,2.112,1.026989,unverifie
 snitch_cluster.default_latch,kimi-k3.1-pro,5,no_improvement,2.171,0.999079,proven,
 snitch_cluster.default_latch,kimi-k3.1-pro,6,no_improvement,2.194,0.988605,proven,
 snitch_cluster.default_latch,kimi-k3.1-pro,7,accepted,2.097,1.034335,proven,
+snitch_cluster.default_latch,nemotron-3-ultra-550b-a55b,1,unverified,2.157,1.005563,unverified,partition_proof_failed
+snitch_cluster.default_latch,nemotron-3-ultra-550b-a55b,2,unverified,1.867,1.161757,unverified,partition_proof_failed
+snitch_cluster.default_latch,nemotron-3-ultra-550b-a55b,3,unverified,1.867,1.161757,unverified,partition_proof_failed
+snitch_cluster.default_latch,nemotron-3-ultra-550b-a55b,4,unverified,2.157,1.005563,unverified,partition_proof_failed
+snitch_cluster.default_latch,nemotron-3-ultra-550b-a55b,5,unverified,1.872,1.158654,unverified,partition_proof_failed
+snitch_cluster.default_latch,nemotron-3-ultra-550b-a55b,6,unverified,1.983,1.093797,unverified,partition_proof_failed
+snitch_cluster.default_latch,nemotron-3-ultra-550b-a55b,7,unverified,1.373,1.579752,unverified,partition_proof_failed
 snitch_cluster.default_latch,qwen3.8-2.4t-a95b,1,unverified,2.086,1.039789,unverified,partition_proof_failed
 snitch_cluster.default_latch,qwen3.8-2.4t-a95b,2,unverified,2.121,1.022631,unverified,partition_proof_failed
 snitch_cluster.minimal,claude-fable-5-2,1,unverified,1.211,1.063584,memory_limit,timeout

@@ -96,6 +96,7 @@ snitch_cluster.default,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,490,
 snitch_cluster.default_latch,claude-fable-5-2,3,agent_error;agent_error,infrastructure fault,claude-code,next-09,RTX 6000 Ada,600,agent_finished,0,537.7,4,3,1,0,2.169,1.871,1.159273
 snitch_cluster.default_latch,gpt-6-astra,1,,,codex,next-09,RTX 6000 Ada,600,agent_finished,0,569.4,7,2,1,0,2.169,2.091,1.037303
 snitch_cluster.default_latch,kimi-k3.1-pro,1,,,kimi-code,next-09,RTX 6000 Ada,600,budget_reached,0,576.3,7,2,3,0,2.169,2.097,1.034335
+snitch_cluster.default_latch,nemotron-3-ultra-550b-a55b,2,agent_error,model provider refused service,opencode,next-09,RTX 6000 Ada,600,budget_reached,124,612.5,7,0,7,0,2.169,2.169,1.0
 snitch_cluster.default_latch,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,RTX 6000 Ada,600,agent_finished,0,484.4,2,0,2,0,2.169,2.169,1.0
 snitch_cluster.default_latch,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,600,agent_finished,0,0.1,0,0,0,0,2.169,2.169,1.0
 snitch_cluster.minimal,claude-fable-5-2,1,,,claude-code,next-09,RTX 6000 Ada,115,agent_finished,0,61.2,3,2,1,0,1.288,1.201,1.07244
