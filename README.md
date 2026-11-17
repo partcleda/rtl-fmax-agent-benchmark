@@ -20,7 +20,7 @@ accepted only when it is proven equivalent and faster than the session's best so
 ## Results
 
 <!-- results:start -->
-**Status:** 100 of 100 sessions finished (5 models, 20 designs), as of 2026-11-16 19:18 PST.
+**Status:** 100 of 120 sessions finished (6 models, 20 designs), as of 2026-11-16 19:43 PST.
 
 ### Coverage
 
@@ -31,6 +31,7 @@ accepted only when it is proven equivalent and faster than the session's best so
 | Kimi K3.1 Pro | Moonshot AI | Kimi Code 2.5.2 | OpenRouter, pinned to Moonshot AI's own endpoint (MXFP4), fallbacks disabled | 20 / 20 |
 | Qwen3.8 2.4T-A95B | Qwen (Alibaba) | Qwen Code 0.27.1 | OpenRouter, one pinned provider (SiliconFlow, FP8) | 20 / 20 |
 | Ripple-65B Preview | Ricursive AI | OpenCode 1.19.5 | Self-hosted (SGLang 0.5.19, BF16) for its first 15 designs; OpenRouter pinned to PrimeIntellect (BF16) for later sessions | 20 / 20 |
+| Nemotron 3 Ultra 550B-A55B | NVIDIA | OpenCode 1.19.5 | OpenRouter, pinned to DeepInfra (FP4), fallbacks disabled | 0 / 20 |
 
 ### Results by model
 
@@ -76,7 +77,7 @@ Counts over every finished session of the models above. They describe what happe
 - 431 candidates evaluated: 142 accepted, 95 proven equivalent but not faster than the session's best, 192 not proven (142 with a partition EQY could not prove, 26 at the proof deadline, 24 over the proof memory budget), 2 failed to compile or measure.
 - Of 100 finished sessions, 68 ended with the agent finishing on its own, 31 ran to the time budget and 1 ended with an agent error.
 - Sessions used 4.3 of the 10 allowed evaluations on average; 12 used all 10.
-- Largest single gain: `cvfpu.fp32_fma` by Claude Fable 5.2, 1.401 ns to 1.070 ns (+30.93% Fmax).
+- Largest single gain so far: `cvfpu.fp32_fma` by Claude Fable 5.2, 1.401 ns to 1.070 ns (+30.93% Fmax).
 <!-- results:end -->
 
 ## Charts

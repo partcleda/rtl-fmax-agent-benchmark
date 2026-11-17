@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-16 19:18 PST",
+  "generated": "2026-11-16 19:43 PST",
   "designs": [
     "ara.default",
     "cheshire.default",
@@ -277,6 +277,28 @@
       "spi_host.default"
     ],
     "qwen3.8-2.4t-a95b": [
+      "ara.default",
+      "cheshire.default",
+      "cv32e40p.default",
+      "cva6.default",
+      "cvfpu.fp32_fma",
+      "cvfpu.full",
+      "ibex.full",
+      "ibex.minimal",
+      "ita.default",
+      "mempool.minpool",
+      "nvdla.top",
+      "opope.default",
+      "pulp_c910.default",
+      "redmule.default",
+      "serial_link.default",
+      "snitch_cluster.default",
+      "snitch_cluster.default_latch",
+      "snitch_cluster.minimal",
+      "spatz.default",
+      "spi_host.default"
+    ],
+    "nemotron-3-ultra-550b-a55b": [
       "ara.default",
       "cheshire.default",
       "cv32e40p.default",
