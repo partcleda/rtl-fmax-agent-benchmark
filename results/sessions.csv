@@ -31,6 +31,7 @@ cvfpu.fp32_fma,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_re
 cvfpu.full,claude-fable-5-2,1,,,claude-code,next-09,RTX 6000 Ada,90,agent_finished,0,40.0,4,2,1,0,2.114,1.981,1.067138
 cvfpu.full,gpt-6-astra,1,,,codex,next-09,H200 NVL,90,budget_reached,0,86.2,9,3,1,0,2.114,2.01,1.051741
 cvfpu.full,kimi-k3.1-pro,1,,rerun pinned to one provider endpoint (the earlier unpinned run is not reported),kimi-code,next-09,H200 NVL,90,agent_finished,0,71.1,6,2,3,0,2.114,2.078,1.017324
+cvfpu.full,nemotron-3-ultra-550b-a55b,1,,,opencode,next-09,RTX 6000 Ada,90,agent_finished,0,74.5,10,0,9,0,2.114,2.114,1.0
 cvfpu.full,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,RTX 6000 Ada,90,agent_finished,0,57.5,1,1,0,0,2.114,2.101,1.006188
 cvfpu.full,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,0,0,0,0,2.114,2.114,1.0
 ibex.full,claude-fable-5-2,1,,,claude-code,next-09,H200 NVL,90,budget_reached,0,87.7,3,0,3,0,0.935,0.935,1.0

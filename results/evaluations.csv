@@ -158,6 +158,16 @@ cvfpu.full,kimi-k3.1-pro,3,no_improvement,2.091,1.011,proven,
 cvfpu.full,kimi-k3.1-pro,4,unverified,2.158,0.979611,unverified,partition_proof_failed
 cvfpu.full,kimi-k3.1-pro,5,unverified,2.106,1.003799,unverified,partition_proof_failed
 cvfpu.full,kimi-k3.1-pro,6,accepted,2.078,1.017324,proven,
+cvfpu.full,nemotron-3-ultra-550b-a55b,1,unverified,2.128,0.993421,unverified,partition_proof_failed
+cvfpu.full,nemotron-3-ultra-550b-a55b,2,no_improvement,2.284,0.925569,proven,
+cvfpu.full,nemotron-3-ultra-550b-a55b,3,unverified,2.169,0.974643,unverified,partition_proof_failed
+cvfpu.full,nemotron-3-ultra-550b-a55b,4,unverified,2.214,0.954833,unverified,partition_proof_failed
+cvfpu.full,nemotron-3-ultra-550b-a55b,5,unverified,2.211,0.956128,unverified,partition_proof_failed
+cvfpu.full,nemotron-3-ultra-550b-a55b,6,unverified,2.211,0.956128,unverified,partition_proof_failed
+cvfpu.full,nemotron-3-ultra-550b-a55b,7,unverified,2.211,0.956128,unverified,partition_proof_failed
+cvfpu.full,nemotron-3-ultra-550b-a55b,8,unverified,2.211,0.956128,unverified,partition_proof_failed
+cvfpu.full,nemotron-3-ultra-550b-a55b,9,unverified,2.234,0.946285,unverified,partition_proof_failed
+cvfpu.full,nemotron-3-ultra-550b-a55b,10,unverified,2.234,0.946285,unverified,partition_proof_failed
 cvfpu.full,qwen3.8-2.4t-a95b,1,accepted,2.101,1.006188,proven,
 ibex.full,claude-fable-5-2,1,unverified,0.9,1.038889,unverified,timeout
 ibex.full,claude-fable-5-2,2,unverified,0.899,1.040044,unverified,timeout
