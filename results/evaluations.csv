@@ -227,6 +227,9 @@ ita.default,gpt-6-astra,6,unverified,0.905,0.99779,unverified,timeout
 ita.default,kimi-k3.1-pro,1,unverified,0.9,1.003333,unverified,partition_proof_failed
 ita.default,kimi-k3.1-pro,2,accepted,0.902,1.001109,proven,
 ita.default,kimi-k3.1-pro,3,unverified,0.901,1.00222,unverified,partition_proof_failed
+ita.default,nemotron-3-ultra-550b-a55b,1,unverified,0.902,1.001109,unverified,partition_proof_failed
+ita.default,nemotron-3-ultra-550b-a55b,2,unverified,0.9,1.003333,unverified,partition_proof_failed
+ita.default,nemotron-3-ultra-550b-a55b,3,unverified,0.9,1.003333,unverified,partition_proof_failed
 ita.default,qwen3.8-2.4t-a95b,1,unverified,0.902,1.001109,unverified,partition_proof_failed
 ita.default,qwen3.8-2.4t-a95b,2,unverified,0.901,1.00222,unverified,timeout
 ita.default,ripple-65b-preview,1,unverified,0.9,1.003333,unverified,partition_proof_failed
