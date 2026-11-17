@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-16 18:11 PST",
+  "generated": "2026-11-16 19:18 PST",
   "designs": [
     "ara.default",
     "cheshire.default",
@@ -37,13 +37,13 @@
     },
     "gpt-6-astra": {
       "harness": "codex",
-      "ranked": false,
-      "designs": 18,
-      "geomean_fmax_gain_pct": 7.565,
-      "designs_improved": 17,
-      "mean_evaluations": 8.39,
+      "ranked": true,
+      "designs": 20,
+      "geomean_fmax_gain_pct": 7.037,
+      "designs_improved": 19,
+      "mean_evaluations": 8.45,
       "outcomes": {
-        "agent_finished": 12,
+        "agent_finished": 14,
         "budget_reached": 6
       }
     },
@@ -299,11 +299,5 @@
       "spi_host.default"
     ]
   },
-  "incomplete_attempts": [
-    {
-      "design": "opope.default",
-      "model": "gpt-6-astra",
-      "reason": "rerun pending"
-    }
-  ]
+  "incomplete_attempts": []
 }
