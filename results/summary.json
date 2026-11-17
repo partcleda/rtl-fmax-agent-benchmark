@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-17 00:05 PST",
+  "generated": "2026-11-17 00:20 PST",
   "designs": [
     "ara.default",
     "cheshire.default",
@@ -62,13 +62,13 @@
     "nemotron-3-ultra-550b-a55b": {
       "harness": "opencode",
       "ranked": false,
-      "designs": 10,
-      "geomean_fmax_gain_pct": 0.679,
+      "designs": 11,
+      "geomean_fmax_gain_pct": 0.617,
       "designs_improved": 3,
-      "mean_evaluations": 7.3,
+      "mean_evaluations": 6.91,
       "outcomes": {
         "agent_finished": 8,
-        "budget_reached": 2
+        "budget_reached": 3
       }
     },
     "qwen3.8-2.4t-a95b": {
@@ -356,11 +356,6 @@
     },
     {
       "design": "snitch_cluster.default",
-      "model": "nemotron-3-ultra-550b-a55b",
-      "reason": "rerun pending"
-    },
-    {
-      "design": "snitch_cluster.minimal",
       "model": "nemotron-3-ultra-550b-a55b",
       "reason": "rerun pending"
     },
