@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-16 21:15 PST",
+  "generated": "2026-11-16 21:46 PST",
   "designs": [
     "ara.default",
     "cheshire.default",
@@ -62,12 +62,12 @@
     "nemotron-3-ultra-550b-a55b": {
       "harness": "opencode",
       "ranked": false,
-      "designs": 2,
-      "geomean_fmax_gain_pct": 1.004,
-      "designs_improved": 1,
-      "mean_evaluations": 6.0,
+      "designs": 3,
+      "geomean_fmax_gain_pct": 1.526,
+      "designs_improved": 2,
+      "mean_evaluations": 7.33,
       "outcomes": {
-        "agent_finished": 2
+        "agent_finished": 3
       }
     },
     "qwen3.8-2.4t-a95b": {
