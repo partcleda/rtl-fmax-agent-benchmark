@@ -182,6 +182,9 @@ ibex.full,gpt-6-astra,7,no_improvement,0.924,1.011905,proven,
 ibex.full,gpt-6-astra,8,unverified,0.902,1.036585,memory_limit,partition_proof_failed
 ibex.full,gpt-6-astra,9,no_improvement,0.947,0.987328,proven,
 ibex.full,kimi-k3.1-pro,1,accepted,0.899,1.040044,proven,
+ibex.full,nemotron-3-ultra-550b-a55b,1,unverified,0.907,1.030871,unverified,partition_proof_failed
+ibex.full,nemotron-3-ultra-550b-a55b,2,unverified,0.907,1.030871,unverified,partition_proof_failed
+ibex.full,nemotron-3-ultra-550b-a55b,3,unverified,0.902,1.036585,unverified,partition_proof_failed
 ibex.full,qwen3.8-2.4t-a95b,1,unverified,0.921,1.015201,memory_limit,partition_proof_failed
 ibex.minimal,claude-fable-5-2,1,unverified,0.679,1.054492,unverified,timeout
 ibex.minimal,claude-fable-5-2,2,unverified,0.716,1.0,unverified,partition_proof_failed
