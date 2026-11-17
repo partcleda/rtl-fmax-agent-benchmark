@@ -90,6 +90,7 @@ serial_link.default,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budg
 snitch_cluster.default,claude-fable-5-2,1,,,claude-code,next-09,H200 NVL,490,agent_finished,0,365.5,5,5,0,0,2.128,1.751,1.215306
 snitch_cluster.default,gpt-6-astra,2,agent_error,model provider refused service,codex,next-09,RTX 6000 Ada,490,budget_reached,124,503.6,7,5,1,0,2.128,1.979,1.075291
 snitch_cluster.default,kimi-k3.1-pro,1,,,kimi-code,next-09,H200 NVL,490,agent_finished,0,346.8,8,3,5,0,2.128,2.088,1.019157
+snitch_cluster.default,nemotron-3-ultra-550b-a55b,3,agent_finished;agent_error,model provider refused service,opencode,next-09,RTX 6000 Ada,490,agent_finished,0,53.5,1,0,1,0,2.128,2.128,1.0
 snitch_cluster.default,qwen3.8-2.4t-a95b,2,agent_error,benchmark artifact: the agent's process-kill pattern matched its own harness command line,qwen-code,next-09,H200 NVL,490,agent_finished,0,430.9,6,2,3,0,2.128,1.997,1.065598
 snitch_cluster.default,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,490,agent_finished,0,0.1,0,0,0,0,2.128,2.128,1.0
 snitch_cluster.default_latch,claude-fable-5-2,3,agent_error;agent_error,infrastructure fault,claude-code,next-09,RTX 6000 Ada,600,agent_finished,0,537.7,4,3,1,0,2.169,1.871,1.159273
