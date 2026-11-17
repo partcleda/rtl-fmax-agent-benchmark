@@ -309,7 +309,7 @@ L 829.44 82.8
    <text style="fill: #5b607d; font: 11.5px 'DejaVu Sans'; text-anchor: start" x="34.56" y="68.4" transform="rotate(-0 34.56 68.4)">Each model over the designs it has finished so far; provisional until every model covers the same designs</text>
   </g>
   <g id="text_25">
-   <text style="fill: #5b607d; font: 8.5px 'DejaVu Sans'" transform="translate(34.56 470.436781)">Preliminary results as of 2026-11-16 20:44 PST: 101 of 120 sessions finished.</text>
+   <text style="fill: #5b607d; font: 8.5px 'DejaVu Sans'" transform="translate(34.56 470.436781)">Preliminary results as of 2026-11-16 21:00 PST: 101 of 120 sessions finished.</text>
    <text style="fill: #5b607d; font: 8.5px 'DejaVu Sans'" transform="translate(34.56 482.538391)">Stock coding agents, one session per model and design, at most 10 evaluations each. boson synthesis and unplaced setup timing on public ASAP7 TT</text>
    <text style="fill: #5b607d; font: 8.5px 'DejaVu Sans'" transform="translate(34.56 494.64)">libraries, 1 ps period search; a candidate counts only with an EQY equivalence proof against the original RTL.</text>
   </g>

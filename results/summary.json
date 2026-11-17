@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-16 20:44 PST",
+  "generated": "2026-11-16 21:00 PST",
   "designs": [
     "ara.default",
     "cheshire.default",
@@ -65,7 +65,7 @@
       "designs": 1,
       "geomean_fmax_gain_pct": 0.0,
       "designs_improved": 0,
-      "mean_evaluations": 1.0,
+      "mean_evaluations": 2.0,
       "outcomes": {
         "agent_finished": 1
       }
@@ -334,7 +334,37 @@
   },
   "incomplete_attempts": [
     {
+      "design": "ara.default",
+      "model": "nemotron-3-ultra-550b-a55b",
+      "reason": "rerun pending"
+    },
+    {
+      "design": "mempool.minpool",
+      "model": "nemotron-3-ultra-550b-a55b",
+      "reason": "rerun pending"
+    },
+    {
+      "design": "pulp_c910.default",
+      "model": "nemotron-3-ultra-550b-a55b",
+      "reason": "rerun pending"
+    },
+    {
+      "design": "redmule.default",
+      "model": "nemotron-3-ultra-550b-a55b",
+      "reason": "rerun pending"
+    },
+    {
       "design": "snitch_cluster.default",
+      "model": "nemotron-3-ultra-550b-a55b",
+      "reason": "rerun pending"
+    },
+    {
+      "design": "snitch_cluster.minimal",
+      "model": "nemotron-3-ultra-550b-a55b",
+      "reason": "rerun pending"
+    },
+    {
+      "design": "spatz.default",
       "model": "nemotron-3-ultra-550b-a55b",
       "reason": "rerun pending"
     }
