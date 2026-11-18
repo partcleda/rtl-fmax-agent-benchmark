@@ -26,6 +26,12 @@ the settings below. It does not separate model capability from the harness.
 - A candidate is **accepted** when its equivalence proof passes and its passing period is strictly shorter
   than the session's best so far. The session's score is its best accepted period:
   **Fmax ratio = baseline period / best accepted period**. A session with no accepted candidate scores 1.0.
+- Each model gets two aggregates over the designs it finished. **Fmax gain** is the geometric mean of its
+  Fmax ratios, minus one. **Normalized score** is the mean of its Fmax gain on each design as a percentage
+  of the best gain any model in the table reached on that design: 100 means the best result on every
+  design, 0 means no gain. The normalized score weighs every design equally, however much headroom it
+  turned out to have, and it moves when a model joins the table or a design's best result improves. A
+  design no model has improved is left out of it.
 - The session ends when the agent stops, or at its elapsed-time **budget**: 90 minutes, or 30 minutes plus
   ten times one baseline measurement where that is longer, capped at 600 minutes (see
   [benchmarks.md](benchmarks.md)). The budget includes measurement waits. An evaluation already submitted
@@ -216,7 +222,7 @@ changes.
   `status`, `period_ns`, `fmax_ratio`, `proof_status` (`proven`, `unverified`, `memory_limit`, `not_run`),
   `proof_failure` (`partition_proof_failed` when EQY could not prove a partition, `timeout`, or empty).
 - `results/summary.json`: per-model aggregates over the designs each model finished (geometric-mean Fmax
-  gain, designs improved, mean evaluations, outcomes), each design's baseline period, and each model's
+  gain, normalized score, designs improved, mean evaluations, outcomes), each design's baseline period, and each model's
   planned designs. `ranked` is true when a model has finished every design that any model has finished.
 - `results/models.json`: model, developer, harness, version and access route, as in the table above.
 

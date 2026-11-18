@@ -58,10 +58,17 @@ def load():
         sessions = {(r['model'], r['design']): r for r in csv.DictReader(stream)}
     models = json.loads(INPUTS[2].read_text())['models']
     aggregates = summary['models']
+    best = {}
+    for (_, design), row in sessions.items():
+        best[design] = max(best.get(design, 1.0), float(row['fmax_ratio']))
     for model, info in aggregates.items():
-        ratios = [float(r['fmax_ratio']) for (m, _), r in sessions.items() if m == model]
-        expected = (math.exp(sum(map(math.log, ratios))/len(ratios))-1)*100
-        if abs(expected-info['geomean_fmax_gain_pct']) > 1e-3:
+        rows = [(design, float(r['fmax_ratio'])) for (m, design), r in sessions.items() if m == model]
+        geomean = (math.exp(sum(math.log(ratio) for _, ratio in rows)/len(rows))-1)*100
+        shares = [(ratio-1)/(best[design]-1)*100 for design, ratio in rows if best[design] > 1]
+        normalized = sum(shares)/len(shares) if shares else None
+        if (abs(geomean-info['geomean_fmax_gain_pct']) > 1e-3
+                or (normalized is None) != (info['normalized_score'] is None)
+                or (normalized is not None and abs(normalized-info['normalized_score']) > 1e-2)):
             raise RuntimeError('summary.json and sessions.csv disagree for '+model)
     finished = sorted((m['id'] for m in models if m['id'] in aggregates),
                       key=lambda m: -aggregates[m]['geomean_fmax_gain_pct'])
@@ -105,37 +112,51 @@ def save(fig, stem):
 
 
 def gain_chart(data):
-    """Horizontal bars: each model's geometric-mean gain over the designs it has finished, with its coverage."""
+    """Two bar panels sharing the model axis: geometric-mean Fmax gain, and normalized score, each over the
+    designs the model has finished."""
     order, aggregates, planned = data['order'], data['summary']['models'], data['summary']['planned_designs']
     height = 3.4+.62*len(order)
-    fig, ax = plt.subplots(figsize=(12, height))
-    fig.subplots_adjust(left=.22, right=.96, top=1-1.5/height, bottom=1.85/height)
-    values = [aggregates[m]['geomean_fmax_gain_pct'] if m in aggregates else 0 for m in order]
-    ax.barh(range(len(order)), values, color=ACCENT, alpha=.85, height=.58)
-    ax.set_yticks(range(len(order)), [label(data, m) for m in order], fontsize=10.5)
-    ax.invert_yaxis()
-    ax.set_xlim(0, max(2.0, max(values)*2.1))
-    ax.set_xlabel('Geometric-mean Fmax gain over the designs finished (%)', labelpad=10)
+    fig, (gain_axis, score_axis) = plt.subplots(1, 2, figsize=(14, height), sharey=True,
+                                                gridspec_kw=dict(width_ratios=[1.25, 1], wspace=.06))
+    fig.subplots_adjust(left=.17, right=.97, top=1-1.5/height, bottom=1.85/height)
+    gains = [aggregates[m]['geomean_fmax_gain_pct'] if m in aggregates else 0 for m in order]
+    scores = [(aggregates[m]['normalized_score'] or 0) if m in aggregates else 0 for m in order]
+    bar_panel(gain_axis, gains, 'Fmax gain, geometric mean over designs (%)', max(2.0, max(gains)*1.75))
+    bar_panel(score_axis, scores, 'Normalized score (best result on each design = 100)', 128)
+    score_axis.set_xticks([0, 25, 50, 75, 100])
+    gain_axis.set_yticks(range(len(order)), [label(data, m) for m in order], fontsize=10.5)
+    gain_axis.invert_yaxis()
+    for row, model in enumerate(order):
+        total = len(planned.get(model, []))
+        if model not in aggregates:
+            annotate(gain_axis, 0, row, f'no finished sessions yet · 0 of {total} designs', FAINT)
+            continue
+        info = aggregates[model]
+        coverage = '' if info['designs'] == total else f" · {info['designs']} of {total} designs finished"
+        annotate(gain_axis, gains[row], row, f"+{gains[row]:.2f}%   {info['designs_improved']}/{info['designs']} "
+                                             f"improved{coverage}", INK)
+        annotate(score_axis, scores[row], row, f'{scores[row]:.1f}', INK)
+    header(fig, 'RTL Fmax gain by coding agent (preliminary)',
+           'Each model over the designs it has finished; normalized score: its gain on each design as a share of '
+           'the best gain any model reached there')
+    provenance(fig, data)
+    return fig
+
+
+def bar_panel(ax, values, xlabel, right):
+    ax.barh(range(len(values)), values, color=ACCENT, alpha=.85, height=.58)
+    ax.set_xlim(0, right)
+    ax.set_xlabel(xlabel, labelpad=10)
     ax.set_axisbelow(True)
     ax.grid(axis='x', color=GRID)
     ax.spines['left'].set_visible(False)
     ax.spines['bottom'].set_color(GRID)
     ax.tick_params(axis='y', length=0, pad=10)
-    for row, model in enumerate(order):
-        total = len(planned.get(model, []))
-        if model in aggregates:
-            info = aggregates[model]
-            text = (f"+{values[row]:.2f}%   {info['designs_improved']}/{info['designs']} improved · "
-                    f"{info['designs']} of {total} designs finished")
-            ax.annotate(text, (values[row], row), xytext=(6, 0), textcoords='offset points', va='center',
-                        fontsize=10, color=INK)
-        else:
-            ax.annotate(f'no finished sessions yet · 0 of {total} designs', (0, row), xytext=(6, 0),
-                        textcoords='offset points', va='center', fontsize=10, color=FAINT)
-    header(fig, 'RTL Fmax gain by coding agent (preliminary)',
-           'Each model over the designs it has finished so far; provisional until every model covers the same designs')
-    provenance(fig, data)
-    return fig
+
+
+def annotate(ax, value, row, text, color):
+    ax.annotate(text, (value, row), xytext=(6, 0), textcoords='offset points', va='center', fontsize=10,
+                color=color)
 
 
 def design_heatmap(data):

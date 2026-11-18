@@ -84,8 +84,8 @@ def model_table(results):
     aggregates = results['summary']['models']
     if not aggregates:
         return '\n'.join(rows+['No session has finished yet.'])
-    rows += ['| Model | Harness | Designs finished | Fmax gain (geomean) | Designs improved | Mean evaluations | '
-             'Candidates not proven |', '|---|---|---:|---:|---:|---:|---:|']
+    rows += ['| Model | Harness | Designs finished | Fmax gain (geomean) | Normalized score | Designs improved | '
+             'Mean evaluations | Candidates not proven |', '|---|---|---:|---:|---:|---:|---:|---:|']
     harness = {m['id']: m['harness'] for m in results['models']}
     planned = results['summary']['planned_designs']
     sessions = sessions_by_model(results)
@@ -96,9 +96,12 @@ def model_table(results):
         share = f'{100*unproven/evaluated:.0f}% ({unproven} / {evaluated})' if evaluated else '—'
         rows.append(f"| {results['names'].get(model, model)} | {harness.get(model, info['harness'])} | "
                     f"{info['designs']} / {len(planned.get(model, []))} | {gain(info['geomean_fmax_gain_pct'])} | "
-                    f"{info['designs_improved']} / {info['designs']} | {info['mean_evaluations']:.1f} | {share} |")
+                    f"{score(info['normalized_score'])} | {info['designs_improved']} / {info['designs']} | {info['mean_evaluations']:.1f} | {share} |")
     rows += ['', "Fmax gain is the geometric mean of each finished session's Fmax ratio (baseline period / best "
-                 f'accepted period) over the designs that model has finished. {ranking_caveat(results)} '
+                 f'accepted period) over the designs that model has finished. Normalized score is the mean of its '
+                 'gain on each design as a percentage of the best gain any model here reached on that design (100: '
+                 'the best result on every design), so every design counts equally however much headroom it had. '
+                 f'{ranking_caveat(results)} '
                  '"Candidates not proven" is the share of evaluations whose equivalence proof did not pass.']
     return '\n'.join(rows)
 
@@ -109,6 +112,10 @@ def ranking_caveat(results):
                 'with one session per model and design it has no confidence intervals.')
     return ('Models have finished different designs, so this order is provisional, not a like-for-like ranking, '
             'until every model covers the same designs.')
+
+
+def score(normalized):
+    return '—' if normalized is None else f'{normalized:.1f}'
 
 
 def gain(percent):

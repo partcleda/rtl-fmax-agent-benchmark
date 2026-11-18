@@ -2,6 +2,8 @@
 
 **Preliminary results, updated as sessions finish and models are added.**
 
+![Fmax gain and normalized score per model over the designs it has finished](charts/model-fmax.png)
+
 How far can a stock coding agent raise the maximum clock frequency (Fmax) of real RTL while keeping it
 formally equivalent to the original? Each model runs in its own family's official coding CLI (or OpenCode),
 with that CLI's own prompt, tools and context management, for one continuous session per design on
@@ -37,16 +39,16 @@ accepted only when it is proven equivalent and faster than the session's best so
 
 ### Results by model
 
-| Model | Harness | Designs finished | Fmax gain (geomean) | Designs improved | Mean evaluations | Candidates not proven |
-|---|---|---:|---:|---:|---:|---:|
-| Claude Fable 5.2 | Claude Code | 20 / 20 | +10.39% | 17 / 20 | 5.0 | 42% (42 / 99) |
-| GPT-6 Astra | Codex | 20 / 20 | +7.04% | 19 / 20 | 8.4 | 27% (45 / 169) |
-| Kimi K3.1 Pro | Kimi Code | 20 / 20 | +3.81% | 16 / 20 | 5.9 | 63% (74 / 118) |
-| Qwen3.8 2.4T-A95B | Qwen Code | 20 / 20 | +2.08% | 8 / 20 | 2.1 | 67% (28 / 42) |
-| Nemotron 3 Ultra 550B-A55B | OpenCode | 20 / 20 | +0.79% | 4 / 20 | 6.2 | 72% (89 / 123) |
-| Ripple-65B Preview | OpenCode | 20 / 20 | +0.00% | 0 / 20 | 0.1 | 100% (3 / 3) |
+| Model | Harness | Designs finished | Fmax gain (geomean) | Normalized score | Designs improved | Mean evaluations | Candidates not proven |
+|---|---|---:|---:|---:|---:|---:|---:|
+| Claude Fable 5.2 | Claude Code | 20 / 20 | +10.39% | 83.1 | 17 / 20 | 5.0 | 42% (42 / 99) |
+| GPT-6 Astra | Codex | 20 / 20 | +7.04% | 66.0 | 19 / 20 | 8.4 | 27% (45 / 169) |
+| Kimi K3.1 Pro | Kimi Code | 20 / 20 | +3.81% | 39.9 | 16 / 20 | 5.9 | 63% (74 / 118) |
+| Qwen3.8 2.4T-A95B | Qwen Code | 20 / 20 | +2.08% | 15.2 | 8 / 20 | 2.1 | 67% (28 / 42) |
+| Nemotron 3 Ultra 550B-A55B | OpenCode | 20 / 20 | +0.79% | 8.8 | 4 / 20 | 6.2 | 72% (89 / 123) |
+| Ripple-65B Preview | OpenCode | 20 / 20 | +0.00% | 0.0 | 0 / 20 | 0.1 | 100% (3 / 3) |
 
-Fmax gain is the geometric mean of each finished session's Fmax ratio (baseline period / best accepted period) over the designs that model has finished. Every model has finished the same designs, so this order is a like-for-like ranking over them; with one session per model and design it has no confidence intervals. "Candidates not proven" is the share of evaluations whose equivalence proof did not pass.
+Fmax gain is the geometric mean of each finished session's Fmax ratio (baseline period / best accepted period) over the designs that model has finished. Normalized score is the mean of its gain on each design as a percentage of the best gain any model here reached on that design (100: the best result on every design), so every design counts equally however much headroom it had. Every model has finished the same designs, so this order is a like-for-like ranking over them; with one session per model and design it has no confidence intervals. "Candidates not proven" is the share of evaluations whose equivalence proof did not pass.
 
 ### Best result by design
 
@@ -85,7 +87,7 @@ Counts over every finished session of the models above. They describe what happe
 
 ## Charts
 
-![Geometric-mean Fmax gain per model over the designs it has finished](charts/model-fmax.png)
+The chart at the top shows each model's aggregates. This one shows every session:
 
 ![Fmax gain per design and model](charts/design-fmax.png)
 
