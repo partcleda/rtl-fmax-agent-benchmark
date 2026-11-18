@@ -4,7 +4,7 @@
     "sessions.csv": "7740bb56bf1b44a87ea88081e1c8b60ae1a5747ebed3cb4b5810729c619db0fa",
     "models.json": "1487ef1613122e4440175f2300c41703c2bad7e808369678518ce406af11dab6"
   },
-  "generator_sha256": "ca86dcec87898f6a8165f8656980fef1d76e683b5c13b8c6ad7a627fd2889c30",
+  "generator_sha256": "008387746146a795fdfae819a9ee036b2f26744b1fc5d0fa43be0b37b4757b5f",
   "models": [
     "claude-fable-5-2",
     "gpt-6-astra",
@@ -17,15 +17,15 @@
   ],
   "outputs": {
     "model-fmax.svg": {
-      "sha256": "275f5b89b4ed2a41ce77d54f3a97468da27da43f3eb72fcfb69a4ef63a039c51",
-      "bytes": 14885
+      "sha256": "f46e30fc95a0132130f9d34508da78b412935acc30ae63d3ece45783479ba569",
+      "bytes": 21234
     },
     "model-fmax.png": {
-      "sha256": "5c1e4420685dc7fbff7309e6b8a124c7cc93ea2189c04a205b6db0743b5c8049",
-      "bytes": 233116
+      "sha256": "904fb96c27fca6393aa713faa9b60395a43bdb0d08bb70740fecfc8ea6e463c3",
+      "bytes": 226761
     },
     "design-fmax.svg": {
-      "sha256": "a778ea12f61a24a318a20a7594f95ba4827a27aca18fd81dc430c18c2d6084b0",
+      "sha256": "c90a1f7d71569cbea657b53f086de07a23c72610c3d8d42b83f9ff2118cfa18a",
       "bytes": 72900
     },
     "design-fmax.png": {
