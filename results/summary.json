@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-18 11:08 PST",
+  "generated": "2026-11-18 12:40 PST",
   "designs": [
     "ara.default",
     "cheshire.default",
@@ -28,6 +28,7 @@
       "ranked": true,
       "designs": 20,
       "geomean_fmax_gain_pct": 10.393,
+      "normalized_score": 83.08,
       "designs_improved": 17,
       "mean_evaluations": 4.95,
       "outcomes": {
@@ -40,6 +41,7 @@
       "ranked": true,
       "designs": 20,
       "geomean_fmax_gain_pct": 7.037,
+      "normalized_score": 65.95,
       "designs_improved": 19,
       "mean_evaluations": 8.45,
       "outcomes": {
@@ -52,6 +54,7 @@
       "ranked": true,
       "designs": 20,
       "geomean_fmax_gain_pct": 3.81,
+      "normalized_score": 39.91,
       "designs_improved": 16,
       "mean_evaluations": 5.9,
       "outcomes": {
@@ -64,6 +67,7 @@
       "ranked": true,
       "designs": 20,
       "geomean_fmax_gain_pct": 0.787,
+      "normalized_score": 8.75,
       "designs_improved": 4,
       "mean_evaluations": 6.15,
       "outcomes": {
@@ -76,6 +80,7 @@
       "ranked": true,
       "designs": 20,
       "geomean_fmax_gain_pct": 2.081,
+      "normalized_score": 15.23,
       "designs_improved": 8,
       "mean_evaluations": 2.1,
       "outcomes": {
@@ -88,6 +93,7 @@
       "ranked": true,
       "designs": 20,
       "geomean_fmax_gain_pct": 0.0,
+      "normalized_score": 0.0,
       "designs_improved": 0,
       "mean_evaluations": 0.15,
       "outcomes": {
