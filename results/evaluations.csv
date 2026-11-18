@@ -18,6 +18,9 @@ ara.default,kimi-k3.1-pro,3,unverified,0.971,1.095778,memory_limit,partition_pro
 ara.default,kimi-k3.1-pro,4,unverified,0.977,1.089048,memory_limit,partition_proof_failed
 ara.default,kimi-k3.1-pro,5,unverified,1.068,0.996255,memory_limit,partition_proof_failed
 ara.default,kimi-k3.1-pro,6,unverified,1.042,1.021113,unverified,timeout
+ara.default,nemotron-3-ultra-550b-a55b,1,unverified,0.98,1.085714,memory_limit,partition_proof_failed
+ara.default,nemotron-3-ultra-550b-a55b,2,unverified,1.057,1.006623,memory_limit,partition_proof_failed
+ara.default,nemotron-3-ultra-550b-a55b,3,unverified,1.03,1.03301,memory_limit,partition_proof_failed
 ara.default,qwen3.8-2.4t-a95b,1,accepted,1.034,1.029014,proven,
 ara.default,qwen3.8-2.4t-a95b,2,unverified,1.025,1.038049,unverified,partition_proof_failed
 ara.default,qwen3.8-2.4t-a95b,3,no_improvement,1.071,0.993464,proven,
