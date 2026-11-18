@@ -139,6 +139,7 @@ Temporary files use private disk-backed storage. Local measurements do not repla
 | Ripple-65B Preview | Ricursive AI | OpenCode 1.19.5 | Self-hosted SGLang 0.5.19 with the BF16 weights for its first 15 designs; OpenRouter pinned to PrimeIntellect (BF16) for later sessions | `ricursiveai/ripple-65b-preview` |
 | Nemotron 3 Ultra 550B-A55B | NVIDIA | OpenCode 1.19.5 | OpenRouter, pinned to DeepInfra (FP4), fallbacks disabled | `nvidia/nemotron-3-ultra-550b-a55b` |
 | GPT-6.2 Astra | OpenAI | Codex 0.169.1 | Official CLI signed in to a subscription; reasoning effort medium | `gpt-6.2-astra` |
+| Claude Opus 5.5 | Anthropic | Claude Code 2.1.322 | Official CLI signed in to a subscription | `claude-opus-5-5` |
 
 Headless launch modes: Claude Code `--print --permission-mode bypassPermissions` with no setting sources
 and no MCP configuration; Codex `exec --sandbox danger-full-access` with approvals off and user config

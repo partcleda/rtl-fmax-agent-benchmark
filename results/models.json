@@ -62,6 +62,15 @@
       "harness_version": "0.169.1",
       "access": "Official CLI signed in to a subscription; reasoning effort medium, as GPT-6 Astra ran",
       "model_identifier": "gpt-6.2-astra"
+    },
+    {
+      "id": "claude-opus-5-5",
+      "name": "Claude Opus 5.5",
+      "developer": "Anthropic",
+      "harness": "Claude Code",
+      "harness_version": "2.1.322",
+      "access": "Official CLI signed in to a subscription",
+      "model_identifier": "claude-opus-5-5"
     }
   ]
 }
