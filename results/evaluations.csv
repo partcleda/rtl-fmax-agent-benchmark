@@ -382,6 +382,12 @@ redmule.default,kimi-k3.1-pro,6,unverified,1.506,1.086321,unverified,partition_p
 redmule.default,kimi-k3.1-pro,7,unverified,1.507,1.085601,unverified,partition_proof_failed
 redmule.default,kimi-k3.1-pro,8,unverified,1.515,1.079868,unverified,partition_proof_failed
 redmule.default,kimi-k3.1-pro,9,unverified,1.56,1.048718,unverified,partition_proof_failed
+redmule.default,nemotron-3-ultra-550b-a55b,1,unverified,1.561,1.048046,memory_limit,partition_proof_failed
+redmule.default,nemotron-3-ultra-550b-a55b,2,unverified,1.547,1.057531,memory_limit,partition_proof_failed
+redmule.default,nemotron-3-ultra-550b-a55b,3,no_improvement,1.636,1.0,proven,
+redmule.default,nemotron-3-ultra-550b-a55b,4,unverified,1.546,1.058215,unverified,partition_proof_failed
+redmule.default,nemotron-3-ultra-550b-a55b,5,unverified,1.545,1.0589,unverified,partition_proof_failed
+redmule.default,nemotron-3-ultra-550b-a55b,6,unverified,1.539,1.063028,unverified,partition_proof_failed
 serial_link.default,claude-fable-5-2,1,accepted,0.286,1.066434,proven,
 serial_link.default,claude-fable-5-2,2,unverified,0.269,1.133829,unverified,partition_proof_failed
 serial_link.default,claude-fable-5-2,3,unverified,0.272,1.121324,unverified,partition_proof_failed
