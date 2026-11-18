@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-18 08:50 PST",
+  "generated": "2026-11-18 11:08 PST",
   "designs": [
     "ara.default",
     "cheshire.default",
@@ -333,6 +333,28 @@
       "spi_host.default"
     ],
     "gpt-6.2-astra": [
+      "ara.default",
+      "cheshire.default",
+      "cv32e40p.default",
+      "cva6.default",
+      "cvfpu.fp32_fma",
+      "cvfpu.full",
+      "ibex.full",
+      "ibex.minimal",
+      "ita.default",
+      "mempool.minpool",
+      "nvdla.top",
+      "opope.default",
+      "pulp_c910.default",
+      "redmule.default",
+      "serial_link.default",
+      "snitch_cluster.default",
+      "snitch_cluster.default_latch",
+      "snitch_cluster.minimal",
+      "spatz.default",
+      "spi_host.default"
+    ],
+    "claude-opus-5-5": [
       "ara.default",
       "cheshire.default",
       "cv32e40p.default",
