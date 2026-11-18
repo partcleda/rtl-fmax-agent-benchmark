@@ -53,6 +53,15 @@
       "harness_version": "1.19.5",
       "access": "OpenRouter, pinned to DeepInfra (FP4), fallbacks disabled",
       "model_identifier": "nvidia/nemotron-3-ultra-550b-a55b"
+    },
+    {
+      "id": "gpt-6.2-astra",
+      "name": "GPT-6.2 Astra",
+      "developer": "OpenAI",
+      "harness": "Codex",
+      "harness_version": "0.169.1",
+      "access": "Official CLI signed in to a subscription; reasoning effort medium, as GPT-6 Astra ran",
+      "model_identifier": "gpt-6.2-astra"
     }
   ]
 }
