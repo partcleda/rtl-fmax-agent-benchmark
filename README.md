@@ -22,7 +22,7 @@ accepted only when it is proven equivalent and faster than the session's best so
 ## Results
 
 <!-- results:start -->
-**Status:** 120 of 160 sessions finished (8 models, 20 designs), as of 2026-11-18 12:40 PST.
+**Status:** 122 of 160 sessions finished (8 models, 20 designs), as of 2026-11-18 14:15 PST.
 
 ### Coverage
 
@@ -35,20 +35,21 @@ accepted only when it is proven equivalent and faster than the session's best so
 | Ripple-65B Preview | Ricursive AI | OpenCode 1.19.5 | Self-hosted (SGLang 0.5.19, BF16) for its first 15 designs; OpenRouter pinned to PrimeIntellect (BF16) for later sessions | 20 / 20 |
 | Nemotron 3 Ultra 550B-A55B | NVIDIA | OpenCode 1.19.5 | OpenRouter, pinned to DeepInfra (FP4), fallbacks disabled | 20 / 20 |
 | GPT-6.2 Astra | OpenAI | Codex 0.169.1 | Official CLI signed in to a subscription; reasoning effort medium, as GPT-6 Astra ran | 0 / 20 |
-| Claude Opus 5.5 | Anthropic | Claude Code 2.1.322 | Official CLI signed in to a subscription | 0 / 20 |
+| Claude Opus 5.5 | Anthropic | Claude Code 2.1.322 | Official CLI signed in to a subscription | 2 / 20 |
 
 ### Results by model
 
 | Model | Harness | Designs finished | Fmax gain (geomean) | Normalized score | Designs improved | Mean evaluations | Candidates not proven |
 |---|---|---:|---:|---:|---:|---:|---:|
 | Claude Fable 5.2 | Claude Code | 20 / 20 | +10.39% | 83.1 | 17 / 20 | 5.0 | 42% (42 / 99) |
-| GPT-6 Astra | Codex | 20 / 20 | +7.04% | 66.0 | 19 / 20 | 8.4 | 27% (45 / 169) |
-| Kimi K3.1 Pro | Kimi Code | 20 / 20 | +3.81% | 39.9 | 16 / 20 | 5.9 | 63% (74 / 118) |
-| Qwen3.8 2.4T-A95B | Qwen Code | 20 / 20 | +2.08% | 15.2 | 8 / 20 | 2.1 | 67% (28 / 42) |
+| Claude Opus 5.5 | Claude Code | 2 / 20 | +7.60% | 65.1 | 2 / 2 | 6.5 | 62% (8 / 13) |
+| GPT-6 Astra | Codex | 20 / 20 | +7.04% | 64.5 | 19 / 20 | 8.4 | 27% (45 / 169) |
+| Kimi K3.1 Pro | Kimi Code | 20 / 20 | +3.81% | 38.5 | 16 / 20 | 5.9 | 63% (74 / 118) |
+| Qwen3.8 2.4T-A95B | Qwen Code | 20 / 20 | +2.08% | 13.9 | 8 / 20 | 2.1 | 67% (28 / 42) |
 | Nemotron 3 Ultra 550B-A55B | OpenCode | 20 / 20 | +0.79% | 8.8 | 4 / 20 | 6.2 | 72% (89 / 123) |
 | Ripple-65B Preview | OpenCode | 20 / 20 | +0.00% | 0.0 | 0 / 20 | 0.1 | 100% (3 / 3) |
 
-Fmax gain is the geometric mean of each finished session's Fmax ratio (baseline period / best accepted period) over the designs that model has finished. Normalized score is the mean of its gain on each design as a percentage of the best gain any model here reached on that design (100: the best result on every design), so every design counts equally however much headroom it had. Every model has finished the same designs, so this order is a like-for-like ranking over them; with one session per model and design it has no confidence intervals. "Candidates not proven" is the share of evaluations whose equivalence proof did not pass.
+Fmax gain is the geometric mean of each finished session's Fmax ratio (baseline period / best accepted period) over the designs that model has finished. Normalized score is the mean of its gain on each design as a percentage of the best gain any model here reached on that design (100: the best result on every design), so every design counts equally however much headroom it had. Models have finished different designs, so this order is provisional, not a like-for-like ranking, until every model covers the same designs. "Candidates not proven" is the share of evaluations whose equivalence proof did not pass.
 
 ### Best result by design
 
@@ -68,8 +69,8 @@ Fmax gain is the geometric mean of each finished session's Fmax ratio (baseline 
 | `snitch_cluster.minimal` | 1.288 | 6 | 1.200 | +7.33% | GPT-6 Astra, Kimi K3.1 Pro |
 | `ita.default` | 0.903 | 6 | 0.900 | +0.33% | Claude Fable 5.2 |
 | `mempool.minpool` | 2.869 | 6 | 2.342 | +22.50% | GPT-6 Astra |
-| `ara.default` | 1.064 | 6 | 0.942 | +12.95% | Claude Fable 5.2 |
-| `pulp_c910.default` | 1.005 | 6 | 0.930 | +8.06% | GPT-6 Astra |
+| `ara.default` | 1.064 | 7 | 0.942 | +12.95% | Claude Fable 5.2 |
+| `pulp_c910.default` | 1.005 | 7 | 0.902 | +11.42% | Claude Opus 5.5 |
 | `spatz.default` | 2.266 | 6 | 1.868 | +21.31% | Claude Fable 5.2 |
 | `snitch_cluster.default` | 2.128 | 6 | 1.751 | +21.53% | Claude Fable 5.2 |
 | `redmule.default` | 1.636 | 6 | 1.542 | +6.10% | Claude Fable 5.2 |
@@ -79,8 +80,8 @@ Fmax gain is the geometric mean of each finished session's Fmax ratio (baseline 
 
 Counts over every finished session of the models above. They describe what happened; with one session per model and design they do not establish causes or rankings.
 
-- 554 candidates evaluated: 148 accepted, 117 proven equivalent but not faster than the session's best, 281 not proven (219 with a partition EQY could not prove, 27 at the proof deadline, 29 over the proof memory budget, 6 for another reason), 8 failed to compile or measure.
-- Of 120 finished sessions, 80 ended with the agent finishing on its own, 39 ran to the time budget and 1 ended with an agent error.
+- 567 candidates evaluated: 152 accepted, 118 proven equivalent but not faster than the session's best, 289 not proven (223 with a partition EQY could not prove, 27 at the proof deadline, 33 over the proof memory budget, 6 for another reason), 8 failed to compile or measure.
+- Of 122 finished sessions, 82 ended with the agent finishing on its own, 39 ran to the time budget and 1 ended with an agent error.
 - Sessions used 4.6 of the 10 allowed evaluations on average; 20 used all 10.
 - Largest single gain so far: `cvfpu.fp32_fma` by Claude Fable 5.2, 1.401 ns to 1.070 ns (+30.93% Fmax).
 <!-- results:end -->

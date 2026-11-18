@@ -5,6 +5,10 @@ ara.default,claude-fable-5-2,3,accepted,0.955,1.114136,proven,
 ara.default,claude-fable-5-2,4,accepted,0.945,1.125926,proven,
 ara.default,claude-fable-5-2,5,accepted,0.942,1.129512,proven,
 ara.default,claude-fable-5-2,6,unverified,0.931,1.142857,memory_limit,timeout
+ara.default,claude-opus-5-5,1,no_improvement,1.069,0.995323,proven,
+ara.default,claude-opus-5-5,2,unverified,1.095,0.971689,unverified,partition_proof_failed
+ara.default,claude-opus-5-5,3,accepted,1.05,1.013333,proven,
+ara.default,claude-opus-5-5,4,accepted,1.024,1.039062,proven,
 ara.default,gpt-6-astra,1,accepted,1.053,1.010446,proven,
 ara.default,gpt-6-astra,2,accepted,1.035,1.028019,proven,
 ara.default,gpt-6-astra,3,unverified,1.082,0.983364,unverified,partition_proof_failed
@@ -331,6 +335,15 @@ pulp_c910.default,claude-fable-5-2,5,no_improvement,1.005,1.0,proven,
 pulp_c910.default,claude-fable-5-2,6,unverified,1.005,1.0,unverified,timeout
 pulp_c910.default,claude-fable-5-2,7,unverified,0.914,1.099562,unverified,partition_proof_failed
 pulp_c910.default,claude-fable-5-2,8,unverified,1.004,1.000996,unverified,partition_proof_failed
+pulp_c910.default,claude-opus-5-5,1,unverified,0.778,1.291774,memory_limit,partition_proof_failed
+pulp_c910.default,claude-opus-5-5,2,unverified,0.807,1.245353,unverified,partition_proof_failed
+pulp_c910.default,claude-opus-5-5,3,unverified,0.752,1.336436,memory_limit,partition_proof_failed
+pulp_c910.default,claude-opus-5-5,4,unverified,0.788,1.275381,memory_limit,partition_proof_failed
+pulp_c910.default,claude-opus-5-5,5,unverified,0.881,1.140749,unverified,partition_proof_failed
+pulp_c910.default,claude-opus-5-5,6,unverified,0.881,1.140749,unverified,partition_proof_failed
+pulp_c910.default,claude-opus-5-5,7,accepted,0.916,1.097162,proven,
+pulp_c910.default,claude-opus-5-5,8,unverified,0.892,1.126682,memory_limit,partition_proof_failed
+pulp_c910.default,claude-opus-5-5,9,accepted,0.902,1.114191,proven,
 pulp_c910.default,gpt-6-astra,1,accepted,0.98,1.02551,proven,
 pulp_c910.default,gpt-6-astra,2,unverified,0.968,1.038223,unverified,partition_proof_failed
 pulp_c910.default,gpt-6-astra,3,unverified,0.883,1.138165,memory_limit,partition_proof_failed

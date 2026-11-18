@@ -1,5 +1,6 @@
 design,model,attempts,earlier_outcomes,rerun_reason,harness,evaluator,gpu,budget_minutes,outcome,agent_exit_code,elapsed_minutes,evaluations,accepted,unverified,compile_or_score_failed,baseline_period_ns,best_period_ns,fmax_ratio
 ara.default,claude-fable-5-2,1,,,claude-code,next-09,H200 NVL,210,budget_reached,124,211.8,6,4,1,0,1.064,0.942,1.129512
+ara.default,claude-opus-5-5,1,,,claude-code,next-09,H200 NVL,210,agent_finished,0,131.2,4,2,1,0,1.064,1.024,1.039062
 ara.default,gpt-6-astra,1,,,codex,next-09,H200 NVL,210,budget_reached,124,211.3,7,5,1,0,1.064,0.961,1.10718
 ara.default,kimi-k3.1-pro,1,,rerun pinned to one provider endpoint (the earlier unpinned run is not reported),kimi-code,next-09,H200 NVL,210,agent_finished,0,165.7,6,0,6,0,1.064,1.064,1.0
 ara.default,nemotron-3-ultra-550b-a55b,4,agent_finished;agent_error;agent_error,model provider refused service,opencode,next-09,H200 NVL,210,budget_reached,124,228.9,3,0,3,0,1.064,1.064,1.0
@@ -72,6 +73,7 @@ opope.default,nemotron-3-ultra-550b-a55b,1,,,opencode,next-09,RTX 6000 Ada,90,ag
 opope.default,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,H200 NVL,90,budget_reached,124,90.0,0,0,0,0,0.857,0.857,1.0
 opope.default,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,0,0,0,0,0.857,0.857,1.0
 pulp_c910.default,claude-fable-5-2,1,,,claude-code,next-09,H200 NVL,215,agent_finished,0,176.8,8,0,6,0,1.005,1.005,1.0
+pulp_c910.default,claude-opus-5-5,1,,,claude-code,next-09,RTX 6000 Ada,215,agent_finished,0,192.7,9,2,7,0,1.005,0.902,1.114191
 pulp_c910.default,gpt-6-astra,1,,,codex,next-09,RTX 6000 Ada,215,agent_finished,0,185.1,10,3,7,0,1.005,0.93,1.080645
 pulp_c910.default,kimi-k3.1-pro,1,,rerun pinned to one provider endpoint (the earlier unpinned run is not reported),kimi-code,next-09,H200 NVL,215,agent_finished,0,111.1,10,2,8,0,1.005,0.933,1.07717
 pulp_c910.default,nemotron-3-ultra-550b-a55b,2,agent_error,infrastructure fault,opencode,next-09,RTX 6000 Ada,215,budget_reached,124,215.0,3,0,3,0,1.005,1.005,1.0
