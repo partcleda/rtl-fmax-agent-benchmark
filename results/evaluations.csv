@@ -373,6 +373,16 @@ pulp_c910.default,gpt-6-astra,7,accepted,0.934,1.076017,proven,
 pulp_c910.default,gpt-6-astra,8,accepted,0.93,1.080645,proven,
 pulp_c910.default,gpt-6-astra,9,unverified,0.894,1.124161,unverified,partition_proof_failed
 pulp_c910.default,gpt-6-astra,10,unverified,0.94,1.069149,unverified,partition_proof_failed
+pulp_c910.default,gpt-6.2-astra,1,unverified,1.001,1.003996,unverified,partition_proof_failed
+pulp_c910.default,gpt-6.2-astra,2,unverified,0.991,1.014127,unverified,partition_proof_failed
+pulp_c910.default,gpt-6.2-astra,3,unverified,0.869,1.156502,memory_limit,partition_proof_failed
+pulp_c910.default,gpt-6.2-astra,4,accepted,0.949,1.059009,proven,
+pulp_c910.default,gpt-6.2-astra,5,unverified,0.939,1.070288,unverified,partition_proof_failed
+pulp_c910.default,gpt-6.2-astra,6,unverified,0.902,1.114191,unverified,timeout
+pulp_c910.default,gpt-6.2-astra,7,unverified,0.829,1.212304,memory_limit,partition_proof_failed
+pulp_c910.default,gpt-6.2-astra,8,unverified,0.904,1.111726,memory_limit,partition_proof_failed
+pulp_c910.default,gpt-6.2-astra,9,unverified,0.917,1.095965,unverified,partition_proof_failed
+pulp_c910.default,gpt-6.2-astra,10,unverified,0.875,1.148571,unverified,partition_proof_failed
 pulp_c910.default,kimi-k3.1-pro,1,unverified,0.987,1.018237,memory_limit,partition_proof_failed
 pulp_c910.default,kimi-k3.1-pro,2,unverified,0.985,1.020305,memory_limit,partition_proof_failed
 pulp_c910.default,kimi-k3.1-pro,3,unverified,0.971,1.035015,unverified,partition_proof_failed
@@ -511,6 +521,10 @@ snitch_cluster.default_latch,claude-fable-5-2,1,accepted,1.991,1.089402,proven,
 snitch_cluster.default_latch,claude-fable-5-2,2,accepted,1.959,1.107198,proven,
 snitch_cluster.default_latch,claude-fable-5-2,3,unverified,1.94,1.118041,unverified,partition_proof_failed
 snitch_cluster.default_latch,claude-fable-5-2,4,accepted,1.871,1.159273,proven,
+snitch_cluster.default_latch,claude-opus-5-5,1,accepted,1.97,1.101015,proven,
+snitch_cluster.default_latch,claude-opus-5-5,2,accepted,1.944,1.115741,proven,
+snitch_cluster.default_latch,claude-opus-5-5,3,no_improvement,2.029,1.069,proven,
+snitch_cluster.default_latch,claude-opus-5-5,4,accepted,1.932,1.122671,proven,
 snitch_cluster.default_latch,gpt-6-astra,1,accepted,2.112,1.026989,proven,
 snitch_cluster.default_latch,gpt-6-astra,2,no_improvement,2.117,1.024563,proven,
 snitch_cluster.default_latch,gpt-6-astra,3,no_improvement,2.131,1.017832,proven,
