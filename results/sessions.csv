@@ -33,6 +33,7 @@ cva6.default,ripple-65b-preview,1,,,opencode,next-09,H200 NVL,90,budget_reached,
 cvfpu.fp32_fma,claude-fable-5-2,1,,,claude-code,next-09,RTX 6000 Ada,90,agent_finished,0,71.6,9,8,1,0,1.401,1.07,1.309346
 cvfpu.fp32_fma,claude-opus-5-5,1,,,claude-code,next-09,RTX 6000 Ada,90,agent_finished,0,62.3,8,5,3,0,1.401,1.194,1.173367
 cvfpu.fp32_fma,gpt-6-astra,1,,,codex,next-09,RTX 6000 Ada,90,agent_finished,0,9.2,10,3,2,0,1.401,1.247,1.123496
+cvfpu.fp32_fma,gpt-6.2-astra,1,,,codex,next-09,RTX 6000 Ada,90,agent_finished,0,13.8,10,6,2,0,1.401,1.135,1.234361
 cvfpu.fp32_fma,kimi-k3.1-pro,2,agent_finished,infrastructure fault,kimi-code,next-09,RTX 6000 Ada,90,agent_finished,0,17.1,6,1,4,0,1.401,1.391,1.007189
 cvfpu.fp32_fma,nemotron-3-ultra-550b-a55b,1,,,opencode,next-09,RTX 6000 Ada,90,agent_finished,0,9.6,2,0,0,0,1.401,1.401,1.0
 cvfpu.fp32_fma,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,RTX 6000 Ada,90,agent_finished,0,81.0,1,0,1,0,1.401,1.401,1.0
