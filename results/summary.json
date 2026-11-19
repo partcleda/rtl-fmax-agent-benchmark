@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-19 00:36 PST",
+  "generated": "2026-11-19 01:23 PST",
   "designs": [
     "ara.default",
     "cheshire.default",
@@ -28,7 +28,7 @@
       "ranked": true,
       "designs": 20,
       "geomean_fmax_gain_pct": 10.393,
-      "normalized_score": 73.99,
+      "normalized_score": 72.61,
       "designs_improved": 17,
       "mean_evaluations": 4.95,
       "outcomes": {
@@ -41,7 +41,7 @@
       "ranked": true,
       "designs": 20,
       "geomean_fmax_gain_pct": 8.779,
-      "normalized_score": 65.29,
+      "normalized_score": 64.55,
       "designs_improved": 18,
       "mean_evaluations": 4.75,
       "outcomes": {
@@ -55,7 +55,7 @@
       "ranked": true,
       "designs": 20,
       "geomean_fmax_gain_pct": 7.037,
-      "normalized_score": 54.05,
+      "normalized_score": 53.56,
       "designs_improved": 19,
       "mean_evaluations": 8.45,
       "outcomes": {
@@ -65,15 +65,15 @@
     },
     "gpt-6.2-astra": {
       "harness": "codex",
-      "ranked": false,
-      "designs": 16,
-      "geomean_fmax_gain_pct": 8.465,
-      "normalized_score": 75.7,
-      "designs_improved": 16,
-      "mean_evaluations": 8.5,
+      "ranked": true,
+      "designs": 20,
+      "geomean_fmax_gain_pct": 8.419,
+      "normalized_score": 75.42,
+      "designs_improved": 20,
+      "mean_evaluations": 8.65,
       "outcomes": {
-        "agent_finished": 5,
-        "budget_reached": 11
+        "agent_finished": 7,
+        "budget_reached": 13
       }
     },
     "kimi-k3.1-pro": {
@@ -81,7 +81,7 @@
       "ranked": true,
       "designs": 20,
       "geomean_fmax_gain_pct": 3.81,
-      "normalized_score": 32.4,
+      "normalized_score": 32.07,
       "designs_improved": 16,
       "mean_evaluations": 5.9,
       "outcomes": {
@@ -94,7 +94,7 @@
       "ranked": true,
       "designs": 20,
       "geomean_fmax_gain_pct": 0.787,
-      "normalized_score": 7.63,
+      "normalized_score": 7.21,
       "designs_improved": 4,
       "mean_evaluations": 6.15,
       "outcomes": {
@@ -410,11 +410,5 @@
       "spi_host.default"
     ]
   },
-  "incomplete_attempts": [
-    {
-      "design": "ibex.minimal",
-      "model": "gpt-6.2-astra",
-      "reason": "rerun pending"
-    }
-  ]
+  "incomplete_attempts": []
 }
