@@ -220,8 +220,8 @@ z
    </g>
    <g id="patch_6">
     <path d="M 171.36 254.182883 
-L 265.747704 254.182883 
-L 265.747704 279.274944 
+L 285.993958 254.182883 
+L 285.993958 279.274944 
 L 171.36 279.274944 
 z
 " clip-path="url(#pb3bda55762)" style="fill: #3f5680; opacity: 0.85"/>
@@ -273,7 +273,7 @@ L 606.311456 468.72
     <text style="fill: #171738; font: 10px 'DejaVu Sans'; text-anchor: start" x="295.106192" y="226.226115" transform="rotate(-0 295.106192 226.226115)">+7.04%   19/20 improved</text>
    </g>
    <g id="text_19">
-    <text style="fill: #171738; font: 10px 'DejaVu Sans'; text-anchor: start" x="271.747704" y="269.488288" transform="rotate(-0 271.747704 269.488288)">+5.64%   1/1 improved · 1 of 20 designs finished</text>
+    <text style="fill: #171738; font: 10px 'DejaVu Sans'; text-anchor: start" x="291.993958" y="269.488288" transform="rotate(-0 291.993958 269.488288)">+6.85%   2/2 improved · 2 of 20 designs finished</text>
    </g>
    <g id="text_20">
     <text style="fill: #171738; font: 10px 'DejaVu Sans'; text-anchor: start" x="241.110603" y="312.750462" transform="rotate(-0 241.110603 312.750462)">+3.81%   16/20 improved</text>
@@ -429,8 +429,8 @@ z
    </g>
    <g id="patch_16">
     <path d="M 629.798835 254.182883 
-L 701.783301 254.182883 
-L 701.783301 279.274944 
+L 716.761942 254.182883 
+L 716.761942 279.274944 
 L 629.798835 279.274944 
 z
 " clip-path="url(#p01aa2b09fa)" style="fill: #3f5680; opacity: 0.85"/>
@@ -482,7 +482,7 @@ L 977.76 468.72
     <text style="fill: #171738; font: 10px 'DejaVu Sans'; text-anchor: start" x="803.635728" y="226.226115" transform="rotate(-0 803.635728 226.226115)">61.7</text>
    </g>
    <g id="text_33">
-    <text style="fill: #171738; font: 10px 'DejaVu Sans'; text-anchor: start" x="707.783301" y="269.488288" transform="rotate(-0 707.783301 269.488288)">26.5</text>
+    <text style="fill: #171738; font: 10px 'DejaVu Sans'; text-anchor: start" x="722.761942" y="269.488288" transform="rotate(-0 722.761942 269.488288)">32.0</text>
    </g>
    <g id="text_34">
     <text style="fill: #171738; font: 10px 'DejaVu Sans'; text-anchor: start" x="738.311456" y="312.750462" transform="rotate(-0 738.311456 312.750462)">37.7</text>
@@ -509,7 +509,7 @@ L 967.68 82.8
    <text style="fill: #5b607d; font: 11.5px 'DejaVu Sans'; text-anchor: start" x="40.32" y="68.4" transform="rotate(-0 40.32 68.4)">Each model over the designs it has finished; normalized score: its gain on each design as a share of the best gain any model reached there</text>
   </g>
   <g id="text_40">
-   <text style="fill: #5b607d; font: 8.5px 'DejaVu Sans'" transform="translate(40.32 559.716781)">Preliminary results as of 2026-11-18 16:53 PST: 125 of 160 sessions finished.</text>
+   <text style="fill: #5b607d; font: 8.5px 'DejaVu Sans'" transform="translate(40.32 559.716781)">Preliminary results as of 2026-11-18 17:09 PST: 126 of 160 sessions finished.</text>
    <text style="fill: #5b607d; font: 8.5px 'DejaVu Sans'" transform="translate(40.32 571.818391)">Stock coding agents, one session per model and design, at most 10 evaluations each. boson synthesis and unplaced setup timing on public ASAP7 TT libraries, 1 ps period</text>
    <text style="fill: #5b607d; font: 8.5px 'DejaVu Sans'" transform="translate(40.32 583.92)">search; a candidate counts only with an EQY equivalence proof against the original RTL.</text>
   </g>

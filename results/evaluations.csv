@@ -468,6 +468,12 @@ snitch_cluster.default,gpt-6-astra,4,accepted,2.065,1.030508,proven,
 snitch_cluster.default,gpt-6-astra,5,accepted,2.023,1.051903,proven,
 snitch_cluster.default,gpt-6-astra,6,accepted,2.013,1.057129,proven,
 snitch_cluster.default,gpt-6-astra,7,accepted,1.979,1.075291,proven,
+snitch_cluster.default,gpt-6.2-astra,1,no_improvement,2.19,0.971689,proven,
+snitch_cluster.default,gpt-6.2-astra,2,unverified,1.894,1.123548,memory_limit,partition_proof_failed
+snitch_cluster.default,gpt-6.2-astra,3,accepted,2.02,1.053465,proven,
+snitch_cluster.default,gpt-6.2-astra,4,unverified,2.014,1.056604,memory_limit,partition_proof_failed
+snitch_cluster.default,gpt-6.2-astra,5,accepted,1.969,1.080752,proven,
+snitch_cluster.default,gpt-6.2-astra,6,unverified,1.808,1.176991,memory_limit,partition_proof_failed
 snitch_cluster.default,kimi-k3.1-pro,1,unverified,2.049,1.038555,unverified,partition_proof_failed
 snitch_cluster.default,kimi-k3.1-pro,2,unverified,2.071,1.027523,unverified,partition_proof_failed
 snitch_cluster.default,kimi-k3.1-pro,3,unverified,2.046,1.040078,unverified,partition_proof_failed
