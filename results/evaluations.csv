@@ -16,6 +16,13 @@ ara.default,gpt-6-astra,4,accepted,0.997,1.067202,proven,
 ara.default,gpt-6-astra,5,accepted,0.966,1.101449,proven,
 ara.default,gpt-6-astra,6,no_improvement,0.983,1.082401,proven,
 ara.default,gpt-6-astra,7,accepted,0.961,1.10718,proven,
+ara.default,gpt-6.2-astra,1,unverified,1.055,1.008531,unverified,partition_proof_failed
+ara.default,gpt-6.2-astra,2,unverified,0.973,1.093525,memory_limit,partition_proof_failed
+ara.default,gpt-6.2-astra,3,unverified,1.052,1.011407,memory_limit,partition_proof_failed
+ara.default,gpt-6.2-astra,4,accepted,1.0,1.064,proven,
+ara.default,gpt-6.2-astra,5,accepted,0.973,1.093525,proven,
+ara.default,gpt-6.2-astra,6,accepted,0.93,1.144086,proven,
+ara.default,gpt-6.2-astra,7,accepted,0.926,1.149028,proven,
 ara.default,kimi-k3.1-pro,1,unverified,1.012,1.051383,unverified,partition_proof_failed
 ara.default,kimi-k3.1-pro,2,unverified,1.017,1.046214,unverified,partition_proof_failed
 ara.default,kimi-k3.1-pro,3,unverified,0.971,1.095778,memory_limit,partition_proof_failed
@@ -200,6 +207,9 @@ cvfpu.full,qwen3.8-2.4t-a95b,1,accepted,2.101,1.006188,proven,
 ibex.full,claude-fable-5-2,1,unverified,0.9,1.038889,unverified,timeout
 ibex.full,claude-fable-5-2,2,unverified,0.899,1.040044,unverified,timeout
 ibex.full,claude-fable-5-2,3,unverified,0.904,1.034292,unverified,timeout
+ibex.full,claude-opus-5-5,1,unverified,0.92,1.016304,memory_limit,partition_proof_failed
+ibex.full,claude-opus-5-5,2,unverified,0.941,0.993624,unverified,partition_proof_failed
+ibex.full,claude-opus-5-5,3,unverified,0.896,1.043527,unverified,timeout
 ibex.full,gpt-6-astra,1,unverified,0.935,1.0,memory_limit,partition_proof_failed
 ibex.full,gpt-6-astra,2,unverified,0.931,1.004296,memory_limit,timeout
 ibex.full,gpt-6-astra,3,accepted,0.899,1.040044,proven,
@@ -474,6 +484,9 @@ serial_link.default,claude-fable-5-2,7,unverified,0.271,1.125461,unverified,part
 serial_link.default,claude-fable-5-2,8,unverified,0.271,1.125461,unverified,partition_proof_failed
 serial_link.default,claude-fable-5-2,9,accepted,0.276,1.105072,proven,
 serial_link.default,claude-fable-5-2,10,accepted,0.27,1.12963,proven,
+serial_link.default,claude-opus-5-5,1,unverified,0.267,1.142322,unverified,partition_proof_failed
+serial_link.default,claude-opus-5-5,2,accepted,0.267,1.142322,proven,
+serial_link.default,claude-opus-5-5,3,accepted,0.266,1.146617,proven,
 serial_link.default,gpt-6-astra,1,accepted,0.283,1.077739,proven,
 serial_link.default,gpt-6-astra,2,accepted,0.273,1.117216,proven,
 serial_link.default,gpt-6-astra,3,no_improvement,0.29,1.051724,proven,

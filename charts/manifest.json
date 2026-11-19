@@ -1,15 +1,15 @@
 {
   "inputs_sha256": {
-    "summary.json": "fd147017878aba7b19db2fc7c5fffce3cb0aee61a273e0133fadf52cc05e6732",
-    "sessions.csv": "4ab50afc36260e949096adf32e412a4f2de21e5ec0f48ca0d6ece4803e389892",
+    "summary.json": "90e961fa7ab0642888399e43969de7173e6d2ad218d09e46495a524b937f7f13",
+    "sessions.csv": "d6342c8e9478d2136ed4ae10fd0645d8bad843f3b355ec11dbf46df491cb8fb6",
     "models.json": "1487ef1613122e4440175f2300c41703c2bad7e808369678518ce406af11dab6"
   },
   "generator_sha256": "008387746146a795fdfae819a9ee036b2f26744b1fc5d0fa43be0b37b4757b5f",
   "models": [
     "claude-fable-5-2",
     "claude-opus-5-5",
-    "gpt-6-astra",
     "gpt-6.2-astra",
+    "gpt-6-astra",
     "kimi-k3.1-pro",
     "qwen3.8-2.4t-a95b",
     "nemotron-3-ultra-550b-a55b",
@@ -17,20 +17,20 @@
   ],
   "outputs": {
     "model-fmax.svg": {
-      "sha256": "c74d6c204414942ab1d288f26efe07ee8476b6c45fdf908de6394ebb7f71819d",
-      "bytes": 21668
+      "sha256": "49784408c6c528cfb4f86dfa73f2579ab23d0661f66e6571821260fc404284f7",
+      "bytes": 21663
     },
     "model-fmax.png": {
-      "sha256": "da824ab5d6dead82f977b99c020faad86bc2a9ab8e0fe44713f9a0145678ac63",
-      "bytes": 229148
+      "sha256": "2c23f4ad33a1c48cf2f2903758d98adbf0af1359500d3b86629d7be4a2ae0601",
+      "bytes": 230719
     },
     "design-fmax.svg": {
-      "sha256": "f674e2bd20991826c792f7c8cd583c88ceb398e7834a6d04c9f557af9292203e",
-      "bytes": 72303
+      "sha256": "2e7613c12a50f1ea0b9edd2df5a37c4d8e6d755e9864f8a88f24de8a103d8c14",
+      "bytes": 72290
     },
     "design-fmax.png": {
-      "sha256": "45554df5198edef907b0fb7cfcf1387f12a1fea18f3719678456b0d12860525e",
-      "bytes": 285721
+      "sha256": "a4825cc29a949edc1439df9880f20b153d20b070f0d9e17feeda328401a4035f",
+      "bytes": 287691
     }
   }
 }
