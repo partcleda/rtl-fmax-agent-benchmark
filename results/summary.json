@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-19 01:23 PST",
+  "generated": "2026-11-19 10:02 PST",
   "designs": [
     "ara.default",
     "cheshire.default",
@@ -117,16 +117,14 @@
     },
     "ripple-65b-preview": {
       "harness": "opencode",
-      "ranked": true,
-      "designs": 20,
+      "ranked": false,
+      "designs": 5,
       "geomean_fmax_gain_pct": 0.0,
       "normalized_score": 0.0,
       "designs_improved": 0,
-      "mean_evaluations": 0.15,
+      "mean_evaluations": 0.0,
       "outcomes": {
-        "agent_error": 1,
-        "agent_finished": 5,
-        "budget_reached": 14
+        "agent_finished": 5
       }
     }
   },
@@ -410,5 +408,81 @@
       "spi_host.default"
     ]
   },
-  "incomplete_attempts": []
+  "incomplete_attempts": [
+    {
+      "design": "cheshire.default",
+      "model": "ripple-65b-preview",
+      "reason": "rerun pending"
+    },
+    {
+      "design": "cv32e40p.default",
+      "model": "ripple-65b-preview",
+      "reason": "rerun pending"
+    },
+    {
+      "design": "cva6.default",
+      "model": "ripple-65b-preview",
+      "reason": "rerun pending"
+    },
+    {
+      "design": "cvfpu.fp32_fma",
+      "model": "ripple-65b-preview",
+      "reason": "rerun pending"
+    },
+    {
+      "design": "cvfpu.full",
+      "model": "ripple-65b-preview",
+      "reason": "rerun pending"
+    },
+    {
+      "design": "ibex.full",
+      "model": "ripple-65b-preview",
+      "reason": "rerun pending"
+    },
+    {
+      "design": "ibex.minimal",
+      "model": "ripple-65b-preview",
+      "reason": "rerun pending"
+    },
+    {
+      "design": "ita.default",
+      "model": "ripple-65b-preview",
+      "reason": "rerun pending"
+    },
+    {
+      "design": "mempool.minpool",
+      "model": "ripple-65b-preview",
+      "reason": "rerun pending"
+    },
+    {
+      "design": "nvdla.top",
+      "model": "ripple-65b-preview",
+      "reason": "rerun pending"
+    },
+    {
+      "design": "opope.default",
+      "model": "ripple-65b-preview",
+      "reason": "rerun pending"
+    },
+    {
+      "design": "pulp_c910.default",
+      "model": "ripple-65b-preview",
+      "reason": "rerun pending"
+    },
+    {
+      "design": "serial_link.default",
+      "model": "ripple-65b-preview",
+      "reason": "rerun pending"
+    },
+    {
+      "design": "snitch_cluster.minimal",
+      "model": "ripple-65b-preview",
+      "reason": "rerun pending"
+    },
+    {
+      "design": "spi_host.default",
+      "model": "ripple-65b-preview",
+      "reason": "rerun pending"
+    }
+  ]
 }
