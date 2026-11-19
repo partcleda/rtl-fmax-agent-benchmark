@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-18 14:15 PST",
+  "generated": "2026-11-18 16:33 PST",
   "designs": [
     "ara.default",
     "cheshire.default",
@@ -28,7 +28,7 @@
       "ranked": true,
       "designs": 20,
       "geomean_fmax_gain_pct": 10.393,
-      "normalized_score": 83.08,
+      "normalized_score": 80.53,
       "designs_improved": 17,
       "mean_evaluations": 4.95,
       "outcomes": {
@@ -39,13 +39,13 @@
     "claude-opus-5-5": {
       "harness": "claude-code",
       "ranked": false,
-      "designs": 2,
-      "geomean_fmax_gain_pct": 7.597,
-      "normalized_score": 65.08,
-      "designs_improved": 2,
-      "mean_evaluations": 6.5,
+      "designs": 3,
+      "geomean_fmax_gain_pct": 20.191,
+      "normalized_score": 76.72,
+      "designs_improved": 3,
+      "mean_evaluations": 5.67,
       "outcomes": {
-        "agent_finished": 2
+        "agent_finished": 3
       }
     },
     "gpt-6-astra": {
@@ -53,7 +53,7 @@
       "ranked": true,
       "designs": 20,
       "geomean_fmax_gain_pct": 7.037,
-      "normalized_score": 64.48,
+      "normalized_score": 61.74,
       "designs_improved": 19,
       "mean_evaluations": 8.45,
       "outcomes": {
@@ -66,7 +66,7 @@
       "ranked": true,
       "designs": 20,
       "geomean_fmax_gain_pct": 3.81,
-      "normalized_score": 38.51,
+      "normalized_score": 37.71,
       "designs_improved": 16,
       "mean_evaluations": 5.9,
       "outcomes": {
@@ -92,7 +92,7 @@
       "ranked": true,
       "designs": 20,
       "geomean_fmax_gain_pct": 2.081,
-      "normalized_score": 13.93,
+      "normalized_score": 12.64,
       "designs_improved": 8,
       "mean_evaluations": 2.1,
       "outcomes": {

@@ -247,6 +247,10 @@ mempool.minpool,claude-fable-5-2,4,unverified,2.385,1.202935,memory_limit,timeou
 mempool.minpool,claude-fable-5-2,5,no_improvement,2.453,1.169588,proven,
 mempool.minpool,claude-fable-5-2,6,accepted,2.374,1.208509,proven,
 mempool.minpool,claude-fable-5-2,7,no_improvement,2.41,1.190456,proven,
+mempool.minpool,claude-opus-5-5,1,accepted,2.429,1.181145,proven,
+mempool.minpool,claude-opus-5-5,2,accepted,2.273,1.262209,proven,
+mempool.minpool,claude-opus-5-5,3,accepted,2.236,1.283095,proven,
+mempool.minpool,claude-opus-5-5,4,accepted,1.913,1.499739,proven,
 mempool.minpool,gpt-6-astra,1,evaluation_failed,,,not_run,
 mempool.minpool,gpt-6-astra,2,unverified,2.834,1.01235,unverified,partition_proof_failed
 mempool.minpool,gpt-6-astra,3,accepted,2.854,1.005256,proven,
