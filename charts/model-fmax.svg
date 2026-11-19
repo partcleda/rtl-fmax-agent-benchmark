@@ -170,22 +170,22 @@ L 589.86424 108
     <g id="ytick_1">
      <g id="line2d_17"/>
      <g id="text_10">
-      <text style="fill: #171738; font: 10.5px 'DejaVu Sans'" transform="translate(73.963906 135.850558)">Claude Fable 5.2</text>
-      <text style="fill: #171738; font: 10.5px 'DejaVu Sans'" transform="translate(94.675156 147.608261)">Claude Code</text>
+      <text style="fill: #171738; font: 10.5px 'DejaVu Sans'" transform="translate(90.094531 135.850558)">GPT-6.2 Astra</text>
+      <text style="fill: #171738; font: 10.5px 'DejaVu Sans'" transform="translate(128.445781 147.608261)">Codex</text>
      </g>
     </g>
     <g id="ytick_2">
      <g id="line2d_18"/>
      <g id="text_11">
-      <text style="fill: #171738; font: 10.5px 'DejaVu Sans'" transform="translate(74.467578 179.112731)">Claude Opus 5.5</text>
+      <text style="fill: #171738; font: 10.5px 'DejaVu Sans'" transform="translate(73.963906 179.112731)">Claude Fable 5.2</text>
       <text style="fill: #171738; font: 10.5px 'DejaVu Sans'" transform="translate(94.675156 190.870434)">Claude Code</text>
      </g>
     </g>
     <g id="ytick_3">
      <g id="line2d_19"/>
      <g id="text_12">
-      <text style="fill: #171738; font: 10.5px 'DejaVu Sans'" transform="translate(90.094531 222.374904)">GPT-6.2 Astra</text>
-      <text style="fill: #171738; font: 10.5px 'DejaVu Sans'" transform="translate(128.445781 234.132607)">Codex</text>
+      <text style="fill: #171738; font: 10.5px 'DejaVu Sans'" transform="translate(74.467578 222.374904)">Claude Opus 5.5</text>
+      <text style="fill: #171738; font: 10.5px 'DejaVu Sans'" transform="translate(94.675156 234.132607)">Claude Code</text>
      </g>
     </g>
     <g id="ytick_4">
@@ -226,24 +226,24 @@ L 589.86424 108
    </g>
    <g id="patch_3">
     <path d="M 171.36 124.396364 
-L 419.903689 124.396364 
-L 419.903689 149.488424 
+L 372.696411 124.396364 
+L 372.696411 149.488424 
 L 171.36 149.488424 
 z
 " clip-path="url(#pb3bda55762)" style="fill: #3f5680; opacity: 0.85"/>
    </g>
    <g id="patch_4">
     <path d="M 171.36 167.658537 
-L 381.305641 167.658537 
-L 381.305641 192.750597 
+L 419.903689 167.658537 
+L 419.903689 192.750597 
 L 171.36 192.750597 
 z
 " clip-path="url(#pb3bda55762)" style="fill: #3f5680; opacity: 0.85"/>
    </g>
    <g id="patch_5">
     <path d="M 171.36 210.92071 
-L 372.696411 210.92071 
-L 372.696411 236.01277 
+L 381.305641 210.92071 
+L 381.305641 236.01277 
 L 171.36 236.01277 
 z
 " clip-path="url(#pb3bda55762)" style="fill: #3f5680; opacity: 0.85"/>
@@ -294,13 +294,13 @@ L 606.311456 468.72
 " style="fill: none; stroke: #ebedf0; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="text_18">
-    <text style="fill: #171738; font: 10px 'DejaVu Sans'; text-anchor: start" x="425.903689" y="139.701769" transform="rotate(-0 425.903689 139.701769)">+10.39%   17/20 improved</text>
+    <text style="fill: #171738; font: 10px 'DejaVu Sans'; text-anchor: start" x="378.696411" y="139.701769" transform="rotate(-0 378.696411 139.701769)">+8.42%   20/20 improved</text>
    </g>
    <g id="text_19">
-    <text style="fill: #171738; font: 10px 'DejaVu Sans'; text-anchor: start" x="387.305641" y="182.963942" transform="rotate(-0 387.305641 182.963942)">+8.78%   18/20 improved</text>
+    <text style="fill: #171738; font: 10px 'DejaVu Sans'; text-anchor: start" x="425.903689" y="182.963942" transform="rotate(-0 425.903689 182.963942)">+10.39%   17/20 improved</text>
    </g>
    <g id="text_20">
-    <text style="fill: #171738; font: 10px 'DejaVu Sans'; text-anchor: start" x="378.696411" y="226.226115" transform="rotate(-0 378.696411 226.226115)">+8.42%   20/20 improved</text>
+    <text style="fill: #171738; font: 10px 'DejaVu Sans'; text-anchor: start" x="387.305641" y="226.226115" transform="rotate(-0 387.305641 226.226115)">+8.78%   18/20 improved</text>
    </g>
    <g id="text_21">
     <text style="fill: #171738; font: 10px 'DejaVu Sans'; text-anchor: start" x="345.646533" y="269.488288" transform="rotate(-0 345.646533 269.488288)">+7.04%   19/20 improved</text>
@@ -435,24 +435,24 @@ L 901.643495 108
    </g>
    <g id="patch_13">
     <path d="M 629.798835 124.396364 
-L 827.185243 124.396364 
-L 827.185243 149.488424 
+L 834.824078 124.396364 
+L 834.824078 149.488424 
 L 629.798835 149.488424 
 z
 " clip-path="url(#p01aa2b09fa)" style="fill: #3f5680; opacity: 0.85"/>
    </g>
    <g id="patch_14">
     <path d="M 629.798835 167.658537 
-L 805.274563 167.658537 
-L 805.274563 192.750597 
+L 827.185243 167.658537 
+L 827.185243 192.750597 
 L 629.798835 192.750597 
 z
 " clip-path="url(#p01aa2b09fa)" style="fill: #3f5680; opacity: 0.85"/>
    </g>
    <g id="patch_15">
     <path d="M 629.798835 210.92071 
-L 834.824078 210.92071 
-L 834.824078 236.01277 
+L 805.274563 210.92071 
+L 805.274563 236.01277 
 L 629.798835 236.01277 
 z
 " clip-path="url(#p01aa2b09fa)" style="fill: #3f5680; opacity: 0.85"/>
@@ -503,13 +503,13 @@ L 977.76 468.72
 " style="fill: none; stroke: #ebedf0; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="text_32">
-    <text style="fill: #171738; font: 10px 'DejaVu Sans'; text-anchor: start" x="833.185243" y="139.701769" transform="rotate(-0 833.185243 139.701769)">72.6</text>
+    <text style="fill: #171738; font: 10px 'DejaVu Sans'; text-anchor: start" x="840.824078" y="139.701769" transform="rotate(-0 840.824078 139.701769)">75.4</text>
    </g>
    <g id="text_33">
-    <text style="fill: #171738; font: 10px 'DejaVu Sans'; text-anchor: start" x="811.274563" y="182.963942" transform="rotate(-0 811.274563 182.963942)">64.5</text>
+    <text style="fill: #171738; font: 10px 'DejaVu Sans'; text-anchor: start" x="833.185243" y="182.963942" transform="rotate(-0 833.185243 182.963942)">72.6</text>
    </g>
    <g id="text_34">
-    <text style="fill: #171738; font: 10px 'DejaVu Sans'; text-anchor: start" x="840.824078" y="226.226115" transform="rotate(-0 840.824078 226.226115)">75.4</text>
+    <text style="fill: #171738; font: 10px 'DejaVu Sans'; text-anchor: start" x="811.274563" y="226.226115" transform="rotate(-0 811.274563 226.226115)">64.5</text>
    </g>
    <g id="text_35">
     <text style="fill: #171738; font: 10px 'DejaVu Sans'; text-anchor: start" x="781.398835" y="269.488288" transform="rotate(-0 781.398835 269.488288)">53.6</text>
@@ -536,7 +536,7 @@ L 967.68 82.8
    <text style="fill: #171738; font: 700 18px 'DejaVu Sans'; text-anchor: start" x="40.32" y="43.2" transform="rotate(-0 40.32 43.2)">RTL Fmax gain by coding agent (preliminary)</text>
   </g>
   <g id="text_41">
-   <text style="fill: #5b607d; font: 11.5px 'DejaVu Sans'; text-anchor: start" x="40.32" y="68.4" transform="rotate(-0 40.32 68.4)">Each model over the designs it has finished; normalized score: its gain on each design as a share of the best gain any model reached there</text>
+   <text style="fill: #5b607d; font: 11.5px 'DejaVu Sans'; text-anchor: start" x="40.32" y="68.4" transform="rotate(-0 40.32 68.4)">Ordered by normalized score: its gain on each design as a share of the best gain any model reached there, averaged over the designs it has finished</text>
   </g>
   <g id="text_42">
    <text style="fill: #5b607d; font: 8.5px 'DejaVu Sans'" transform="translate(40.32 559.716781)">Preliminary results as of 2026-11-19 01:23 PST: 160 of 160 sessions finished.</text>

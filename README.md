@@ -41,16 +41,16 @@ accepted only when it is proven equivalent and faster than the session's best so
 
 | Model | Harness | Designs finished | Fmax gain (geomean) | Normalized score | Designs improved | Mean evaluations | Candidates not proven |
 |---|---|---:|---:|---:|---:|---:|---:|
+| GPT-6.2 Astra | Codex | 20 / 20 | +8.42% | 75.4 | 20 / 20 | 8.7 | 55% (96 / 173) |
 | Claude Fable 5.2 | Claude Code | 20 / 20 | +10.39% | 72.6 | 17 / 20 | 5.0 | 42% (42 / 99) |
 | Claude Opus 5.5 | Claude Code | 20 / 20 | +8.78% | 64.5 | 18 / 20 | 4.8 | 42% (40 / 95) |
-| GPT-6.2 Astra | Codex | 20 / 20 | +8.42% | 75.4 | 20 / 20 | 8.7 | 55% (96 / 173) |
 | GPT-6 Astra | Codex | 20 / 20 | +7.04% | 53.6 | 19 / 20 | 8.4 | 27% (45 / 169) |
 | Kimi K3.1 Pro | Kimi Code | 20 / 20 | +3.81% | 32.1 | 16 / 20 | 5.9 | 63% (74 / 118) |
 | Qwen3.8 2.4T-A95B | Qwen Code | 20 / 20 | +2.08% | 11.8 | 8 / 20 | 2.1 | 67% (28 / 42) |
 | Nemotron 3 Ultra 550B-A55B | OpenCode | 20 / 20 | +0.79% | 7.2 | 4 / 20 | 6.2 | 72% (89 / 123) |
 | Ripple-65B Preview | OpenCode | 20 / 20 | +0.00% | 0.0 | 0 / 20 | 0.1 | 100% (3 / 3) |
 
-Fmax gain is the geometric mean of each finished session's Fmax ratio (baseline period / best accepted period) over the designs that model has finished. Normalized score is the mean of its gain on each design as a percentage of the best gain any model here reached on that design (100: the best result on every design), so every design counts equally however much headroom it had. Every model has finished the same designs, so this order is a like-for-like ranking over them; with one session per model and design it has no confidence intervals. "Candidates not proven" is the share of evaluations whose equivalence proof did not pass.
+Fmax gain is the geometric mean of each finished session's Fmax ratio (baseline period / best accepted period) over the designs that model has finished. Normalized score is the mean of its gain on each design as a percentage of the best gain any model here reached on that design (100: the best result on every design), so every design counts equally however much headroom it had. Rows are in order of normalized score. Every model has finished the same designs, so this order is a like-for-like ranking over them; with one session per model and design it has no confidence intervals. "Candidates not proven" is the share of evaluations whose equivalence proof did not pass.
 
 ### Best result by design
 

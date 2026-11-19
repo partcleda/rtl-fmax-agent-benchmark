@@ -4,11 +4,11 @@
     "sessions.csv": "85fe23fe699a982c2310913c8c98c1f344927bac7442ecf357acc10eed09f247",
     "models.json": "1487ef1613122e4440175f2300c41703c2bad7e808369678518ce406af11dab6"
   },
-  "generator_sha256": "008387746146a795fdfae819a9ee036b2f26744b1fc5d0fa43be0b37b4757b5f",
+  "generator_sha256": "d4facefbacc0b2a63ec660eb5ff7e912ab3238a610ece21b5ef7a86d0d00d4b3",
   "models": [
+    "gpt-6.2-astra",
     "claude-fable-5-2",
     "claude-opus-5-5",
-    "gpt-6.2-astra",
     "gpt-6-astra",
     "kimi-k3.1-pro",
     "qwen3.8-2.4t-a95b",
@@ -17,20 +17,20 @@
   ],
   "outputs": {
     "model-fmax.svg": {
-      "sha256": "ed8b101a66938c94eb781ed0c40d464d9dc273330010f7e7099be39ec7b6672b",
-      "bytes": 21612
+      "sha256": "5709dd6aa88dc54aa137f73d0a825365e9c177fbd2b7a118f33b96c68a9e5cb2",
+      "bytes": 21621
     },
     "model-fmax.png": {
-      "sha256": "b80f3787b407d1e61295c4587b8f59f7941cd702aa4a724df9f122f9b35aa4ba",
-      "bytes": 222885
+      "sha256": "c65e7b03252f16919a7b6c363eb22568eada38bdf1f1b1e9e9a15fdfc50b0d52",
+      "bytes": 225553
     },
     "design-fmax.svg": {
-      "sha256": "d1c9a96bb436fa1855a7430ec4b0542d7749fc4dab28d7185b19084bd37d880b",
-      "bytes": 72265
+      "sha256": "dda25846bca7b83805122d8d8f2856161a5e1c91ff195c65a5e2c8483ca6f72d",
+      "bytes": 72273
     },
     "design-fmax.png": {
-      "sha256": "900979d12e059746caaed4b782074816ab240f766111f68433e255d703be8786",
-      "bytes": 298020
+      "sha256": "86bb0c7399fdacbfcb13123e03d9a08aa0b7996c41a30f3d914e029bf8dc1208",
+      "bytes": 298019
     }
   }
 }

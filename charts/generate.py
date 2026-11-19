@@ -70,11 +70,15 @@ def load():
                 or (normalized is None) != (info['normalized_score'] is None)
                 or (normalized is not None and abs(normalized-info['normalized_score']) > 1e-2)):
             raise RuntimeError('summary.json and sessions.csv disagree for '+model)
-    finished = sorted((m['id'] for m in models if m['id'] in aggregates),
-                      key=lambda m: -aggregates[m]['geomean_fmax_gain_pct'])
+    finished = sorted((m['id'] for m in models if m['id'] in aggregates), key=lambda m: ranking_key(aggregates[m]))
     order = finished + [m['id'] for m in models if m['id'] not in aggregates]
     return dict(summary=summary, sessions=sessions, models={m['id']: m for m in models}, order=order,
                 designs=[e['design'] for e in summary['benchmark']])
+
+
+def ranking_key(info):
+    """Highest normalized score first; Fmax gain breaks ties."""
+    return -(info['normalized_score'] or 0), -info['geomean_fmax_gain_pct']
 
 
 def label(data, model):
@@ -137,8 +141,8 @@ def gain_chart(data):
                                              f"improved{coverage}", INK)
         annotate(score_axis, scores[row], row, f'{scores[row]:.1f}', INK)
     header(fig, 'RTL Fmax gain by coding agent (preliminary)',
-           'Each model over the designs it has finished; normalized score: its gain on each design as a share of '
-           'the best gain any model reached there')
+           'Ordered by normalized score: its gain on each design as a share of the best gain any model reached '
+           'there, averaged over the designs it has finished')
     provenance(fig, data)
     return fig
 

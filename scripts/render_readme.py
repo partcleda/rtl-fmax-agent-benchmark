@@ -89,7 +89,7 @@ def model_table(results):
     harness = {m['id']: m['harness'] for m in results['models']}
     planned = results['summary']['planned_designs']
     sessions = sessions_by_model(results)
-    for model in sorted(aggregates, key=lambda m: -aggregates[m]['geomean_fmax_gain_pct']):
+    for model in sorted(aggregates, key=lambda m: ranking_key(aggregates[m])):
         info = aggregates[model]
         evaluated = sum(int(s['evaluations']) for s in sessions[model])
         unproven = sum(int(s['unverified']) for s in sessions[model])
@@ -101,9 +101,14 @@ def model_table(results):
                  f'accepted period) over the designs that model has finished. Normalized score is the mean of its '
                  'gain on each design as a percentage of the best gain any model here reached on that design (100: '
                  'the best result on every design), so every design counts equally however much headroom it had. '
-                 f'{ranking_caveat(results)} '
+                 f'Rows are in order of normalized score. {ranking_caveat(results)} '
                  '"Candidates not proven" is the share of evaluations whose equivalence proof did not pass.']
     return '\n'.join(rows)
+
+
+def ranking_key(info):
+    """Highest normalized score first; Fmax gain breaks ties."""
+    return -(info['normalized_score'] or 0), -info['geomean_fmax_gain_pct']
 
 
 def ranking_caveat(results):
