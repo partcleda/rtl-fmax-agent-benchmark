@@ -28,6 +28,7 @@ cva6.default,nemotron-3-ultra-550b-a55b,1,,,opencode,next-09,RTX 6000 Ada,90,age
 cva6.default,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,H200 NVL,90,agent_finished,0,66.9,0,0,0,0,1.038,1.038,1.0
 cva6.default,ripple-65b-preview,1,,,opencode,next-09,H200 NVL,90,budget_reached,124,90.0,0,0,0,0,1.038,1.038,1.0
 cvfpu.fp32_fma,claude-fable-5-2,1,,,claude-code,next-09,RTX 6000 Ada,90,agent_finished,0,71.6,9,8,1,0,1.401,1.07,1.309346
+cvfpu.fp32_fma,claude-opus-5-5,1,,,claude-code,next-09,RTX 6000 Ada,90,agent_finished,0,62.3,8,5,3,0,1.401,1.194,1.173367
 cvfpu.fp32_fma,gpt-6-astra,1,,,codex,next-09,RTX 6000 Ada,90,agent_finished,0,9.2,10,3,2,0,1.401,1.247,1.123496
 cvfpu.fp32_fma,kimi-k3.1-pro,2,agent_finished,infrastructure fault,kimi-code,next-09,RTX 6000 Ada,90,agent_finished,0,17.1,6,1,4,0,1.401,1.391,1.007189
 cvfpu.fp32_fma,nemotron-3-ultra-550b-a55b,1,,,opencode,next-09,RTX 6000 Ada,90,agent_finished,0,9.6,2,0,0,0,1.401,1.401,1.0
@@ -86,6 +87,7 @@ pulp_c910.default,nemotron-3-ultra-550b-a55b,2,agent_error,infrastructure fault,
 pulp_c910.default,qwen3.8-2.4t-a95b,2,agent_error,model provider refused service,qwen-code,next-09,H200 NVL,215,agent_finished,0,177.1,7,2,5,0,1.005,0.938,1.071429
 pulp_c910.default,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,215,budget_reached,124,215.0,1,0,1,0,1.005,1.005,1.0
 redmule.default,claude-fable-5-2,1,,,claude-code,next-09,H200 NVL,530,agent_finished,0,442.6,5,1,4,0,1.636,1.542,1.06096
+redmule.default,claude-opus-5-5,1,,,claude-code,next-09,H200 NVL,530,agent_finished,0,482.3,5,1,2,0,1.636,1.546,1.058215
 redmule.default,gpt-6-astra,3,agent_error;agent_error,model provider refused service,codex,next-09,H200 NVL,530,budget_reached,124,530.0,9,2,4,1,1.636,1.552,1.054124
 redmule.default,gpt-6.2-astra,1,,,codex,next-09,H200 NVL,530,budget_reached,124,557.5,10,1,4,0,1.636,1.558,1.050064
 redmule.default,kimi-k3.1-pro,2,agent_error,model provider refused service,kimi-code,next-09,H200 NVL,530,budget_reached,124,543.8,9,0,9,0,1.636,1.636,1.0
@@ -99,6 +101,7 @@ serial_link.default,nemotron-3-ultra-550b-a55b,1,,,opencode,next-09,RTX 6000 Ada
 serial_link.default,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,RTX 6000 Ada,90,agent_finished,0,63.0,3,1,2,0,0.305,0.278,1.097122
 serial_link.default,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,0,0,0,0,0.305,0.305,1.0
 snitch_cluster.default,claude-fable-5-2,1,,,claude-code,next-09,H200 NVL,490,agent_finished,0,365.5,5,5,0,0,2.128,1.751,1.215306
+snitch_cluster.default,claude-opus-5-5,1,,,claude-code,next-09,RTX 6000 Ada,490,budget_reached,124,539.7,4,1,2,0,2.128,1.823,1.167307
 snitch_cluster.default,gpt-6-astra,2,agent_error,model provider refused service,codex,next-09,RTX 6000 Ada,490,budget_reached,124,503.6,7,5,1,0,2.128,1.979,1.075291
 snitch_cluster.default,gpt-6.2-astra,1,,,codex,next-09,H200 NVL,490,budget_reached,124,499.2,6,2,3,0,2.128,1.969,1.080752
 snitch_cluster.default,kimi-k3.1-pro,1,,,kimi-code,next-09,H200 NVL,490,agent_finished,0,346.8,8,3,5,0,2.128,2.088,1.019157
@@ -108,6 +111,7 @@ snitch_cluster.default,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,490,
 snitch_cluster.default_latch,claude-fable-5-2,3,agent_error;agent_error,infrastructure fault,claude-code,next-09,RTX 6000 Ada,600,agent_finished,0,537.7,4,3,1,0,2.169,1.871,1.159273
 snitch_cluster.default_latch,claude-opus-5-5,1,,,claude-code,next-09,RTX 6000 Ada,600,agent_finished,0,523.7,4,3,0,0,2.169,1.932,1.122671
 snitch_cluster.default_latch,gpt-6-astra,1,,,codex,next-09,RTX 6000 Ada,600,agent_finished,0,569.4,7,2,1,0,2.169,2.091,1.037303
+snitch_cluster.default_latch,gpt-6.2-astra,1,,,codex,next-09,RTX 6000 Ada,600,budget_reached,124,672.2,6,2,2,0,2.169,2.084,1.040787
 snitch_cluster.default_latch,kimi-k3.1-pro,1,,,kimi-code,next-09,RTX 6000 Ada,600,budget_reached,0,576.3,7,2,3,0,2.169,2.097,1.034335
 snitch_cluster.default_latch,nemotron-3-ultra-550b-a55b,2,agent_error,model provider refused service,opencode,next-09,RTX 6000 Ada,600,budget_reached,124,612.5,7,0,7,0,2.169,2.169,1.0
 snitch_cluster.default_latch,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,RTX 6000 Ada,600,agent_finished,0,484.4,2,0,2,0,2.169,2.169,1.0
