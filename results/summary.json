@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-18 19:00 PST",
+  "generated": "2026-11-18 19:31 PST",
   "designs": [
     "ara.default",
     "cheshire.default",
@@ -39,13 +39,13 @@
     "claude-opus-5-5": {
       "harness": "claude-code",
       "ranked": false,
-      "designs": 8,
-      "geomean_fmax_gain_pct": 10.627,
-      "normalized_score": 78.19,
-      "designs_improved": 8,
-      "mean_evaluations": 4.88,
+      "designs": 9,
+      "geomean_fmax_gain_pct": 9.731,
+      "normalized_score": 74.75,
+      "designs_improved": 9,
+      "mean_evaluations": 4.67,
       "outcomes": {
-        "agent_finished": 8
+        "agent_finished": 9
       }
     },
     "gpt-6-astra": {

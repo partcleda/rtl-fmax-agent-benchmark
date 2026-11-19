@@ -68,6 +68,9 @@ cv32e40p.default,claude-fable-5-2,1,unverified,0.654,1.004587,unverified,partiti
 cv32e40p.default,claude-fable-5-2,2,unverified,0.654,1.004587,unverified,partition_proof_failed
 cv32e40p.default,claude-fable-5-2,3,accepted,0.647,1.015456,proven,
 cv32e40p.default,claude-fable-5-2,4,accepted,0.622,1.05627,proven,
+cv32e40p.default,claude-opus-5-5,1,unverified,0.642,1.023364,unverified,partition_proof_failed
+cv32e40p.default,claude-opus-5-5,2,accepted,0.646,1.017028,proven,
+cv32e40p.default,claude-opus-5-5,3,accepted,0.639,1.028169,proven,
 cv32e40p.default,gpt-6-astra,1,no_improvement,0.784,0.83801,proven,
 cv32e40p.default,gpt-6-astra,2,no_improvement,0.666,0.986486,proven,
 cv32e40p.default,gpt-6-astra,3,unverified,0.636,1.033019,unverified,partition_proof_failed
