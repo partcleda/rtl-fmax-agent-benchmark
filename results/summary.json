@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-19 11:19 PST",
+  "generated": "2026-11-19 11:35 PST",
   "designs": [
     "ara.default",
     "cheshire.default",
@@ -113,20 +113,6 @@
       "outcomes": {
         "agent_finished": 16,
         "budget_reached": 4
-      }
-    },
-    "ripple-65b-preview": {
-      "harness": "opencode",
-      "ranked": false,
-      "designs": 19,
-      "geomean_fmax_gain_pct": 0.0,
-      "normalized_score": 0.0,
-      "designs_improved": 0,
-      "mean_evaluations": 0.16,
-      "outcomes": {
-        "agent_error": 1,
-        "agent_finished": 5,
-        "budget_reached": 13
       }
     }
   },
@@ -412,7 +398,102 @@
   },
   "incomplete_attempts": [
     {
+      "design": "ara.default",
+      "model": "ripple-65b-preview",
+      "reason": "rerun pending"
+    },
+    {
+      "design": "cheshire.default",
+      "model": "ripple-65b-preview",
+      "reason": "rerun pending"
+    },
+    {
       "design": "cv32e40p.default",
+      "model": "ripple-65b-preview",
+      "reason": "rerun pending"
+    },
+    {
+      "design": "cva6.default",
+      "model": "ripple-65b-preview",
+      "reason": "rerun pending"
+    },
+    {
+      "design": "cvfpu.fp32_fma",
+      "model": "ripple-65b-preview",
+      "reason": "rerun pending"
+    },
+    {
+      "design": "cvfpu.full",
+      "model": "ripple-65b-preview",
+      "reason": "rerun pending"
+    },
+    {
+      "design": "ibex.full",
+      "model": "ripple-65b-preview",
+      "reason": "rerun pending"
+    },
+    {
+      "design": "ibex.minimal",
+      "model": "ripple-65b-preview",
+      "reason": "rerun pending"
+    },
+    {
+      "design": "ita.default",
+      "model": "ripple-65b-preview",
+      "reason": "rerun pending"
+    },
+    {
+      "design": "mempool.minpool",
+      "model": "ripple-65b-preview",
+      "reason": "rerun pending"
+    },
+    {
+      "design": "nvdla.top",
+      "model": "ripple-65b-preview",
+      "reason": "rerun pending"
+    },
+    {
+      "design": "opope.default",
+      "model": "ripple-65b-preview",
+      "reason": "rerun pending"
+    },
+    {
+      "design": "pulp_c910.default",
+      "model": "ripple-65b-preview",
+      "reason": "rerun pending"
+    },
+    {
+      "design": "redmule.default",
+      "model": "ripple-65b-preview",
+      "reason": "rerun pending"
+    },
+    {
+      "design": "serial_link.default",
+      "model": "ripple-65b-preview",
+      "reason": "rerun pending"
+    },
+    {
+      "design": "snitch_cluster.default",
+      "model": "ripple-65b-preview",
+      "reason": "rerun pending"
+    },
+    {
+      "design": "snitch_cluster.default_latch",
+      "model": "ripple-65b-preview",
+      "reason": "rerun pending"
+    },
+    {
+      "design": "snitch_cluster.minimal",
+      "model": "ripple-65b-preview",
+      "reason": "rerun pending"
+    },
+    {
+      "design": "spatz.default",
+      "model": "ripple-65b-preview",
+      "reason": "rerun pending"
+    },
+    {
+      "design": "spi_host.default",
       "model": "ripple-65b-preview",
       "reason": "rerun pending"
     }

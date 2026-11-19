@@ -6,7 +6,6 @@ ara.default,gpt-6.2-astra,1,,,codex,next-09,H200 NVL,210,budget_reached,124,214.
 ara.default,kimi-k3.1-pro,1,,rerun pinned to one provider endpoint (the earlier unpinned run is not reported),kimi-code,next-09,H200 NVL,210,agent_finished,0,165.7,6,0,6,0,1.064,1.064,1.0
 ara.default,nemotron-3-ultra-550b-a55b,4,agent_finished;agent_error;agent_error,model provider refused service,opencode,next-09,H200 NVL,210,budget_reached,124,228.9,3,0,3,0,1.064,1.064,1.0
 ara.default,qwen3.8-2.4t-a95b,2,agent_error,model provider refused service,qwen-code,next-09,H200 NVL,210,agent_finished,0,176.0,4,1,2,0,1.064,1.034,1.029014
-ara.default,ripple-65b-preview,1,,,opencode,next-09,H200 NVL,210,agent_finished,0,0.4,0,0,0,0,1.064,1.064,1.0
 cheshire.default,claude-fable-5-2,1,,,claude-code,next-09,H200 NVL,90,agent_finished,0,61.9,5,2,3,0,1.047,0.982,1.066191
 cheshire.default,claude-opus-5-5,1,,,claude-code,next-09,H200 NVL,90,agent_finished,0,55.1,2,1,1,0,1.047,0.957,1.094044
 cheshire.default,gpt-6-astra,1,,,codex,next-09,H200 NVL,90,agent_finished,0,80.3,7,2,1,0,1.047,0.963,1.087227
@@ -14,7 +13,6 @@ cheshire.default,gpt-6.2-astra,1,,,codex,next-09,H200 NVL,90,budget_reached,0,86
 cheshire.default,kimi-k3.1-pro,1,,rerun pinned to one provider endpoint (the earlier unpinned run is not reported),kimi-code,next-09,H200 NVL,90,agent_finished,0,61.8,10,1,5,0,1.047,1.022,1.024462
 cheshire.default,nemotron-3-ultra-550b-a55b,1,,,opencode,next-09,RTX 6000 Ada,90,agent_finished,0,72.2,10,1,3,1,1.047,1.024,1.022461
 cheshire.default,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,H200 NVL,90,agent_finished,0,69.3,1,0,1,0,1.047,1.047,1.0
-cheshire.default,ripple-65b-preview,1,,,opencode,next-09,H200 NVL,90,budget_reached,124,90.0,0,0,0,0,1.047,1.047,1.0
 cv32e40p.default,claude-fable-5-2,1,,,claude-code,next-09,RTX 6000 Ada,90,agent_finished,0,57.8,4,2,2,0,0.657,0.622,1.05627
 cv32e40p.default,claude-opus-5-5,1,,,claude-code,next-09,RTX 6000 Ada,90,agent_finished,0,37.3,3,2,1,0,0.657,0.639,1.028169
 cv32e40p.default,gpt-6-astra,1,,,codex,next-09,RTX 6000 Ada,90,agent_finished,0,13.6,10,3,3,0,0.657,0.62,1.059677
@@ -29,7 +27,6 @@ cva6.default,gpt-6.2-astra,1,,,codex,next-09,H200 NVL,90,budget_reached,124,92.1
 cva6.default,kimi-k3.1-pro,1,,rerun pinned to one provider endpoint (the earlier unpinned run is not reported),kimi-code,next-09,H200 NVL,90,budget_reached,124,125.8,5,0,3,0,1.038,1.038,1.0
 cva6.default,nemotron-3-ultra-550b-a55b,1,,,opencode,next-09,RTX 6000 Ada,90,agent_finished,0,57.9,10,0,10,0,1.038,1.038,1.0
 cva6.default,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,H200 NVL,90,agent_finished,0,66.9,0,0,0,0,1.038,1.038,1.0
-cva6.default,ripple-65b-preview,1,,,opencode,next-09,H200 NVL,90,budget_reached,124,90.0,0,0,0,0,1.038,1.038,1.0
 cvfpu.fp32_fma,claude-fable-5-2,1,,,claude-code,next-09,RTX 6000 Ada,90,agent_finished,0,71.6,9,8,1,0,1.401,1.07,1.309346
 cvfpu.fp32_fma,claude-opus-5-5,1,,,claude-code,next-09,RTX 6000 Ada,90,agent_finished,0,62.3,8,5,3,0,1.401,1.194,1.173367
 cvfpu.fp32_fma,gpt-6-astra,1,,,codex,next-09,RTX 6000 Ada,90,agent_finished,0,9.2,10,3,2,0,1.401,1.247,1.123496
@@ -37,7 +34,6 @@ cvfpu.fp32_fma,gpt-6.2-astra,1,,,codex,next-09,RTX 6000 Ada,90,agent_finished,0,
 cvfpu.fp32_fma,kimi-k3.1-pro,2,agent_finished,infrastructure fault,kimi-code,next-09,RTX 6000 Ada,90,agent_finished,0,17.1,6,1,4,0,1.401,1.391,1.007189
 cvfpu.fp32_fma,nemotron-3-ultra-550b-a55b,1,,,opencode,next-09,RTX 6000 Ada,90,agent_finished,0,9.6,2,0,0,0,1.401,1.401,1.0
 cvfpu.fp32_fma,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,RTX 6000 Ada,90,agent_finished,0,81.0,1,0,1,0,1.401,1.401,1.0
-cvfpu.fp32_fma,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,0,0,0,0,1.401,1.401,1.0
 cvfpu.full,claude-fable-5-2,1,,,claude-code,next-09,RTX 6000 Ada,90,agent_finished,0,40.0,4,2,1,0,2.114,1.981,1.067138
 cvfpu.full,claude-opus-5-5,1,,,claude-code,next-09,H200 NVL,90,agent_finished,0,74.8,5,3,2,0,2.114,1.976,1.069838
 cvfpu.full,gpt-6-astra,1,,,codex,next-09,H200 NVL,90,budget_reached,0,86.2,9,3,1,0,2.114,2.01,1.051741
@@ -45,7 +41,6 @@ cvfpu.full,gpt-6.2-astra,1,,,codex,next-09,H200 NVL,90,budget_reached,124,91.8,1
 cvfpu.full,kimi-k3.1-pro,1,,rerun pinned to one provider endpoint (the earlier unpinned run is not reported),kimi-code,next-09,H200 NVL,90,agent_finished,0,71.1,6,2,3,0,2.114,2.078,1.017324
 cvfpu.full,nemotron-3-ultra-550b-a55b,1,,,opencode,next-09,RTX 6000 Ada,90,agent_finished,0,74.5,10,0,9,0,2.114,2.114,1.0
 cvfpu.full,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,RTX 6000 Ada,90,agent_finished,0,57.5,1,1,0,0,2.114,2.101,1.006188
-cvfpu.full,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,0,0,0,0,2.114,2.114,1.0
 ibex.full,claude-fable-5-2,1,,,claude-code,next-09,H200 NVL,90,budget_reached,0,87.7,3,0,3,0,0.935,0.935,1.0
 ibex.full,claude-opus-5-5,1,,,claude-code,next-09,H200 NVL,90,agent_finished,0,67.4,3,0,3,0,0.935,0.935,1.0
 ibex.full,gpt-6-astra,1,,,codex,next-09,H200 NVL,90,agent_finished,0,81.5,9,1,3,0,0.935,0.899,1.040044
@@ -53,7 +48,6 @@ ibex.full,gpt-6.2-astra,1,,,codex,next-09,H200 NVL,90,agent_finished,0,73.0,10,2
 ibex.full,kimi-k3.1-pro,1,,rerun pinned to one provider endpoint (the earlier unpinned run is not reported),kimi-code,next-09,H200 NVL,90,agent_finished,0,33.4,1,1,0,0,0.935,0.899,1.040044
 ibex.full,nemotron-3-ultra-550b-a55b,1,,,opencode,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,3,0,3,0,0.935,0.935,1.0
 ibex.full,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,1,0,1,0,0.935,0.935,1.0
-ibex.full,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,0,0,0,0,0.935,0.935,1.0
 ibex.minimal,claude-fable-5-2,1,,,claude-code,next-09,RTX 6000 Ada,90,agent_finished,0,71.4,6,4,2,0,0.716,0.676,1.059172
 ibex.minimal,claude-opus-5-5,1,,,claude-code,next-09,RTX 6000 Ada,90,agent_finished,0,32.3,3,2,1,0,0.716,0.687,1.042213
 ibex.minimal,gpt-6-astra,1,,,codex,next-09,RTX 6000 Ada,90,agent_finished,0,31.9,10,1,1,0,0.716,0.702,1.019943
@@ -61,7 +55,6 @@ ibex.minimal,gpt-6.2-astra,2,infrastructure_error,infrastructure fault,codex,nex
 ibex.minimal,kimi-k3.1-pro,1,,rerun pinned to one provider endpoint (the earlier unpinned run is not reported),kimi-code,next-09,RTX 6000 Ada,90,agent_finished,0,36.7,4,1,3,0,0.716,0.702,1.019943
 ibex.minimal,nemotron-3-ultra-550b-a55b,1,,,opencode,next-09,RTX 6000 Ada,90,agent_finished,0,44.1,10,1,4,0,0.716,0.698,1.025788
 ibex.minimal,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,RTX 6000 Ada,90,budget_reached,124,97.8,1,0,1,0,0.716,0.716,1.0
-ibex.minimal,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,0,0,0,0,0.716,0.716,1.0
 ita.default,claude-fable-5-2,1,,,claude-code,next-09,RTX 6000 Ada,190,agent_finished,0,151.8,1,1,0,0,0.903,0.9,1.003333
 ita.default,claude-opus-5-5,1,,,claude-code,next-09,RTX 6000 Ada,190,agent_finished,0,143.3,7,1,2,0,0.903,0.901,1.00222
 ita.default,gpt-6-astra,1,,,codex,next-09,H200 NVL,190,budget_reached,124,211.1,6,0,5,0,0.903,0.903,1.0
@@ -69,7 +62,6 @@ ita.default,gpt-6.2-astra,1,,,codex,next-09,H200 NVL,190,budget_reached,124,226.
 ita.default,kimi-k3.1-pro,1,,rerun pinned to one provider endpoint (the earlier unpinned run is not reported),kimi-code,next-09,H200 NVL,190,agent_finished,0,94.6,3,1,2,0,0.903,0.902,1.001109
 ita.default,nemotron-3-ultra-550b-a55b,1,,infrastructure fault,opencode,next-09,RTX 6000 Ada,190,agent_finished,0,42.8,3,0,3,0,0.903,0.903,1.0
 ita.default,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,H200 NVL,190,agent_finished,0,164.0,2,0,2,0,0.903,0.903,1.0
-ita.default,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,190,budget_reached,1,187.6,1,0,1,0,0.903,0.903,1.0
 mempool.minpool,claude-fable-5-2,1,,,claude-code,next-09,H200 NVL,205,budget_reached,0,195.6,7,3,2,0,2.869,2.374,1.208509
 mempool.minpool,claude-opus-5-5,1,,,claude-code,next-09,RTX 6000 Ada,205,agent_finished,0,139.2,4,4,0,0,2.869,1.913,1.499739
 mempool.minpool,gpt-6-astra,1,,,codex,next-09,RTX 6000 Ada,205,agent_finished,0,191.2,10,5,1,1,2.869,2.342,1.225021
@@ -77,7 +69,6 @@ mempool.minpool,gpt-6.2-astra,1,,,codex,next-09,H200 NVL,205,budget_reached,124,
 mempool.minpool,kimi-k3.1-pro,1,,rerun pinned to one provider endpoint (the earlier unpinned run is not reported),kimi-code,next-09,H200 NVL,205,agent_finished,0,161.8,7,1,6,0,2.869,2.693,1.065355
 mempool.minpool,nemotron-3-ultra-550b-a55b,2,infrastructure_error,infrastructure fault,opencode,next-09,RTX 6000 Ada,205,agent_finished,0,173.8,4,0,4,0,2.869,2.869,1.0
 mempool.minpool,qwen3.8-2.4t-a95b,2,agent_error,model provider refused service,qwen-code,next-09,H200 NVL,205,agent_finished,0,175.7,5,1,3,0,2.869,2.594,1.106014
-mempool.minpool,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,205,agent_error,1,167.4,1,0,1,0,2.869,2.869,1.0
 nvdla.top,claude-fable-5-2,1,,,claude-code,next-09,H200 NVL,90,agent_finished,0,72.1,6,2,4,0,0.789,0.728,1.083791
 nvdla.top,claude-opus-5-5,1,,,claude-code,next-09,H200 NVL,90,budget_reached,0,86.7,8,1,6,0,0.789,0.782,1.008951
 nvdla.top,gpt-6-astra,1,,infrastructure fault,codex,next-09,H200 NVL,90,agent_finished,0,77.7,8,1,5,0,0.789,0.764,1.032723
@@ -85,7 +76,6 @@ nvdla.top,gpt-6.2-astra,1,,,codex,next-09,RTX 6000 Ada,90,budget_reached,124,95.
 nvdla.top,kimi-k3.1-pro,1,,rerun pinned to one provider endpoint (the earlier unpinned run is not reported),kimi-code,next-09,H200 NVL,90,agent_finished,0,57.6,1,0,1,0,0.789,0.789,1.0
 nvdla.top,nemotron-3-ultra-550b-a55b,1,,,opencode,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,5,0,5,0,0.789,0.789,1.0
 nvdla.top,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,H200 NVL,90,agent_finished,0,83.5,1,0,1,0,0.789,0.789,1.0
-nvdla.top,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,0,0,0,0,0.789,0.789,1.0
 opope.default,claude-fable-5-2,1,,,claude-code,next-09,H200 NVL,90,agent_finished,0,19.9,2,0,2,0,0.857,0.857,1.0
 opope.default,claude-opus-5-5,1,,,claude-code,next-09,RTX 6000 Ada,90,agent_finished,0,58.3,6,3,2,0,0.857,0.771,1.111543
 opope.default,gpt-6-astra,2,agent_error,infrastructure fault,codex,next-09,H200 NVL,90,agent_finished,0,81.5,10,2,2,0,0.857,0.844,1.015403
@@ -93,7 +83,6 @@ opope.default,gpt-6.2-astra,1,,,codex,next-09,RTX 6000 Ada,90,budget_reached,124
 opope.default,kimi-k3.1-pro,1,,rerun pinned to one provider endpoint (the earlier unpinned run is not reported),kimi-code,next-09,H200 NVL,90,agent_finished,0,46.5,10,3,6,0,0.857,0.816,1.050245
 opope.default,nemotron-3-ultra-550b-a55b,1,,,opencode,next-09,RTX 6000 Ada,90,agent_finished,0,63.2,10,0,10,0,0.857,0.857,1.0
 opope.default,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,H200 NVL,90,budget_reached,124,90.0,0,0,0,0,0.857,0.857,1.0
-opope.default,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,0,0,0,0,0.857,0.857,1.0
 pulp_c910.default,claude-fable-5-2,1,,,claude-code,next-09,H200 NVL,215,agent_finished,0,176.8,8,0,6,0,1.005,1.005,1.0
 pulp_c910.default,claude-opus-5-5,1,,,claude-code,next-09,RTX 6000 Ada,215,agent_finished,0,192.7,9,2,7,0,1.005,0.902,1.114191
 pulp_c910.default,gpt-6-astra,1,,,codex,next-09,RTX 6000 Ada,215,agent_finished,0,185.1,10,3,7,0,1.005,0.93,1.080645
@@ -101,7 +90,6 @@ pulp_c910.default,gpt-6.2-astra,1,,,codex,next-09,H200 NVL,215,agent_finished,0,
 pulp_c910.default,kimi-k3.1-pro,1,,rerun pinned to one provider endpoint (the earlier unpinned run is not reported),kimi-code,next-09,H200 NVL,215,agent_finished,0,111.1,10,2,8,0,1.005,0.933,1.07717
 pulp_c910.default,nemotron-3-ultra-550b-a55b,2,agent_error,infrastructure fault,opencode,next-09,RTX 6000 Ada,215,budget_reached,124,215.0,3,0,3,0,1.005,1.005,1.0
 pulp_c910.default,qwen3.8-2.4t-a95b,2,agent_error,model provider refused service,qwen-code,next-09,H200 NVL,215,agent_finished,0,177.1,7,2,5,0,1.005,0.938,1.071429
-pulp_c910.default,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,215,budget_reached,124,215.0,1,0,1,0,1.005,1.005,1.0
 redmule.default,claude-fable-5-2,1,,,claude-code,next-09,H200 NVL,530,agent_finished,0,442.6,5,1,4,0,1.636,1.542,1.06096
 redmule.default,claude-opus-5-5,1,,,claude-code,next-09,H200 NVL,530,agent_finished,0,482.3,5,1,2,0,1.636,1.546,1.058215
 redmule.default,gpt-6-astra,3,agent_error;agent_error,model provider refused service,codex,next-09,H200 NVL,530,budget_reached,124,530.0,9,2,4,1,1.636,1.552,1.054124
@@ -109,7 +97,6 @@ redmule.default,gpt-6.2-astra,1,,,codex,next-09,H200 NVL,530,budget_reached,124,
 redmule.default,kimi-k3.1-pro,2,agent_error,model provider refused service,kimi-code,next-09,H200 NVL,530,budget_reached,124,543.8,9,0,9,0,1.636,1.636,1.0
 redmule.default,nemotron-3-ultra-550b-a55b,2,agent_error,infrastructure fault,opencode,next-09,H200 NVL,530,budget_reached,124,555.3,6,0,5,0,1.636,1.636,1.0
 redmule.default,qwen3.8-2.4t-a95b,3,agent_error;agent_error,benchmark artifact: the agent's process-kill pattern matched its own harness command line,qwen-code,next-09,H200 NVL,530,agent_finished,0,374.1,0,0,0,0,1.636,1.636,1.0
-redmule.default,ripple-65b-preview,1,,,opencode,next-09,H200 NVL,530,agent_finished,0,0.2,0,0,0,0,1.636,1.636,1.0
 serial_link.default,claude-fable-5-2,1,,,claude-code,next-09,RTX 6000 Ada,90,agent_finished,0,51.7,10,3,7,0,0.305,0.27,1.12963
 serial_link.default,claude-opus-5-5,1,,,claude-code,next-09,RTX 6000 Ada,90,agent_finished,0,39.4,3,2,1,0,0.305,0.266,1.146617
 serial_link.default,gpt-6-astra,2,agent_finished,infrastructure fault,codex,next-09,RTX 6000 Ada,90,agent_finished,0,11.2,10,3,1,0,0.305,0.271,1.125461
@@ -117,7 +104,6 @@ serial_link.default,gpt-6.2-astra,1,,,codex,next-09,RTX 6000 Ada,90,agent_finish
 serial_link.default,kimi-k3.1-pro,1,,rerun pinned to one provider endpoint (the earlier unpinned run is not reported),kimi-code,next-09,RTX 6000 Ada,90,agent_finished,0,41.1,8,3,3,0,0.305,0.272,1.121324
 serial_link.default,nemotron-3-ultra-550b-a55b,1,,,opencode,next-09,RTX 6000 Ada,90,agent_finished,0,27.2,10,3,3,0,0.305,0.279,1.09319
 serial_link.default,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,RTX 6000 Ada,90,agent_finished,0,63.0,3,1,2,0,0.305,0.278,1.097122
-serial_link.default,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,0,0,0,0,0.305,0.305,1.0
 snitch_cluster.default,claude-fable-5-2,1,,,claude-code,next-09,H200 NVL,490,agent_finished,0,365.5,5,5,0,0,2.128,1.751,1.215306
 snitch_cluster.default,claude-opus-5-5,1,,,claude-code,next-09,RTX 6000 Ada,490,budget_reached,124,539.7,4,1,2,0,2.128,1.823,1.167307
 snitch_cluster.default,gpt-6-astra,2,agent_error,model provider refused service,codex,next-09,RTX 6000 Ada,490,budget_reached,124,503.6,7,5,1,0,2.128,1.979,1.075291
@@ -125,7 +111,6 @@ snitch_cluster.default,gpt-6.2-astra,1,,,codex,next-09,H200 NVL,490,budget_reach
 snitch_cluster.default,kimi-k3.1-pro,1,,,kimi-code,next-09,H200 NVL,490,agent_finished,0,346.8,8,3,5,0,2.128,2.088,1.019157
 snitch_cluster.default,nemotron-3-ultra-550b-a55b,3,agent_finished;agent_error,model provider refused service,opencode,next-09,RTX 6000 Ada,490,agent_finished,0,53.5,1,0,1,0,2.128,2.128,1.0
 snitch_cluster.default,qwen3.8-2.4t-a95b,2,agent_error,benchmark artifact: the agent's process-kill pattern matched its own harness command line,qwen-code,next-09,H200 NVL,490,agent_finished,0,430.9,6,2,3,0,2.128,1.997,1.065598
-snitch_cluster.default,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,490,agent_finished,0,0.1,0,0,0,0,2.128,2.128,1.0
 snitch_cluster.default_latch,claude-fable-5-2,3,agent_error;agent_error,infrastructure fault,claude-code,next-09,RTX 6000 Ada,600,agent_finished,0,537.7,4,3,1,0,2.169,1.871,1.159273
 snitch_cluster.default_latch,claude-opus-5-5,1,,,claude-code,next-09,RTX 6000 Ada,600,agent_finished,0,523.7,4,3,0,0,2.169,1.932,1.122671
 snitch_cluster.default_latch,gpt-6-astra,1,,,codex,next-09,RTX 6000 Ada,600,agent_finished,0,569.4,7,2,1,0,2.169,2.091,1.037303
@@ -133,7 +118,6 @@ snitch_cluster.default_latch,gpt-6.2-astra,1,,,codex,next-09,RTX 6000 Ada,600,bu
 snitch_cluster.default_latch,kimi-k3.1-pro,1,,,kimi-code,next-09,RTX 6000 Ada,600,budget_reached,0,576.3,7,2,3,0,2.169,2.097,1.034335
 snitch_cluster.default_latch,nemotron-3-ultra-550b-a55b,2,agent_error,model provider refused service,opencode,next-09,RTX 6000 Ada,600,budget_reached,124,612.5,7,0,7,0,2.169,2.169,1.0
 snitch_cluster.default_latch,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,RTX 6000 Ada,600,agent_finished,0,484.4,2,0,2,0,2.169,2.169,1.0
-snitch_cluster.default_latch,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,600,agent_finished,0,0.1,0,0,0,0,2.169,2.169,1.0
 snitch_cluster.minimal,claude-fable-5-2,1,,,claude-code,next-09,RTX 6000 Ada,115,agent_finished,0,61.2,3,2,1,0,1.288,1.201,1.07244
 snitch_cluster.minimal,claude-opus-5-5,1,,,claude-code,next-09,H200 NVL,115,agent_finished,0,90.4,4,3,1,0,1.288,1.201,1.07244
 snitch_cluster.minimal,gpt-6-astra,1,,,codex,next-09,H200 NVL,115,agent_finished,0,83.7,5,2,0,0,1.288,1.2,1.073333
@@ -141,7 +125,6 @@ snitch_cluster.minimal,gpt-6.2-astra,1,,,codex,next-09,H200 NVL,115,budget_reach
 snitch_cluster.minimal,kimi-k3.1-pro,1,,rerun pinned to one provider endpoint (the earlier unpinned run is not reported),kimi-code,next-09,H200 NVL,115,agent_finished,0,75.7,4,1,2,0,1.288,1.2,1.073333
 snitch_cluster.minimal,nemotron-3-ultra-550b-a55b,2,agent_error,infrastructure fault,opencode,next-09,RTX 6000 Ada,115,budget_reached,124,121.4,3,0,3,0,1.288,1.288,1.0
 snitch_cluster.minimal,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,H200 NVL,115,agent_finished,0,97.3,3,0,3,0,1.288,1.288,1.0
-snitch_cluster.minimal,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,115,budget_reached,124,115.0,0,0,0,0,1.288,1.288,1.0
 spatz.default,claude-fable-5-2,1,,,claude-code,next-09,RTX 6000 Ada,450,budget_reached,0,448.9,5,5,0,0,2.266,1.868,1.213062
 spatz.default,claude-opus-5-5,1,,,claude-code,next-09,RTX 6000 Ada,450,agent_finished,0,377.8,6,3,0,0,2.266,2.13,1.06385
 spatz.default,gpt-6-astra,2,agent_error,model provider refused service,codex,next-09,H200 NVL,450,budget_reached,124,450.0,8,4,2,0,2.266,2.202,1.029064
@@ -149,7 +132,6 @@ spatz.default,gpt-6.2-astra,1,,,codex,next-09,H200 NVL,450,budget_reached,124,48
 spatz.default,kimi-k3.1-pro,1,,,kimi-code,next-09,RTX 6000 Ada,450,agent_finished,0,423.7,6,1,3,0,2.266,2.25,1.007111
 spatz.default,nemotron-3-ultra-550b-a55b,2,infrastructure_error,infrastructure fault,opencode,next-09,RTX 6000 Ada,450,budget_reached,124,462.1,3,0,3,0,2.266,2.266,1.0
 spatz.default,qwen3.8-2.4t-a95b,2,agent_error,model provider refused service,qwen-code,next-09,H200 NVL,450,agent_finished,0,401.7,3,2,1,0,2.266,2.166,1.046168
-spatz.default,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,450,agent_finished,0,0.1,0,0,0,0,2.266,2.266,1.0
 spi_host.default,claude-fable-5-2,1,,,claude-code,next-09,RTX 6000 Ada,90,agent_finished,0,59.0,4,3,1,0,0.475,0.365,1.30137
 spi_host.default,claude-opus-5-5,1,,infrastructure fault,claude-code,next-09,RTX 6000 Ada,90,agent_error,1,71.8,4,0,4,0,0.475,0.475,1.0
 spi_host.default,gpt-6-astra,1,,,codex,next-09,RTX 6000 Ada,90,agent_finished,0,54.8,7,3,3,0,0.475,0.404,1.175743
@@ -157,4 +139,3 @@ spi_host.default,gpt-6.2-astra,1,,,codex,next-09,RTX 6000 Ada,90,agent_finished,
 spi_host.default,kimi-k3.1-pro,1,,rerun pinned to one provider endpoint (the earlier unpinned run is not reported),kimi-code,next-09,RTX 6000 Ada,90,agent_finished,0,36.9,3,3,0,0,0.475,0.4,1.1875
 spi_host.default,nemotron-3-ultra-550b-a55b,2,agent_error,model provider refused service,opencode,next-09,RTX 6000 Ada,90,agent_finished,0,36.2,10,0,7,2,0.475,0.475,1.0
 spi_host.default,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,0,0,0,0,0.475,0.475,1.0
-spi_host.default,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,90,budget_reached,124,90.0,0,0,0,0,0.475,0.475,1.0
