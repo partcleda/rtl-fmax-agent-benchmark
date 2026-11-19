@@ -22,7 +22,7 @@ accepted only when it is proven equivalent and faster than the session's best so
 ## Results
 
 <!-- results:start -->
-**Status:** 146 of 160 sessions finished (8 models, 20 designs), as of 2026-11-18 22:01 PST.
+**Status:** 149 of 160 sessions finished (8 models, 20 designs), as of 2026-11-18 22:17 PST.
 
 ### Coverage
 
@@ -34,20 +34,20 @@ accepted only when it is proven equivalent and faster than the session's best so
 | Qwen3.8 2.4T-A95B | Qwen (Alibaba) | Qwen Code 0.27.1 | OpenRouter, one pinned provider (SiliconFlow, FP8) | 20 / 20 |
 | Ripple-65B Preview | Ricursive AI | OpenCode 1.19.5 | Self-hosted (SGLang 0.5.19, BF16) for its first 15 designs; OpenRouter pinned to PrimeIntellect (BF16) for later sessions | 20 / 20 |
 | Nemotron 3 Ultra 550B-A55B | NVIDIA | OpenCode 1.19.5 | OpenRouter, pinned to DeepInfra (FP4), fallbacks disabled | 20 / 20 |
-| GPT-6.2 Astra | OpenAI | Codex 0.169.1 | Official CLI signed in to a subscription; reasoning effort medium, as GPT-6 Astra ran | 7 / 20 |
+| GPT-6.2 Astra | OpenAI | Codex 0.169.1 | Official CLI signed in to a subscription; reasoning effort medium, as GPT-6 Astra ran | 10 / 20 |
 | Claude Opus 5.5 | Anthropic | Claude Code 2.1.322 | Official CLI signed in to a subscription | 19 / 20 |
 
 ### Results by model
 
 | Model | Harness | Designs finished | Fmax gain (geomean) | Normalized score | Designs improved | Mean evaluations | Candidates not proven |
 |---|---|---:|---:|---:|---:|---:|---:|
-| Claude Fable 5.2 | Claude Code | 20 / 20 | +10.39% | 77.1 | 17 / 20 | 5.0 | 42% (42 / 99) |
-| Claude Opus 5.5 | Claude Code | 19 / 20 | +9.26% | 71.4 | 18 / 19 | 4.8 | 40% (36 / 91) |
-| GPT-6.2 Astra | Codex | 7 / 20 | +7.21% | 60.3 | 7 / 7 | 7.7 | 56% (30 / 54) |
-| GPT-6 Astra | Codex | 20 / 20 | +7.04% | 57.6 | 19 / 20 | 8.4 | 27% (45 / 169) |
-| Kimi K3.1 Pro | Kimi Code | 20 / 20 | +3.81% | 34.3 | 16 / 20 | 5.9 | 63% (74 / 118) |
-| Qwen3.8 2.4T-A95B | Qwen Code | 20 / 20 | +2.08% | 12.0 | 8 / 20 | 2.1 | 67% (28 / 42) |
-| Nemotron 3 Ultra 550B-A55B | OpenCode | 20 / 20 | +0.79% | 8.2 | 4 / 20 | 6.2 | 72% (89 / 123) |
+| Claude Fable 5.2 | Claude Code | 20 / 20 | +10.39% | 75.4 | 17 / 20 | 5.0 | 42% (42 / 99) |
+| Claude Opus 5.5 | Claude Code | 19 / 20 | +9.26% | 70.5 | 18 / 19 | 4.8 | 40% (36 / 91) |
+| GPT-6.2 Astra | Codex | 10 / 20 | +8.20% | 63.8 | 10 / 10 | 8.1 | 58% (47 / 81) |
+| GPT-6 Astra | Codex | 20 / 20 | +7.04% | 55.8 | 19 / 20 | 8.4 | 27% (45 / 169) |
+| Kimi K3.1 Pro | Kimi Code | 20 / 20 | +3.81% | 33.2 | 16 / 20 | 5.9 | 63% (74 / 118) |
+| Qwen3.8 2.4T-A95B | Qwen Code | 20 / 20 | +2.08% | 11.8 | 8 / 20 | 2.1 | 67% (28 / 42) |
+| Nemotron 3 Ultra 550B-A55B | OpenCode | 20 / 20 | +0.79% | 7.6 | 4 / 20 | 6.2 | 72% (89 / 123) |
 | Ripple-65B Preview | OpenCode | 20 / 20 | +0.00% | 0.0 | 0 / 20 | 0.1 | 100% (3 / 3) |
 
 Fmax gain is the geometric mean of each finished session's Fmax ratio (baseline period / best accepted period) over the designs that model has finished. Normalized score is the mean of its gain on each design as a percentage of the best gain any model here reached on that design (100: the best result on every design), so every design counts equally however much headroom it had. Models have finished different designs, so this order is provisional, not a like-for-like ranking, until every model covers the same designs. "Candidates not proven" is the share of evaluations whose equivalence proof did not pass.
@@ -56,8 +56,8 @@ Fmax gain is the geometric mean of each finished session's Fmax ratio (baseline 
 
 | Design | Baseline period (ns) | Sessions finished | Best period (ns) | Fmax gain | Best by |
 |---|---:|---:|---:|---:|---|
-| `cheshire.default` | 1.047 | 7 | 0.957 | +9.40% | Claude Opus 5.5 |
-| `cv32e40p.default` | 0.657 | 7 | 0.620 | +5.97% | GPT-6 Astra |
+| `cheshire.default` | 1.047 | 8 | 0.957 | +9.40% | Claude Opus 5.5 |
+| `cv32e40p.default` | 0.657 | 8 | 0.601 | +9.32% | GPT-6.2 Astra |
 | `cva6.default` | 1.038 | 7 | 1.005 | +3.28% | Claude Opus 5.5 |
 | `cvfpu.fp32_fma` | 1.401 | 7 | 1.070 | +30.93% | Claude Fable 5.2 |
 | `cvfpu.full` | 2.114 | 7 | 1.976 | +6.98% | Claude Opus 5.5 |
@@ -69,7 +69,7 @@ Fmax gain is the geometric mean of each finished session's Fmax ratio (baseline 
 | `spi_host.default` | 0.475 | 6 | 0.365 | +30.14% | Claude Fable 5.2 |
 | `snitch_cluster.minimal` | 1.288 | 8 | 1.200 | +7.33% | GPT-6 Astra, Kimi K3.1 Pro |
 | `ita.default` | 0.903 | 7 | 0.900 | +0.33% | Claude Fable 5.2 |
-| `mempool.minpool` | 2.869 | 7 | 1.913 | +49.97% | Claude Opus 5.5 |
+| `mempool.minpool` | 2.869 | 8 | 1.913 | +49.97% | Claude Opus 5.5 |
 | `ara.default` | 1.064 | 8 | 0.926 | +14.90% | GPT-6.2 Astra |
 | `pulp_c910.default` | 1.005 | 8 | 0.902 | +11.42% | Claude Opus 5.5 |
 | `spatz.default` | 2.266 | 8 | 1.868 | +21.31% | Claude Fable 5.2 |
@@ -81,9 +81,9 @@ Fmax gain is the geometric mean of each finished session's Fmax ratio (baseline 
 
 Counts over every finished session of the models above. They describe what happened; with one session per model and design they do not establish causes or rankings.
 
-- 699 candidates evaluated: 202 accepted, 142 proven equivalent but not faster than the session's best, 347 not proven (253 with a partition EQY could not prove, 40 at the proof deadline, 48 over the proof memory budget, 6 for another reason), 8 failed to compile or measure.
-- Of 146 finished sessions, 98 ended with the agent finishing on its own, 47 ran to the time budget and 1 ended with an agent error.
-- Sessions used 4.8 of the 10 allowed evaluations on average; 22 used all 10.
+- 726 candidates evaluated: 207 accepted, 147 proven equivalent but not faster than the session's best, 364 not proven (265 with a partition EQY could not prove, 41 at the proof deadline, 52 over the proof memory budget, 6 for another reason), 8 failed to compile or measure.
+- Of 149 finished sessions, 99 ended with the agent finishing on its own, 49 ran to the time budget and 1 ended with an agent error.
+- Sessions used 4.9 of the 10 allowed evaluations on average; 24 used all 10.
 - Largest single gain so far: `mempool.minpool` by Claude Opus 5.5, 2.869 ns to 1.913 ns (+49.97% Fmax).
 <!-- results:end -->
 
