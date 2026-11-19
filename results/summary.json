@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-18 17:41 PST",
+  "generated": "2026-11-18 18:13 PST",
   "designs": [
     "ara.default",
     "cheshire.default",
@@ -39,13 +39,13 @@
     "claude-opus-5-5": {
       "harness": "claude-code",
       "ranked": false,
-      "designs": 6,
-      "geomean_fmax_gain_pct": 12.482,
-      "normalized_score": 71.12,
-      "designs_improved": 6,
-      "mean_evaluations": 5.33,
+      "designs": 7,
+      "geomean_fmax_gain_pct": 11.718,
+      "normalized_score": 75.07,
+      "designs_improved": 7,
+      "mean_evaluations": 5.14,
       "outcomes": {
-        "agent_finished": 6
+        "agent_finished": 7
       }
     },
     "gpt-6-astra": {
@@ -64,13 +64,13 @@
     "gpt-6.2-astra": {
       "harness": "codex",
       "ranked": false,
-      "designs": 2,
-      "geomean_fmax_gain_pct": 6.851,
-      "normalized_score": 31.99,
-      "designs_improved": 2,
-      "mean_evaluations": 7.5,
+      "designs": 3,
+      "geomean_fmax_gain_pct": 6.233,
+      "normalized_score": 48.7,
+      "designs_improved": 3,
+      "mean_evaluations": 8.33,
       "outcomes": {
-        "budget_reached": 2
+        "budget_reached": 3
       }
     },
     "kimi-k3.1-pro": {

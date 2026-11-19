@@ -402,6 +402,16 @@ redmule.default,gpt-6-astra,6,accepted,1.552,1.054124,proven,
 redmule.default,gpt-6-astra,7,unverified,1.548,1.056848,unverified,partition_proof_failed
 redmule.default,gpt-6-astra,8,no_improvement,1.679,0.97439,proven,
 redmule.default,gpt-6-astra,9,no_improvement,1.74,0.94023,proven,
+redmule.default,gpt-6.2-astra,1,unverified,1.567,1.044033,unverified,partition_proof_failed
+redmule.default,gpt-6.2-astra,2,unverified,1.55,1.055484,memory_limit,partition_proof_failed
+redmule.default,gpt-6.2-astra,3,no_improvement,1.94,0.843299,proven,
+redmule.default,gpt-6.2-astra,4,no_improvement,1.863,0.878154,proven,
+redmule.default,gpt-6.2-astra,5,no_improvement,2.017,0.811106,proven,
+redmule.default,gpt-6.2-astra,6,no_improvement,1.64,0.997561,proven,
+redmule.default,gpt-6.2-astra,7,unverified,1.676,0.976134,unverified,timeout
+redmule.default,gpt-6.2-astra,8,no_improvement,1.78,0.919101,proven,
+redmule.default,gpt-6.2-astra,9,accepted,1.558,1.050064,proven,
+redmule.default,gpt-6.2-astra,10,unverified,2.015,0.811911,memory_limit,partition_proof_failed
 redmule.default,kimi-k3.1-pro,1,unverified,1.636,1.0,unverified,partition_proof_failed
 redmule.default,kimi-k3.1-pro,2,unverified,1.541,1.061648,unverified,partition_proof_failed
 redmule.default,kimi-k3.1-pro,3,unverified,1.622,1.008631,unverified,partition_proof_failed
@@ -521,6 +531,10 @@ snitch_cluster.default_latch,qwen3.8-2.4t-a95b,2,unverified,2.121,1.022631,unver
 snitch_cluster.minimal,claude-fable-5-2,1,unverified,1.211,1.063584,memory_limit,timeout
 snitch_cluster.minimal,claude-fable-5-2,2,accepted,1.208,1.066225,proven,
 snitch_cluster.minimal,claude-fable-5-2,3,accepted,1.201,1.07244,proven,
+snitch_cluster.minimal,claude-opus-5-5,1,unverified,1.2,1.073333,unverified,partition_proof_failed
+snitch_cluster.minimal,claude-opus-5-5,2,accepted,1.258,1.023847,proven,
+snitch_cluster.minimal,claude-opus-5-5,3,accepted,1.212,1.062706,proven,
+snitch_cluster.minimal,claude-opus-5-5,4,accepted,1.201,1.07244,proven,
 snitch_cluster.minimal,gpt-6-astra,1,no_improvement,1.375,0.936727,proven,
 snitch_cluster.minimal,gpt-6-astra,2,accepted,1.201,1.07244,proven,
 snitch_cluster.minimal,gpt-6-astra,3,no_improvement,1.201,1.07244,proven,
