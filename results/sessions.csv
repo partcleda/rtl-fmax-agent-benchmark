@@ -113,6 +113,7 @@ snitch_cluster.minimal,nemotron-3-ultra-550b-a55b,2,agent_error,infrastructure f
 snitch_cluster.minimal,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,H200 NVL,115,agent_finished,0,97.3,3,0,3,0,1.288,1.288,1.0
 snitch_cluster.minimal,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,115,budget_reached,124,115.0,0,0,0,0,1.288,1.288,1.0
 spatz.default,claude-fable-5-2,1,,,claude-code,next-09,RTX 6000 Ada,450,budget_reached,0,448.9,5,5,0,0,2.266,1.868,1.213062
+spatz.default,claude-opus-5-5,1,,,claude-code,next-09,RTX 6000 Ada,450,agent_finished,0,377.8,6,3,0,0,2.266,2.13,1.06385
 spatz.default,gpt-6-astra,2,agent_error,model provider refused service,codex,next-09,H200 NVL,450,budget_reached,124,450.0,8,4,2,0,2.266,2.202,1.029064
 spatz.default,gpt-6.2-astra,1,,,codex,next-09,H200 NVL,450,budget_reached,124,485.9,9,3,5,0,2.266,2.145,1.05641
 spatz.default,kimi-k3.1-pro,1,,,kimi-code,next-09,RTX 6000 Ada,450,agent_finished,0,423.7,6,1,3,0,2.266,2.25,1.007111
