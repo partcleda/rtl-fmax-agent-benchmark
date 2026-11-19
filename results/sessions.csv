@@ -126,6 +126,7 @@ snitch_cluster.default_latch,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ad
 snitch_cluster.minimal,claude-fable-5-2,1,,,claude-code,next-09,RTX 6000 Ada,115,agent_finished,0,61.2,3,2,1,0,1.288,1.201,1.07244
 snitch_cluster.minimal,claude-opus-5-5,1,,,claude-code,next-09,H200 NVL,115,agent_finished,0,90.4,4,3,1,0,1.288,1.201,1.07244
 snitch_cluster.minimal,gpt-6-astra,1,,,codex,next-09,H200 NVL,115,agent_finished,0,83.7,5,2,0,0,1.288,1.2,1.073333
+snitch_cluster.minimal,gpt-6.2-astra,1,,,codex,next-09,H200 NVL,115,budget_reached,124,118.2,6,1,4,0,1.288,1.201,1.07244
 snitch_cluster.minimal,kimi-k3.1-pro,1,,rerun pinned to one provider endpoint (the earlier unpinned run is not reported),kimi-code,next-09,H200 NVL,115,agent_finished,0,75.7,4,1,2,0,1.288,1.2,1.073333
 snitch_cluster.minimal,nemotron-3-ultra-550b-a55b,2,agent_error,infrastructure fault,opencode,next-09,RTX 6000 Ada,115,budget_reached,124,121.4,3,0,3,0,1.288,1.288,1.0
 snitch_cluster.minimal,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,H200 NVL,115,agent_finished,0,97.3,3,0,3,0,1.288,1.288,1.0
