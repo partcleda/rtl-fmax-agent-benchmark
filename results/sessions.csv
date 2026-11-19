@@ -90,6 +90,7 @@ pulp_c910.default,gpt-6.2-astra,1,,,codex,next-09,H200 NVL,215,agent_finished,0,
 pulp_c910.default,kimi-k3.1-pro,1,,rerun pinned to one provider endpoint (the earlier unpinned run is not reported),kimi-code,next-09,H200 NVL,215,agent_finished,0,111.1,10,2,8,0,1.005,0.933,1.07717
 pulp_c910.default,nemotron-3-ultra-550b-a55b,2,agent_error,infrastructure fault,opencode,next-09,RTX 6000 Ada,215,budget_reached,124,215.0,3,0,3,0,1.005,1.005,1.0
 pulp_c910.default,qwen3.8-2.4t-a95b,2,agent_error,model provider refused service,qwen-code,next-09,H200 NVL,215,agent_finished,0,177.1,7,2,5,0,1.005,0.938,1.071429
+pulp_c910.default,ripple-65b-preview,2,budget_reached,infrastructure fault,opencode,next-09,RTX 6000 Ada,215,budget_reached,124,215.0,1,0,1,0,1.005,1.005,1.0
 redmule.default,claude-fable-5-2,1,,,claude-code,next-09,H200 NVL,530,agent_finished,0,442.6,5,1,4,0,1.636,1.542,1.06096
 redmule.default,claude-opus-5-5,1,,,claude-code,next-09,H200 NVL,530,agent_finished,0,482.3,5,1,2,0,1.636,1.546,1.058215
 redmule.default,gpt-6-astra,3,agent_error;agent_error,model provider refused service,codex,next-09,H200 NVL,530,budget_reached,124,530.0,9,2,4,1,1.636,1.552,1.054124

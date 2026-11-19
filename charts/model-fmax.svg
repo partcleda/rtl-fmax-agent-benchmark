@@ -315,7 +315,7 @@ L 606.311456 468.72
     <text style="fill: #171738; font: 10px 'DejaVu Sans'; text-anchor: start" x="196.180734" y="399.274808" transform="rotate(-0 196.180734 399.274808)">+0.79%   4/20 improved</text>
    </g>
    <g id="text_25">
-    <text style="fill: #74788d; font: 10px 'DejaVu Sans'; text-anchor: start" x="177.36" y="442.536981" transform="rotate(-0 177.36 442.536981)">no finished sessions yet · 0 of 20 designs</text>
+    <text style="fill: #171738; font: 10px 'DejaVu Sans'; text-anchor: start" x="177.36" y="442.536981" transform="rotate(-0 177.36 442.536981)">+0.00%   0/1 improved · 1 of 20 designs finished</text>
    </g>
   </g>
   <g id="axes_2">
@@ -523,20 +523,23 @@ L 977.76 468.72
    <g id="text_38">
     <text style="fill: #171738; font: 10px 'DejaVu Sans'; text-anchor: start" x="655.398835" y="399.274808" transform="rotate(-0 655.398835 399.274808)">7.2</text>
    </g>
+   <g id="text_39">
+    <text style="fill: #171738; font: 10px 'DejaVu Sans'; text-anchor: start" x="635.798835" y="442.536981" transform="rotate(-0 635.798835 442.536981)">0.0</text>
+   </g>
   </g>
   <g id="line2d_43">
    <path d="M 40.32 82.8 
 L 967.68 82.8 
 " style="fill: none; stroke: #171738; stroke-opacity: 0.22; stroke-linecap: square"/>
   </g>
-  <g id="text_39">
+  <g id="text_40">
    <text style="fill: #171738; font: 700 18px 'DejaVu Sans'; text-anchor: start" x="40.32" y="43.2" transform="rotate(-0 40.32 43.2)">RTL Fmax gain by coding agent (preliminary)</text>
   </g>
-  <g id="text_40">
+  <g id="text_41">
    <text style="fill: #5b607d; font: 11.5px 'DejaVu Sans'; text-anchor: start" x="40.32" y="68.4" transform="rotate(-0 40.32 68.4)">Ordered by normalized score: its gain on each design as a share of the best gain any model reached there, averaged over the designs it has finished</text>
   </g>
-  <g id="text_41">
-   <text style="fill: #5b607d; font: 8.5px 'DejaVu Sans'" transform="translate(40.32 559.716781)">Preliminary results as of 2026-11-19 11:35 PST: 140 of 160 sessions finished.</text>
+  <g id="text_42">
+   <text style="fill: #5b607d; font: 8.5px 'DejaVu Sans'" transform="translate(40.32 559.716781)">Preliminary results as of 2026-11-19 15:42 PST: 141 of 160 sessions finished.</text>
    <text style="fill: #5b607d; font: 8.5px 'DejaVu Sans'" transform="translate(40.32 571.818391)">Stock coding agents, one session per model and design, at most 10 evaluations each. boson synthesis and unplaced setup timing on public ASAP7 TT libraries, 1 ps period</text>
    <text style="fill: #5b607d; font: 8.5px 'DejaVu Sans'" transform="translate(40.32 583.92)">search; a candidate counts only with an EQY equivalence proof against the original RTL.</text>
   </g>
