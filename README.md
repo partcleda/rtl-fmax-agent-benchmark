@@ -1,6 +1,6 @@
 # RTL Fmax agent benchmark
 
-**Preliminary results, updated as sessions finish and models are added.**
+**Preliminary results. More models and the cost of each session are coming soon.**
 
 ![Fmax gain and normalized score per model over the designs it has finished](charts/model-fmax.png)
 
