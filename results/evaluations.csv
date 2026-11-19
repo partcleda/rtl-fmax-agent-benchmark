@@ -34,6 +34,8 @@ cheshire.default,claude-fable-5-2,2,accepted,1.012,1.034585,proven,
 cheshire.default,claude-fable-5-2,3,accepted,0.982,1.066191,proven,
 cheshire.default,claude-fable-5-2,4,unverified,0.972,1.07716,unverified,partition_proof_failed
 cheshire.default,claude-fable-5-2,5,unverified,1.008,1.03869,unverified,partition_proof_failed
+cheshire.default,claude-opus-5-5,1,unverified,0.957,1.094044,unverified,partition_proof_failed
+cheshire.default,claude-opus-5-5,2,accepted,0.957,1.094044,proven,
 cheshire.default,gpt-6-astra,1,no_improvement,1.069,0.97942,proven,
 cheshire.default,gpt-6-astra,2,no_improvement,1.054,0.993359,proven,
 cheshire.default,gpt-6-astra,3,no_improvement,1.08,0.969444,proven,
