@@ -95,6 +95,9 @@ cv32e40p.default,nemotron-3-ultra-550b-a55b,10,accepted,0.644,1.020186,proven,
 cv32e40p.default,qwen3.8-2.4t-a95b,1,accepted,0.653,1.006126,proven,
 cva6.default,claude-fable-5-2,1,unverified,1.035,1.002899,unverified,partition_proof_failed
 cva6.default,claude-fable-5-2,2,accepted,1.016,1.021654,proven,
+cva6.default,claude-opus-5-5,1,no_improvement,1.093,0.94968,proven,
+cva6.default,claude-opus-5-5,2,unverified,1.005,1.032836,unverified,partition_proof_failed
+cva6.default,claude-opus-5-5,3,accepted,1.005,1.032836,proven,
 cva6.default,gpt-6-astra,1,no_improvement,1.093,0.94968,proven,
 cva6.default,gpt-6-astra,2,no_improvement,1.052,0.986692,proven,
 cva6.default,gpt-6-astra,3,no_improvement,1.052,0.986692,proven,
