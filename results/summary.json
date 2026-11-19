@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-18 23:50 PST",
+  "generated": "2026-11-19 00:05 PST",
   "designs": [
     "ara.default",
     "cheshire.default",
@@ -410,5 +410,11 @@
       "spi_host.default"
     ]
   },
-  "incomplete_attempts": []
+  "incomplete_attempts": [
+    {
+      "design": "ibex.minimal",
+      "model": "gpt-6.2-astra",
+      "reason": "infrastructure error"
+    }
+  ]
 }

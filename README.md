@@ -22,7 +22,7 @@ accepted only when it is proven equivalent and faster than the session's best so
 ## Results
 
 <!-- results:start -->
-**Status:** 154 of 160 sessions finished (8 models, 20 designs), as of 2026-11-18 23:50 PST.
+**Status:** 154 of 160 sessions finished (8 models, 20 designs), as of 2026-11-19 00:05 PST. 1 interrupted attempts are excluded from these results while awaiting a valid replacement.
 
 ### Coverage
 
