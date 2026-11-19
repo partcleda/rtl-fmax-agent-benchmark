@@ -342,6 +342,12 @@ nvdla.top,nemotron-3-ultra-550b-a55b,5,unverified,0.727,1.085282,unverified,part
 nvdla.top,qwen3.8-2.4t-a95b,1,unverified,0.832,0.948317,unverified,partition_proof_failed
 opope.default,claude-fable-5-2,1,unverified,0.823,1.041312,unverified,partition_proof_failed
 opope.default,claude-fable-5-2,2,unverified,0.836,1.02512,unverified,partition_proof_failed
+opope.default,claude-opus-5-5,1,unverified,0.838,1.022673,unverified,partition_proof_failed
+opope.default,claude-opus-5-5,2,accepted,0.856,1.001168,proven,
+opope.default,claude-opus-5-5,3,accepted,0.835,1.026347,proven,
+opope.default,claude-opus-5-5,4,accepted,0.771,1.111543,proven,
+opope.default,claude-opus-5-5,5,unverified,0.767,1.11734,unverified,partition_proof_failed
+opope.default,claude-opus-5-5,6,no_improvement,0.774,1.107235,proven,
 opope.default,gpt-6-astra,1,unverified,0.886,0.967269,unverified,timeout
 opope.default,gpt-6-astra,2,unverified,0.929,0.922497,unverified,partition_proof_failed
 opope.default,gpt-6-astra,3,no_improvement,0.858,0.998834,proven,

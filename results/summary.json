@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-18 20:43 PST",
+  "generated": "2026-11-18 20:59 PST",
   "designs": [
     "ara.default",
     "cheshire.default",
@@ -39,13 +39,13 @@
     "claude-opus-5-5": {
       "harness": "claude-code",
       "ranked": false,
-      "designs": 17,
-      "geomean_fmax_gain_pct": 9.664,
-      "normalized_score": 73.32,
-      "designs_improved": 16,
-      "mean_evaluations": 4.53,
+      "designs": 18,
+      "geomean_fmax_gain_pct": 9.746,
+      "normalized_score": 74.8,
+      "designs_improved": 17,
+      "mean_evaluations": 4.61,
       "outcomes": {
-        "agent_finished": 16,
+        "agent_finished": 17,
         "budget_reached": 1
       }
     },
@@ -54,7 +54,7 @@
       "ranked": true,
       "designs": 20,
       "geomean_fmax_gain_pct": 7.037,
-      "normalized_score": 58.42,
+      "normalized_score": 57.58,
       "designs_improved": 19,
       "mean_evaluations": 8.45,
       "outcomes": {
@@ -80,7 +80,7 @@
       "ranked": true,
       "designs": 20,
       "geomean_fmax_gain_pct": 3.81,
-      "normalized_score": 37.02,
+      "normalized_score": 34.27,
       "designs_improved": 16,
       "mean_evaluations": 5.9,
       "outcomes": {
