@@ -715,6 +715,10 @@ spi_host.default,claude-fable-5-2,1,unverified,0.407,1.167076,unverified,partiti
 spi_host.default,claude-fable-5-2,2,accepted,0.401,1.184539,proven,
 spi_host.default,claude-fable-5-2,3,accepted,0.372,1.276882,proven,
 spi_host.default,claude-fable-5-2,4,accepted,0.365,1.30137,proven,
+spi_host.default,claude-opus-5-5,1,unverified,0.434,1.09447,unverified,partition_proof_failed
+spi_host.default,claude-opus-5-5,2,unverified,0.429,1.107226,unverified,partition_proof_failed
+spi_host.default,claude-opus-5-5,3,unverified,0.424,1.120283,unverified,partition_proof_failed
+spi_host.default,claude-opus-5-5,4,unverified,0.468,1.014957,unverified,partition_proof_failed
 spi_host.default,gpt-6-astra,1,accepted,0.462,1.028139,proven,
 spi_host.default,gpt-6-astra,2,accepted,0.444,1.06982,proven,
 spi_host.default,gpt-6-astra,3,unverified,0.404,1.175743,memory_limit,timeout

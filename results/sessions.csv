@@ -144,6 +144,7 @@ spatz.default,nemotron-3-ultra-550b-a55b,2,infrastructure_error,infrastructure f
 spatz.default,qwen3.8-2.4t-a95b,2,agent_error,model provider refused service,qwen-code,next-09,H200 NVL,450,agent_finished,0,401.7,3,2,1,0,2.266,2.166,1.046168
 spatz.default,ripple-65b-preview,1,,,opencode,next-09,RTX 6000 Ada,450,agent_finished,0,0.1,0,0,0,0,2.266,2.266,1.0
 spi_host.default,claude-fable-5-2,1,,,claude-code,next-09,RTX 6000 Ada,90,agent_finished,0,59.0,4,3,1,0,0.475,0.365,1.30137
+spi_host.default,claude-opus-5-5,1,,infrastructure fault,claude-code,next-09,RTX 6000 Ada,90,agent_error,1,71.8,4,0,4,0,0.475,0.475,1.0
 spi_host.default,gpt-6-astra,1,,,codex,next-09,RTX 6000 Ada,90,agent_finished,0,54.8,7,3,3,0,0.475,0.404,1.175743
 spi_host.default,kimi-k3.1-pro,1,,rerun pinned to one provider endpoint (the earlier unpinned run is not reported),kimi-code,next-09,RTX 6000 Ada,90,agent_finished,0,36.9,3,3,0,0,0.475,0.4,1.1875
 spi_host.default,nemotron-3-ultra-550b-a55b,2,agent_error,model provider refused service,opencode,next-09,RTX 6000 Ada,90,agent_finished,0,36.2,10,0,7,2,0.475,0.475,1.0
