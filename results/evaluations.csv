@@ -578,6 +578,16 @@ serial_link.default,gpt-6-astra,7,no_improvement,0.279,1.09319,proven,
 serial_link.default,gpt-6-astra,8,unverified,0.273,1.117216,unverified,partition_proof_failed
 serial_link.default,gpt-6-astra,9,no_improvement,0.275,1.109091,proven,
 serial_link.default,gpt-6-astra,10,no_improvement,0.274,1.113139,proven,
+serial_link.default,gpt-6.2-astra,1,accepted,0.28,1.089286,proven,
+serial_link.default,gpt-6.2-astra,2,accepted,0.274,1.113139,proven,
+serial_link.default,gpt-6.2-astra,3,unverified,0.277,1.101083,unverified,partition_proof_failed
+serial_link.default,gpt-6.2-astra,4,accepted,0.271,1.125461,proven,
+serial_link.default,gpt-6.2-astra,5,unverified,0.259,1.177606,unverified,partition_proof_failed
+serial_link.default,gpt-6.2-astra,6,unverified,0.269,1.133829,unverified,partition_proof_failed
+serial_link.default,gpt-6.2-astra,7,unverified,0.257,1.18677,unverified,partition_proof_failed
+serial_link.default,gpt-6.2-astra,8,accepted,0.267,1.142322,proven,
+serial_link.default,gpt-6.2-astra,9,no_improvement,0.283,1.077739,proven,
+serial_link.default,gpt-6.2-astra,10,no_improvement,0.279,1.09319,proven,
 serial_link.default,kimi-k3.1-pro,1,no_improvement,0.305,1.0,proven,
 serial_link.default,kimi-k3.1-pro,2,accepted,0.302,1.009934,proven,
 serial_link.default,kimi-k3.1-pro,3,accepted,0.283,1.077739,proven,

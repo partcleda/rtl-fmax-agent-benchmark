@@ -110,6 +110,7 @@ redmule.default,ripple-65b-preview,1,,,opencode,next-09,H200 NVL,530,agent_finis
 serial_link.default,claude-fable-5-2,1,,,claude-code,next-09,RTX 6000 Ada,90,agent_finished,0,51.7,10,3,7,0,0.305,0.27,1.12963
 serial_link.default,claude-opus-5-5,1,,,claude-code,next-09,RTX 6000 Ada,90,agent_finished,0,39.4,3,2,1,0,0.305,0.266,1.146617
 serial_link.default,gpt-6-astra,2,agent_finished,infrastructure fault,codex,next-09,RTX 6000 Ada,90,agent_finished,0,11.2,10,3,1,0,0.305,0.271,1.125461
+serial_link.default,gpt-6.2-astra,1,,,codex,next-09,RTX 6000 Ada,90,agent_finished,0,12.0,10,4,4,0,0.305,0.267,1.142322
 serial_link.default,kimi-k3.1-pro,1,,rerun pinned to one provider endpoint (the earlier unpinned run is not reported),kimi-code,next-09,RTX 6000 Ada,90,agent_finished,0,41.1,8,3,3,0,0.305,0.272,1.121324
 serial_link.default,nemotron-3-ultra-550b-a55b,1,,,opencode,next-09,RTX 6000 Ada,90,agent_finished,0,27.2,10,3,3,0,0.305,0.279,1.09319
 serial_link.default,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,RTX 6000 Ada,90,agent_finished,0,63.0,3,1,2,0,0.305,0.278,1.097122
