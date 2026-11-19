@@ -325,6 +325,14 @@ nvdla.top,claude-fable-5-2,3,accepted,0.76,1.038158,proven,
 nvdla.top,claude-fable-5-2,4,unverified,0.723,1.091286,unverified,partition_proof_failed
 nvdla.top,claude-fable-5-2,5,unverified,0.76,1.038158,unverified,partition_proof_failed
 nvdla.top,claude-fable-5-2,6,accepted,0.728,1.083791,proven,
+nvdla.top,claude-opus-5-5,1,unverified,0.925,0.852973,unverified,partition_proof_failed
+nvdla.top,claude-opus-5-5,2,unverified,0.782,1.008951,unverified,partition_proof_failed
+nvdla.top,claude-opus-5-5,3,unverified,0.725,1.088276,unverified,partition_proof_failed
+nvdla.top,claude-opus-5-5,4,unverified,0.759,1.039526,unverified,partition_proof_failed
+nvdla.top,claude-opus-5-5,5,unverified,0.783,1.007663,unverified,partition_proof_failed
+nvdla.top,claude-opus-5-5,6,no_improvement,0.8,0.98625,proven,
+nvdla.top,claude-opus-5-5,7,accepted,0.782,1.008951,proven,
+nvdla.top,claude-opus-5-5,8,unverified,0.769,1.026008,unverified,partition_proof_failed
 nvdla.top,gpt-6-astra,1,no_improvement,0.789,1.0,proven,
 nvdla.top,gpt-6-astra,2,unverified,0.831,0.949458,unverified,partition_proof_failed
 nvdla.top,gpt-6-astra,3,unverified,0.869,0.90794,unverified,timeout
