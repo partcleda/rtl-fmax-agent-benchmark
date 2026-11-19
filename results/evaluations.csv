@@ -355,6 +355,7 @@ ita.default,nemotron-3-ultra-550b-a55b,2,unverified,0.9,1.003333,unverified,part
 ita.default,nemotron-3-ultra-550b-a55b,3,unverified,0.9,1.003333,unverified,partition_proof_failed
 ita.default,qwen3.8-2.4t-a95b,1,unverified,0.902,1.001109,unverified,partition_proof_failed
 ita.default,qwen3.8-2.4t-a95b,2,unverified,0.901,1.00222,unverified,timeout
+ita.default,ripple-65b-preview,1,unverified,0.9,1.003333,unverified,partition_proof_failed
 mempool.minpool,claude-fable-5-2,1,accepted,2.661,1.078166,proven,
 mempool.minpool,claude-fable-5-2,2,accepted,2.429,1.181145,proven,
 mempool.minpool,claude-fable-5-2,3,unverified,2.449,1.171499,unverified,partition_proof_failed
@@ -399,6 +400,7 @@ mempool.minpool,qwen3.8-2.4t-a95b,2,no_improvement,2.617,1.096293,proven,
 mempool.minpool,qwen3.8-2.4t-a95b,3,unverified,2.421,1.185048,unverified,partition_proof_failed
 mempool.minpool,qwen3.8-2.4t-a95b,4,unverified,2.43,1.180658,unverified,partition_proof_failed
 mempool.minpool,qwen3.8-2.4t-a95b,5,unverified,2.396,1.197412,unverified,partition_proof_failed
+mempool.minpool,ripple-65b-preview,1,unverified,2.873,0.998608,unverified,partition_proof_failed
 nvdla.top,claude-fable-5-2,1,unverified,0.764,1.032723,unverified,partition_proof_failed
 nvdla.top,claude-fable-5-2,2,unverified,0.73,1.080822,unverified,partition_proof_failed
 nvdla.top,claude-fable-5-2,3,accepted,0.76,1.038158,proven,
@@ -540,6 +542,7 @@ pulp_c910.default,qwen3.8-2.4t-a95b,4,accepted,0.949,1.059009,proven,
 pulp_c910.default,qwen3.8-2.4t-a95b,5,accepted,0.938,1.071429,proven,
 pulp_c910.default,qwen3.8-2.4t-a95b,6,unverified,0.892,1.126682,unverified,partition_proof_failed
 pulp_c910.default,qwen3.8-2.4t-a95b,7,unverified,0.911,1.103183,unverified,partition_proof_failed
+pulp_c910.default,ripple-65b-preview,1,unverified,0.968,1.038223,memory_limit,partition_proof_failed
 redmule.default,claude-fable-5-2,1,unverified,1.093,1.496798,memory_limit,partition_proof_failed
 redmule.default,claude-fable-5-2,2,unverified,1.182,1.384095,memory_limit,partition_proof_failed
 redmule.default,claude-fable-5-2,3,unverified,1.549,1.056165,memory_limit,partition_proof_failed
