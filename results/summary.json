@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-18 23:03 PST",
+  "generated": "2026-11-18 23:50 PST",
   "designs": [
     "ara.default",
     "cheshire.default",
@@ -28,7 +28,7 @@
       "ranked": true,
       "designs": 20,
       "geomean_fmax_gain_pct": 10.393,
-      "normalized_score": 75.43,
+      "normalized_score": 73.99,
       "designs_improved": 17,
       "mean_evaluations": 4.95,
       "outcomes": {
@@ -41,7 +41,7 @@
       "ranked": true,
       "designs": 20,
       "geomean_fmax_gain_pct": 8.779,
-      "normalized_score": 67.0,
+      "normalized_score": 65.29,
       "designs_improved": 18,
       "mean_evaluations": 4.75,
       "outcomes": {
@@ -55,7 +55,7 @@
       "ranked": true,
       "designs": 20,
       "geomean_fmax_gain_pct": 7.037,
-      "normalized_score": 55.78,
+      "normalized_score": 54.05,
       "designs_improved": 19,
       "mean_evaluations": 8.45,
       "outcomes": {
@@ -66,14 +66,14 @@
     "gpt-6.2-astra": {
       "harness": "codex",
       "ranked": false,
-      "designs": 11,
-      "geomean_fmax_gain_pct": 9.501,
-      "normalized_score": 64.92,
-      "designs_improved": 11,
-      "mean_evaluations": 8.27,
+      "designs": 14,
+      "geomean_fmax_gain_pct": 8.668,
+      "normalized_score": 72.43,
+      "designs_improved": 14,
+      "mean_evaluations": 8.64,
       "outcomes": {
-        "agent_finished": 3,
-        "budget_reached": 8
+        "agent_finished": 4,
+        "budget_reached": 10
       }
     },
     "kimi-k3.1-pro": {
@@ -81,7 +81,7 @@
       "ranked": true,
       "designs": 20,
       "geomean_fmax_gain_pct": 3.81,
-      "normalized_score": 33.18,
+      "normalized_score": 32.4,
       "designs_improved": 16,
       "mean_evaluations": 5.9,
       "outcomes": {
@@ -107,7 +107,7 @@
       "ranked": true,
       "designs": 20,
       "geomean_fmax_gain_pct": 2.081,
-      "normalized_score": 11.85,
+      "normalized_score": 11.76,
       "designs_improved": 8,
       "mean_evaluations": 2.1,
       "outcomes": {
