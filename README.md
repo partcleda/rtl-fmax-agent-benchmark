@@ -22,7 +22,7 @@ accepted only when it is proven equivalent and faster than the session's best so
 ## Results
 
 <!-- results:start -->
-**Status:** 148 of 160 sessions finished (8 models, 20 designs), as of 2026-11-19 21:24 PST. 12 interrupted attempts are excluded from these results while awaiting a valid replacement.
+**Status:** 149 of 160 sessions finished (8 models, 20 designs), as of 2026-11-19 21:40 PST. 11 interrupted attempts are excluded from these results while awaiting a valid replacement.
 
 ### Coverage
 
@@ -32,7 +32,7 @@ accepted only when it is proven equivalent and faster than the session's best so
 | GPT-6 Astra | OpenAI | Codex 0.154.0 | Official CLI signed in to a subscription | 20 / 20 |
 | Kimi K3.1 Pro | Moonshot AI | Kimi Code 2.5.2 | OpenRouter, pinned to Moonshot AI's own endpoint (MXFP4), fallbacks disabled | 20 / 20 |
 | Qwen3.8 2.4T-A95B | Qwen (Alibaba) | Qwen Code 0.27.1 | OpenRouter, one pinned provider (SiliconFlow, FP8) | 20 / 20 |
-| Ripple-65B Preview | Ricursive AI | OpenCode 1.19.5 | OpenRouter pinned to PrimeIntellect (BF16), fallbacks disabled, reasoning on; all 20 designs rerun on this route | 8 / 20 |
+| Ripple-65B Preview | Ricursive AI | OpenCode 1.19.5 | OpenRouter pinned to PrimeIntellect (BF16), fallbacks disabled, reasoning on; all 20 designs rerun on this route | 9 / 20 |
 | Nemotron 3 Ultra 550B-A55B | NVIDIA | OpenCode 1.19.5 | OpenRouter, pinned to DeepInfra (FP4), fallbacks disabled | 20 / 20 |
 | GPT-6.2 Astra | OpenAI | Codex 0.169.1 | Official CLI signed in to a subscription; reasoning effort medium, as GPT-6 Astra ran | 20 / 20 |
 | Claude Opus 5.5 | Anthropic | Claude Code 2.1.322 | Official CLI signed in to a subscription | 20 / 20 |
@@ -48,7 +48,7 @@ accepted only when it is proven equivalent and faster than the session's best so
 | Kimi K3.1 Pro | Kimi Code | 20 / 20 | +3.81% | 32.1 | 16 / 20 | 5.9 | 63% (74 / 118) |
 | Qwen3.8 2.4T-A95B | Qwen Code | 20 / 20 | +2.08% | 11.8 | 8 / 20 | 2.1 | 67% (28 / 42) |
 | Nemotron 3 Ultra 550B-A55B | OpenCode | 20 / 20 | +0.79% | 7.2 | 4 / 20 | 6.2 | 72% (89 / 123) |
-| Ripple-65B Preview | OpenCode | 8 / 20 | +0.00% | 0.0 | 0 / 8 | 1.5 | 75% (9 / 12) |
+| Ripple-65B Preview | OpenCode | 9 / 20 | +0.00% | 0.0 | 0 / 9 | 1.9 | 76% (13 / 17) |
 
 Fmax gain is the geometric mean of each finished session's Fmax ratio (baseline period / best accepted period) over the designs that model has finished. Normalized score is the mean of its gain on each design as a percentage of the best gain any model here reached on that design (100: the best result on every design), so every design counts equally however much headroom it had. Rows are in order of normalized score. Models have finished different designs, so this order is provisional, not a like-for-like ranking, until every model covers the same designs. "Candidates not proven" is the share of evaluations whose equivalence proof did not pass.
 
@@ -62,7 +62,7 @@ Fmax gain is the geometric mean of each finished session's Fmax ratio (baseline 
 | `cvfpu.fp32_fma` | 1.401 | 7 | 1.070 | +30.93% | Claude Fable 5.2 |
 | `cvfpu.full` | 2.114 | 8 | 1.943 | +8.80% | GPT-6.2 Astra |
 | `ibex.full` | 0.935 | 8 | 0.895 | +4.47% | GPT-6.2 Astra |
-| `ibex.minimal` | 0.716 | 7 | 0.667 | +7.35% | GPT-6.2 Astra |
+| `ibex.minimal` | 0.716 | 8 | 0.667 | +7.35% | GPT-6.2 Astra |
 | `nvdla.top` | 0.789 | 7 | 0.723 | +9.13% | GPT-6.2 Astra |
 | `opope.default` | 0.857 | 7 | 0.771 | +11.15% | Claude Opus 5.5 |
 | `serial_link.default` | 0.305 | 7 | 0.266 | +14.66% | Claude Opus 5.5 |
@@ -81,8 +81,8 @@ Fmax gain is the geometric mean of each finished session's Fmax ratio (baseline 
 
 Counts over every finished session of the models above. They describe what happened; with one session per model and design they do not establish causes or rankings.
 
-- 831 candidates evaluated: 232 accepted, 168 proven equivalent but not faster than the session's best, 423 not proven (308 with a partition EQY could not prove, 49 at the proof deadline, 60 over the proof memory budget, 6 for another reason), 8 failed to compile or measure.
-- Of 148 finished sessions, 102 ended with the agent finishing on its own, 45 ran to the time budget and 1 ended with an agent error.
+- 836 candidates evaluated: 232 accepted, 169 proven equivalent but not faster than the session's best, 427 not proven (312 with a partition EQY could not prove, 49 at the proof deadline, 60 over the proof memory budget, 6 for another reason), 8 failed to compile or measure.
+- Of 149 finished sessions, 103 ended with the agent finishing on its own, 45 ran to the time budget and 1 ended with an agent error.
 - Sessions used 5.6 of the 10 allowed evaluations on average; 32 used all 10.
 - Largest single gain so far: `mempool.minpool` by Claude Opus 5.5, 2.869 ns to 1.913 ns (+49.97% Fmax).
 <!-- results:end -->

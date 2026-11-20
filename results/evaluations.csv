@@ -334,6 +334,11 @@ ibex.minimal,nemotron-3-ultra-550b-a55b,8,accepted,0.698,1.025788,proven,
 ibex.minimal,nemotron-3-ultra-550b-a55b,9,no_improvement,0.718,0.997214,proven,
 ibex.minimal,nemotron-3-ultra-550b-a55b,10,no_improvement,0.698,1.025788,proven,
 ibex.minimal,qwen3.8-2.4t-a95b,1,unverified,0.688,1.040698,unverified,timeout
+ibex.minimal,ripple-65b-preview,1,unverified,0.697,1.02726,unverified,partition_proof_failed
+ibex.minimal,ripple-65b-preview,2,unverified,0.697,1.02726,unverified,partition_proof_failed
+ibex.minimal,ripple-65b-preview,3,unverified,0.697,1.02726,unverified,partition_proof_failed
+ibex.minimal,ripple-65b-preview,4,no_improvement,0.716,1.0,proven,
+ibex.minimal,ripple-65b-preview,5,unverified,0.68,1.052941,unverified,partition_proof_failed
 ita.default,claude-fable-5-2,1,accepted,0.9,1.003333,proven,
 ita.default,claude-opus-5-5,1,no_improvement,0.905,0.99779,proven,
 ita.default,claude-opus-5-5,2,unverified,0.904,0.998894,unverified,timeout
