@@ -68,6 +68,7 @@ ita.default,gpt-6.2-astra,1,,,codex,next-09,H200 NVL,190,budget_reached,124,226.
 ita.default,kimi-k3.1-pro,1,,rerun pinned to one provider endpoint (the earlier unpinned run is not reported),kimi-code,next-09,H200 NVL,190,agent_finished,0,94.6,3,1,2,0,0.903,0.902,1.001109
 ita.default,nemotron-3-ultra-550b-a55b,1,,infrastructure fault,opencode,next-09,RTX 6000 Ada,190,agent_finished,0,42.8,3,0,3,0,0.903,0.903,1.0
 ita.default,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,H200 NVL,190,agent_finished,0,164.0,2,0,2,0,0.903,0.903,1.0
+ita.default,ripple-65b-preview,3,budget_reached;agent_error,model provider refused service,opencode,next-09,H200 NVL,190,agent_error,1,170.2,1,0,1,0,0.903,0.903,1.0
 mempool.minpool,claude-fable-5-2,1,,,claude-code,next-09,H200 NVL,205,budget_reached,0,195.6,7,3,2,0,2.869,2.374,1.208509
 mempool.minpool,claude-opus-5-5,1,,,claude-code,next-09,RTX 6000 Ada,205,agent_finished,0,139.2,4,4,0,0,2.869,1.913,1.499739
 mempool.minpool,gpt-6-astra,1,,,codex,next-09,RTX 6000 Ada,205,agent_finished,0,191.2,10,5,1,1,2.869,2.342,1.225021
@@ -126,6 +127,7 @@ snitch_cluster.default_latch,gpt-6.2-astra,1,,,codex,next-09,RTX 6000 Ada,600,bu
 snitch_cluster.default_latch,kimi-k3.1-pro,1,,,kimi-code,next-09,RTX 6000 Ada,600,budget_reached,0,576.3,7,2,3,0,2.169,2.097,1.034335
 snitch_cluster.default_latch,nemotron-3-ultra-550b-a55b,2,agent_error,model provider refused service,opencode,next-09,RTX 6000 Ada,600,budget_reached,124,612.5,7,0,7,0,2.169,2.169,1.0
 snitch_cluster.default_latch,qwen3.8-2.4t-a95b,1,,,qwen-code,next-09,RTX 6000 Ada,600,agent_finished,0,484.4,2,0,2,0,2.169,2.169,1.0
+snitch_cluster.default_latch,ripple-65b-preview,2,agent_finished,infrastructure fault,opencode,next-09,RTX 6000 Ada,600,budget_reached,0,587.4,3,0,3,0,2.169,2.169,1.0
 snitch_cluster.minimal,claude-fable-5-2,1,,,claude-code,next-09,RTX 6000 Ada,115,agent_finished,0,61.2,3,2,1,0,1.288,1.201,1.07244
 snitch_cluster.minimal,claude-opus-5-5,1,,,claude-code,next-09,H200 NVL,115,agent_finished,0,90.4,4,3,1,0,1.288,1.201,1.07244
 snitch_cluster.minimal,gpt-6-astra,1,,,codex,next-09,H200 NVL,115,agent_finished,0,83.7,5,2,0,0,1.288,1.2,1.073333

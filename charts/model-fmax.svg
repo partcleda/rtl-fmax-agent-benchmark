@@ -427,7 +427,7 @@ iVBORw0KGgoAAAANSUhEUgAAADYAAAA2CAYAAACMRWrdAAAEiUlEQVR4nO2aTahVVRTHf/e9e/WZ78OP
     <text style="fill: #171738; font: 16px 'DejaVu Sans Mono'; text-anchor: end" x="723.6" y="668.2975" transform="rotate(-0 723.6 668.2975)">0</text>
    </g>
    <g id="text_43">
-    <text style="fill: #74788d; font: 9px 'DejaVu Sans Mono'; text-anchor: end" x="723.6" y="686.4525" transform="rotate(-0 723.6 686.4525)">+0.0% Fmax · 9/20 designs</text>
+    <text style="fill: #74788d; font: 9px 'DejaVu Sans Mono'; text-anchor: end" x="723.6" y="686.4525" transform="rotate(-0 723.6 686.4525)">+0.0% Fmax · 11/20 designs</text>
    </g>
   </g>
   <g id="line2d_10">
@@ -442,7 +442,7 @@ L 725.76 82.8
    <text style="fill: #5b607d; font: 11.5px 'DejaVu Sans'; text-anchor: start" x="30.24" y="68.4" transform="rotate(-0 30.24 68.4)">Normalized score: share of the best gain any model reached on each design, averaged over its designs</text>
   </g>
   <g id="text_46">
-   <text style="fill: #5b607d; font: 8.5px 'DejaVu Sans'" transform="translate(30.24 759.295172)">Preliminary results as of 2026-11-19 21:40 PST: 149 of 160 sessions finished.</text>
+   <text style="fill: #5b607d; font: 8.5px 'DejaVu Sans'" transform="translate(30.24 759.295172)">Preliminary results as of 2026-11-19 21:56 PST: 151 of 160 sessions finished.</text>
    <text style="fill: #5b607d; font: 8.5px 'DejaVu Sans'" transform="translate(30.24 771.396781)">Stock coding agents, one session per model and design, at most 10 evaluations each. boson synthesis and unplaced setup timing</text>
    <text style="fill: #5b607d; font: 8.5px 'DejaVu Sans'" transform="translate(30.24 783.498391)">on public ASAP7 TT libraries, 1 ps period search; a candidate counts only with an EQY equivalence proof against the original</text>
    <text style="fill: #5b607d; font: 8.5px 'DejaVu Sans'" transform="translate(30.24 795.6)">RTL.</text>
