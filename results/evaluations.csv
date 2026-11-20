@@ -123,6 +123,7 @@ cv32e40p.default,nemotron-3-ultra-550b-a55b,8,evaluation_failed,,,not_run,
 cv32e40p.default,nemotron-3-ultra-550b-a55b,9,evaluation_failed,,,not_run,
 cv32e40p.default,nemotron-3-ultra-550b-a55b,10,accepted,0.644,1.020186,proven,
 cv32e40p.default,qwen3.8-2.4t-a95b,1,accepted,0.653,1.006126,proven,
+cv32e40p.default,ripple-65b-preview,1,unverified,0.626,1.049521,unverified,partition_proof_failed
 cva6.default,claude-fable-5-2,1,unverified,1.035,1.002899,unverified,partition_proof_failed
 cva6.default,claude-fable-5-2,2,accepted,1.016,1.021654,proven,
 cva6.default,claude-opus-5-5,1,no_improvement,1.093,0.94968,proven,
@@ -254,6 +255,8 @@ cvfpu.full,nemotron-3-ultra-550b-a55b,8,unverified,2.211,0.956128,unverified,par
 cvfpu.full,nemotron-3-ultra-550b-a55b,9,unverified,2.234,0.946285,unverified,partition_proof_failed
 cvfpu.full,nemotron-3-ultra-550b-a55b,10,unverified,2.234,0.946285,unverified,partition_proof_failed
 cvfpu.full,qwen3.8-2.4t-a95b,1,accepted,2.101,1.006188,proven,
+cvfpu.full,ripple-65b-preview,1,unverified,1.652,1.279661,unverified,partition_proof_failed
+cvfpu.full,ripple-65b-preview,2,no_improvement,2.114,1.0,proven,
 ibex.full,claude-fable-5-2,1,unverified,0.9,1.038889,unverified,timeout
 ibex.full,claude-fable-5-2,2,unverified,0.899,1.040044,unverified,timeout
 ibex.full,claude-fable-5-2,3,unverified,0.904,1.034292,unverified,timeout
@@ -284,6 +287,7 @@ ibex.full,nemotron-3-ultra-550b-a55b,1,unverified,0.907,1.030871,unverified,part
 ibex.full,nemotron-3-ultra-550b-a55b,2,unverified,0.907,1.030871,unverified,partition_proof_failed
 ibex.full,nemotron-3-ultra-550b-a55b,3,unverified,0.902,1.036585,unverified,partition_proof_failed
 ibex.full,qwen3.8-2.4t-a95b,1,unverified,0.921,1.015201,memory_limit,partition_proof_failed
+ibex.full,ripple-65b-preview,1,unverified,0.901,1.037736,unverified,timeout
 ibex.minimal,claude-fable-5-2,1,unverified,0.679,1.054492,unverified,timeout
 ibex.minimal,claude-fable-5-2,2,unverified,0.716,1.0,unverified,partition_proof_failed
 ibex.minimal,claude-fable-5-2,3,accepted,0.695,1.030216,proven,
@@ -399,6 +403,11 @@ mempool.minpool,qwen3.8-2.4t-a95b,2,no_improvement,2.617,1.096293,proven,
 mempool.minpool,qwen3.8-2.4t-a95b,3,unverified,2.421,1.185048,unverified,partition_proof_failed
 mempool.minpool,qwen3.8-2.4t-a95b,4,unverified,2.43,1.180658,unverified,partition_proof_failed
 mempool.minpool,qwen3.8-2.4t-a95b,5,unverified,2.396,1.197412,unverified,partition_proof_failed
+mempool.minpool,ripple-65b-preview,1,unverified,2.83,1.013781,unverified,partition_proof_failed
+mempool.minpool,ripple-65b-preview,2,unverified,2.83,1.013781,unverified,partition_proof_failed
+mempool.minpool,ripple-65b-preview,3,unverified,2.843,1.009145,unverified,partition_proof_failed
+mempool.minpool,ripple-65b-preview,4,no_improvement,2.869,1.0,proven,
+mempool.minpool,ripple-65b-preview,5,no_improvement,2.869,1.0,proven,
 nvdla.top,claude-fable-5-2,1,unverified,0.764,1.032723,unverified,partition_proof_failed
 nvdla.top,claude-fable-5-2,2,unverified,0.73,1.080822,unverified,partition_proof_failed
 nvdla.top,claude-fable-5-2,3,accepted,0.76,1.038158,proven,

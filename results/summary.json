@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-19 15:42 PST",
+  "generated": "2026-11-19 21:08 PST",
   "designs": [
     "ara.default",
     "cheshire.default",
@@ -118,13 +118,14 @@
     "ripple-65b-preview": {
       "harness": "opencode",
       "ranked": false,
-      "designs": 1,
+      "designs": 7,
       "geomean_fmax_gain_pct": 0.0,
       "normalized_score": 0.0,
       "designs_improved": 0,
-      "mean_evaluations": 1.0,
+      "mean_evaluations": 1.43,
       "outcomes": {
-        "budget_reached": 1
+        "agent_finished": 3,
+        "budget_reached": 4
       }
     }
   },
@@ -420,27 +421,7 @@
       "reason": "rerun pending"
     },
     {
-      "design": "cv32e40p.default",
-      "model": "ripple-65b-preview",
-      "reason": "rerun pending"
-    },
-    {
-      "design": "cva6.default",
-      "model": "ripple-65b-preview",
-      "reason": "rerun pending"
-    },
-    {
       "design": "cvfpu.fp32_fma",
-      "model": "ripple-65b-preview",
-      "reason": "rerun pending"
-    },
-    {
-      "design": "cvfpu.full",
-      "model": "ripple-65b-preview",
-      "reason": "rerun pending"
-    },
-    {
-      "design": "ibex.full",
       "model": "ripple-65b-preview",
       "reason": "rerun pending"
     },
@@ -451,11 +432,6 @@
     },
     {
       "design": "ita.default",
-      "model": "ripple-65b-preview",
-      "reason": "rerun pending"
-    },
-    {
-      "design": "mempool.minpool",
       "model": "ripple-65b-preview",
       "reason": "rerun pending"
     },
@@ -486,11 +462,6 @@
     },
     {
       "design": "snitch_cluster.default_latch",
-      "model": "ripple-65b-preview",
-      "reason": "rerun pending"
-    },
-    {
-      "design": "snitch_cluster.minimal",
       "model": "ripple-65b-preview",
       "reason": "rerun pending"
     },
