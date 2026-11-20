@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-20 03:36 PST",
+  "generated": "2026-11-20 05:53 PST",
   "designs": [
     "ara.default",
     "cheshire.default",
@@ -117,16 +117,16 @@
     },
     "ripple-65b-preview": {
       "harness": "opencode",
-      "ranked": false,
-      "designs": 19,
-      "geomean_fmax_gain_pct": 0.73,
-      "normalized_score": 4.43,
+      "ranked": true,
+      "designs": 20,
+      "geomean_fmax_gain_pct": 0.694,
+      "normalized_score": 4.21,
       "designs_improved": 3,
-      "mean_evaluations": 2.32,
+      "mean_evaluations": 2.4,
       "outcomes": {
         "agent_error": 1,
         "agent_finished": 11,
-        "budget_reached": 7
+        "budget_reached": 8
       }
     }
   },
@@ -410,11 +410,5 @@
       "spi_host.default"
     ]
   },
-  "incomplete_attempts": [
-    {
-      "design": "snitch_cluster.default",
-      "model": "ripple-65b-preview",
-      "reason": "rerun pending"
-    }
-  ]
+  "incomplete_attempts": []
 }

@@ -711,6 +711,10 @@ snitch_cluster.default,qwen3.8-2.4t-a95b,3,unverified,1.984,1.072581,unverified,
 snitch_cluster.default,qwen3.8-2.4t-a95b,4,accepted,2.068,1.029014,proven,
 snitch_cluster.default,qwen3.8-2.4t-a95b,5,accepted,1.997,1.065598,proven,
 snitch_cluster.default,qwen3.8-2.4t-a95b,6,no_improvement,2.047,1.03957,proven,
+snitch_cluster.default,ripple-65b-preview,1,unverified,2.025,1.050864,unverified,partition_proof_failed
+snitch_cluster.default,ripple-65b-preview,2,unverified,1.404,1.51567,unverified,partition_proof_failed
+snitch_cluster.default,ripple-65b-preview,3,unverified,1.201,1.771857,unverified,partition_proof_failed
+snitch_cluster.default,ripple-65b-preview,4,unverified,1.2,1.773333,unverified,partition_proof_failed
 snitch_cluster.default_latch,claude-fable-5-2,1,accepted,1.991,1.089402,proven,
 snitch_cluster.default_latch,claude-fable-5-2,2,accepted,1.959,1.107198,proven,
 snitch_cluster.default_latch,claude-fable-5-2,3,unverified,1.94,1.118041,unverified,partition_proof_failed
