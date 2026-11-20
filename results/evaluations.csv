@@ -819,6 +819,11 @@ spatz.default,nemotron-3-ultra-550b-a55b,3,unverified,1.781,1.272319,unverified,
 spatz.default,qwen3.8-2.4t-a95b,1,accepted,2.195,1.032346,proven,
 spatz.default,qwen3.8-2.4t-a95b,2,unverified,2.166,1.046168,unverified,partition_proof_failed
 spatz.default,qwen3.8-2.4t-a95b,3,accepted,2.166,1.046168,proven,
+spatz.default,ripple-65b-preview,1,unverified,2.177,1.040882,unverified,partition_proof_failed
+spatz.default,ripple-65b-preview,2,unverified,2.205,1.027664,unverified,partition_proof_failed
+spatz.default,ripple-65b-preview,3,unverified,2.285,0.991685,unverified,partition_proof_failed
+spatz.default,ripple-65b-preview,4,unverified,2.177,1.040882,unverified,partition_proof_failed
+spatz.default,ripple-65b-preview,5,unverified,1.781,1.272319,unverified,partition_proof_failed
 spi_host.default,claude-fable-5-2,1,unverified,0.407,1.167076,unverified,partition_proof_failed
 spi_host.default,claude-fable-5-2,2,accepted,0.401,1.184539,proven,
 spi_host.default,claude-fable-5-2,3,accepted,0.372,1.276882,proven,

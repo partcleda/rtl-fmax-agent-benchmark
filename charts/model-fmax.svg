@@ -225,10 +225,10 @@ z
    </g>
    <g id="patch_17">
     <path d="M 67.32 695.52 
-L 90.299232 695.52 
-Q 94.259232 695.52 94.259232 699.48 
-L 94.259232 699.48 
-Q 94.259232 703.44 90.299232 703.44 
+L 88.648632 695.52 
+Q 92.608632 695.52 92.608632 699.48 
+L 92.608632 699.48 
+Q 92.608632 703.44 88.648632 703.44 
 L 67.32 703.44 
 Q 63.36 703.44 63.36 699.48 
 L 63.36 699.48 
@@ -437,10 +437,10 @@ iVBORw0KGgoAAAANSUhEUgAAADYAAAA2CAYAAACMRWrdAAAEiUlEQVR4nO2aTahVVRTHf/e9e/WZ78OP
     <text style="fill: #74788d; font: 8.5px 'DejaVu Sans Mono'; text-anchor: start" x="108" y="686.368047" transform="rotate(-0 108 686.368047)">RICURSIVE AI · OPENCODE</text>
    </g>
    <g id="text_42">
-    <text style="fill: #171738; font: 16px 'DejaVu Sans Mono'; text-anchor: end" x="723.6" y="668.2975" transform="rotate(-0 723.6 668.2975)">5</text>
+    <text style="fill: #171738; font: 16px 'DejaVu Sans Mono'; text-anchor: end" x="723.6" y="668.2975" transform="rotate(-0 723.6 668.2975)">4</text>
    </g>
    <g id="text_43">
-    <text style="fill: #74788d; font: 9px 'DejaVu Sans Mono'; text-anchor: end" x="723.6" y="686.4525" transform="rotate(-0 723.6 686.4525)">+0.8% Fmax · 18/20 designs</text>
+    <text style="fill: #74788d; font: 9px 'DejaVu Sans Mono'; text-anchor: end" x="723.6" y="686.4525" transform="rotate(-0 723.6 686.4525)">+0.7% Fmax · 19/20 designs</text>
    </g>
   </g>
   <g id="line2d_10">
@@ -455,7 +455,7 @@ L 725.76 82.8
    <text style="fill: #5b607d; font: 11.5px 'DejaVu Sans'; text-anchor: start" x="30.24" y="68.4" transform="rotate(-0 30.24 68.4)">Normalized score: share of the best gain any model reached on each design, averaged over its designs</text>
   </g>
   <g id="text_46">
-   <text style="fill: #5b607d; font: 8.5px 'DejaVu Sans'" transform="translate(30.24 759.295172)">Preliminary results as of 2026-11-20 02:04 PST: 158 of 160 sessions finished.</text>
+   <text style="fill: #5b607d; font: 8.5px 'DejaVu Sans'" transform="translate(30.24 759.295172)">Preliminary results as of 2026-11-20 03:36 PST: 159 of 160 sessions finished.</text>
    <text style="fill: #5b607d; font: 8.5px 'DejaVu Sans'" transform="translate(30.24 771.396781)">Stock coding agents, one session per model and design, at most 10 evaluations each. boson synthesis and unplaced setup timing</text>
    <text style="fill: #5b607d; font: 8.5px 'DejaVu Sans'" transform="translate(30.24 783.498391)">on public ASAP7 TT libraries, 1 ps period search; a candidate counts only with an EQY equivalence proof against the original</text>
    <text style="fill: #5b607d; font: 8.5px 'DejaVu Sans'" transform="translate(30.24 795.6)">RTL.</text>
