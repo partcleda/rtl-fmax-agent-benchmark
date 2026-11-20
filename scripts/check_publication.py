@@ -16,6 +16,8 @@ ALLOWED = {
     'charts/generate.py', 'charts/manifest.json',
     'charts/model-fmax.png', 'charts/model-fmax.svg', 'charts/design-fmax.png', 'charts/design-fmax.svg',
     'scripts/check_publication.py', 'scripts/render_readme.py',
+    *(f'charts/logos/{name}.png' for name in ('anthropic', 'google', 'meta', 'moonshot-ai', 'nvidia', 'openai', 'qwen',
+                                               'ricursive-ai', 'xai')),
 }
 # Patterns are assembled from fragments so that this file does not match itself.
 LOCAL_PATHS = [('/' + name + '/').encode() for name in ('home', 'media', 'mnt')]
