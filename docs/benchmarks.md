@@ -84,6 +84,5 @@ capped at 600 minutes. It is elapsed time and includes waiting for measurements.
   design the checker rejects the broken copy with a counterexample.
 - **Out of scope.** Full MemPool, TeraPool and Occamy are not in the benchmark: a single measurement of
   each takes several hours, which no session budget could hold ten times.
-- **Coverage.** All five models are scheduled on all 20 designs. Ripple’s first 15 designs used self-hosted
-  serving; `ara`, `snitch_cluster.default`, `snitch_cluster.default_latch`, `spatz` and `redmule` use the
-  pinned PrimeIntellect BF16 endpoint through OpenRouter.
+- **Coverage.** All eight models are scheduled on all 20 designs. Ripple's sessions on all 20 designs use the
+  pinned PrimeIntellect BF16 endpoint through OpenRouter (see the methodology).

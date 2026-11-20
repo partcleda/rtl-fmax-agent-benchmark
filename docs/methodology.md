@@ -142,7 +142,7 @@ Temporary files use private disk-backed storage. Local measurements do not repla
 | GPT-6 Astra | OpenAI | Codex 0.154.0 | Official CLI signed in to a subscription | `gpt-6-astra` |
 | Kimi K3.1 Pro | Moonshot AI | Kimi Code 2.5.2 | OpenRouter, pinned to Moonshot AI's own endpoint (MXFP4), fallbacks disabled | `moonshotai/kimi-k3.1-pro` |
 | Qwen3.8 2.4T-A95B | Qwen (Alibaba) | Qwen Code 0.27.1 | OpenRouter, one pinned provider (SiliconFlow, FP8), fallbacks disabled | `qwen/qwen3.8-2.4t-a95b` |
-| Ripple-65B Preview | Ricursive AI | OpenCode 1.19.5 | Self-hosted SGLang 0.5.19 with the BF16 weights for its first 15 designs; OpenRouter pinned to PrimeIntellect (BF16) for later sessions | `ricursiveai/ripple-65b-preview` |
+| Ripple-65B Preview | Ricursive AI | OpenCode 1.19.5 | OpenRouter pinned to PrimeIntellect (BF16), fallbacks disabled, reasoning on | `ricursiveai/ripple-65b-preview` |
 | Nemotron 3 Ultra 550B-A55B | NVIDIA | OpenCode 1.19.5 | OpenRouter, pinned to DeepInfra (FP4), fallbacks disabled | `nvidia/nemotron-3-ultra-550b-a55b` |
 | GPT-6.2 Astra | OpenAI | Codex 0.169.1 | Official CLI signed in to a subscription; reasoning effort medium | `gpt-6.2-astra` |
 | Claude Opus 5.5 | Anthropic | Claude Code 2.1.322 | Official CLI signed in to a subscription | `claude-opus-5-5` |
@@ -242,6 +242,12 @@ changes.
   their time allows; local runs share the session's GPU slice and budget with `./evaluate`.
 - **Timing is an estimate.** Unplaced setup timing on ASAP7 TT libraries; no placement, routing, hold or
   sign-off corners.
-- **Ripple serving differs by design.** Its first 15 designs used self-hosted SGLang; its five remaining
-  designs use the pinned PrimeIntellect BF16 endpoint. Both use Ripple-65B Preview, but serving differences
-  may affect behavior. All five models are scheduled on all 20 designs.
+- **Ripple was rerun on its hosted endpoint.** Its first sessions ran either on a self-hosted server shared
+  by 15 sessions at once, or on the hosted endpoint without reasoning turned on: hosted endpoints answer without
+  reasoning unless the request asks for it, while Ripple's reference server reasons by default, and without it
+  Ripple ended its turn after a few steps. All 20 designs were rerun on OpenRouter pinned to PrimeIntellect
+  (BF16) with reasoning on and the endpoint's context and output limits (1,048,576 and 131,072 tokens), like
+  every other model's endpoint limits. Its sessions also load a small OpenCode plugin that waits out a
+  rate-limited request (HTTP 429, 502 or 503) for up to 15 minutes instead of ending the session, after
+  PrimeIntellect refused requests in bursts; it changes only the waiting, not the requests. The earlier
+  attempts are not reported. All eight models are scheduled on all 20 designs.

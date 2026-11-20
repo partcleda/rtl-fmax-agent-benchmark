@@ -42,7 +42,7 @@
       "developer": "Ricursive AI",
       "harness": "OpenCode",
       "harness_version": "1.19.5",
-      "access": "Self-hosted (SGLang 0.5.19, BF16) for its first 15 designs; OpenRouter pinned to PrimeIntellect (BF16) for later sessions",
+      "access": "OpenRouter pinned to PrimeIntellect (BF16), fallbacks disabled, reasoning on; all 20 designs rerun on this route",
       "model_identifier": "ricursiveai/ripple-65b-preview"
     },
     {
