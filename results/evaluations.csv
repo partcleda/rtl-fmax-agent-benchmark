@@ -83,6 +83,8 @@ cheshire.default,nemotron-3-ultra-550b-a55b,8,no_improvement,1.024,1.022461,prov
 cheshire.default,nemotron-3-ultra-550b-a55b,9,evaluation_failed,,,not_run,
 cheshire.default,nemotron-3-ultra-550b-a55b,10,no_improvement,1.024,1.022461,proven,
 cheshire.default,qwen3.8-2.4t-a95b,1,unverified,1.023,1.02346,unverified,partition_proof_failed
+cheshire.default,ripple-65b-preview,1,unverified,1.041,1.005764,unverified,partition_proof_failed
+cheshire.default,ripple-65b-preview,2,accepted,1.045,1.001914,proven,
 cv32e40p.default,claude-fable-5-2,1,unverified,0.654,1.004587,unverified,partition_proof_failed
 cv32e40p.default,claude-fable-5-2,2,unverified,0.654,1.004587,unverified,partition_proof_failed
 cv32e40p.default,claude-fable-5-2,3,accepted,0.647,1.015456,proven,
@@ -212,6 +214,15 @@ cvfpu.fp32_fma,kimi-k3.1-pro,6,unverified,1.336,1.048653,unverified,partition_pr
 cvfpu.fp32_fma,nemotron-3-ultra-550b-a55b,1,no_improvement,1.455,0.962887,proven,
 cvfpu.fp32_fma,nemotron-3-ultra-550b-a55b,2,no_improvement,1.401,1.0,proven,
 cvfpu.fp32_fma,qwen3.8-2.4t-a95b,1,unverified,1.389,1.008639,unverified,partition_proof_failed
+cvfpu.fp32_fma,ripple-65b-preview,1,unverified,1.356,1.033186,unverified,partition_proof_failed
+cvfpu.fp32_fma,ripple-65b-preview,2,no_improvement,1.401,1.0,proven,
+cvfpu.fp32_fma,ripple-65b-preview,3,no_improvement,1.401,1.0,proven,
+cvfpu.fp32_fma,ripple-65b-preview,4,no_improvement,1.401,1.0,proven,
+cvfpu.fp32_fma,ripple-65b-preview,5,unverified,1.356,1.033186,unverified,partition_proof_failed
+cvfpu.fp32_fma,ripple-65b-preview,6,no_improvement,1.401,1.0,proven,
+cvfpu.fp32_fma,ripple-65b-preview,7,accepted,1.4,1.000714,proven,
+cvfpu.fp32_fma,ripple-65b-preview,8,no_improvement,1.526,0.918087,proven,
+cvfpu.fp32_fma,ripple-65b-preview,9,accepted,1.346,1.040862,proven,
 cvfpu.full,claude-fable-5-2,1,unverified,2.048,1.032227,unverified,partition_proof_failed
 cvfpu.full,claude-fable-5-2,2,accepted,2.055,1.02871,proven,
 cvfpu.full,claude-fable-5-2,3,accepted,1.981,1.067138,proven,

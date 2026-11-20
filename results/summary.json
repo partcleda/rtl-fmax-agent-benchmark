@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-19 23:46 PST",
+  "generated": "2026-11-20 02:04 PST",
   "designs": [
     "ara.default",
     "cheshire.default",
@@ -118,14 +118,14 @@
     "ripple-65b-preview": {
       "harness": "opencode",
       "ranked": false,
-      "designs": 16,
-      "geomean_fmax_gain_pct": 0.604,
-      "normalized_score": 4.31,
-      "designs_improved": 1,
-      "mean_evaluations": 1.75,
+      "designs": 18,
+      "geomean_fmax_gain_pct": 0.771,
+      "normalized_score": 4.68,
+      "designs_improved": 3,
+      "mean_evaluations": 2.17,
       "outcomes": {
         "agent_error": 1,
-        "agent_finished": 8,
+        "agent_finished": 10,
         "budget_reached": 7
       }
     }
@@ -411,16 +411,6 @@
     ]
   },
   "incomplete_attempts": [
-    {
-      "design": "cheshire.default",
-      "model": "ripple-65b-preview",
-      "reason": "rerun pending"
-    },
-    {
-      "design": "cvfpu.fp32_fma",
-      "model": "ripple-65b-preview",
-      "reason": "rerun pending"
-    },
     {
       "design": "snitch_cluster.default",
       "model": "ripple-65b-preview",
