@@ -602,6 +602,10 @@ redmule.default,nemotron-3-ultra-550b-a55b,3,no_improvement,1.636,1.0,proven,
 redmule.default,nemotron-3-ultra-550b-a55b,4,unverified,1.546,1.058215,unverified,partition_proof_failed
 redmule.default,nemotron-3-ultra-550b-a55b,5,unverified,1.545,1.0589,unverified,partition_proof_failed
 redmule.default,nemotron-3-ultra-550b-a55b,6,unverified,1.539,1.063028,unverified,partition_proof_failed
+redmule.default,ripple-65b-preview,1,unverified,1.527,1.071382,memory_limit,partition_proof_failed
+redmule.default,ripple-65b-preview,2,unverified,1.636,1.0,unverified,partition_proof_failed
+redmule.default,ripple-65b-preview,3,unverified,1.527,1.071382,memory_limit,partition_proof_failed
+redmule.default,ripple-65b-preview,4,unverified,1.537,1.064411,memory_limit,partition_proof_failed
 serial_link.default,claude-fable-5-2,1,accepted,0.286,1.066434,proven,
 serial_link.default,claude-fable-5-2,2,unverified,0.269,1.133829,unverified,partition_proof_failed
 serial_link.default,claude-fable-5-2,3,unverified,0.272,1.121324,unverified,partition_proof_failed

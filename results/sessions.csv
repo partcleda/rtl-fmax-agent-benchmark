@@ -107,6 +107,7 @@ redmule.default,gpt-6.2-astra,1,,,codex,next-09,H200 NVL,530,budget_reached,124,
 redmule.default,kimi-k3.1-pro,2,agent_error,model provider refused service,kimi-code,next-09,H200 NVL,530,budget_reached,124,543.8,9,0,9,0,1.636,1.636,1.0
 redmule.default,nemotron-3-ultra-550b-a55b,2,agent_error,infrastructure fault,opencode,next-09,H200 NVL,530,budget_reached,124,555.3,6,0,5,0,1.636,1.636,1.0
 redmule.default,qwen3.8-2.4t-a95b,3,agent_error;agent_error,benchmark artifact: the agent's process-kill pattern matched its own harness command line,qwen-code,next-09,H200 NVL,530,agent_finished,0,374.1,0,0,0,0,1.636,1.636,1.0
+redmule.default,ripple-65b-preview,3,agent_finished;agent_error,model provider refused service,opencode,next-09,H200 NVL,530,agent_finished,0,284.2,4,0,4,0,1.636,1.636,1.0
 serial_link.default,claude-fable-5-2,1,,,claude-code,next-09,RTX 6000 Ada,90,agent_finished,0,51.7,10,3,7,0,0.305,0.27,1.12963
 serial_link.default,claude-opus-5-5,1,,,claude-code,next-09,RTX 6000 Ada,90,agent_finished,0,39.4,3,2,1,0,0.305,0.266,1.146617
 serial_link.default,gpt-6-astra,2,agent_finished,infrastructure fault,codex,next-09,RTX 6000 Ada,90,agent_finished,0,11.2,10,3,1,0,0.305,0.271,1.125461
