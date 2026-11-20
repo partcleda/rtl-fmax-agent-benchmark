@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-19 21:56 PST",
+  "generated": "2026-11-19 22:27 PST",
   "designs": [
     "ara.default",
     "cheshire.default",
@@ -118,14 +118,14 @@
     "ripple-65b-preview": {
       "harness": "opencode",
       "ranked": false,
-      "designs": 11,
+      "designs": 12,
       "geomean_fmax_gain_pct": 0.0,
       "normalized_score": 0.0,
       "designs_improved": 0,
-      "mean_evaluations": 1.91,
+      "mean_evaluations": 1.75,
       "outcomes": {
         "agent_error": 1,
-        "agent_finished": 4,
+        "agent_finished": 5,
         "budget_reached": 6
       }
     }
@@ -418,11 +418,6 @@
     },
     {
       "design": "cvfpu.fp32_fma",
-      "model": "ripple-65b-preview",
-      "reason": "rerun pending"
-    },
-    {
-      "design": "nvdla.top",
       "model": "ripple-65b-preview",
       "reason": "rerun pending"
     },
