@@ -36,6 +36,8 @@ ara.default,qwen3.8-2.4t-a95b,1,accepted,1.034,1.029014,proven,
 ara.default,qwen3.8-2.4t-a95b,2,unverified,1.025,1.038049,unverified,partition_proof_failed
 ara.default,qwen3.8-2.4t-a95b,3,no_improvement,1.071,0.993464,proven,
 ara.default,qwen3.8-2.4t-a95b,4,unverified,1.034,1.029014,unverified,partition_proof_failed
+ara.default,ripple-65b-preview,1,unverified,1.035,1.028019,unverified,partition_proof_failed
+ara.default,ripple-65b-preview,2,unverified,0.974,1.092402,unverified,partition_proof_failed
 cheshire.default,claude-fable-5-2,1,unverified,1.012,1.034585,unverified,partition_proof_failed
 cheshire.default,claude-fable-5-2,2,accepted,1.012,1.034585,proven,
 cheshire.default,claude-fable-5-2,3,accepted,0.982,1.066191,proven,

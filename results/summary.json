@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-19 21:08 PST",
+  "generated": "2026-11-19 21:24 PST",
   "designs": [
     "ara.default",
     "cheshire.default",
@@ -118,14 +118,14 @@
     "ripple-65b-preview": {
       "harness": "opencode",
       "ranked": false,
-      "designs": 7,
+      "designs": 8,
       "geomean_fmax_gain_pct": 0.0,
       "normalized_score": 0.0,
       "designs_improved": 0,
-      "mean_evaluations": 1.43,
+      "mean_evaluations": 1.5,
       "outcomes": {
         "agent_finished": 3,
-        "budget_reached": 4
+        "budget_reached": 5
       }
     }
   },
@@ -410,11 +410,6 @@
     ]
   },
   "incomplete_attempts": [
-    {
-      "design": "ara.default",
-      "model": "ripple-65b-preview",
-      "reason": "rerun pending"
-    },
     {
       "design": "cheshire.default",
       "model": "ripple-65b-preview",
