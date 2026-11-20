@@ -661,6 +661,8 @@ serial_link.default,nemotron-3-ultra-550b-a55b,10,no_improvement,0.279,1.09319,p
 serial_link.default,qwen3.8-2.4t-a95b,1,unverified,0.264,1.155303,unverified,partition_proof_failed
 serial_link.default,qwen3.8-2.4t-a95b,2,unverified,0.277,1.101083,unverified,partition_proof_failed
 serial_link.default,qwen3.8-2.4t-a95b,3,accepted,0.278,1.097122,proven,
+serial_link.default,ripple-65b-preview,1,accepted,0.281,1.085409,proven,
+serial_link.default,ripple-65b-preview,2,accepted,0.277,1.101083,proven,
 snitch_cluster.default,claude-fable-5-2,1,accepted,1.919,1.108911,proven,
 snitch_cluster.default,claude-fable-5-2,2,accepted,1.892,1.124736,proven,
 snitch_cluster.default,claude-fable-5-2,3,accepted,1.829,1.163477,proven,
