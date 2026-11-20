@@ -18,6 +18,8 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib.colors import LinearSegmentedColormap
 from matplotlib.lines import Line2D
+from matplotlib.offsetbox import AnnotationBbox, OffsetImage
+from matplotlib.patches import FancyBboxPatch
 import numpy as np
 
 HERE = Path(__file__).resolve().parent
@@ -30,6 +32,23 @@ HAIRLINE = (23/255, 23/255, 56/255, .22)
 CHARACTERS_PER_INCH = 12  # 8.5 pt provenance text across 92% of the figure width
 NOT_FINISHED = '–'
 GAIN_COLORS = ['#f3f5f7', '#8ab6df', ACCENT, INK]
+MONO = 'DejaVu Sans Mono'
+TRACK = '#eceef1'
+# Leaderboard geometry in inches: rows of BOARD_ROW under a BOARD_TOP header.
+BOARD_WIDTH, BOARD_TOP, BOARD_ROW, BOARD_MARGIN = 10.5, 2.0, 1.0, .45
+BOARD_RANK_X, BOARD_LOGO_X, BOARD_NAME_X = BOARD_MARGIN, 1.05, 1.5
+# Each developer's name on the board, bar color and logo (charts/logos; a monogram when there is none).
+MAKERS = {
+    'Anthropic': ('Anthropic', '#d97757', 'anthropic.png'),
+    'OpenAI': ('OpenAI', '#10a37f', 'openai.png'),
+    'Google': ('Google', '#e3a600', 'google.png'),
+    'xAI': ('xAI', INK, 'xai.png'),
+    'Meta': ('Meta', '#0866ff', 'meta.png'),
+    'Moonshot AI': ('Moonshot AI', '#1783ff', 'moonshot-ai.png'),
+    'Qwen (Alibaba)': ('Alibaba', '#615ced', 'qwen.png'),
+    'NVIDIA': ('NVIDIA', '#76b900', 'nvidia.png'),
+    'Ricursive AI': ('Ricursive AI', '#c39a4a', 'ricursive-ai.png'),
+}
 
 
 def main():
@@ -116,51 +135,74 @@ def save(fig, stem):
 
 
 def gain_chart(data):
-    """Two bar panels sharing the model axis: geometric-mean Fmax gain, and normalized score, each over the
-    designs the model has finished."""
+    """A leaderboard: one row per model with its maker's logo and color, its normalized score and Fmax gain, and a
+    bar for the normalized score, each over the designs the model has finished."""
     order, aggregates, planned = data['order'], data['summary']['models'], data['summary']['planned_designs']
-    height = 3.4+.62*len(order)
-    fig, (gain_axis, score_axis) = plt.subplots(1, 2, figsize=(14, height), sharey=True,
-                                                gridspec_kw=dict(width_ratios=[1.25, 1], wspace=.06))
-    fig.subplots_adjust(left=.17, right=.97, top=1-1.5/height, bottom=1.85/height)
-    gains = [aggregates[m]['geomean_fmax_gain_pct'] if m in aggregates else 0 for m in order]
-    scores = [(aggregates[m]['normalized_score'] or 0) if m in aggregates else 0 for m in order]
-    bar_panel(gain_axis, gains, 'Fmax gain, geometric mean over designs (%)', max(2.0, max(gains)*1.75))
-    bar_panel(score_axis, scores, 'Normalized score (best result on each design = 100)', 128)
-    score_axis.set_xticks([0, 25, 50, 75, 100])
-    gain_axis.set_yticks(range(len(order)), [label(data, m) for m in order], fontsize=10.5)
-    gain_axis.invert_yaxis()
-    for row, model in enumerate(order):
-        total = len(planned.get(model, []))
-        if model not in aggregates:
-            annotate(gain_axis, 0, row, f'no finished sessions yet · 0 of {total} designs', FAINT)
-            continue
-        info = aggregates[model]
-        coverage = '' if info['designs'] == total else f" · {info['designs']} of {total} designs finished"
-        annotate(gain_axis, gains[row], row, f"+{gains[row]:.2f}%   {info['designs_improved']}/{info['designs']} "
-                                             f"improved{coverage}", INK)
-        annotate(score_axis, scores[row], row, f'{scores[row]:.1f}', INK)
+    height = BOARD_TOP+BOARD_ROW*len(order)+1.3
+    fig = plt.figure(figsize=(BOARD_WIDTH, height))
+    ax = fig.add_axes([0, 0, 1, 1])
+    ax.set_xlim(0, BOARD_WIDTH)
+    ax.set_ylim(height, 0)
+    ax.axis('off')
+    board_heading(ax, BOARD_TOP-.3)
+    for rank, model in enumerate(order, 1):
+        board_row(ax, data, model, rank, BOARD_TOP+BOARD_ROW*(rank-1), aggregates.get(model),
+                  len(planned.get(model, [])))
     header(fig, 'RTL Fmax gain by coding agent (preliminary)',
-           'Ordered by normalized score: its gain on each design as a share of the best gain any model reached '
-           'there, averaged over the designs it has finished')
+           'Normalized score: share of the best gain any model reached on each design, averaged over its designs')
     provenance(fig, data)
     return fig
 
 
-def bar_panel(ax, values, xlabel, right):
-    ax.barh(range(len(values)), values, color=ACCENT, alpha=.85, height=.58)
-    ax.set_xlim(0, right)
-    ax.set_xlabel(xlabel, labelpad=10)
-    ax.set_axisbelow(True)
-    ax.grid(axis='x', color=GRID)
-    ax.spines['left'].set_visible(False)
-    ax.spines['bottom'].set_color(GRID)
-    ax.tick_params(axis='y', length=0, pad=10)
+def board_heading(ax, y):
+    for x, text, align in ((BOARD_RANK_X, '#', 'left'), (BOARD_NAME_X, 'MODEL', 'left'),
+                           (BOARD_WIDTH-BOARD_MARGIN, 'NORMALIZED SCORE', 'right')):
+        ax.text(x, y, text, ha=align, va='center', fontsize=8.5, color=FAINT, family=MONO)
+    hairline(ax, y+.22)
 
 
-def annotate(ax, value, row, text, color):
-    ax.annotate(text, (value, row), xytext=(6, 0), textcoords='offset points', va='center', fontsize=10,
-                color=color)
+def board_row(ax, data, model, rank, top, info, planned_designs):
+    """Rank, logo, name, maker and harness, score and gain, then the score bar on a rounded track."""
+    maker = MAKERS.get(data['models'][model]['developer'], (data['models'][model]['developer'], FAINT, None))
+    middle = top+.34
+    ax.text(BOARD_RANK_X, middle, str(rank), va='center', fontsize=12, color=FAINT, family=MONO)
+    place_logo(ax, maker, middle)
+    ax.text(BOARD_NAME_X, middle-.12, data['models'][model]['name'], va='center', fontsize=14, color=INK)
+    ax.text(BOARD_NAME_X, middle+.16, f"{maker[0]} · {data['models'][model]['harness']}".upper(), va='center',
+            fontsize=8.5, color=FAINT, family=MONO)
+    right = BOARD_WIDTH-BOARD_MARGIN
+    if info is None:
+        score, detail = NOT_FINISHED, f'0 of {planned_designs} designs finished'
+    else:
+        score = f"{info['normalized_score'] or 0:.0f}"
+        coverage = '' if info['designs'] == planned_designs else f" · {info['designs']}/{planned_designs} designs"
+        detail = f"+{info['geomean_fmax_gain_pct']:.1f}% Fmax{coverage}"
+    ax.text(right, middle-.12, score, ha='right', va='center', fontsize=16, color=INK, family=MONO)
+    ax.text(right, middle+.16, detail, ha='right', va='center', fontsize=9, color=FAINT, family=MONO)
+    track_y, track_height = top+.66, .11
+    rounded_bar(ax, BOARD_LOGO_X-.17, track_y, right-(BOARD_LOGO_X-.17), track_height, TRACK)
+    if info is not None and (info['normalized_score'] or 0) > 0:
+        rounded_bar(ax, BOARD_LOGO_X-.17, track_y, (right-(BOARD_LOGO_X-.17))*info['normalized_score']/100,
+                    track_height, maker[1])
+    hairline(ax, top+BOARD_ROW-.02)
+
+
+def place_logo(ax, maker, y):
+    if maker[2] is None:
+        ax.text(BOARD_LOGO_X, y, maker[0][0], ha='center', va='center', fontsize=11, color=maker[1], fontweight='bold')
+        return
+    image = plt.imread(HERE/'logos'/maker[2])
+    ax.add_artist(AnnotationBbox(OffsetImage(image, zoom=.2), (BOARD_LOGO_X, y), frameon=False))
+
+
+def rounded_bar(ax, x, y, width, height, color):
+    width = max(width, height)  # a sliver still shows as a dot
+    ax.add_patch(FancyBboxPatch((x, y), width, height, boxstyle=f'round,pad=0,rounding_size={height/2}',
+                                linewidth=0, facecolor=color))
+
+
+def hairline(ax, y):
+    ax.plot([BOARD_MARGIN-.15, BOARD_WIDTH-BOARD_MARGIN+.15], [y, y], color=HAIRLINE, linewidth=1)
 
 
 def design_heatmap(data):
